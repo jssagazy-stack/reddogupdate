@@ -20,6 +20,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.01.1/_delta_sellerbot.zip",
       "sha256": "6248d67523ca148360487b8de076a26ce899acb0958cc4604f84863b9fe49441",
       "notes": "자동업데이트 지원 추가"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.07.01.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.01.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "c1e25bc30ca6008723a860d8a4cb3511137365313ae35638c31249e1a8ba2e17",
+      "notes": "자동업데이트 지원 추가"
     }
   }
 }
