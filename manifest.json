@@ -13,6 +13,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.01.1/_delta_HealSupporter.zip",
       "sha256": "4b73d7bbfaa734f4d870f1ae95932be7826ea171ac3aa8f1c1ce02844ebc0973",
       "notes": "자동업데이트 지원 추가"
+    },
+    "sellerbot": {
+      "version": "2026.07.01.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.01.1/_delta_sellerbot.zip",
+      "sha256": "6248d67523ca148360487b8de076a26ce899acb0958cc4604f84863b9fe49441",
+      "notes": "자동업데이트 지원 추가"
     }
   }
 }
