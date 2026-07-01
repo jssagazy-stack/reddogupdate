@@ -6,6 +6,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.01/_delta_REDDOG_chaejip.zip",
       "sha256": "3c473e15f79de4c476abfad7281cecf99d9b875fb8e24ed432cd4de4d807fefa",
       "notes": "HP 회색빈바 감지(중독 실명 수정) + 자동업데이트 도입"
+    },
+    "HealSupporter": {
+      "version": "2026.07.01.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.01.1/_delta_HealSupporter.zip",
+      "sha256": "4b73d7bbfaa734f4d870f1ae95932be7826ea171ac3aa8f1c1ce02844ebc0973",
+      "notes": "자동업데이트 지원 추가"
     }
   }
 }
