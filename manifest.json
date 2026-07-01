@@ -1,0 +1,11 @@
+{
+  "products": {
+    "REDDOG_chaejip": {
+      "version": "2026.07.01",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.01/_delta_REDDOG_chaejip.zip",
+      "sha256": "f656a0bd9b38f9211d4fdb0639367df4a0565008e57eecb22dd5aaf9bc1cf4e2",
+      "notes": "HP 회색빈바 감지(중독 실명 수정) + 자동업데이트 도입"
+    }
+  }
+}
