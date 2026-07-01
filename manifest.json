@@ -27,6 +27,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.01.1/_delta_REDDOG_npc_search.zip",
       "sha256": "c1e25bc30ca6008723a860d8a4cb3511137365313ae35638c31249e1a8ba2e17",
       "notes": "자동업데이트 지원 추가"
+    },
+    "REDDOG_vending": {
+      "version": "2026.07.01.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.01.1/_delta_REDDOG_vending.zip",
+      "sha256": "a0ca6c8603fb15be25e4b4ced50130033f91fd00a9c8e289d2cde7cac57f9148",
+      "notes": "자동업데이트 지원 추가"
     }
   }
 }
