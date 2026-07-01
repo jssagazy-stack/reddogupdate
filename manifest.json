@@ -1,12 +1,5 @@
 {
   "products": {
-    "REDDOG_chaejip": {
-      "version": "2026.07.01",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.01/_delta_REDDOG_chaejip.zip",
-      "sha256": "3c473e15f79de4c476abfad7281cecf99d9b875fb8e24ed432cd4de4d807fefa",
-      "notes": "HP 회색빈바 감지(중독 실명 수정) + 자동업데이트 도입"
-    },
     "HealSupporter": {
       "version": "2026.07.01.1",
       "type": "delta",
@@ -33,6 +26,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.01.1/_delta_REDDOG_vending.zip",
       "sha256": "a0ca6c8603fb15be25e4b4ced50130033f91fd00a9c8e289d2cde7cac57f9148",
+      "notes": "자동업데이트 지원 추가"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.01.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.01.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "4658a46e3b0815741706ebc7e2a60233553aba5f6ecc7b41556f926f807e527e",
       "notes": "자동업데이트 지원 추가"
     }
   }
