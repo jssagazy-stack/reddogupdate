@@ -1,12 +1,5 @@
 {
   "products": {
-    "sellerbot": {
-      "version": "2026.07.01.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.01.1/_delta_sellerbot.zip",
-      "sha256": "6248d67523ca148360487b8de076a26ce899acb0958cc4604f84863b9fe49441",
-      "notes": "자동업데이트 지원 추가"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.01.1",
       "type": "delta",
@@ -34,6 +27,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.01.2/_delta_HealSupporter.zip",
       "sha256": "01207407c2820800753d4c265f56c3434dea0783762f87b9eaad72673be1ed48",
       "notes": "업데이트 버전비교 수정(배너 반복 해결)"
+    },
+    "sellerbot": {
+      "version": "2026.07.02.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.02.1/_delta_sellerbot.zip",
+      "sha256": "9cbb944da1e67dc3a4c1dba3644516cb9cf5b11aa673f070f18f4435c7cdb835",
+      "notes": "오탐복구 v3: 상점/인벤 스냅샷게이트 + 전 매칭 3연속확인 + 드래그전 재확인 + 개설실패 재개설 복구루프"
     }
   }
 }
