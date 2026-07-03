@@ -21,19 +21,19 @@
       "sha256": "28f6a4b7fbff7040e0d917682eac7c97b330fc5be027522c6f1b857562b2c8d3",
       "notes": "인식점 표시 체크 즉시반영·잔존박스 차단 + 로그창 5줄 축소"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.03.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.03.3/_delta_REDDOG_chaejip.zip",
-      "sha256": "458e9f3019a955059a60c1de0d4beac1f016920ff2cd7d1f0e796ca84a4c4379",
-      "notes": "커서 자동캡처 항상 ON(체크박스 폐지, 불필요시 스킵·실패시 수동안내)"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.03.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.03.2/_delta_REDDOG_npc_search.zip",
       "sha256": "ad8e86bb7ea811ad9a85dac3608c4cd2e9d535f2c22be8ccf3fd5c66d5735f38",
       "notes": "커서 자동캡처 항상 ON(체크박스 폐지, 불필요시 스킵·실패시 수동안내)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.03.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.03.4/_delta_REDDOG_chaejip.zip",
+      "sha256": "7f914effc1cff4875b407c8feb41b40e6b06cda3cf757a4f177ed0cd14d8b52a",
+      "notes": "🖱 커서 캡처 버튼 = 자동 캡처 실행(수동 다이얼로그 폐지, 엔진 시작 없이 캡처만)"
     }
   }
 }
