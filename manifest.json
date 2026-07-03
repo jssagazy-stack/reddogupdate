@@ -14,13 +14,6 @@
       "sha256": "adea995e9df709d88579ab564ef93ed9fb3b180be5748d5a24ea117a52d34229",
       "notes": "자동업데이트 적용 + 파티힐 격자세팅·베이스라인 자동캡처 개선"
     },
-    "sellerbot": {
-      "version": "2026.07.03.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.03.1/_delta_sellerbot.zip",
-      "sha256": "6b155cb041179db380ec38fa158a2df62ef3b85a9025066b66afda823a038f73",
-      "notes": "파티헤이 통합(근접감시→헤이 연속시전·쿨다운·자동파티초대) + printwindow 전환"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.03.1",
       "type": "delta",
@@ -34,6 +27,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.03.2/_delta_REDDOG_chaejip.zip",
       "sha256": "aa71e9f03f2172a9c3b09bd98c5d3948d9d03090e5654135367472f0c28e28cb",
       "notes": "창고 창고지기 이미지서치(고정좌표 폐지, 마을 무관 자동클릭) + 창고 마을 선택 라디오(웰던/화말)"
+    },
+    "sellerbot": {
+      "version": "2026.07.03.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.03.2/_delta_sellerbot.zip",
+      "sha256": "12afed4dd7c44e0236c7c15522de1049a010f8a1c46fc661ed9cfdeceaf5d0dd",
+      "notes": "파티헤이 UI 원본(힐서포터)과 통일 + 힐서포터 설정값 기본 내장(F11·6회·리셋300s·7원 좌표·초대)"
     }
   }
 }
