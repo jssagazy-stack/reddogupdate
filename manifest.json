@@ -29,11 +29,11 @@
       "notes": "창고 창고지기 이미지서치(고정좌표 폐지, 마을 무관 자동클릭) + 창고 마을 선택 라디오(웰던/화말)"
     },
     "sellerbot": {
-      "version": "2026.07.03.3",
+      "version": "2026.07.03.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.03.3/_delta_sellerbot.zip",
-      "sha256": "4857211b0075690b0ede931165bf3f359e59dfaa83cd816f2e9fab5f4711c1eb",
-      "notes": "상점판매/파티헤이 독립 온오프(파티헤이 전용 모드) + 빈 설정값 기본값 폴백"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.03.4/_delta_sellerbot.zip",
+      "sha256": "28f6a4b7fbff7040e0d917682eac7c97b330fc5be027522c6f1b857562b2c8d3",
+      "notes": "인식점 표시 체크 즉시반영·잔존박스 차단 + 로그창 5줄 축소"
     }
   }
 }
