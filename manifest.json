@@ -1,12 +1,5 @@
 {
   "products": {
-    "REDDOG_npc_search": {
-      "version": "2026.07.01.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.01.1/_delta_REDDOG_npc_search.zip",
-      "sha256": "c1e25bc30ca6008723a860d8a4cb3511137365313ae35638c31249e1a8ba2e17",
-      "notes": "자동업데이트 지원 추가"
-    },
     "REDDOG_vending": {
       "version": "2026.07.01.1",
       "type": "delta",
@@ -33,6 +26,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.03.1/_delta_REDDOG_chaejip.zip",
       "sha256": "524a4215f61dbda5f22c72554b104caf39e3143acde45e5bd25c1fa87fe2ac9c",
+      "notes": "커서 자동캡처: 같은 게임세션이면 재캡처 스킵 + 캡처 실패 시 폴백 제거·시작 중단 안내"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.07.03.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.03.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "8569d262a858eee38e4b00188d91477178c3e96885a24773df226b50713d6a21",
       "notes": "커서 자동캡처: 같은 게임세션이면 재캡처 스킵 + 캡처 실패 시 폴백 제거·시작 중단 안내"
     }
   }
