@@ -21,19 +21,19 @@
       "sha256": "6b155cb041179db380ec38fa158a2df62ef3b85a9025066b66afda823a038f73",
       "notes": "파티헤이 통합(근접감시→헤이 연속시전·쿨다운·자동파티초대) + printwindow 전환"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.03.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.03.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "524a4215f61dbda5f22c72554b104caf39e3143acde45e5bd25c1fa87fe2ac9c",
-      "notes": "커서 자동캡처: 같은 게임세션이면 재캡처 스킵 + 캡처 실패 시 폴백 제거·시작 중단 안내"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.03.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.03.1/_delta_REDDOG_npc_search.zip",
       "sha256": "8569d262a858eee38e4b00188d91477178c3e96885a24773df226b50713d6a21",
       "notes": "커서 자동캡처: 같은 게임세션이면 재캡처 스킵 + 캡처 실패 시 폴백 제거·시작 중단 안내"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.03.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.03.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "aa71e9f03f2172a9c3b09bd98c5d3948d9d03090e5654135367472f0c28e28cb",
+      "notes": "창고 창고지기 이미지서치(고정좌표 폐지, 마을 무관 자동클릭) + 창고 마을 선택 라디오(웰던/화말)"
     }
   }
 }
