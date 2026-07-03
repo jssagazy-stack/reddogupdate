@@ -21,19 +21,19 @@
       "sha256": "28f6a4b7fbff7040e0d917682eac7c97b330fc5be027522c6f1b857562b2c8d3",
       "notes": "인식점 표시 체크 즉시반영·잔존박스 차단 + 로그창 5줄 축소"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.03.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.03.4/_delta_REDDOG_chaejip.zip",
-      "sha256": "7f914effc1cff4875b407c8feb41b40e6b06cda3cf757a4f177ed0cd14d8b52a",
-      "notes": "🖱 커서 캡처 버튼 = 자동 캡처 실행(수동 다이얼로그 폐지, 엔진 시작 없이 캡처만)"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.03.3",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.03.3/_delta_REDDOG_npc_search.zip",
       "sha256": "f1a98476294a7a705036f08d040519223d772fd61893e3a2fc77d0a30c61dc77",
       "notes": "🖱 커서 캡처 버튼 = 자동 캡처 실행(수동 다이얼로그 폐지, 엔진 시작 없이 캡처만)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.03.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.03.5/_delta_REDDOG_chaejip.zip",
+      "sha256": "bef7ff1a1baa963eca35e9ad4f8a61b4ce33ede0ce0ff08d79dd11242d1e5378",
+      "notes": "창고지기 keeper 템플릿이 델타에서 누락돼 원격서 창고 못열던 문제 수정(make_delta에 templates 포함)"
     }
   }
 }
