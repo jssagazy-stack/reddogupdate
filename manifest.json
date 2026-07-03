@@ -21,19 +21,19 @@
       "sha256": "4658a46e3b0815741706ebc7e2a60233553aba5f6ecc7b41556f926f807e527e",
       "notes": "자동업데이트 지원 추가"
     },
-    "sellerbot": {
-      "version": "2026.07.02.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.02.1/_delta_sellerbot.zip",
-      "sha256": "9cbb944da1e67dc3a4c1dba3644516cb9cf5b11aa673f070f18f4435c7cdb835",
-      "notes": "오탐복구 v3: 상점/인벤 스냅샷게이트 + 전 매칭 3연속확인 + 드래그전 재확인 + 개설실패 재개설 복구루프"
-    },
     "HealSupporter": {
       "version": "2026.07.03.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.03.1/_delta_HealSupporter.zip",
       "sha256": "adea995e9df709d88579ab564ef93ed9fb3b180be5748d5a24ea117a52d34229",
       "notes": "자동업데이트 적용 + 파티힐 격자세팅·베이스라인 자동캡처 개선"
+    },
+    "sellerbot": {
+      "version": "2026.07.03.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.03.1/_delta_sellerbot.zip",
+      "sha256": "6b155cb041179db380ec38fa158a2df62ef3b85a9025066b66afda823a038f73",
+      "notes": "파티헤이 통합(근접감시→헤이 연속시전·쿨다운·자동파티초대) + printwindow 전환"
     }
   }
 }
