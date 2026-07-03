@@ -14,13 +14,6 @@
       "sha256": "adea995e9df709d88579ab564ef93ed9fb3b180be5748d5a24ea117a52d34229",
       "notes": "자동업데이트 적용 + 파티힐 격자세팅·베이스라인 자동캡처 개선"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.07.03.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.03.1/_delta_REDDOG_npc_search.zip",
-      "sha256": "8569d262a858eee38e4b00188d91477178c3e96885a24773df226b50713d6a21",
-      "notes": "커서 자동캡처: 같은 게임세션이면 재캡처 스킵 + 캡처 실패 시 폴백 제거·시작 중단 안내"
-    },
     "sellerbot": {
       "version": "2026.07.03.4",
       "type": "delta",
@@ -33,6 +26,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.03.3/_delta_REDDOG_chaejip.zip",
       "sha256": "458e9f3019a955059a60c1de0d4beac1f016920ff2cd7d1f0e796ca84a4c4379",
+      "notes": "커서 자동캡처 항상 ON(체크박스 폐지, 불필요시 스킵·실패시 수동안내)"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.07.03.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.03.2/_delta_REDDOG_npc_search.zip",
+      "sha256": "ad8e86bb7ea811ad9a85dac3608c4cd2e9d535f2c22be8ccf3fd5c66d5735f38",
       "notes": "커서 자동캡처 항상 ON(체크박스 폐지, 불필요시 스킵·실패시 수동안내)"
     }
   }
