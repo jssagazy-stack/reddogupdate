@@ -29,11 +29,11 @@
       "notes": "🖱 커서 캡처 버튼 = 자동 캡처 실행(수동 다이얼로그 폐지, 엔진 시작 없이 캡처만)"
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.03.5",
+      "version": "2026.07.05.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.03.5/_delta_REDDOG_chaejip.zip",
-      "sha256": "bef7ff1a1baa963eca35e9ad4f8a61b4ce33ede0ce0ff08d79dd11242d1e5378",
-      "notes": "창고지기 keeper 템플릿이 델타에서 누락돼 원격서 창고 못열던 문제 수정(make_delta에 templates 포함)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.05.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "efc55d9780c512b85b7597045c2f6509d47f2d7eb43820740d62e5ef35f535e5",
+      "notes": "헤이스트 오감지 창고이동 수정 (센서 every 게이트)"
     }
   }
 }
