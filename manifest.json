@@ -7,13 +7,6 @@
       "sha256": "a0ca6c8603fb15be25e4b4ced50130033f91fd00a9c8e289d2cde7cac57f9148",
       "notes": "자동업데이트 지원 추가"
     },
-    "HealSupporter": {
-      "version": "2026.07.03.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.03.1/_delta_HealSupporter.zip",
-      "sha256": "adea995e9df709d88579ab564ef93ed9fb3b180be5748d5a24ea117a52d34229",
-      "notes": "자동업데이트 적용 + 파티힐 격자세팅·베이스라인 자동캡처 개선"
-    },
     "sellerbot": {
       "version": "2026.07.03.4",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.05.3/_delta_REDDOG_hunt.zip",
       "sha256": "62c40797e7dba887dbf8c4e380f3ee12e2c03094e084bfeb4b03f049073f9bf2",
       "notes": "버프 페이지전환 중 화살소진 오판(귀환) 차단 — 화살센서 게이트"
+    },
+    "HealSupporter": {
+      "version": "2026.07.05.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.05.1/_delta_HealSupporter.zip",
+      "sha256": "1c0d95d4a6254e6795098e58b3f80da6acdc555811ddef2ebd2cf06b9d229758",
+      "notes": "타겟놓침 근본수정: 커서잠금(ClipCursor) 소실 감시+입력직전 자동 재잠금, 시작 타겟고정 시퀀스 가드인터럽트 보호(rec_busy)"
     }
   }
 }
