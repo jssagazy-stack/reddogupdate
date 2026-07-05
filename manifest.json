@@ -36,11 +36,11 @@
       "notes": "헤이스트 오감지 창고이동 수정 (센서 every 게이트)"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.05.2",
+      "version": "2026.07.05.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.05.2/_delta_REDDOG_hunt.zip",
-      "sha256": "5cd84774a75b2536243efbfc79268a42453dfe3a9064c61e0c1f07f8fcd7c808",
-      "notes": "업데이트 실행 실패(WinError2) 수정 — updater.ps1 번들 누락"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.05.3/_delta_REDDOG_hunt.zip",
+      "sha256": "62c40797e7dba887dbf8c4e380f3ee12e2c03094e084bfeb4b03f049073f9bf2",
+      "notes": "버프 페이지전환 중 화살소진 오판(귀환) 차단 — 화살센서 게이트"
     }
   }
 }
