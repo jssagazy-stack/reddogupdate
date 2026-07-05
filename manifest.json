@@ -34,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.05.1/_delta_REDDOG_chaejip.zip",
       "sha256": "efc55d9780c512b85b7597045c2f6509d47f2d7eb43820740d62e5ef35f535e5",
       "notes": "헤이스트 오감지 창고이동 수정 (센서 every 게이트)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.05.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.05.1/_delta_REDDOG_hunt.zip",
+      "sha256": "e78a8c292fbde52b395b7fba1dcd583ca67b2c6ae858d8e5d2e0b416dbd32c31",
+      "notes": "인식점 표시·순환좌표 리스트·귀환 단순화·가드동작 통합(시퀀스/배속/실행후정지)·좌표 랜덤화·시퀀스 에디터·자버프 홀드"
     }
   }
 }
