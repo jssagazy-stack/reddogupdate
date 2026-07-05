@@ -36,11 +36,11 @@
       "notes": "버프 페이지전환 중 화살소진 오판(귀환) 차단 — 화살센서 게이트"
     },
     "HealSupporter": {
-      "version": "2026.07.05.1",
+      "version": "2026.07.05.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.05.1/_delta_HealSupporter.zip",
-      "sha256": "1c0d95d4a6254e6795098e58b3f80da6acdc555811ddef2ebd2cf06b9d229758",
-      "notes": "타겟놓침 근본수정: 커서잠금(ClipCursor) 소실 감시+입력직전 자동 재잠금, 시작 타겟고정 시퀀스 가드인터럽트 보호(rec_busy)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.05.2/_delta_HealSupporter.zip",
+      "sha256": "c54d407dd1882b57fde1144d9c367136374e543ce600fd5abf329791ba7e3e5b",
+      "notes": "거리유지 이름탐색 로그 스팸 제거(상태 전환시에만 기록) — 타겟놓침 수정(.1) 포함"
     }
   }
 }
