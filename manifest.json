@@ -28,19 +28,19 @@
       "sha256": "efc55d9780c512b85b7597045c2f6509d47f2d7eb43820740d62e5ef35f535e5",
       "notes": "헤이스트 오감지 창고이동 수정 (센서 every 게이트)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.05.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.05.4/_delta_REDDOG_hunt.zip",
-      "sha256": "c891fc9aef08bdc1b5863323fb7ae827a2ee55a38284160e29cb2202364e96f1",
-      "notes": "공격 주기(초) 슬라이더 — 느린 공속서 정지=처치 오판 방지(연속정지 스트릭 디바운스)"
-    },
     "HealSupporter": {
       "version": "2026.07.06.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.1/_delta_HealSupporter.zip",
       "sha256": "9f39eefe2e5e6ec04010f17d738213a4666df84b3e356f19545e121ac044d074",
       "notes": "힐 접근(붙기): 힐 후에도 체력 위험이면 좌클릭 1회로 접근(대기 자동계산). 거리유지 진단로그 복구 + 따라가기 라벨 스로틀"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.06.1/_delta_REDDOG_hunt.zip",
+      "sha256": "9f06ac815577abe000f07934bfd7ecda686a144cf23f3f145679fd785c95a904",
+      "notes": "위치복귀(앵커) — 특징이미지 캡처·실시간 감시, 사라지면 최근좌표 클릭 복귀(+테스트 버튼)"
     }
   }
 }
