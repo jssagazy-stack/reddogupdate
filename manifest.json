@@ -28,19 +28,19 @@
       "sha256": "efc55d9780c512b85b7597045c2f6509d47f2d7eb43820740d62e5ef35f535e5",
       "notes": "헤이스트 오감지 창고이동 수정 (센서 every 게이트)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.05.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.05.3/_delta_REDDOG_hunt.zip",
-      "sha256": "62c40797e7dba887dbf8c4e380f3ee12e2c03094e084bfeb4b03f049073f9bf2",
-      "notes": "버프 페이지전환 중 화살소진 오판(귀환) 차단 — 화살센서 게이트"
-    },
     "HealSupporter": {
       "version": "2026.07.05.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.05.2/_delta_HealSupporter.zip",
       "sha256": "c54d407dd1882b57fde1144d9c367136374e543ce600fd5abf329791ba7e3e5b",
       "notes": "거리유지 이름탐색 로그 스팸 제거(상태 전환시에만 기록) — 타겟놓침 수정(.1) 포함"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.05.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.05.4/_delta_REDDOG_hunt.zip",
+      "sha256": "c891fc9aef08bdc1b5863323fb7ae827a2ee55a38284160e29cb2202364e96f1",
+      "notes": "공격 주기(초) 슬라이더 — 느린 공속서 정지=처치 오판 방지(연속정지 스트릭 디바운스)"
     }
   }
 }
