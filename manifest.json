@@ -36,11 +36,11 @@
       "notes": "파티헤이 사용 시 시작에 파티창 자동 열기 클릭(깜빡 방지)"
     },
     "HealSupporter": {
-      "version": "2026.07.06.6",
+      "version": "2026.07.06.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.6/_delta_HealSupporter.zip",
-      "sha256": "b293ea95946152d12d3cd38e888bf9e0ac76753bb763b76e0f7572157585b206",
-      "notes": "파티힐 모드 시작 시 파티창 자동 열기 클릭(깜빡 방지) + 🔄 업데이트 버튼"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.7/_delta_HealSupporter.zip",
+      "sha256": "78d64861d8459ce70622fbbf11d21c9986d5fb7a6588c15242473841e0fb00a3",
+      "notes": "로그 스팸 제거 — 반복클릭/따라가기/파티힐 등 반복 노드는 상태 바뀔 때만 1줄 출력(_fmt 직전-스킵)"
     }
   }
 }
