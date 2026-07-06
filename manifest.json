@@ -1,12 +1,5 @@
 {
   "products": {
-    "REDDOG_vending": {
-      "version": "2026.07.01.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.01.1/_delta_REDDOG_vending.zip",
-      "sha256": "a0ca6c8603fb15be25e4b4ced50130033f91fd00a9c8e289d2cde7cac57f9148",
-      "notes": "자동업데이트 지원 추가"
-    },
     "sellerbot": {
       "version": "2026.07.03.4",
       "type": "delta",
@@ -40,6 +33,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.06.1/_delta_REDDOG_npc_search.zip",
       "sha256": "f71b485bd53bb5e56887bd3ed5a221ff06a6bd7cfe493915d4066007a23d3eff",
+      "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
+    },
+    "REDDOG_vending": {
+      "version": "2026.07.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.06.1/_delta_REDDOG_vending.zip",
+      "sha256": "bab91448e5b904e5ab552a8ce0a610c8f9268b0439c9b1614422591d560106f4",
       "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
     }
   }
