@@ -28,19 +28,19 @@
       "sha256": "efc55d9780c512b85b7597045c2f6509d47f2d7eb43820740d62e5ef35f535e5",
       "notes": "헤이스트 오감지 창고이동 수정 (센서 every 게이트)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.06.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.06.2/_delta_REDDOG_hunt.zip",
-      "sha256": "25efa7b3e6c069843fa56e3e02ed132d8acee02b67d3379b051a1b5e23601646",
-      "notes": "위치복귀 막힘 대응 — 막히면 몹서치·처치 후 재시도, 몹 없으면 90도 측면 우회(양방향 자동 전환)"
-    },
     "HealSupporter": {
       "version": "2026.07.06.3",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.3/_delta_HealSupporter.zip",
       "sha256": "acaf5cccaaf6ce1406793d3e4144058d349398187a5dde84965d507a9635a6a3",
       "notes": "커서게이트 자동캡처(칼=(10,10)Ctrl/일반=채팅창640,900) + 자힐·자버프 1.1초 롱프레스(더블탭 폐기)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.06.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.06.3/_delta_REDDOG_hunt.zip",
+      "sha256": "caf4aeda0ea0d02e3efefdee00397a668b7b712dbc1dbe35ff95adefbd275649",
+      "notes": "위치복귀 완전상실 대응 — 시도 4회로 축소, 연속포기 2회=현위치 대체앵커 자동설정(임시), 4회=세션 비활성"
     }
   }
 }
