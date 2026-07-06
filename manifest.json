@@ -28,19 +28,19 @@
       "sha256": "efc55d9780c512b85b7597045c2f6509d47f2d7eb43820740d62e5ef35f535e5",
       "notes": "헤이스트 오감지 창고이동 수정 (센서 every 게이트)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.06.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.06.3/_delta_REDDOG_hunt.zip",
-      "sha256": "caf4aeda0ea0d02e3efefdee00397a668b7b712dbc1dbe35ff95adefbd275649",
-      "notes": "위치복귀 완전상실 대응 — 시도 4회로 축소, 연속포기 2회=현위치 대체앵커 자동설정(임시), 4회=세션 비활성"
-    },
     "HealSupporter": {
       "version": "2026.07.06.4",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.4/_delta_HealSupporter.zip",
       "sha256": "f92405ca159c3fc7573f7b56df222b8293cf8fdcd0bbf3d584fdb2f6c8319f55",
       "notes": "모드 3통합(따라가기/제자리/파티)+자힐·자버프·해독 공용화(파티 자기해독 신규)+거리유지·F4 따라가기전용+파티하위 라디오+인식점 중복·격자 힐좌표 열별보정"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.06.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.06.4/_delta_REDDOG_hunt.zip",
+      "sha256": "4675a92e32d2628952426cbe916f8ff25e06114b671cd8554213a122e367920d",
+      "notes": "UI 정리 — 커서캡처 버튼 제거(자동화 완비), 자동시작을 로그 라인으로 이동(세로 축소)"
     }
   }
 }
