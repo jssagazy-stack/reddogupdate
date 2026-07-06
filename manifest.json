@@ -1,12 +1,5 @@
 {
   "products": {
-    "sellerbot": {
-      "version": "2026.07.03.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.03.4/_delta_sellerbot.zip",
-      "sha256": "28f6a4b7fbff7040e0d917682eac7c97b330fc5be027522c6f1b857562b2c8d3",
-      "notes": "인식점 표시 체크 즉시반영·잔존박스 차단 + 로그창 5줄 축소"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.06.5",
       "type": "delta",
@@ -40,6 +33,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.06.1/_delta_REDDOG_vending.zip",
       "sha256": "bab91448e5b904e5ab552a8ce0a610c8f9268b0439c9b1614422591d560106f4",
+      "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
+    },
+    "sellerbot": {
+      "version": "2026.07.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.06.1/_delta_sellerbot.zip",
+      "sha256": "8fda3c92356c02e8ae5c4db41fe6d4dd7f1b089932a391de14d89ad52a71235e",
       "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
     }
   }
