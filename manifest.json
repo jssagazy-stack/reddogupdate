@@ -7,13 +7,6 @@
       "sha256": "3abb69dd213b1e716b2d672cfd85182d504a8881aa31bcdc2fc8b592f0b26c4d",
       "notes": "🔄 업데이트 확인 버튼 — 클릭 즉시 확인+적용+자동 재시작(재시작 왕복 불필요)"
     },
-    "HealSupporter": {
-      "version": "2026.07.06.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.5/_delta_HealSupporter.zip",
-      "sha256": "d9935bcd64c040677ac2a1e862713d4537ccb114eb37d8d08c10db755cb962cb",
-      "notes": "🔄 업데이트 확인 버튼 — 클릭 즉시 확인+적용+자동 재시작"
-    },
     "REDDOG_chaejip": {
       "version": "2026.07.06.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.06.3/_delta_sellerbot.zip",
       "sha256": "5fbec3e401c531f374ca8ebcca58a7ea0f91f662295b52cb4055875c6bc6dacd",
       "notes": "파티헤이 사용 시 시작에 파티창 자동 열기 클릭(깜빡 방지)"
+    },
+    "HealSupporter": {
+      "version": "2026.07.06.6",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.6/_delta_HealSupporter.zip",
+      "sha256": "b293ea95946152d12d3cd38e888bf9e0ac76753bb763b76e0f7572157585b206",
+      "notes": "파티힐 모드 시작 시 파티창 자동 열기 클릭(깜빡 방지) + 🔄 업데이트 버튼"
     }
   }
 }
