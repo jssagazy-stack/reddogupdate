@@ -21,13 +21,6 @@
       "sha256": "f1a98476294a7a705036f08d040519223d772fd61893e3a2fc77d0a30c61dc77",
       "notes": "🖱 커서 캡처 버튼 = 자동 캡처 실행(수동 다이얼로그 폐지, 엔진 시작 없이 캡처만)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.05.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.05.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "efc55d9780c512b85b7597045c2f6509d47f2d7eb43820740d62e5ef35f535e5",
-      "notes": "헤이스트 오감지 창고이동 수정 (센서 every 게이트)"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.06.5",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.5/_delta_HealSupporter.zip",
       "sha256": "d9935bcd64c040677ac2a1e862713d4537ccb114eb37d8d08c10db755cb962cb",
       "notes": "🔄 업데이트 확인 버튼 — 클릭 즉시 확인+적용+자동 재시작"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.06.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "77a231d8c8d3cb5c6a88528fb7f98a350887a33101c811b3fdb6aea1311de8ce",
+      "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
     }
   }
 }
