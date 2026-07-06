@@ -14,13 +14,6 @@
       "sha256": "28f6a4b7fbff7040e0d917682eac7c97b330fc5be027522c6f1b857562b2c8d3",
       "notes": "인식점 표시 체크 즉시반영·잔존박스 차단 + 로그창 5줄 축소"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.07.03.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.03.3/_delta_REDDOG_npc_search.zip",
-      "sha256": "f1a98476294a7a705036f08d040519223d772fd61893e3a2fc77d0a30c61dc77",
-      "notes": "🖱 커서 캡처 버튼 = 자동 캡처 실행(수동 다이얼로그 폐지, 엔진 시작 없이 캡처만)"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.06.5",
       "type": "delta",
@@ -40,6 +33,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.06.1/_delta_REDDOG_chaejip.zip",
       "sha256": "77a231d8c8d3cb5c6a88528fb7f98a350887a33101c811b3fdb6aea1311de8ce",
+      "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.07.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.06.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "f71b485bd53bb5e56887bd3ed5a221ff06a6bd7cfe493915d4066007a23d3eff",
       "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
     }
   }
