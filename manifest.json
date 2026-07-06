@@ -1,12 +1,5 @@
 {
   "products": {
-    "REDDOG_hunt": {
-      "version": "2026.07.06.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.06.5/_delta_REDDOG_hunt.zip",
-      "sha256": "3abb69dd213b1e716b2d672cfd85182d504a8881aa31bcdc2fc8b592f0b26c4d",
-      "notes": "🔄 업데이트 확인 버튼 — 클릭 즉시 확인+적용+자동 재시작(재시작 왕복 불필요)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.07.06.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.7/_delta_HealSupporter.zip",
       "sha256": "78d64861d8459ce70622fbbf11d21c9986d5fb7a6588c15242473841e0fb00a3",
       "notes": "로그 스팸 제거 — 반복클릭/따라가기/파티힐 등 반복 노드는 상태 바뀔 때만 1줄 출력(_fmt 직전-스킵)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.06.6",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.06.6/_delta_REDDOG_hunt.zip",
+      "sha256": "543b82305f15caf1e556fdcea7b5589748c3352192bb5541aa97f29c4115ab75",
+      "notes": "녹화 시퀀스 재생 크래시 수정 — 드래그(drag_to) raw좌표 bad target 예외로 흐름 종료되던 것(엔진이 raw [x,y] 좌표 수용)"
     }
   }
 }
