@@ -36,11 +36,11 @@
       "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
     },
     "sellerbot": {
-      "version": "2026.07.06.2",
+      "version": "2026.07.06.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.06.2/_delta_sellerbot.zip",
-      "sha256": "18aa523a767aa7864b1b42e807904c157480f38abef33f04f1828f8815c5a672",
-      "notes": "상점 개설/복구 실패 시 완전정지 대신 판매만 중단 — 파티헤이·초대는 계속 동작(재시작=판매 재개)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.06.3/_delta_sellerbot.zip",
+      "sha256": "5fbec3e401c531f374ca8ebcca58a7ea0f91f662295b52cb4055875c6bc6dacd",
+      "notes": "파티헤이 사용 시 시작에 파티창 자동 열기 클릭(깜빡 방지)"
     }
   }
 }
