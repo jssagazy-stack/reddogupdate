@@ -28,19 +28,19 @@
       "sha256": "efc55d9780c512b85b7597045c2f6509d47f2d7eb43820740d62e5ef35f535e5",
       "notes": "헤이스트 오감지 창고이동 수정 (센서 every 게이트)"
     },
-    "HealSupporter": {
-      "version": "2026.07.06.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.4/_delta_HealSupporter.zip",
-      "sha256": "f92405ca159c3fc7573f7b56df222b8293cf8fdcd0bbf3d584fdb2f6c8319f55",
-      "notes": "모드 3통합(따라가기/제자리/파티)+자힐·자버프·해독 공용화(파티 자기해독 신규)+거리유지·F4 따라가기전용+파티하위 라디오+인식점 중복·격자 힐좌표 열별보정"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.06.5",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.06.5/_delta_REDDOG_hunt.zip",
       "sha256": "3abb69dd213b1e716b2d672cfd85182d504a8881aa31bcdc2fc8b592f0b26c4d",
       "notes": "🔄 업데이트 확인 버튼 — 클릭 즉시 확인+적용+자동 재시작(재시작 왕복 불필요)"
+    },
+    "HealSupporter": {
+      "version": "2026.07.06.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.5/_delta_HealSupporter.zip",
+      "sha256": "d9935bcd64c040677ac2a1e862713d4537ccb114eb37d8d08c10db755cb962cb",
+      "notes": "🔄 업데이트 확인 버튼 — 클릭 즉시 확인+적용+자동 재시작"
     }
   }
 }
