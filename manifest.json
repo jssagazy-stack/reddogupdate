@@ -1,12 +1,5 @@
 {
   "products": {
-    "REDDOG_chaejip": {
-      "version": "2026.07.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.06.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "77a231d8c8d3cb5c6a88528fb7f98a350887a33101c811b3fdb6aea1311de8ce",
-      "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.06.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.06.6/_delta_REDDOG_hunt.zip",
       "sha256": "543b82305f15caf1e556fdcea7b5589748c3352192bb5541aa97f29c4115ab75",
       "notes": "녹화 시퀀스 재생 크래시 수정 — 드래그(drag_to) raw좌표 bad target 예외로 흐름 종료되던 것(엔진이 raw [x,y] 좌표 수용)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.07.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.07.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "742f4a5edc8eb2c03e9b631ccf19249f187d61f765d791204710d64a3ac9944c",
+      "notes": "이름매칭 임계 개편(엔트 0.85/판 0.75, 도에트 오탐 차단) + 재공격 커서검증 + 마을 응급힐(hp40 40%인식점, 힐키 F5 콤보, 창고 어그로해제) + 탐색범위 콤보(방향별 이동클릭 5/7/10/12회)"
     }
   }
 }
