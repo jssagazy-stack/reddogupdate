@@ -28,19 +28,19 @@
       "sha256": "78d64861d8459ce70622fbbf11d21c9986d5fb7a6588c15242473841e0fb00a3",
       "notes": "로그 스팸 제거 — 반복클릭/따라가기/파티힐 등 반복 노드는 상태 바뀔 때만 1줄 출력(_fmt 직전-스킵)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.07.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.07.3/_delta_REDDOG_chaejip.zip",
-      "sha256": "fd4026c98c3823103857edc5aa3991e75e82c0ae8151ec862b88381f2a4cc2bf",
-      "notes": "stall 재공격 교대 복원: 강제공격만↔말걸기(대상 정지) 1:1 토글 — 도망다니는 판/엔트에게 두 번에 한 번 말걸어 세운 뒤 공격(기존엔 공격성립 시 카운터 리셋으로 말걸기 영영 미발동)"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.07.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.07.1/_delta_REDDOG_hunt.zip",
       "sha256": "8f4e0764bad852aa9f62f54aa49c778f0a3e7989657de26649872cc344d93d1d",
       "notes": "처치 즉시감지(경험치 기준스냅샷 조기탈출, 처치확정 ~150ms) + 순환좌표 도착판정 단축(0.6→0.4s)·미이동 포기 단축(1.8→0.8s) + MoveState 상태잔존 오판 수정"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.07.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.07.4/_delta_REDDOG_chaejip.zip",
+      "sha256": "abf9f0627d169c784ee7eac25b3ef5eb3f4956e86e6b6dfae6097456f0b31682",
+      "notes": "성향(카오) 변화 감시 추가: 시작 시 자기 성향영역 기준캡처→변화율(임계0.95) 감지 시 현장보존 즉시정지+알림음+카오스크린샷+폴더열기+팝업. 사망 시 리스타트 전 스크린샷 저장. ImageSearch 매칭 진단로그(↳매칭 템플릿/점수/좌표). stall 재공격 강공↔말걸기 교대."
     }
   }
 }
