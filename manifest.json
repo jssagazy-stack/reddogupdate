@@ -36,11 +36,11 @@
       "notes": "처치 즉시감지(경험치 기준스냅샷 조기탈출, 처치확정 ~150ms) + 순환좌표 도착판정 단축(0.6→0.4s)·미이동 포기 단축(1.8→0.8s) + MoveState 상태잔존 오판 수정"
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.07.4",
+      "version": "2026.07.08.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.07.4/_delta_REDDOG_chaejip.zip",
-      "sha256": "abf9f0627d169c784ee7eac25b3ef5eb3f4956e86e6b6dfae6097456f0b31682",
-      "notes": "성향(카오) 변화 감시 추가: 시작 시 자기 성향영역 기준캡처→변화율(임계0.95) 감지 시 현장보존 즉시정지+알림음+카오스크린샷+폴더열기+팝업. 사망 시 리스타트 전 스크린샷 저장. ImageSearch 매칭 진단로그(↳매칭 템플릿/점수/좌표). stall 재공격 강공↔말걸기 교대."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.08.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "b9add46066ef055069a94aac0110d0f6f7b5db2a63c971cb756a40abdbdeaffd",
+      "notes": "실시간 로그 정리: 순찰(타겟 탐색) 이동 폴링을 '순찰 중' 한 줄로 묶어 스팸 제거"
     }
   }
 }
