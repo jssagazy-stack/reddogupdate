@@ -36,11 +36,11 @@
       "notes": "녹화 시퀀스 재생 크래시 수정 — 드래그(drag_to) raw좌표 bad target 예외로 흐름 종료되던 것(엔진이 raw [x,y] 좌표 수용)"
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.07.1",
+      "version": "2026.07.07.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.07.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "742f4a5edc8eb2c03e9b631ccf19249f187d61f765d791204710d64a3ac9944c",
-      "notes": "이름매칭 임계 개편(엔트 0.85/판 0.75, 도에트 오탐 차단) + 재공격 커서검증 + 마을 응급힐(hp40 40%인식점, 힐키 F5 콤보, 창고 어그로해제) + 탐색범위 콤보(방향별 이동클릭 5/7/10/12회)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.07.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "8894cc3bee532e6eb9eda3ad10c084f4676a3d986208b1a844c0fead16031eab",
+      "notes": "마을 착지 감지→재텔포(5회 상한) + 공격불성립 우회 3회→텔포(안전지대/낑김 탈출) + 처치직후 오텔포 수정(재스캔 대기 400ms·재서치 반경 400) + 응급힐 상한 5회 + 탐색범위=방향별 이동클릭 콤보(기본 5회)"
     }
   }
 }
