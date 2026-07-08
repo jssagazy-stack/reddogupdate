@@ -21,13 +21,6 @@
       "sha256": "78d64861d8459ce70622fbbf11d21c9986d5fb7a6588c15242473841e0fb00a3",
       "notes": "로그 스팸 제거 — 반복클릭/따라가기/파티힐 등 반복 노드는 상태 바뀔 때만 1줄 출력(_fmt 직전-스킵)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.08.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.08.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "3d53174dea463c25c60fa25efcbb62426315ad8cdcbcf45e80f554fe974c798f",
-      "notes": "리스타트 무응답(서버다운·네트워크) 자동정지 — 사망 후 리스타트 3회 실패 시 엔진 정지+알림 팝업. 죽은 버튼 무한클릭·사망스냅 스팸 차단"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.08.4",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.09.1/_delta_sellerbot.zip",
       "sha256": "aa1593f792531fdd99d31693afa781c984a8d84fcbb3f3620d2753104db018b2",
       "notes": "상점 개설 무한재개설/판매중단 근본수정(개설중 커서 절대판정) + 파티헤이 안정화(닉네임 흰색 절대감지 — 파티원 헤이 못받고 근접반복 버그 수정)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.09.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.09.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "45aa5a11736a903543c173ecfe00482129f09639ec284cd186e9fe55ae20cb77",
+      "notes": "카오 감지 개선: ①ROI를 숫자 제외 배경영역으로 변경(카르마 1변화 오탐 제거) ②카오 감지 시 정지 대신 스크린샷+폴더열기 후 채집 계속(필드 정지 피격사 방지)"
     }
   }
 }
