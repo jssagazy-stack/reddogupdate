@@ -28,19 +28,19 @@
       "sha256": "78d64861d8459ce70622fbbf11d21c9986d5fb7a6588c15242473841e0fb00a3",
       "notes": "로그 스팸 제거 — 반복클릭/따라가기/파티힐 등 반복 노드는 상태 바뀔 때만 1줄 출력(_fmt 직전-스킵)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.07.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.07.1/_delta_REDDOG_hunt.zip",
-      "sha256": "8f4e0764bad852aa9f62f54aa49c778f0a3e7989657de26649872cc344d93d1d",
-      "notes": "처치 즉시감지(경험치 기준스냅샷 조기탈출, 처치확정 ~150ms) + 순환좌표 도착판정 단축(0.6→0.4s)·미이동 포기 단축(1.8→0.8s) + MoveState 상태잔존 오판 수정"
-    },
     "REDDOG_chaejip": {
       "version": "2026.07.08.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.08.1/_delta_REDDOG_chaejip.zip",
       "sha256": "b9add46066ef055069a94aac0110d0f6f7b5db2a63c971cb756a40abdbdeaffd",
       "notes": "실시간 로그 정리: 순찰(타겟 탐색) 이동 폴링을 '순찰 중' 한 줄로 묶어 스팸 제거"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.08.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.08.1/_delta_REDDOG_hunt.zip",
+      "sha256": "c45e8053f25ade9e4bfad4da79f3675b86bd20369a407ebb117a74ac4e039d85",
+      "notes": "자힐 전용 모드(토글탭 — 서치·공격 없이 체력 감시/회복만) + 커서 재캡처 버튼(오캡처 시 게임 재접속 없이 초기화) + 커서캡처 실패 안내문 개선"
     }
   }
 }
