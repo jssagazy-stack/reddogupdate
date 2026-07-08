@@ -21,13 +21,6 @@
       "sha256": "78d64861d8459ce70622fbbf11d21c9986d5fb7a6588c15242473841e0fb00a3",
       "notes": "로그 스팸 제거 — 반복클릭/따라가기/파티힐 등 반복 노드는 상태 바뀔 때만 1줄 출력(_fmt 직전-스킵)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.08.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.08.3/_delta_REDDOG_hunt.zip",
-      "sha256": "4f050d8a37d50a9796e3e63519c22e5ca9d9307308dd5845700214df2e5f027f",
-      "notes": "센서탭 UI 정리 — 배경분리(실험)·귀환키 설정 숨김(귀환키 F8 고정), 자힐 전용 체크박스를 체력 행 우측으로 이동"
-    },
     "sellerbot": {
       "version": "2026.07.08.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.08.2/_delta_REDDOG_chaejip.zip",
       "sha256": "3d53174dea463c25c60fa25efcbb62426315ad8cdcbcf45e80f554fe974c798f",
       "notes": "리스타트 무응답(서버다운·네트워크) 자동정지 — 사망 후 리스타트 3회 실패 시 엔진 정지+알림 팝업. 죽은 버튼 무한클릭·사망스냅 스팸 차단"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.08.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.08.4/_delta_REDDOG_hunt.zip",
+      "sha256": "66d5c1d7cdae63a7c474eaa7630b57d97b8e28696a425015def9749c3c1775e5",
+      "notes": "자힐 전용 완전 격리(체력 가드만) + 소울 기능(마나 인식점 색변화 시 안전지점 시전) + 가드 반응속도 개선(감지 0.2초·전투 중 즉시 반응·hp tol 10) + 힐 재설계(시전대기 제거, 힐-힐 1.5초 시간쿨다운, 공격 여부 무관 재힐)"
     }
   }
 }
