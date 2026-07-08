@@ -36,11 +36,11 @@
       "notes": "실시간 로그 정리: 순찰(타겟 탐색) 이동 폴링을 '순찰 중' 한 줄로 묶어 스팸 제거"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.08.1",
+      "version": "2026.07.08.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.08.1/_delta_REDDOG_hunt.zip",
-      "sha256": "c45e8053f25ade9e4bfad4da79f3675b86bd20369a407ebb117a74ac4e039d85",
-      "notes": "자힐 전용 모드(토글탭 — 서치·공격 없이 체력 감시/회복만) + 커서 재캡처 버튼(오캡처 시 게임 재접속 없이 초기화) + 커서캡처 실패 안내문 개선"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.08.2/_delta_REDDOG_hunt.zip",
+      "sha256": "41c5ba8009b78f913ca25e92c14a2a065fe37aab06f18fc1cc10f2271ddefdb9",
+      "notes": "앵커 우선 패트롤 게이트 — 위치복귀 앵커가 안 보이는 동안 순환좌표 이동을 보류(패트롤 표류로 앵커를 완전히 잃는 것 방지). 앵커 미사용/보임 상태는 기존과 동일"
     }
   }
 }
