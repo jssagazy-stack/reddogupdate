@@ -21,13 +21,6 @@
       "sha256": "78d64861d8459ce70622fbbf11d21c9986d5fb7a6588c15242473841e0fb00a3",
       "notes": "로그 스팸 제거 — 반복클릭/따라가기/파티힐 등 반복 노드는 상태 바뀔 때만 1줄 출력(_fmt 직전-스킵)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.08.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.08.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "b9add46066ef055069a94aac0110d0f6f7b5db2a63c971cb756a40abdbdeaffd",
-      "notes": "실시간 로그 정리: 순찰(타겟 탐색) 이동 폴링을 '순찰 중' 한 줄로 묶어 스팸 제거"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.08.3",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.08.1/_delta_sellerbot.zip",
       "sha256": "cd1a5ce5cb03ae0c835b981d82520fc267678dcb2eec19f1def3772904352d6c",
       "notes": "사망 감지 후 리스타트 → 부활지점에서 개설가능(초록) 위치로 이동 후 재개설(도착까지 초록 재클릭 반복). 못 찾으면 판매중단(파티헤이·초대는 계속)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.08.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.08.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "3d53174dea463c25c60fa25efcbb62426315ad8cdcbcf45e80f554fe974c798f",
+      "notes": "리스타트 무응답(서버다운·네트워크) 자동정지 — 사망 후 리스타트 3회 실패 시 엔진 정지+알림 팝업. 죽은 버튼 무한클릭·사망스냅 스팸 차단"
     }
   }
 }
