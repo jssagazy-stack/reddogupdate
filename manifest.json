@@ -14,13 +14,6 @@
       "sha256": "bab91448e5b904e5ab552a8ce0a610c8f9268b0439c9b1614422591d560106f4",
       "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
     },
-    "sellerbot": {
-      "version": "2026.07.06.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.06.3/_delta_sellerbot.zip",
-      "sha256": "5fbec3e401c531f374ca8ebcca58a7ea0f91f662295b52cb4055875c6bc6dacd",
-      "notes": "파티헤이 사용 시 시작에 파티창 자동 열기 클릭(깜빡 방지)"
-    },
     "HealSupporter": {
       "version": "2026.07.06.7",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.08.3/_delta_REDDOG_hunt.zip",
       "sha256": "4f050d8a37d50a9796e3e63519c22e5ca9d9307308dd5845700214df2e5f027f",
       "notes": "센서탭 UI 정리 — 배경분리(실험)·귀환키 설정 숨김(귀환키 F8 고정), 자힐 전용 체크박스를 체력 행 우측으로 이동"
+    },
+    "sellerbot": {
+      "version": "2026.07.08.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.08.1/_delta_sellerbot.zip",
+      "sha256": "cd1a5ce5cb03ae0c835b981d82520fc267678dcb2eec19f1def3772904352d6c",
+      "notes": "사망 감지 후 리스타트 → 부활지점에서 개설가능(초록) 위치로 이동 후 재개설(도착까지 초록 재클릭 반복). 못 찾으면 판매중단(파티헤이·초대는 계속)"
     }
   }
 }
