@@ -14,13 +14,6 @@
       "sha256": "bab91448e5b904e5ab552a8ce0a610c8f9268b0439c9b1614422591d560106f4",
       "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
     },
-    "sellerbot": {
-      "version": "2026.07.09.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.09.1/_delta_sellerbot.zip",
-      "sha256": "aa1593f792531fdd99d31693afa781c984a8d84fcbb3f3620d2753104db018b2",
-      "notes": "상점 개설 무한재개설/판매중단 근본수정(개설중 커서 절대판정) + 파티헤이 안정화(닉네임 흰색 절대감지 — 파티원 헤이 못받고 근접반복 버그 수정)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.07.09.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.09.2/_delta_REDDOG_hunt.zip",
       "sha256": "93b7598b0c99daa24f8e99f51b0ac03542af1460c6d628e9fb4958ece2991c0d",
       "notes": "앵커 표시 옵션 추가\n\n- 위치복귀(앵커) 줄에 \"앵커 표시\" 체크박스. 켜면 사냥 실행중 감지된 앵커 위치에 마커를 표시(디버깅용). 기본 OFF.\n- 앵커를 놓치면 마커가 사라지므로 상실/재발견 순간을 눈으로 확인 가능. 게임 창 활성 시에만 표시."
+    },
+    "sellerbot": {
+      "version": "2026.07.10.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.10.1/_delta_sellerbot.zip",
+      "sha256": "25a9a4b5cae23e1c106df58ce34a1c1a53f94c2e387ac35881425f6002ffafd2",
+      "notes": "왼쪽 걷기 버그 수정: 정지/ㅇㅋ 클릭 직전 상점창 재확인 — 감지 후 창이 닫혔으면(ESC/개입/F5토글) 빈땅 클릭 방지"
     }
   }
 }
