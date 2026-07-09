@@ -14,13 +14,6 @@
       "sha256": "bab91448e5b904e5ab552a8ce0a610c8f9268b0439c9b1614422591d560106f4",
       "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
     },
-    "HealSupporter": {
-      "version": "2026.07.06.7",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.06.7/_delta_HealSupporter.zip",
-      "sha256": "78d64861d8459ce70622fbbf11d21c9986d5fb7a6588c15242473841e0fb00a3",
-      "notes": "로그 스팸 제거 — 반복클릭/따라가기/파티힐 등 반복 노드는 상태 바뀔 때만 1줄 출력(_fmt 직전-스킵)"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.08.4",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.09.1/_delta_REDDOG_chaejip.zip",
       "sha256": "45aa5a11736a903543c173ecfe00482129f09639ec284cd186e9fe55ae20cb77",
       "notes": "카오 감지 개선: ①ROI를 숫자 제외 배경영역으로 변경(카르마 1변화 오탐 제거) ②카오 감지 시 정지 대신 스크린샷+폴더열기 후 채집 계속(필드 정지 피격사 방지)"
+    },
+    "HealSupporter": {
+      "version": "2026.07.09.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.09.1/_delta_HealSupporter.zip",
+      "sha256": "dbc6359a8035c5ef4b098426a9bdf344a35978e3c0c9a27133e33add8d78d72a",
+      "notes": "자해독 추가(본인 중독 롱프레스 자기시전) + 해독 쿨다운(기본 5초, 타겟해독·자해독 공용). 해독 재시전간격을 힐과 분리 — 한 번의 중독에 해독제 2연속 소모 차단."
     }
   }
 }
