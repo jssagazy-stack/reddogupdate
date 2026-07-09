@@ -28,19 +28,19 @@
       "sha256": "dbc6359a8035c5ef4b098426a9bdf344a35978e3c0c9a27133e33add8d78d72a",
       "notes": "자해독 추가(본인 중독 롱프레스 자기시전) + 해독 쿨다운(기본 5초, 타겟해독·자해독 공용). 해독 재시전간격을 힐과 분리 — 한 번의 중독에 해독제 2연속 소모 차단."
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.09.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.09.2/_delta_REDDOG_hunt.zip",
-      "sha256": "93b7598b0c99daa24f8e99f51b0ac03542af1460c6d628e9fb4958ece2991c0d",
-      "notes": "앵커 표시 옵션 추가\n\n- 위치복귀(앵커) 줄에 \"앵커 표시\" 체크박스. 켜면 사냥 실행중 감지된 앵커 위치에 마커를 표시(디버깅용). 기본 OFF.\n- 앵커를 놓치면 마커가 사라지므로 상실/재발견 순간을 눈으로 확인 가능. 게임 창 활성 시에만 표시."
-    },
     "sellerbot": {
       "version": "2026.07.10.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.10.1/_delta_sellerbot.zip",
       "sha256": "25a9a4b5cae23e1c106df58ce34a1c1a53f94c2e387ac35881425f6002ffafd2",
       "notes": "왼쪽 걷기 버그 수정: 정지/ㅇㅋ 클릭 직전 상점창 재확인 — 감지 후 창이 닫혔으면(ESC/개입/F5토글) 빈땅 클릭 방지"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.10.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.10.1/_delta_REDDOG_hunt.zip",
+      "sha256": "4088e07546f8d3d8e3df58dcd7a44486c33d47e41cabeb3f3425544d96645d3b",
+      "notes": "체력감지 hpbar 전환: 채운색(빨강) 대신 깎인 회색 채움%로 HP 판정(중독/커스 무관). 힐/위험을 %로 설정. ★기존 사용자: 센서탭 '체력바 캘리브'로 바 좌우끝+회색점 재캘리브 필요"
     }
   }
 }
