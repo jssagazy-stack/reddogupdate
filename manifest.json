@@ -14,13 +14,6 @@
       "sha256": "bab91448e5b904e5ab552a8ce0a610c8f9268b0439c9b1614422591d560106f4",
       "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.08.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.08.4/_delta_REDDOG_hunt.zip",
-      "sha256": "66d5c1d7cdae63a7c474eaa7630b57d97b8e28696a425015def9749c3c1775e5",
-      "notes": "자힐 전용 완전 격리(체력 가드만) + 소울 기능(마나 인식점 색변화 시 안전지점 시전) + 가드 반응속도 개선(감지 0.2초·전투 중 즉시 반응·hp tol 10) + 힐 재설계(시전대기 제거, 힐-힐 1.5초 시간쿨다운, 공격 여부 무관 재힐)"
-    },
     "sellerbot": {
       "version": "2026.07.09.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.09.1/_delta_HealSupporter.zip",
       "sha256": "dbc6359a8035c5ef4b098426a9bdf344a35978e3c0c9a27133e33add8d78d72a",
       "notes": "자해독 추가(본인 중독 롱프레스 자기시전) + 해독 쿨다운(기본 5초, 타겟해독·자해독 공용). 해독 재시전간격을 힐과 분리 — 한 번의 중독에 해독제 2연속 소모 차단."
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.09.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.09.1/_delta_REDDOG_hunt.zip",
+      "sha256": "1ab3ec9f80e6b67766ecd806c15aa8aa6a405396311463daafb7762b50dbd88d",
+      "notes": "앵커 가두리(이동범위 제한) + 몹서치 배제/강등 + 앵커 임계 자동보정\n\n- 이동범위(▣ 드래그 박스): 앵커 기준 반경 안으로 몹서치/패트롤/아이템 줍기 제한. 한 화면 / 반 화면 선택.\n- 위치복귀: 앵커를 잃기 전에 미리 복귀(종전엔 완전히 사라져야 발동). 착지점은 앵커에서 100px 원호 랜덤 - 앵커를 밟고 서서 매칭이 깨지던 문제 제거.\n- 원점복귀를 아이템 줍기보다 우선.\n- 몹서치: 커서 헛다리 1회 5초 / 2회째 60초 배제 + 최하위 강등, 도달불가도 60초 + 강등. 좌표를 앵커 기준으로 저장해 이동해도 유지(벽 너머 몹 반복공격 해결).\n- 앵커 임계: 기본 0.9, 등록 직후 자동보정(측정-0.03, 최대 0.97). 테스트 버튼으로 재보정 가능.\n- 아이템 줍기 재시도 3회 -> 2회. 못 닿는 아이템 무한 재클릭 루프 수정."
     }
   }
 }
