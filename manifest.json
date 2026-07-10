@@ -28,19 +28,19 @@
       "sha256": "cf8e044b9446dabbaeb89df9a9a461a9169ff26ade63afa7b998d1087208ff57",
       "notes": "모드 선택 UI 재구성: 파티 여부로 그룹박스 2개(파티 중일 때 / 파티 안 할 때), 이름은 따라가기·제자리 유지. 대상 힐 블록에 감시/시전 분리 표기 + 인식점 라벨 모드별 자동 갱신. 모드별 하위옵션 기본값 자동 적용(MODE_OPTS) - 제자리(파티)는 커서잠금 강제 해제(ClipCursor가 파티창 힐좌표 클릭을 클램프). 제자리(파티) 이동차단(Shift 유지) 신규 지원. 정지 시 SHIFT 해제 추가(sendinput 백엔드 잔류 수정)."
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.10.6",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.10.6/_delta_REDDOG_hunt.zip",
-      "sha256": "b25a7e3fc56c01194bf8126e52f84bcb0f82e9de6deefb1e9a030e86e8d7aedc",
-      "notes": "줍기 계측 로그 (원인 진단용)\n\n처치 후 멈춰 있는 2~3초의 원인을 찾기 위한 계측입니다. 동작 변화는 없습니다.\n\n- 처치 시각/공격 시작 좌표 스탬프 + 공격 시작 시점의 아이템 유무 스냅샷.\n- 실시간 로그에 다음이 찍힙니다:\n    🧺 줍기 진입: 대상[x,y] · 공격전아이템 1@[x,y] · 공격지점[x,y]\n    🧺 클릭 대상[x,y] (재시도 N)\n    🧺 줍기 완료/포기 · 처치후 N초\n    ⏱ 처치→다음공격 N초\n  \"공격전아이템\"이 1이고 좌표가 대상과 같으면, 방금 나온 드랍이 아니라 원래 있던 아이템을 집으려는 것입니다.\n- Log 노드에 ui 플래그 추가(기본 꺼짐) — 켠 로그만 실시간 로그에 표시. 다른 제품 영향 없음."
-    },
     "sellerbot": {
       "version": "2026.07.11.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.11.1/_delta_sellerbot.zip",
       "sha256": "34e245cf1aa747a058e353eebe3bb5f48c757937fe542f0ae1366ca39bc04065",
       "notes": "사망 회복 개선: 부활 확인(부활되는 한 계속 회복, 진짜 부활불가만 정지) + 부활 직후 자힐 3회(런처 자힐키 기본 F9)로 몹 캠핑 재사망 전 생존시간 확보"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.11.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.11.1/_delta_REDDOG_hunt.zip",
+      "sha256": "0a61c0ca29cf092fefcb8774c8665d1342cc666152804ea0a0c2f121857cc972",
+      "notes": "앵커 임계 0.9 고정 (놓침 방지) + 상실 원인 로그\n\n- 앵커 임계 자동 조이기 제거. 종전엔 등록 직후 정지 화면에서 1.000 측정 -> 0.97로 잠겨, 작은 앵커(35x41 등)에서 몹이 스치거나 렌더 한 프레임만 달라져도 0.97 밑으로 떨어져 앵커를 놓쳤습니다(-> 가두리 풀림 -> 표류 -> 복귀 불가).\n- 이제 임계 0.9 고정. 스스로 올라가지 않습니다.\n- 앵커 캡처 시 한 변 50px 미만이면 경고(\"너무 작으면 쉽게 놓침\").\n- 🔬 테스트는 임계를 '낮추는' 용도로만(정상 앵커인데 자꾸 미달일 때). 올리는 선택지 제거.\n- 앵커 상실 시 최근 매칭점수를 로그에 표시 — 0.9 근처면 임계 문제, 확 낮으면 화면 밖 판별."
     }
   }
 }
