@@ -28,19 +28,19 @@
       "sha256": "fb4063fa06f3d0afaaa80de0f9633f4c0063f60c28acd68df121c9ae2e05feab",
       "notes": "가드 회복 전 기본 페이지(F1) 복원 - 사망 버그 수정\n\n- 버프 슬롯의 페이지 전환(F2/F3) 도중 가드가 발동하면 F1 복귀 전에 흐름이 이탈해, 단축창이 버프 페이지에 남은 채 힐(F9)/해독(F7)/귀환(F8)/녹화 시퀀스가 엉뚱한 슬롯을 눌렀습니다.\n- 실게임: 슬롯3 페이지에서 힐 무효 -> 위험체력 -> 슬롯2 페이지에서 F8 귀환 실패 -> 사망.\n- 수정: 6개 가드(체력/위험체력/마나/중독/무게/화살) 회복 진입 전에 F1 복원(100ms). F1 누르기는 멱등이라 평소엔 무해.\n- 가드 발동 로그에 \"위험체력→귀환\" 라벨 추가(종전엔 노드ID 노출)."
     },
-    "HealSupporter": {
-      "version": "2026.07.10.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.10.2/_delta_HealSupporter.zip",
-      "sha256": "8910dbd1d493a51a9874bdc8d2d4a1253388bdd8863d1664cf4b6f8663653bf0",
-      "notes": "UI 정리: 타이틀 '쫄법사', 자동시작 체크를 로그줄로 이동, F4 다운홀드 전 모드 공용, 타겟고정 따라가기 자동체크, 반복클릭주기 따라가기에서만 표시, 노파티 모드 선택 가능. 제자리 이동차단(Shift 유지) 체크옵션 신설(반복클릭과 분리). 롱프레스 홀드 설정값화(자힐/자해독/자버프 공용). 스킬 테스트 버튼 2종 제거."
-    },
     "sellerbot": {
       "version": "2026.07.10.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.10.2/_delta_sellerbot.zip",
       "sha256": "64f1f05a9982401a76941c35d5bfc61cc3a5b633a4fbcb2dfb6530224562b595",
       "notes": "창고 중복인출 방지(인벤 못열면 인출보류 fail-safe + 감사 검색 완화) + 등록중 파티헤이 시 금액팝업/상점창 고착 해소(ESC 3회)"
+    },
+    "HealSupporter": {
+      "version": "2026.07.10.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.10.3/_delta_HealSupporter.zip",
+      "sha256": "bf205f0748951a08f31b0f5e8fa4e54f931385dde78d6e985559075a0f9c2004",
+      "notes": "자해독 시전방식 택1(스킬=롱프레스 / 아이템=1회 단타). 버프 대상버프-자버프 독립(자버프만도 가능). 실측 기본값 내장(체력바 캘리브 y781 x284~561, 롱프레스 700ms, 본인 중독색 551,784). 해독 가드 refire를 쿨다운에 맞춤 - 쿨다운에 막힌 헛인터럽트가 메인 루틴(반복클릭/버프)을 끊던 것 수정."
     }
   }
 }
