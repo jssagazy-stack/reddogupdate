@@ -21,13 +21,6 @@
       "sha256": "45aa5a11736a903543c173ecfe00482129f09639ec284cd186e9fe55ae20cb77",
       "notes": "카오 감지 개선: ①ROI를 숫자 제외 배경영역으로 변경(카르마 1변화 오탐 제거) ②카오 감지 시 정지 대신 스크린샷+폴더열기 후 채집 계속(필드 정지 피격사 방지)"
     },
-    "sellerbot": {
-      "version": "2026.07.10.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.10.1/_delta_sellerbot.zip",
-      "sha256": "25a9a4b5cae23e1c106df58ce34a1c1a53f94c2e387ac35881425f6002ffafd2",
-      "notes": "왼쪽 걷기 버그 수정: 정지/ㅇㅋ 클릭 직전 상점창 재확인 — 감지 후 창이 닫혔으면(ESC/개입/F5토글) 빈땅 클릭 방지"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.10.2",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.10.2/_delta_HealSupporter.zip",
       "sha256": "8910dbd1d493a51a9874bdc8d2d4a1253388bdd8863d1664cf4b6f8663653bf0",
       "notes": "UI 정리: 타이틀 '쫄법사', 자동시작 체크를 로그줄로 이동, F4 다운홀드 전 모드 공용, 타겟고정 따라가기 자동체크, 반복클릭주기 따라가기에서만 표시, 노파티 모드 선택 가능. 제자리 이동차단(Shift 유지) 체크옵션 신설(반복클릭과 분리). 롱프레스 홀드 설정값화(자힐/자해독/자버프 공용). 스킬 테스트 버튼 2종 제거."
+    },
+    "sellerbot": {
+      "version": "2026.07.10.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.10.2/_delta_sellerbot.zip",
+      "sha256": "64f1f05a9982401a76941c35d5bfc61cc3a5b633a4fbcb2dfb6530224562b595",
+      "notes": "창고 중복인출 방지(인벤 못열면 인출보류 fail-safe + 감사 검색 완화) + 등록중 파티헤이 시 금액팝업/상점창 고착 해소(ESC 3회)"
     }
   }
 }
