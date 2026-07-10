@@ -28,19 +28,19 @@
       "sha256": "64f1f05a9982401a76941c35d5bfc61cc3a5b633a4fbcb2dfb6530224562b595",
       "notes": "창고 중복인출 방지(인벤 못열면 인출보류 fail-safe + 감사 검색 완화) + 등록중 파티헤이 시 금액팝업/상점창 고착 해소(ESC 3회)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.10.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.10.3/_delta_REDDOG_hunt.zip",
-      "sha256": "c01791c4c7f9835389bec275ccf8159b6b1c087752cbe2aca864fb97b48353b4",
-      "notes": "해독 로직 개편(힐서포터 방식 이식): 쿨다운 게이트 g_cure_gate를 F1/rec_busy 앞에 배치 - 막히면 키 입력 0회. 해독 시전방식 택1(아이템 단타 기본 / 스킬 롱프레스) + 쿨다운(초) 옵션. poison refire를 쿨다운에 맞춰 헛인터럽트 제거(공격감시 끊김 방지). 기본값 통일: 체력바 캘리브 y781 x284~561 회색(100,91,99), 중독색 (551,784) RGB(19,96,5) tol20, 롱프레스 홀드 1000->700ms(셀프힐/자버프)."
-    },
     "HealSupporter": {
       "version": "2026.07.10.4",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.10.4/_delta_HealSupporter.zip",
       "sha256": "cf8e044b9446dabbaeb89df9a9a461a9169ff26ade63afa7b998d1087208ff57",
       "notes": "모드 선택 UI 재구성: 파티 여부로 그룹박스 2개(파티 중일 때 / 파티 안 할 때), 이름은 따라가기·제자리 유지. 대상 힐 블록에 감시/시전 분리 표기 + 인식점 라벨 모드별 자동 갱신. 모드별 하위옵션 기본값 자동 적용(MODE_OPTS) - 제자리(파티)는 커서잠금 강제 해제(ClipCursor가 파티창 힐좌표 클릭을 클램프). 제자리(파티) 이동차단(Shift 유지) 신규 지원. 정지 시 SHIFT 해제 추가(sendinput 백엔드 잔류 수정)."
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.10.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.10.4/_delta_REDDOG_hunt.zip",
+      "sha256": "cd297a7f9f61029074bc8f1e3ab4b21b49fc695e83f3af8308e5f08f4cf0e452",
+      "notes": "가두리 3건 수정 + 배제 영역화 + 디버그 오버레이\n\n- [근본] 앵커 센서 탐색영역을 이동범위 박스로 좁히던 것 제거. 가두리 경계와 앵커 가시경계가 같아져, 복귀가 걸리기 전에 앵커를 놓치고 제한이 전부 풀리던 문제(\"한 화면\"이 안 먹던 원인).\n- 몹서치 가두리: 드롭 -> 강등. 안쪽에 몹이 없으면 반경 밖 몹도 잡습니다(경계에 서면 코앞 몹까지 버리던 문제).\n- 아이템: 반경 밖 여유 80px -> 300px. 하나 줍고 나면 복귀가 먼저 걸려 돌아옵니다. 앵커 상실 중엔 줍기 스킵(복귀 우선).\n- [배제 안 먹던 원인] 헛다리/도달불가 기록이 점+반경 40px 이라, 큰 오브젝트의 무게중심 흔들림에 매번 새 기록이 되어 2회에 도달하지 못했습니다. 기록 단위를 객체 영역(바운딩 박스+여백)으로 변경. 앵커가 깜빡여도 기록이 날아가지 않도록 좌표계 변환.\n- \"앵커 표시\" 옵션에 가두리 반경(초록 사각) + 배제중 영역(빨강 사각) 추가.\n- 가드 발동 로그: 해독 진입점(g_cure_gate) 라벨 추가."
     }
   }
 }
