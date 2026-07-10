@@ -28,19 +28,19 @@
       "sha256": "64f1f05a9982401a76941c35d5bfc61cc3a5b633a4fbcb2dfb6530224562b595",
       "notes": "창고 중복인출 방지(인벤 못열면 인출보류 fail-safe + 감사 검색 완화) + 등록중 파티헤이 시 금액팝업/상점창 고착 해소(ESC 3회)"
     },
-    "HealSupporter": {
-      "version": "2026.07.10.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.10.3/_delta_HealSupporter.zip",
-      "sha256": "bf205f0748951a08f31b0f5e8fa4e54f931385dde78d6e985559075a0f9c2004",
-      "notes": "자해독 시전방식 택1(스킬=롱프레스 / 아이템=1회 단타). 버프 대상버프-자버프 독립(자버프만도 가능). 실측 기본값 내장(체력바 캘리브 y781 x284~561, 롱프레스 700ms, 본인 중독색 551,784). 해독 가드 refire를 쿨다운에 맞춤 - 쿨다운에 막힌 헛인터럽트가 메인 루틴(반복클릭/버프)을 끊던 것 수정."
-    },
     "REDDOG_hunt": {
       "version": "2026.07.10.3",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.10.3/_delta_REDDOG_hunt.zip",
       "sha256": "c01791c4c7f9835389bec275ccf8159b6b1c087752cbe2aca864fb97b48353b4",
       "notes": "해독 로직 개편(힐서포터 방식 이식): 쿨다운 게이트 g_cure_gate를 F1/rec_busy 앞에 배치 - 막히면 키 입력 0회. 해독 시전방식 택1(아이템 단타 기본 / 스킬 롱프레스) + 쿨다운(초) 옵션. poison refire를 쿨다운에 맞춰 헛인터럽트 제거(공격감시 끊김 방지). 기본값 통일: 체력바 캘리브 y781 x284~561 회색(100,91,99), 중독색 (551,784) RGB(19,96,5) tol20, 롱프레스 홀드 1000->700ms(셀프힐/자버프)."
+    },
+    "HealSupporter": {
+      "version": "2026.07.10.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.10.4/_delta_HealSupporter.zip",
+      "sha256": "cf8e044b9446dabbaeb89df9a9a461a9169ff26ade63afa7b998d1087208ff57",
+      "notes": "모드 선택 UI 재구성: 파티 여부로 그룹박스 2개(파티 중일 때 / 파티 안 할 때), 이름은 따라가기·제자리 유지. 대상 힐 블록에 감시/시전 분리 표기 + 인식점 라벨 모드별 자동 갱신. 모드별 하위옵션 기본값 자동 적용(MODE_OPTS) - 제자리(파티)는 커서잠금 강제 해제(ClipCursor가 파티창 힐좌표 클릭을 클램프). 제자리(파티) 이동차단(Shift 유지) 신규 지원. 정지 시 SHIFT 해제 추가(sendinput 백엔드 잔류 수정)."
     }
   }
 }
