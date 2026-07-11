@@ -1,12 +1,5 @@
 {
   "products": {
-    "REDDOG_hunt": {
-      "version": "2026.07.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.12.1/_delta_REDDOG_hunt.zip",
-      "sha256": "150c4633fec80202edf02f5debeb130fbccf99695e98a4ab31968070caf38735",
-      "notes": "안티패턴 랜덤 보강\n\n- 키 홀드 시간에도 랜덤 지터 적용(종전엔 딜레이만 랜덤, 키 누름 시간은 고정값 그대로였음). 상향 전용이라 짧아지지 않고, 셀프힐 롱프레스 판정도 그대로입니다.\n- 공격 드래그를 놓는 지점이 매번 같은 한 점이던 것을 ±25px 랜덤으로 변경(공격 시작점=몹 좌표는 정밀 유지).\n- 앵커 복귀 착지 거리 100px 고정 → 80~140px 랜덤(각도는 원래 랜덤).\n- 커서모양 확인용 짧은 대기(20~30ms)는 랜덤에서 제외."
-    },
     "HealSupporter": {
       "version": "2026.07.12.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.12.1/_delta_sellerbot.zip",
       "sha256": "8b79b1a165f100db95af9c91fff949f3a80819af188823eab90c0e5bbf52815f",
       "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(82곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.12.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.12.2/_delta_REDDOG_hunt.zip",
+      "sha256": "91ad8b5901598a57feb9aefc8d0d3614d57c6229b7d2c321119ad8ed48c78fa6",
+      "notes": "위치복귀 8회 실패 시 사냥 계속\n\n- 종전에는 벽·장애물로 원점 복귀에 8회 실패하면 귀환 후 정지해서 사냥이 통째로 끝났습니다. 이제 복귀만 포기하고 사냥을 계속합니다.\n- 포기 시 상실 상태를 해제해 원거리 몹서치와 아이템 줍기가 정상 재개됩니다(종전에는 상실 중 원거리 서치가 막혀 근거리만 봤습니다).\n- 60초 뒤 위치복귀를 자동으로 다시 시도합니다."
     }
   }
 }
