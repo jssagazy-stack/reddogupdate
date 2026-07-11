@@ -36,11 +36,11 @@
       "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(82곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
     },
     "REDDOG_hunt": {
-      "version": "2026.07.12.2",
+      "version": "2026.07.12.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.12.2/_delta_REDDOG_hunt.zip",
-      "sha256": "91ad8b5901598a57feb9aefc8d0d3614d57c6229b7d2c321119ad8ed48c78fa6",
-      "notes": "위치복귀 8회 실패 시 사냥 계속\n\n- 종전에는 벽·장애물로 원점 복귀에 8회 실패하면 귀환 후 정지해서 사냥이 통째로 끝났습니다. 이제 복귀만 포기하고 사냥을 계속합니다.\n- 포기 시 상실 상태를 해제해 원거리 몹서치와 아이템 줍기가 정상 재개됩니다(종전에는 상실 중 원거리 서치가 막혀 근거리만 봤습니다).\n- 60초 뒤 위치복귀를 자동으로 다시 시도합니다."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.12.3/_delta_REDDOG_hunt.zip",
+      "sha256": "1598d509b96807631e28e4a6f7ef1bac331d5aee976df3c4b800fc41b5a421d2",
+      "notes": "이동 판정 진단 로그 추가\n\n- 이동 판정(도착/미이동/와리가리) 시 측정된 화면 변화율과 임계값을 로그에 표시합니다. 실제로 걸었는데 저대비 화면 때문에 '미이동'으로 읽히는 것인지, 정말 지형에 막힌 것인지 구분할 수 있습니다."
     }
   }
 }
