@@ -1,12 +1,5 @@
 {
   "products": {
-    "REDDOG_npc_search": {
-      "version": "2026.07.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.06.1/_delta_REDDOG_npc_search.zip",
-      "sha256": "f71b485bd53bb5e56887bd3ed5a221ff06a6bd7cfe493915d4066007a23d3eff",
-      "notes": "🔄 업데이트 확인 버튼(원클릭 적용·재시작) + 자동시작 로그라인 이동"
-    },
     "REDDOG_vending": {
       "version": "2026.07.06.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.12.1/_delta_REDDOG_chaejip.zip",
       "sha256": "8e5937eec921613886fd1527fbb2464911e625245f64310817513a1a06bc4b40",
       "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(해독·귀환·힐·텔레포트 등 14곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.07.12.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.12.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "5b79e808cb1e978ca8740d788336d024330e59b13ada92801d5a78bd146d8d48",
+      "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(16곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
     }
   }
 }
