@@ -21,13 +21,6 @@
       "sha256": "45aa5a11736a903543c173ecfe00482129f09639ec284cd186e9fe55ae20cb77",
       "notes": "카오 감지 개선: ①ROI를 숫자 제외 배경영역으로 변경(카르마 1변화 오탐 제거) ②카오 감지 시 정지 대신 스크린샷+폴더열기 후 채집 계속(필드 정지 피격사 방지)"
     },
-    "HealSupporter": {
-      "version": "2026.07.10.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.10.4/_delta_HealSupporter.zip",
-      "sha256": "cf8e044b9446dabbaeb89df9a9a461a9169ff26ade63afa7b998d1087208ff57",
-      "notes": "모드 선택 UI 재구성: 파티 여부로 그룹박스 2개(파티 중일 때 / 파티 안 할 때), 이름은 따라가기·제자리 유지. 대상 힐 블록에 감시/시전 분리 표기 + 인식점 라벨 모드별 자동 갱신. 모드별 하위옵션 기본값 자동 적용(MODE_OPTS) - 제자리(파티)는 커서잠금 강제 해제(ClipCursor가 파티창 힐좌표 클릭을 클램프). 제자리(파티) 이동차단(Shift 유지) 신규 지원. 정지 시 SHIFT 해제 추가(sendinput 백엔드 잔류 수정)."
-    },
     "sellerbot": {
       "version": "2026.07.11.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.12.1/_delta_REDDOG_hunt.zip",
       "sha256": "150c4633fec80202edf02f5debeb130fbccf99695e98a4ab31968070caf38735",
       "notes": "안티패턴 랜덤 보강\n\n- 키 홀드 시간에도 랜덤 지터 적용(종전엔 딜레이만 랜덤, 키 누름 시간은 고정값 그대로였음). 상향 전용이라 짧아지지 않고, 셀프힐 롱프레스 판정도 그대로입니다.\n- 공격 드래그를 놓는 지점이 매번 같은 한 점이던 것을 ±25px 랜덤으로 변경(공격 시작점=몹 좌표는 정밀 유지).\n- 앵커 복귀 착지 거리 100px 고정 → 80~140px 랜덤(각도는 원래 랜덤).\n- 커서모양 확인용 짧은 대기(20~30ms)는 랜덤에서 제외."
+    },
+    "HealSupporter": {
+      "version": "2026.07.12.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.12.1/_delta_HealSupporter.zip",
+      "sha256": "fb8c5fccfe6318b0ba60145466f17f80a573b2a0962b4ae40eecbc8c16f6b3be",
+      "notes": "따라가기 안정화 + 키 홀드 랜덤\n\n- 따라가기 추격 주기(반복클릭)에 드물게 큰 랜덤 지연이 붙어 1초 주기가 최대 1.8초까지 벌어지던 문제 수정. 이제 1.0~1.3초로 유지됩니다. 본캐가 달릴 때 쫄이 뒤처져 타겟을 놓치는 구간이 줄어듭니다.\n- 키를 누르고 있는 시간에도 랜덤 지터 적용(상향 전용). 셀프힐 롱프레스 700ms → 700~910ms.\n- 거리유지·파티 모드는 구조상 영향 없음(힐은 센서 인터럽트로 대기를 깨고 즉시 발동)."
     }
   }
 }
