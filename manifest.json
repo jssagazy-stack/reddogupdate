@@ -36,11 +36,11 @@
       "notes": "사망 회복 개선: 부활 확인(부활되는 한 계속 회복, 진짜 부활불가만 정지) + 부활 직후 자힐 3회(런처 자힐키 기본 F9)로 몹 캠핑 재사망 전 생존시간 확보"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.11.4",
+      "version": "2026.07.11.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.11.4/_delta_REDDOG_hunt.zip",
-      "sha256": "fcad908e7ad6062f50d944f39aaf251e49aa145baa058d63eb95a5487d8c0403",
-      "notes": ""
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.11.5/_delta_REDDOG_hunt.zip",
+      "sha256": "149c346270b7b560ac2ad8a3305ce634677587085660d389d2d11a76dc62fd4e",
+      "notes": "몹 없을 때 제자리 무한루프 수정 + 가두리 안 랜덤 배회\n\n- 몹이 앵커를 가려 잠깐 안 보이면 순환이동이 통째로 막혀 제자리에서 무한루프에 빠지던 문제 수정. 이제 정지 중 앵커가 가려진 것은 상실로 보지 않고 마지막 앵커 자리를 기준으로 이동·줍기·가두리 판정을 평소대로 합니다.\n- 이탈 방지는 클릭 지점을 가두리 안으로 당기는 방식 + 멀어지면 복귀, 두 겹으로 유지됩니다.\n- 순환좌표를 등록하지 않아도 가두리 안을 랜덤으로 배회하며 사냥합니다(종전엔 제자리 대기).\n- 앵커가 가려져 판정을 보류하는 동안 로그에 한 줄 남깁니다."
     }
   }
 }
