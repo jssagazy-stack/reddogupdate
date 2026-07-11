@@ -36,11 +36,11 @@
       "notes": "사망 회복 개선: 부활 확인(부활되는 한 계속 회복, 진짜 부활불가만 정지) + 부활 직후 자힐 3회(런처 자힐키 기본 F9)로 몹 캠핑 재사망 전 생존시간 확보"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.11.3",
+      "version": "2026.07.11.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.11.3/_delta_REDDOG_hunt.zip",
-      "sha256": "5e425d73ed9923a1c383769ff1364ab9a68dfe5b6cf10a71af3cbf9e985917c4",
-      "notes": "앵커 복귀 강화 + 대체앵커(HUD 오염) 폐기\n\n- 복귀 재시도 5 -> 8회 (원호 각도 랜덤이라 시도 늘수록 막힌 방향 회피 확률 증가).\n- 8회도 실패하면(벽/장애물로 못 돌아옴) 귀환 후 정지. 못 돌아오는 상황을 방치하지 않고 안전 종료.\n- 대체앵커 자동캡처 폐기: 화면에서 가장 정적+텍스처 강한 HUD(채팅/미니맵/스킬바)를 원점으로 잡아, 앵커가 하단 UI에 고정되고 무한 표류하던 문제의 근본. 애초에 표류를 새 원점으로 인정하는 건 앵커 목적과 반대라 제거.\n- ※ 이동범위(▣) 박스를 하단 UI 빼고 더 좁게(예: 화면 절반) 다시 그리면 앵커가 프레임 안일 때 미리 복귀가 걸려 복귀가 훨씬 잘 됩니다."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.11.4/_delta_REDDOG_hunt.zip",
+      "sha256": "fcad908e7ad6062f50d944f39aaf251e49aa145baa058d63eb95a5487d8c0403",
+      "notes": ""
     }
   }
 }
