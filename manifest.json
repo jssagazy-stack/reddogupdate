@@ -1,12 +1,5 @@
 {
   "products": {
-    "sellerbot": {
-      "version": "2026.07.11.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.11.1/_delta_sellerbot.zip",
-      "sha256": "34e245cf1aa747a058e353eebe3bb5f48c757937fe542f0ae1366ca39bc04065",
-      "notes": "사망 회복 개선: 부활 확인(부활되는 한 계속 회복, 진짜 부활불가만 정지) + 부활 직후 자힐 3회(런처 자힐키 기본 F9)로 몹 캠핑 재사망 전 생존시간 확보"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.12.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.12.1/_delta_REDDOG_vending.zip",
       "sha256": "e40b62cd42f8dc7d6ce77e44ecd5fb397b337b9631d259347d58effa839e60c9",
       "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(19곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
+    },
+    "sellerbot": {
+      "version": "2026.07.12.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.12.1/_delta_sellerbot.zip",
+      "sha256": "8b79b1a165f100db95af9c91fff949f3a80819af188823eab90c0e5bbf52815f",
+      "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(82곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
     }
   }
 }
