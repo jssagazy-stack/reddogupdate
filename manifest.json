@@ -7,13 +7,6 @@
       "sha256": "fb8c5fccfe6318b0ba60145466f17f80a573b2a0962b4ae40eecbc8c16f6b3be",
       "notes": "따라가기 안정화 + 키 홀드 랜덤\n\n- 따라가기 추격 주기(반복클릭)에 드물게 큰 랜덤 지연이 붙어 1초 주기가 최대 1.8초까지 벌어지던 문제 수정. 이제 1.0~1.3초로 유지됩니다. 본캐가 달릴 때 쫄이 뒤처져 타겟을 놓치는 구간이 줄어듭니다.\n- 키를 누르고 있는 시간에도 랜덤 지터 적용(상향 전용). 셀프힐 롱프레스 700ms → 700~910ms.\n- 거리유지·파티 모드는 구조상 영향 없음(힐은 센서 인터럽트로 대기를 깨고 즉시 발동)."
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.12.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "8e5937eec921613886fd1527fbb2464911e625245f64310817513a1a06bc4b40",
-      "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(해독·귀환·힐·텔레포트 등 14곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.12.1",
       "type": "delta",
@@ -41,6 +34,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.12.6/_delta_REDDOG_hunt.zip",
       "sha256": "a00457eb028e970587ae70d55ead4e84aceaa12150bdf3f1c7e2b416f8ffd893",
       "notes": "이동 판정 폴백 제거 (코드 정리)\n\n- 이동 판정이 쓰던 자체 화면캡처 방식을 완전히 제거했습니다. 이제 배경 이동센서 하나만 씁니다(채집과 동일한 방식).\n- 죽은 설정값(측정영역·변화율 임계·픽셀 임계)도 노드 정의·에디터·프로필에서 전부 제거했습니다.\n- 이동센서 신호가 없으면 막힘으로 오판하지 않고 판정을 건너뜁니다."
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.12.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.12.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "a10436fe3060bcaf5cd5d332f2d1cb1a801b5e86e0f583d670b19b0d80889a13",
+      "notes": "주민 오공격(카오) 근본수정: 20초재검·stall재교전이 stale 좌표를 이름 재검증 없이 강제공격하던 것 → 재서치(반경120) 후 공격, 못 찾으면 재스캔 / 추적 반경 400→150 (교전중 다른 엔트로 갈아타 엉뚱한 대상 공격하던 것 차단) / 화면 하단 게임UI 오클릭 방지 클릭 y 클램프 730 / 드래그 중 예외 시 Ctrl 눌린 채 잔류하던 것 방지(try-finally)"
     }
   }
 }
