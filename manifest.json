@@ -36,11 +36,11 @@
       "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(82곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
     },
     "REDDOG_hunt": {
-      "version": "2026.07.12.3",
+      "version": "2026.07.12.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.12.3/_delta_REDDOG_hunt.zip",
-      "sha256": "1598d509b96807631e28e4a6f7ef1bac331d5aee976df3c4b800fc41b5a421d2",
-      "notes": "이동 판정 진단 로그 추가\n\n- 이동 판정(도착/미이동/와리가리) 시 측정된 화면 변화율과 임계값을 로그에 표시합니다. 실제로 걸었는데 저대비 화면 때문에 '미이동'으로 읽히는 것인지, 정말 지형에 막힌 것인지 구분할 수 있습니다."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.12.4/_delta_REDDOG_hunt.zip",
+      "sha256": "276c164f0f0fde6f30b8e5ea0ced2c9104d9f9bd7082e5f26cff2c5a12c65095",
+      "notes": "위치이탈 시 시퀀스 실행 (기억장소 순간이동 등)\n\n- 앵커 복귀를 8회 시도해도 못 돌아오면(위치이탈) 녹화 시퀀스를 실행하도록 지정할 수 있습니다. 사냥 캘리브 > 좌표 탭 '위치이탈(복귀 실패) 시' 행에서 시퀀스·배속·실행후정지를 고릅니다(위험체력·마나·무게·화살 가드와 동일한 방식).\n- 시퀀스 실행 후 앵커가 다시 잡히면 사냥을 재개하고, 연속 2회 못 잡으면 귀환 후 정지로 폴백합니다.\n- 시퀀스 실행 중에는 체력·해독 가드가 끼어들지 않습니다(순간이동이 중간에 깨지지 않게).\n- 지정하지 않으면 종전대로 귀환 후 정지입니다."
     }
   }
 }
