@@ -36,11 +36,11 @@
       "notes": "이동 판정 폴백 제거 (코드 정리)\n\n- 이동 판정이 쓰던 자체 화면캡처 방식을 완전히 제거했습니다. 이제 배경 이동센서 하나만 씁니다(채집과 동일한 방식).\n- 죽은 설정값(측정영역·변화율 임계·픽셀 임계)도 노드 정의·에디터·프로필에서 전부 제거했습니다.\n- 이동센서 신호가 없으면 막힘으로 오판하지 않고 판정을 건너뜁니다."
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.12.2",
+      "version": "2026.07.12.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.12.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "a10436fe3060bcaf5cd5d332f2d1cb1a801b5e86e0f583d670b19b0d80889a13",
-      "notes": "주민 오공격(카오) 근본수정: 20초재검·stall재교전이 stale 좌표를 이름 재검증 없이 강제공격하던 것 → 재서치(반경120) 후 공격, 못 찾으면 재스캔 / 추적 반경 400→150 (교전중 다른 엔트로 갈아타 엉뚱한 대상 공격하던 것 차단) / 화면 하단 게임UI 오클릭 방지 클릭 y 클램프 730 / 드래그 중 예외 시 Ctrl 눌린 채 잔류하던 것 방지(try-finally)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.12.3/_delta_REDDOG_chaejip.zip",
+      "sha256": "29741c9c0af84b9f02f050fbe999e690060da03f831a4d5dec2cd0e1a84d5eb9",
+      "notes": "로그 스팸 54% 절감(72.5만줄→33.1만줄): 폴링 ImageSearch(g_atk_track·g_premove·g_resurrect) log_every_s=5 — 매 프레임 '엔트 매칭됨' 반복 제거(상태전환은 유지) / [attackstate] 상세줄 DEBUG로 (전환 1회당 2줄 중복이던 것) / move 센서 발행 DEBUG로(센서별 log_level 옵션 신설, 미지정=종전 info). 타겟선택·강제공격·클릭 로그는 전부 유지"
     }
   }
 }
