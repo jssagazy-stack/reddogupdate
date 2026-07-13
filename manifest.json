@@ -50,11 +50,11 @@
       "notes": "first release: standalone price collector with auto-update"
     },
     "sagopalgo": {
-      "version": "2026.07.13.9",
+      "version": "2026.07.14.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.13.9/_delta_sagopalgo.zip",
-      "sha256": "e67c298decda283b9df468e8422efdebdd2717121d735b3ca0b73e0bf9c461cd",
-      "notes": "cursor/tooltip guard on slot watch (park after 30s idle), weight check button, 8-item overflow warn, ment policy notice"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.14.1/_delta_sagopalgo.zip",
+      "sha256": "0f1db2d2a1ee17ebe54391a53ffe20d5aeb15b56f014140ee45f19b801369b03",
+      "notes": "count sell/buy slots separately (each 8) instead of total 8"
     }
   }
 }
