@@ -48,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.13.1/_delta_sagopalgo.zip",
       "sha256": "9ffd606ba5f34a09c0058e569d6502c21517f58ecbc4257294b1d267e8218650",
       "notes": "최초 발행: 양방향 상점봇 + 자동업데이트"
+    },
+    "sise": {
+      "version": "2026.07.13.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sise-2026.07.13.1/_delta_sise.zip",
+      "sha256": "1729e53f4a45d68913c43d14d0c35d0c328db4e69ae48e515eeffe1046d123c7",
+      "notes": "first release: standalone price collector with auto-update"
     }
   }
 }
