@@ -50,10 +50,10 @@
       "notes": "first release: standalone price collector with auto-update"
     },
     "sagopalgo": {
-      "version": "2026.07.13.3",
+      "version": "2026.07.13.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.13.3/_delta_sagopalgo.zip",
-      "sha256": "030cd58d9c61504040e22279b47b56c685b12f70f971308e876c95d3d85b7e32",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.13.4/_delta_sagopalgo.zip",
+      "sha256": "f86cfd0a0500ab72952eb646fbad1faf6772d591a10e3bb396f14c308ec9e70a",
       "notes": "weight status check button in weight tab"
     }
   }
