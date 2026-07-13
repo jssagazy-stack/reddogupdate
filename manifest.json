@@ -42,19 +42,19 @@
       "sha256": "29741c9c0af84b9f02f050fbe999e690060da03f831a4d5dec2cd0e1a84d5eb9",
       "notes": "로그 스팸 54% 절감(72.5만줄→33.1만줄): 폴링 ImageSearch(g_atk_track·g_premove·g_resurrect) log_every_s=5 — 매 프레임 '엔트 매칭됨' 반복 제거(상태전환은 유지) / [attackstate] 상세줄 DEBUG로 (전환 1회당 2줄 중복이던 것) / move 센서 발행 DEBUG로(센서별 log_level 옵션 신설, 미지정=종전 info). 타겟선택·강제공격·클릭 로그는 전부 유지"
     },
-    "sagopalgo": {
-      "version": "2026.07.13.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.13.1/_delta_sagopalgo.zip",
-      "sha256": "9ffd606ba5f34a09c0058e569d6502c21517f58ecbc4257294b1d267e8218650",
-      "notes": "최초 발행: 양방향 상점봇 + 자동업데이트"
-    },
     "sise": {
       "version": "2026.07.13.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sise-2026.07.13.1/_delta_sise.zip",
       "sha256": "1729e53f4a45d68913c43d14d0c35d0c328db4e69ae48e515eeffe1046d123c7",
       "notes": "first release: standalone price collector with auto-update"
+    },
+    "sagopalgo": {
+      "version": "2026.07.13.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.13.2/_delta_sagopalgo.zip",
+      "sha256": "90933e3dc8cc1cb25b20fe881e357f13ce0b6eff5bc637569254314109f2bf7b",
+      "notes": "add price-collector tab (sise) integrated"
     }
   }
 }
