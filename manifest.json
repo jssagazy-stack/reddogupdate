@@ -50,11 +50,11 @@
       "notes": "first release: standalone price collector with auto-update"
     },
     "sagopalgo": {
-      "version": "2026.07.13.6",
+      "version": "2026.07.13.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.13.6/_delta_sagopalgo.zip",
-      "sha256": "8fe9c72022ba0c6da0af9aff91b1d3ac64725d81fbfe6cd245285fe3434a74e6",
-      "notes": "warn when more than 8 items checked (silent truncation fix)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.13.7/_delta_sagopalgo.zip",
+      "sha256": "e8e0a4afba26ac6407ee2750cb305f059ee25852e8041b007232cebe9e6f65d1",
+      "notes": "ment1/ment2 rename, persist user-edited ments, autofill only on button"
     }
   }
 }
