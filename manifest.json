@@ -50,11 +50,11 @@
       "notes": "first release: standalone price collector with auto-update"
     },
     "sagopalgo": {
-      "version": "2026.07.13.8",
+      "version": "2026.07.13.9",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.13.8/_delta_sagopalgo.zip",
-      "sha256": "952e1e6e23baa0296755e220595b3d486806730b9415748c6ba5bd7dd641deed",
-      "notes": "fix: ments now entered every open cycle; skip slot check when cursor covers region (false sold-out)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.13.9/_delta_sagopalgo.zip",
+      "sha256": "e67c298decda283b9df468e8422efdebdd2717121d735b3ca0b73e0bf9c461cd",
+      "notes": "cursor/tooltip guard on slot watch (park after 30s idle), weight check button, 8-item overflow warn, ment policy notice"
     }
   }
 }
