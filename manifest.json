@@ -21,13 +21,6 @@
       "sha256": "e40b62cd42f8dc7d6ce77e44ecd5fb397b337b9631d259347d58effa839e60c9",
       "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(19곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
     },
-    "sellerbot": {
-      "version": "2026.07.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.12.1/_delta_sellerbot.zip",
-      "sha256": "8b79b1a165f100db95af9c91fff949f3a80819af188823eab90c0e5bbf52815f",
-      "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(82곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
-    },
     "REDDOG_hunt": {
       "version": "2026.07.12.6",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.14.1/_delta_sagopalgo.zip",
       "sha256": "0f1db2d2a1ee17ebe54391a53ffe20d5aeb15b56f014140ee45f19b801369b03",
       "notes": "count sell/buy slots separately (each 8) instead of total 8"
+    },
+    "sellerbot": {
+      "version": "2026.07.14.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.14.1/_delta_sellerbot.zip",
+      "sha256": "cef79fdd0a0b731ed97b5078417b021d4db4d7c9444380a3ea2856b10117a7bb",
+      "notes": ""
     }
   }
 }
