@@ -28,13 +28,6 @@
       "sha256": "0f1db2d2a1ee17ebe54391a53ffe20d5aeb15b56f014140ee45f19b801369b03",
       "notes": "count sell/buy slots separately (each 8) instead of total 8"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.15.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "176c0d3913c625000bc162bc6b0c3c53da92b6efcc60591f5517cdfad8178640",
-      "notes": "즐겨찾기 세팅: 3번째 등록(화말창고) 좌표 y-22 보정 (인게임 목록 위치 변동 대응)"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.15.1",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.15.1/_delta_HealSupporter.zip",
       "sha256": "b4de5c9d4acf5a5d085129b07d99d3e30e43a192fcd905ef2093d4fb0cbedbf5",
       "notes": "파티창 UI 개편(v2) 대응 - partyslot 상시 앵커링, 파티힐 HP% 감지 전환(베이스라인 폐지)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.15.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "8deb0fa32ca438f592a179bca09df656da173dd2a574f006cf04c6d69b4c650e",
+      "notes": "게임설정: 설정창 메뉴 개편 대응 말풍선 재캡처 배포(좌표/region ini 포함) + 게임설정 캡처 버튼"
     }
   }
 }
