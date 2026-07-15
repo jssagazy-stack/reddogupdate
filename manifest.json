@@ -42,19 +42,19 @@
       "sha256": "b4de5c9d4acf5a5d085129b07d99d3e30e43a192fcd905ef2093d4fb0cbedbf5",
       "notes": "파티창 UI 개편(v2) 대응 - partyslot 상시 앵커링, 파티힐 HP% 감지 전환(베이스라인 폐지)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.15.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "8deb0fa32ca438f592a179bca09df656da173dd2a574f006cf04c6d69b4c650e",
-      "notes": "게임설정: 설정창 메뉴 개편 대응 말풍선 재캡처 배포(좌표/region ini 포함) + 게임설정 캡처 버튼"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.15.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.15.2/_delta_REDDOG_npc_search.zip",
       "sha256": "ea7f8b0c0a79ec14586d3c3adc0822756078c709ba1c7297290cb797df190920",
       "notes": "게임설정: 설정창 메뉴 개편 대응 말풍선 재캡처 배포(좌표/region ini 포함, 채집 캡처 공유) + 게임설정 캡처 버튼"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.15.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.3/_delta_REDDOG_chaejip.zip",
+      "sha256": "24abb46d7622cac75a413db76fcf12bc2e44b27c1da2c4b451126d5e390cfb05",
+      "notes": "임시 게임설정 캡처 버튼 제거"
     }
   }
 }
