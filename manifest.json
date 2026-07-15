@@ -1,12 +1,5 @@
 {
   "products": {
-    "HealSupporter": {
-      "version": "2026.07.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.12.1/_delta_HealSupporter.zip",
-      "sha256": "fb8c5fccfe6318b0ba60145466f17f80a573b2a0962b4ae40eecbc8c16f6b3be",
-      "notes": "따라가기 안정화 + 키 홀드 랜덤\n\n- 따라가기 추격 주기(반복클릭)에 드물게 큰 랜덤 지연이 붙어 1초 주기가 최대 1.8초까지 벌어지던 문제 수정. 이제 1.0~1.3초로 유지됩니다. 본캐가 달릴 때 쫄이 뒤처져 타겟을 놓치는 구간이 줄어듭니다.\n- 키를 누르고 있는 시간에도 랜덤 지터 적용(상향 전용). 셀프힐 롱프레스 700ms → 700~910ms.\n- 거리유지·파티 모드는 구조상 영향 없음(힐은 센서 인터럽트로 대기를 깨고 즉시 발동)."
-    },
     "REDDOG_vending": {
       "version": "2026.07.12.1",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.15.1/_delta_sellerbot.zip",
       "sha256": "0eb13f49f90494194e3fe6d753b5ed2cedd3b61550108340e5cae180127de4b3",
       "notes": "파티창 UI 개편(v2) 대응 - partyslot 상시 앵커링(무파티 대기-자동 감시), 파티헤이 좌표 자동화"
+    },
+    "HealSupporter": {
+      "version": "2026.07.15.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.15.1/_delta_HealSupporter.zip",
+      "sha256": "b4de5c9d4acf5a5d085129b07d99d3e30e43a192fcd905ef2093d4fb0cbedbf5",
+      "notes": "파티창 UI 개편(v2) 대응 - partyslot 상시 앵커링, 파티힐 HP% 감지 전환(베이스라인 폐지)"
     }
   }
 }
