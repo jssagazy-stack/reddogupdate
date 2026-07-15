@@ -28,13 +28,6 @@
       "sha256": "f3c9218da5525379aedbbec790ed5360b8682e903754990b2030883881e97b66",
       "notes": "Auto-collect hotkey (Insert) with cursor restore, syllable OCR auto-labeling for unknown items, trend sheet pivot redesign (watch items pinned, newest-first dates), bundled market library seed, setup UI hidden in release"
     },
-    "sagopalgo": {
-      "version": "2026.07.15.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.15.1/_delta_sagopalgo.zip",
-      "sha256": "c58476b315225779043caaea19b2dce0d518f0870a27930f9035620474910758",
-      "notes": "Sise tab: auto-collect hotkey (Insert) with cursor restore, syllable OCR auto-labeling, trend sheet pivot redesign (watch items pinned, newest-first dates), bundled market library seed, setup UI hidden in release"
-    },
     "REDDOG_chaejip": {
       "version": "2026.07.15.4",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.15.5/_delta_sellerbot.zip",
       "sha256": "bfa4519ff33adb129a288d4be453d4cfb38de6579e44c13d475c95faf0751925",
       "notes": "상점판매 OFF(파티헤이 전용) 게이트 - 파티창 이동/F5/ESC 전부 생략(가릴 상점창 없음, 자유 배치). 상점 ON은 기존 동작 그대로"
+    },
+    "sagopalgo": {
+      "version": "2026.07.15.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.15.2/_delta_sagopalgo.zip",
+      "sha256": "185f01c286ca1856d23af937d5c51df0ba985c48e76932b59009e8e33e7e0646",
+      "notes": "Bot settings seed: item catalog, item templates and weight settings now ship with updates; auto-merge on existing PCs (local items win on same name, new items added disabled with fresh IDs)"
     }
   }
 }
