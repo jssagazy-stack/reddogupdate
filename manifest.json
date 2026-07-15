@@ -35,13 +35,6 @@
       "sha256": "0f1db2d2a1ee17ebe54391a53ffe20d5aeb15b56f014140ee45f19b801369b03",
       "notes": "count sell/buy slots separately (each 8) instead of total 8"
     },
-    "sellerbot": {
-      "version": "2026.07.14.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.14.1/_delta_sellerbot.zip",
-      "sha256": "cef79fdd0a0b731ed97b5078417b021d4db4d7c9444380a3ea2856b10117a7bb",
-      "notes": ""
-    },
     "REDDOG_chaejip": {
       "version": "2026.07.15.1",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.15.1/_delta_REDDOG_npc_search.zip",
       "sha256": "aa457147ad6d9c05b9ad1059430d7f410aee3645d066b7f55a3cdb2da969ae50",
       "notes": "즐겨찾기 세팅: 3번째 등록(화말창고) 좌표 y-22 보정 (인게임 목록 위치 변동 대응)"
+    },
+    "sellerbot": {
+      "version": "2026.07.15.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.15.1/_delta_sellerbot.zip",
+      "sha256": "0eb13f49f90494194e3fe6d753b5ed2cedd3b61550108340e5cae180127de4b3",
+      "notes": "파티창 UI 개편(v2) 대응 - partyslot 상시 앵커링(무파티 대기-자동 감시), 파티헤이 좌표 자동화"
     }
   }
 }
