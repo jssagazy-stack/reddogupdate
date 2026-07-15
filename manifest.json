@@ -14,13 +14,6 @@
       "sha256": "a00457eb028e970587ae70d55ead4e84aceaa12150bdf3f1c7e2b416f8ffd893",
       "notes": "이동 판정 폴백 제거 (코드 정리)\n\n- 이동 판정이 쓰던 자체 화면캡처 방식을 완전히 제거했습니다. 이제 배경 이동센서 하나만 씁니다(채집과 동일한 방식).\n- 죽은 설정값(측정영역·변화율 임계·픽셀 임계)도 노드 정의·에디터·프로필에서 전부 제거했습니다.\n- 이동센서 신호가 없으면 막힘으로 오판하지 않고 판정을 건너뜁니다."
     },
-    "sagopalgo": {
-      "version": "2026.07.14.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.14.1/_delta_sagopalgo.zip",
-      "sha256": "0f1db2d2a1ee17ebe54391a53ffe20d5aeb15b56f014140ee45f19b801369b03",
-      "notes": "count sell/buy slots separately (each 8) instead of total 8"
-    },
     "HealSupporter": {
       "version": "2026.07.15.1",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sise-2026.07.15.1/_delta_sise.zip",
       "sha256": "f3c9218da5525379aedbbec790ed5360b8682e903754990b2030883881e97b66",
       "notes": "Auto-collect hotkey (Insert) with cursor restore, syllable OCR auto-labeling for unknown items, trend sheet pivot redesign (watch items pinned, newest-first dates), bundled market library seed, setup UI hidden in release"
+    },
+    "sagopalgo": {
+      "version": "2026.07.15.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.15.1/_delta_sagopalgo.zip",
+      "sha256": "c58476b315225779043caaea19b2dce0d518f0870a27930f9035620474910758",
+      "notes": "Sise tab: auto-collect hotkey (Insert) with cursor restore, syllable OCR auto-labeling, trend sheet pivot redesign (watch items pinned, newest-first dates), bundled market library seed, setup UI hidden in release"
     }
   }
 }
