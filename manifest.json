@@ -7,13 +7,6 @@
       "sha256": "fb8c5fccfe6318b0ba60145466f17f80a573b2a0962b4ae40eecbc8c16f6b3be",
       "notes": "따라가기 안정화 + 키 홀드 랜덤\n\n- 따라가기 추격 주기(반복클릭)에 드물게 큰 랜덤 지연이 붙어 1초 주기가 최대 1.8초까지 벌어지던 문제 수정. 이제 1.0~1.3초로 유지됩니다. 본캐가 달릴 때 쫄이 뒤처져 타겟을 놓치는 구간이 줄어듭니다.\n- 키를 누르고 있는 시간에도 랜덤 지터 적용(상향 전용). 셀프힐 롱프레스 700ms → 700~910ms.\n- 거리유지·파티 모드는 구조상 영향 없음(힐은 센서 인터럽트로 대기를 깨고 즉시 발동)."
     },
-    "REDDOG_npc_search": {
-      "version": "2026.07.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.12.1/_delta_REDDOG_npc_search.zip",
-      "sha256": "5b79e808cb1e978ca8740d788336d024330e59b13ada92801d5a78bd146d8d48",
-      "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(16곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
-    },
     "REDDOG_vending": {
       "version": "2026.07.12.1",
       "type": "delta",
@@ -54,6 +47,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.1/_delta_REDDOG_chaejip.zip",
       "sha256": "176c0d3913c625000bc162bc6b0c3c53da92b6efcc60591f5517cdfad8178640",
+      "notes": "즐겨찾기 세팅: 3번째 등록(화말창고) 좌표 y-22 보정 (인게임 목록 위치 변동 대응)"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.07.15.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.15.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "aa457147ad6d9c05b9ad1059430d7f410aee3645d066b7f55a3cdb2da969ae50",
       "notes": "즐겨찾기 세팅: 3번째 등록(화말창고) 좌표 y-22 보정 (인게임 목록 위치 변동 대응)"
     }
   }
