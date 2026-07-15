@@ -21,13 +21,6 @@
       "sha256": "05809e961b8ad220bade6bb7eaca184997beaa03842edb1103b08277936f5a52",
       "notes": "임시 게임설정 캡처 버튼 제거"
     },
-    "sise": {
-      "version": "2026.07.15.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sise-2026.07.15.1/_delta_sise.zip",
-      "sha256": "f3c9218da5525379aedbbec790ed5360b8682e903754990b2030883881e97b66",
-      "notes": "Auto-collect hotkey (Insert) with cursor restore, syllable OCR auto-labeling for unknown items, trend sheet pivot redesign (watch items pinned, newest-first dates), bundled market library seed, setup UI hidden in release"
-    },
     "REDDOG_chaejip": {
       "version": "2026.07.15.4",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.15.3/_delta_sagopalgo.zip",
       "sha256": "64e558f4a616ac96d782f7683d23fd275befcc95e2a7fb1f9e0e72500acc18ed",
       "notes": "Fix: bundled seeds (bot settings catalog/templates, market library) were missing from delta package; now shipped with updates"
+    },
+    "sise": {
+      "version": "2026.07.15.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sise-2026.07.15.2/_delta_sise.zip",
+      "sha256": "a8db5c3dd9f3763a4d67ca4d16b00c019b73ed2ec99f888dfa8c2eee389a4f35",
+      "notes": "Fix: bundled market library seed was missing from delta package; now shipped with updates"
     }
   }
 }
