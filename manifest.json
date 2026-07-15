@@ -14,13 +14,6 @@
       "sha256": "a00457eb028e970587ae70d55ead4e84aceaa12150bdf3f1c7e2b416f8ffd893",
       "notes": "이동 판정 폴백 제거 (코드 정리)\n\n- 이동 판정이 쓰던 자체 화면캡처 방식을 완전히 제거했습니다. 이제 배경 이동센서 하나만 씁니다(채집과 동일한 방식).\n- 죽은 설정값(측정영역·변화율 임계·픽셀 임계)도 노드 정의·에디터·프로필에서 전부 제거했습니다.\n- 이동센서 신호가 없으면 막힘으로 오판하지 않고 판정을 건너뜁니다."
     },
-    "HealSupporter": {
-      "version": "2026.07.15.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.15.1/_delta_HealSupporter.zip",
-      "sha256": "b4de5c9d4acf5a5d085129b07d99d3e30e43a192fcd905ef2093d4fb0cbedbf5",
-      "notes": "파티창 UI 개편(v2) 대응 - partyslot 상시 앵커링, 파티힐 HP% 감지 전환(베이스라인 폐지)"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.15.3",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.15.4/_delta_sellerbot.zip",
       "sha256": "88ec1628f854b973554fd434aded1156535efbf19097948a1c0d54296f14bfb7",
       "notes": "창고지기 가림 대응 개선 - 대피 왕복 폐기, 현재 위치 반대편 홈(좌 379,257 / 우 840,4)으로 1회 이동 정착. 창고가 어느 쪽이든 이후 창고행 이동 불필요"
+    },
+    "HealSupporter": {
+      "version": "2026.07.15.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.15.2/_delta_HealSupporter.zip",
+      "sha256": "3a8ea7b9e4a2c27c4f68a8bd64620b5a341cc5b69949310866a65b0b21b902f5",
+      "notes": "파티설정 트리거 선택 추가 - 행별 근접(헤이, 기본)/저체력(힐, 임계 HP%) 라디오. 근접신호에 시전 안 나가던 문제 해결(파티창 v2)"
     }
   }
 }
