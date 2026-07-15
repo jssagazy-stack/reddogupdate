@@ -50,11 +50,11 @@
       "notes": "임시 게임설정 캡처 버튼 제거"
     },
     "sellerbot": {
-      "version": "2026.07.15.2",
+      "version": "2026.07.15.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.15.2/_delta_sellerbot.zip",
-      "sha256": "65c30c66be7e82aa78efe20371d0dfb987d3bf107d7c1e2b790ee6144428fdf1",
-      "notes": "파티창 자동 이동 - 시작 F5x2 위치정리, 무파티 첫초대(ESC3-30초 수락대기-안전위치 이동-F5), 창고지기 가림 대피/복귀"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.15.3/_delta_sellerbot.zip",
+      "sha256": "67013beeed68381901a1a53c4e7e69c13b346992a0ff002c45c588ce72d1c341",
+      "notes": "창고대피 복귀 레이스 수정 - 창고창 닫힌 직후 앵커 재발견 4초 대기 후 우측 복귀(즉시 판정이 파티해체 오판-영구가림 유발하던 것)"
     }
   }
 }
