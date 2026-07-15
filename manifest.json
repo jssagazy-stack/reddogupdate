@@ -21,13 +21,6 @@
       "sha256": "05809e961b8ad220bade6bb7eaca184997beaa03842edb1103b08277936f5a52",
       "notes": "임시 게임설정 캡처 버튼 제거"
     },
-    "HealSupporter": {
-      "version": "2026.07.15.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.15.3/_delta_HealSupporter.zip",
-      "sha256": "7c3a9d101ec342f510f63d7024c678fc5f4d2a6c18e7cf07203c1b8bc2b164b8",
-      "notes": "파티설정 행 UI 정리 - 구 좌표/인식점 표기 제거, 행별 실시간 판정값 표시(저체력=현재 HP%/임계, 근접=금색%/8%, 1초 갱신)"
-    },
     "sellerbot": {
       "version": "2026.07.15.5",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.5/_delta_REDDOG_chaejip.zip",
       "sha256": "152a43a8f9900f221698ffdbbdeeb1127e5068394afa2d7bee88160538139234",
       "notes": "자동파티요청: 초대 후 채팅비우기(''+Enter x2) 회당 간격 500ms (입력 놓침 방지)"
+    },
+    "HealSupporter": {
+      "version": "2026.07.16.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.16.1/_delta_HealSupporter.zip",
+      "sha256": "071a61bc8a8ef78c04dda276c50025f2a9c52e788b8b04f0cb8a5a02f6d3b95f",
+      "notes": "따라가기(파티) 대상힐·대상위험을 파티창 행 슬롯 감시로 전환(확대/축소·창이동 자동 대응, 인식점 캡처 불필요) + 파티설정 리셋=0 영구차단 수정 + 시작 시 파티창 축소강제 제거"
     }
   }
 }
