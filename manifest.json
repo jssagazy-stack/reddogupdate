@@ -21,13 +21,6 @@
       "sha256": "05809e961b8ad220bade6bb7eaca184997beaa03842edb1103b08277936f5a52",
       "notes": "임시 게임설정 캡처 버튼 제거"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.15.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.4/_delta_REDDOG_chaejip.zip",
-      "sha256": "53da005b769b2532c699ccb774b57db33cdad9186b87e2ff0de98d62a49b0de1",
-      "notes": "시작 시 파티창 축소 확인(party_collapse): 확대 파티창이 순환좌표 클릭 가로채는 문제 대응 — 시작 체인 합류점+파티요청 버튼 완료 시 앵커 확인 후 확대면 축소 클릭"
-    },
     "HealSupporter": {
       "version": "2026.07.15.3",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sise-2026.07.15.2/_delta_sise.zip",
       "sha256": "a8db5c3dd9f3763a4d67ca4d16b00c019b73ed2ec99f888dfa8c2eee389a4f35",
       "notes": "Fix: bundled market library seed was missing from delta package; now shipped with updates"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.15.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.5/_delta_REDDOG_chaejip.zip",
+      "sha256": "152a43a8f9900f221698ffdbbdeeb1127e5068394afa2d7bee88160538139234",
+      "notes": "자동파티요청: 초대 후 채팅비우기(''+Enter x2) 회당 간격 500ms (입력 놓침 방지)"
     }
   }
 }
