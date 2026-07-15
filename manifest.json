@@ -28,13 +28,6 @@
       "sha256": "0f1db2d2a1ee17ebe54391a53ffe20d5aeb15b56f014140ee45f19b801369b03",
       "notes": "count sell/buy slots separately (each 8) instead of total 8"
     },
-    "sellerbot": {
-      "version": "2026.07.15.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.15.1/_delta_sellerbot.zip",
-      "sha256": "0eb13f49f90494194e3fe6d753b5ed2cedd3b61550108340e5cae180127de4b3",
-      "notes": "파티창 UI 개편(v2) 대응 - partyslot 상시 앵커링(무파티 대기-자동 감시), 파티헤이 좌표 자동화"
-    },
     "HealSupporter": {
       "version": "2026.07.15.1",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.15.3/_delta_REDDOG_npc_search.zip",
       "sha256": "05809e961b8ad220bade6bb7eaca184997beaa03842edb1103b08277936f5a52",
       "notes": "임시 게임설정 캡처 버튼 제거"
+    },
+    "sellerbot": {
+      "version": "2026.07.15.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.15.2/_delta_sellerbot.zip",
+      "sha256": "65c30c66be7e82aa78efe20371d0dfb987d3bf107d7c1e2b790ee6144428fdf1",
+      "notes": "파티창 자동 이동 - 시작 F5x2 위치정리, 무파티 첫초대(ESC3-30초 수락대기-안전위치 이동-F5), 창고지기 가림 대피/복귀"
     }
   }
 }
