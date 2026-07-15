@@ -50,11 +50,11 @@
       "notes": "상점판매 OFF(파티헤이 전용) 게이트 - 파티창 이동/F5/ESC 전부 생략(가릴 상점창 없음, 자유 배치). 상점 ON은 기존 동작 그대로"
     },
     "sagopalgo": {
-      "version": "2026.07.15.2",
+      "version": "2026.07.15.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.15.2/_delta_sagopalgo.zip",
-      "sha256": "185f01c286ca1856d23af937d5c51df0ba985c48e76932b59009e8e33e7e0646",
-      "notes": "Bot settings seed: item catalog, item templates and weight settings now ship with updates; auto-merge on existing PCs (local items win on same name, new items added disabled with fresh IDs)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.15.3/_delta_sagopalgo.zip",
+      "sha256": "64e558f4a616ac96d782f7683d23fd275befcc95e2a7fb1f9e0e72500acc18ed",
+      "notes": "Fix: bundled seeds (bot settings catalog/templates, market library) were missing from delta package; now shipped with updates"
     }
   }
 }
