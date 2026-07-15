@@ -50,11 +50,11 @@
       "notes": ""
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.14.1",
+      "version": "2026.07.15.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.14.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "f694190ece760725fa72c0ee1969f05ee29686bbf297659fbcb583436829af64",
-      "notes": "위수이탈 사망 근본수정: 지역감지 NCC 전환(임계 0.76, 용의계곡/화전민 오판 해소) + 체력가드 독분기 폐기(독이어도 즉시 귀환) + 귀환후 마을확인 1.5초 + 텔포 착지 지역확인 게이트"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "176c0d3913c625000bc162bc6b0c3c53da92b6efcc60591f5517cdfad8178640",
+      "notes": "즐겨찾기 세팅: 3번째 등록(화말창고) 좌표 y-22 보정 (인게임 목록 위치 변동 대응)"
     }
   }
 }
