@@ -21,13 +21,6 @@
       "sha256": "b4de5c9d4acf5a5d085129b07d99d3e30e43a192fcd905ef2093d4fb0cbedbf5",
       "notes": "파티창 UI 개편(v2) 대응 - partyslot 상시 앵커링, 파티힐 HP% 감지 전환(베이스라인 폐지)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.15.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.3/_delta_REDDOG_chaejip.zip",
-      "sha256": "24abb46d7622cac75a413db76fcf12bc2e44b27c1da2c4b451126d5e390cfb05",
-      "notes": "임시 게임설정 캡처 버튼 제거"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.15.3",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.15.1/_delta_sagopalgo.zip",
       "sha256": "c58476b315225779043caaea19b2dce0d518f0870a27930f9035620474910758",
       "notes": "Sise tab: auto-collect hotkey (Insert) with cursor restore, syllable OCR auto-labeling, trend sheet pivot redesign (watch items pinned, newest-first dates), bundled market library seed, setup UI hidden in release"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.15.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.15.4/_delta_REDDOG_chaejip.zip",
+      "sha256": "53da005b769b2532c699ccb774b57db33cdad9186b87e2ff0de98d62a49b0de1",
+      "notes": "시작 시 파티창 축소 확인(party_collapse): 확대 파티창이 순환좌표 클릭 가로채는 문제 대응 — 시작 체인 합류점+파티요청 버튼 완료 시 앵커 확인 후 확대면 축소 클릭"
     }
   }
 }
