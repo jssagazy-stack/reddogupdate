@@ -35,13 +35,6 @@
       "sha256": "6aead624b8cd0fe730ea27be17c55386bd35f2818a4a7ea9b1b0194e803c8592",
       "notes": "배제영역 캐릭터 따라다님 근본수정: 캡처 기준 앵커를 '실행중일 때만 읽는' 방식에서 '1회 앵커 매칭'(정지 중에도 동작, 런타임과 동일 좌표·머리제외 적용)으로 변경. 정지 중 그리면 화면고정(rel=0)으로 저장돼 화면중앙 캐릭터를 따라다니던 버그 제거. 그릴 때 ⚓ 마커로 기준 앵커 위치 즉시 표시, 앵커 미매칭 시 경고. ※기존에 그린 영역은 전체삭제 후 다시 그리세요."
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.16.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.16.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "d09b7d3c0a005accf084b35ca02c3c71bcc4d2fd81bf4a170a1fe54cc88b9824",
-      "notes": "초대 전송 후 불필요한 채팅비우기(따옴표+Enter 2회) 제거"
-    },
     "HealSupporter": {
       "version": "2026.07.16.4",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.16.1/_delta_sellerbot.zip",
       "sha256": "76580e1e76d7c148f82915b6767a48646650a3f65d65a6f127af732803dee6b1",
       "notes": "자동초대: 초대 감지 시 /초대 2회 연속 전송(첫 전송 놓쳐도 둘째로 폴백) + 리셋 방식 개선. 타이밍: 감지 600ms → 1차 /초대 → 500ms → 2차 /초대 → 500ms → 리셋."
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.16.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.16.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "a3c32339f959bd1c7e824d77cd4e7c44995078d55726953eee657b02754976bb",
+      "notes": "자동파티요청: 초대 요청 전송 후 500ms 뒤 빈 답장 1회로 채팅 한 줄 밀어 파티장(수신)측 초대 감지 재무장을 돕도록 변경."
     }
   }
 }
