@@ -50,11 +50,11 @@
       "notes": "제자리(파티) 시작 시 이전 버전의 고정좌표 '파티창 열기' 클릭 제거 - 파티창 감지/좌표는 자동 앵커링이 담당하므로 불필요했고, 시작 시 엉뚱한 좌표를 클릭하던 부작용을 없앴습니다."
     },
     "REDDOG_hunt": {
-      "version": "2026.07.16.1",
+      "version": "2026.07.16.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.16.1/_delta_REDDOG_hunt.zip",
-      "sha256": "34d08cbf5574b5052b57088dadc08cd8826019d854e11a8286b20fa51f72a1cc",
-      "notes": "배제영역(자유곡선) 추가: 앵커 기준으로 그린 폐곡선 안의 몹은 공격 타겟에서 제외, 아이템 줍기·패트롤도 그 안으로는 진입 안 함(앵커 상대저장, 앵커 안 보이면 자동 비활성). 사냥탭 앵커 섹션 '✏ 배제영역 그리기' 버튼."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.16.2/_delta_REDDOG_hunt.zip",
+      "sha256": "c986c8bec9a991a3d9a2e6c1cb078167a58d521e5ddcfa70033a48a3870242e9",
+      "notes": "배제영역 개선: (1)여러 개 지정 가능(추가 누적·마지막/전체 삭제) (2)'인식점' 또는 '앵커 표시' 체크 시 보라색으로 표시(정지 중에도 미리보기) (3)앵커 UI 2줄 분리로 창 너비 축소. 몹서치·아이템·패트롤 모두 여러 폴리곤 중 하나라도 안이면 제외."
     }
   }
 }
