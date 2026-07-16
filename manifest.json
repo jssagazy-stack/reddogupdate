@@ -50,11 +50,11 @@
       "notes": "제자리(파티) 시작 시 이전 버전의 고정좌표 '파티창 열기' 클릭 제거 - 파티창 감지/좌표는 자동 앵커링이 담당하므로 불필요했고, 시작 시 엉뚱한 좌표를 클릭하던 부작용을 없앴습니다."
     },
     "REDDOG_hunt": {
-      "version": "2026.07.16.2",
+      "version": "2026.07.16.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.16.2/_delta_REDDOG_hunt.zip",
-      "sha256": "c986c8bec9a991a3d9a2e6c1cb078167a58d521e5ddcfa70033a48a3870242e9",
-      "notes": "배제영역 개선: (1)여러 개 지정 가능(추가 누적·마지막/전체 삭제) (2)'인식점' 또는 '앵커 표시' 체크 시 보라색으로 표시(정지 중에도 미리보기) (3)앵커 UI 2줄 분리로 창 너비 축소. 몹서치·아이템·패트롤 모두 여러 폴리곤 중 하나라도 안이면 제외."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.16.3/_delta_REDDOG_hunt.zip",
+      "sha256": "5eef077824586f1f2429f0a3596d4806176d5babf8151ec35572e32781a00cb1",
+      "notes": "배제영역 그리기 개선 + 앵커 제외박스 시각화: (1)꼭짓점 클릭 방식 추가(삼각형 3클릭·사각형 4클릭, 첫점/Enter/우클릭으로 완성, 드래그=프리핸드 유지) (2)'인식점 표시' 켜면 ⊘내머리제외 박스가 분홍색으로 보임 → 앵커가 내 머리에 잡히는지 눈으로 확인·교정 가능."
     }
   }
 }
