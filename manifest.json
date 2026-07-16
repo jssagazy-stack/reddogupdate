@@ -50,11 +50,11 @@
       "notes": "자동파티요청: 초대 후 채팅비우기(''+Enter x2) 회당 간격 500ms (입력 놓침 방지)"
     },
     "HealSupporter": {
-      "version": "2026.07.16.1",
+      "version": "2026.07.16.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.16.1/_delta_HealSupporter.zip",
-      "sha256": "071a61bc8a8ef78c04dda276c50025f2a9c52e788b8b04f0cb8a5a02f6d3b95f",
-      "notes": "따라가기(파티) 대상힐·대상위험을 파티창 행 슬롯 감시로 전환(확대/축소·창이동 자동 대응, 인식점 캡처 불필요) + 파티설정 리셋=0 영구차단 수정 + 시작 시 파티창 축소강제 제거"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.16.2/_delta_HealSupporter.zip",
+      "sha256": "09d88acd2300b33763b55661394a52d2f6ef5873edd268736f5fcfed7fd3136c",
+      "notes": "파티창 체력 감지를 채도 기반으로 전환 - 중독(체력바 초록) 시 HP를 0%로 오판해 대상 위험체력이 오발하고 귀환·정지하던 문제 수정. 이제 빨강/초록 채움색 무관하게 정확히 감지(실게임 독 파티원 캡처로 임계 확정)."
     }
   }
 }
