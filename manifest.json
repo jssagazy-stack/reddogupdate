@@ -14,13 +14,6 @@
       "sha256": "05809e961b8ad220bade6bb7eaca184997beaa03842edb1103b08277936f5a52",
       "notes": "임시 게임설정 캡처 버튼 제거"
     },
-    "sellerbot": {
-      "version": "2026.07.15.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.15.5/_delta_sellerbot.zip",
-      "sha256": "bfa4519ff33adb129a288d4be453d4cfb38de6579e44c13d475c95faf0751925",
-      "notes": "상점판매 OFF(파티헤이 전용) 게이트 - 파티창 이동/F5/ESC 전부 생략(가릴 상점창 없음, 자유 배치). 상점 ON은 기존 동작 그대로"
-    },
     "sagopalgo": {
       "version": "2026.07.15.3",
       "type": "delta",
@@ -54,6 +47,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.16.4/_delta_HealSupporter.zip",
       "sha256": "441f46b0ac19cfdb8df95e67a76edd9c601a27b23620f4f514b5a010050f6a45",
+      "notes": "자동초대: 초대 감지 시 /초대 2회 연속 전송(첫 전송 놓쳐도 둘째로 폴백) + 리셋 방식 개선. 타이밍: 감지 600ms → 1차 /초대 → 500ms → 2차 /초대 → 500ms → 리셋."
+    },
+    "sellerbot": {
+      "version": "2026.07.16.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.16.1/_delta_sellerbot.zip",
+      "sha256": "76580e1e76d7c148f82915b6767a48646650a3f65d65a6f127af732803dee6b1",
       "notes": "자동초대: 초대 감지 시 /초대 2회 연속 전송(첫 전송 놓쳐도 둘째로 폴백) + 리셋 방식 개선. 타이밍: 감지 600ms → 1차 /초대 → 500ms → 2차 /초대 → 500ms → 리셋."
     }
   }
