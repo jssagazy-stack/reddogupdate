@@ -7,13 +7,6 @@
       "sha256": "e40b62cd42f8dc7d6ce77e44ecd5fb397b337b9631d259347d58effa839e60c9",
       "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(19곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.12.6",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.12.6/_delta_REDDOG_hunt.zip",
-      "sha256": "a00457eb028e970587ae70d55ead4e84aceaa12150bdf3f1c7e2b416f8ffd893",
-      "notes": "이동 판정 폴백 제거 (코드 정리)\n\n- 이동 판정이 쓰던 자체 화면캡처 방식을 완전히 제거했습니다. 이제 배경 이동센서 하나만 씁니다(채집과 동일한 방식).\n- 죽은 설정값(측정영역·변화율 임계·픽셀 임계)도 노드 정의·에디터·프로필에서 전부 제거했습니다.\n- 이동센서 신호가 없으면 막힘으로 오판하지 않고 판정을 건너뜁니다."
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.15.3",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.16.3/_delta_HealSupporter.zip",
       "sha256": "f3bdf45909c3fc55400d1a826ebbc73e84e71bede19d12541ea4828ec75af644",
       "notes": "제자리(파티) 시작 시 이전 버전의 고정좌표 '파티창 열기' 클릭 제거 - 파티창 감지/좌표는 자동 앵커링이 담당하므로 불필요했고, 시작 시 엉뚱한 좌표를 클릭하던 부작용을 없앴습니다."
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.16.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.16.1/_delta_REDDOG_hunt.zip",
+      "sha256": "34d08cbf5574b5052b57088dadc08cd8826019d854e11a8286b20fa51f72a1cc",
+      "notes": "배제영역(자유곡선) 추가: 앵커 기준으로 그린 폐곡선 안의 몹은 공격 타겟에서 제외, 아이템 줍기·패트롤도 그 안으로는 진입 안 함(앵커 상대저장, 앵커 안 보이면 자동 비활성). 사냥탭 앵커 섹션 '✏ 배제영역 그리기' 버튼."
     }
   }
 }
