@@ -50,11 +50,11 @@
       "notes": "제자리(파티) 시작 시 이전 버전의 고정좌표 '파티창 열기' 클릭 제거 - 파티창 감지/좌표는 자동 앵커링이 담당하므로 불필요했고, 시작 시 엉뚱한 좌표를 클릭하던 부작용을 없앴습니다."
     },
     "REDDOG_hunt": {
-      "version": "2026.07.16.3",
+      "version": "2026.07.16.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.16.3/_delta_REDDOG_hunt.zip",
-      "sha256": "5eef077824586f1f2429f0a3596d4806176d5babf8151ec35572e32781a00cb1",
-      "notes": "배제영역 그리기 개선 + 앵커 제외박스 시각화: (1)꼭짓점 클릭 방식 추가(삼각형 3클릭·사각형 4클릭, 첫점/Enter/우클릭으로 완성, 드래그=프리핸드 유지) (2)'인식점 표시' 켜면 ⊘내머리제외 박스가 분홍색으로 보임 → 앵커가 내 머리에 잡히는지 눈으로 확인·교정 가능."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.16.4/_delta_REDDOG_hunt.zip",
+      "sha256": "6aead624b8cd0fe730ea27be17c55386bd35f2818a4a7ea9b1b0194e803c8592",
+      "notes": "배제영역 캐릭터 따라다님 근본수정: 캡처 기준 앵커를 '실행중일 때만 읽는' 방식에서 '1회 앵커 매칭'(정지 중에도 동작, 런타임과 동일 좌표·머리제외 적용)으로 변경. 정지 중 그리면 화면고정(rel=0)으로 저장돼 화면중앙 캐릭터를 따라다니던 버그 제거. 그릴 때 ⚓ 마커로 기준 앵커 위치 즉시 표시, 앵커 미매칭 시 경고. ※기존에 그린 영역은 전체삭제 후 다시 그리세요."
     }
   }
 }
