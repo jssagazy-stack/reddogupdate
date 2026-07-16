@@ -50,11 +50,11 @@
       "notes": "자동초대: 초대 감지 시 /초대 2회 연속 전송(첫 전송 놓쳐도 둘째로 폴백) + 리셋 방식 개선. 타이밍: 감지 600ms → 1차 /초대 → 500ms → 2차 /초대 → 500ms → 리셋."
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.16.2",
+      "version": "2026.07.17.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.16.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "a3c32339f959bd1c7e824d77cd4e7c44995078d55726953eee657b02754976bb",
-      "notes": "자동파티요청: 초대 요청 전송 후 500ms 뒤 빈 답장 1회로 채팅 한 줄 밀어 파티장(수신)측 초대 감지 재무장을 돕도록 변경."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.17.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "4680a87ee9f4533ef22de7d16b0795439e4de5a151bffb9e1d8145481e0cfcd5",
+      "notes": "좌측 플로팅 파티창 배제박스 - 파티창 영역 월드클릭 우측 밀어내기(오클릭/재확대 차단, 순회 정상)"
     }
   }
 }
