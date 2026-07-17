@@ -35,13 +35,6 @@
       "sha256": "6aead624b8cd0fe730ea27be17c55386bd35f2818a4a7ea9b1b0194e803c8592",
       "notes": "배제영역 캐릭터 따라다님 근본수정: 캡처 기준 앵커를 '실행중일 때만 읽는' 방식에서 '1회 앵커 매칭'(정지 중에도 동작, 런타임과 동일 좌표·머리제외 적용)으로 변경. 정지 중 그리면 화면고정(rel=0)으로 저장돼 화면중앙 캐릭터를 따라다니던 버그 제거. 그릴 때 ⚓ 마커로 기준 앵커 위치 즉시 표시, 앵커 미매칭 시 경고. ※기존에 그린 영역은 전체삭제 후 다시 그리세요."
     },
-    "HealSupporter": {
-      "version": "2026.07.16.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.16.4/_delta_HealSupporter.zip",
-      "sha256": "441f46b0ac19cfdb8df95e67a76edd9c601a27b23620f4f514b5a010050f6a45",
-      "notes": "자동초대: 초대 감지 시 /초대 2회 연속 전송(첫 전송 놓쳐도 둘째로 폴백) + 리셋 방식 개선. 타이밍: 감지 600ms → 1차 /초대 → 500ms → 2차 /초대 → 500ms → 리셋."
-    },
     "sellerbot": {
       "version": "2026.07.16.1",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.17.1/_delta_REDDOG_chaejip.zip",
       "sha256": "4680a87ee9f4533ef22de7d16b0795439e4de5a151bffb9e1d8145481e0cfcd5",
       "notes": "좌측 플로팅 파티창 배제박스 - 파티창 영역 월드클릭 우측 밀어내기(오클릭/재확대 차단, 순회 정상)"
+    },
+    "HealSupporter": {
+      "version": "2026.07.17.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.17.1/_delta_HealSupporter.zip",
+      "sha256": "d21e77ed8ccee6855f03dfc9141f54572446bd4fc3dfe1f50854207afbdb68c1",
+      "notes": "파티창 앵커 인식을 배경에 강인하게 개선(반투명 프레임 뒤 지형이 밝을 때 앵커를 못 찾아 대상 감지가 끊기던 문제 근본수정) + 버프 거리 게이트 추가(가까울 때만 버프 시전, 따라가기 우선)."
     }
   }
 }
