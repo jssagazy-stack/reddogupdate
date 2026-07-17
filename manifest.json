@@ -35,13 +35,6 @@
       "sha256": "6aead624b8cd0fe730ea27be17c55386bd35f2818a4a7ea9b1b0194e803c8592",
       "notes": "배제영역 캐릭터 따라다님 근본수정: 캡처 기준 앵커를 '실행중일 때만 읽는' 방식에서 '1회 앵커 매칭'(정지 중에도 동작, 런타임과 동일 좌표·머리제외 적용)으로 변경. 정지 중 그리면 화면고정(rel=0)으로 저장돼 화면중앙 캐릭터를 따라다니던 버그 제거. 그릴 때 ⚓ 마커로 기준 앵커 위치 즉시 표시, 앵커 미매칭 시 경고. ※기존에 그린 영역은 전체삭제 후 다시 그리세요."
     },
-    "HealSupporter": {
-      "version": "2026.07.17.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.17.1/_delta_HealSupporter.zip",
-      "sha256": "d21e77ed8ccee6855f03dfc9141f54572446bd4fc3dfe1f50854207afbdb68c1",
-      "notes": "파티창 앵커 인식을 배경에 강인하게 개선(반투명 프레임 뒤 지형이 밝을 때 앵커를 못 찾아 대상 감지가 끊기던 문제 근본수정) + 버프 거리 게이트 추가(가까울 때만 버프 시전, 따라가기 우선)."
-    },
     "sellerbot": {
       "version": "2026.07.17.1",
       "type": "delta",
@@ -55,6 +48,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.17.2/_delta_REDDOG_chaejip.zip",
       "sha256": "8401b233fab2279f27b64af285d3a4812d5efa414e1c521c6cbe0eb1de89b240",
       "notes": "파티창 앵커 인식을 배경에 강인하게 개선 — 반투명 프레임 뒤 지형이 밝을 때 앵커를 못 찾던 문제 근본수정(파티 감지 안정화)."
+    },
+    "HealSupporter": {
+      "version": "2026.07.17.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.17.2/_delta_HealSupporter.zip",
+      "sha256": "8eaa1b02a8a7375ea2f9170eaf548e09b8a16b7250cf896a615f722106cdd27a",
+      "notes": "델타 패키지에 파이썬 인터프리터(python*.dll)를 base_library.zip과 함께 포함 — 오래된 설치본에서 업데이트 시 'failed to import encodings' 부팅 실패를 방지합니다. (기능 변경 없음, 이전 버전과 동일)"
     }
   }
 }
