@@ -42,19 +42,19 @@
       "sha256": "8eaa1b02a8a7375ea2f9170eaf548e09b8a16b7250cf896a615f722106cdd27a",
       "notes": "델타 패키지에 파이썬 인터프리터(python*.dll)를 base_library.zip과 함께 포함 — 오래된 설치본에서 업데이트 시 'failed to import encodings' 부팅 실패를 방지합니다. (기능 변경 없음, 이전 버전과 동일)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.17.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.17.3/_delta_REDDOG_chaejip.zip",
-      "sha256": "898e366afc2d67d2e0371c1caba026e95d53b85c202a82ca092f54442092d82b",
-      "notes": "델타 패키지에 파이썬 인터프리터(python*.dll)를 base_library.zip과 함께 포함 — 오래된 설치본에서 업데이트 시 'failed to import encodings' 부팅 실패를 방지합니다. (기능 변경 없음, 이전 버전과 동일)"
-    },
     "sellerbot": {
       "version": "2026.07.17.3",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.17.3/_delta_sellerbot.zip",
       "sha256": "3dfd32f497f3640f645de160262446ef7881037b0ed01b9f303ab25d65ecb4f6",
       "notes": "v12: 창고 접촉실패 영구비활성→15분 보류 후 자동 재시도(whhold) + 커서게이트 실패시 커서 기준점 대피(하이라이트·기준캡처 오염 차단) + hover 대기 80→150ms"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.18.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.18.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "44a071a728592d8157a3b570a0d734b374559c63a67c2c52f4f51d79bf330214",
+      "notes": "파티요청 키입력 타이밍 보강: ←/Del 홀드40ms·간격50ms, 타이핑 홀드30ms, 귓속말창 열림대기 150ms(리셋 Enter 누락·삭제 미완 수정)"
     }
   }
 }
