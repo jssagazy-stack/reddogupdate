@@ -56,19 +56,19 @@
       "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
       "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
     },
-    "CommHealer": {
-      "version": "2026.07.19.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.4/_delta_CommHealer.zip",
-      "sha256": "62e12fe9555009caa67d2261056847b81865fe80fa465cb39c2b7794f16ead95",
-      "notes": "방화벽 UDP 인바운드 자동 허용(두 PC 수신 0패킷 근본해결) + 실패 시 관리자실행 안내"
-    },
     "Sender": {
       "version": "2026.07.19.4",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.4/_delta_Sender.zip",
       "sha256": "4683b061207f33698c702695cd82690b095d41de41b2eab80856f285808a43b6",
       "notes": "방화벽 제어포트(START 수신) 인바운드 자동 허용"
+    },
+    "CommHealer": {
+      "version": "2026.07.19.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.5/_delta_CommHealer.zip",
+      "sha256": "241a2550e8023fb175f65358b7305a67a95b0002faf966978c1805bb932a3700",
+      "notes": "로그 스팸 정리 - 반복 입력(따라가기 클릭·힐/버프키·이동) 로그 debug 강등"
     }
   }
 }
