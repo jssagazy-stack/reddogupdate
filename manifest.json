@@ -56,19 +56,19 @@
       "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
       "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
     },
-    "Sender": {
-      "version": "2026.07.19.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.2/_delta_Sender.zip",
-      "sha256": "894c544b6583740f7adfcff692c79390f02b5640756cf2e4e1f3afc6e4767bef",
-      "notes": "한PC 송수신 포트충돌 수정(송신 임시포트 바인드)"
-    },
     "CommHealer": {
       "version": "2026.07.19.3",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.3/_delta_CommHealer.zip",
       "sha256": "138830d66631652e773f2681691cd2710ca2e59b84dcace4a9b164d3e19a43ac",
       "notes": "창 너비 축소(2줄 배치+창목록 축약) + 시작 시 송신기 원격 자동시작(START 브로드캐스트)"
+    },
+    "Sender": {
+      "version": "2026.07.19.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.3/_delta_Sender.zip",
+      "sha256": "1888a14abb3452f2afdcb5c3e6c18788be4ccfbcf3e85e9ec658fb7f58c9266b",
+      "notes": "힐러 원격시작 수신(제어포트=포트+1 상시 대기) - 통신힐러 시작 시 자동 송신 시작"
     }
   }
 }
