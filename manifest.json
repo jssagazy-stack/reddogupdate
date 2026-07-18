@@ -56,19 +56,19 @@
       "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
       "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
     },
-    "CommHealer": {
-      "version": "2026.07.19.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.1/_delta_CommHealer.zip",
-      "sha256": "2e644489cb74ea19b880bd7fb2f114219c92118e582412e9294ccbd81b2d49c1",
-      "notes": "최초 릴리스 - 투클라 통신 힐러(쫄법사 PC2): 자동힐/해독·타이머버프·따라가기·수동 원격시전"
-    },
     "Sender": {
       "version": "2026.07.19.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.1/_delta_Sender.zip",
       "sha256": "57fceabbddedeeaed07ac5403bf585d62e0e5546ac77c246fd6df2c80b505cea",
       "notes": "최초 릴리스 - 본캐 HP/독 송신기(PC1): hp_meter 회색스캔·수동 원격시전 Alt+1~7·해상도별 캘리브"
+    },
+    "CommHealer": {
+      "version": "2026.07.19.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.2/_delta_CommHealer.zip",
+      "sha256": "87de938c85952bd33ffa10e18acc1be5dfe778a104bf5444f2a2b8275b37ff4d",
+      "notes": "한PC 송수신 포트충돌 수정(송신 임시포트) + 본캐 HP/독/링크 실시간 표시(시작 전에도)·수신 진단(방화벽/토큰 안내)"
     }
   }
 }
