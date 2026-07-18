@@ -56,19 +56,19 @@
       "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
       "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
     },
-    "Sender": {
-      "version": "2026.07.19.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.3/_delta_Sender.zip",
-      "sha256": "1888a14abb3452f2afdcb5c3e6c18788be4ccfbcf3e85e9ec658fb7f58c9266b",
-      "notes": "힐러 원격시작 수신(제어포트=포트+1 상시 대기) - 통신힐러 시작 시 자동 송신 시작"
-    },
     "CommHealer": {
       "version": "2026.07.19.4",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.4/_delta_CommHealer.zip",
       "sha256": "62e12fe9555009caa67d2261056847b81865fe80fa465cb39c2b7794f16ead95",
       "notes": "방화벽 UDP 인바운드 자동 허용(두 PC 수신 0패킷 근본해결) + 실패 시 관리자실행 안내"
+    },
+    "Sender": {
+      "version": "2026.07.19.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.4/_delta_Sender.zip",
+      "sha256": "4683b061207f33698c702695cd82690b095d41de41b2eab80856f285808a43b6",
+      "notes": "방화벽 제어포트(START 수신) 인바운드 자동 허용"
     }
   }
 }
