@@ -64,11 +64,11 @@
       "notes": "릴레이 모드 추가(기본) - 공유기·VPN 뒤 어디서나 IP/포트포워딩/방화벽 설정 없이 토큰만 같으면 연결(중계 경유, 약 0.3초 지연). TCP/UDP도 선택 가능"
     },
     "Sender": {
-      "version": "2026.07.19.7",
+      "version": "2026.07.19.8",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.7/_delta_Sender.zip",
-      "sha256": "257ca0bdbcbf84e67fcf5acb5271ef0015fc9960ca5a9f2d4931b098fac307c2",
-      "notes": "릴레이 모드 추가(기본) - 설정 불필요 원격 연결. 릴레이는 변화 기반 전송으로 트래픽 절감"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.8/_delta_Sender.zip",
+      "sha256": "a4ed34cc069abdcbea303a0647108fea8fda0f7ce45c1c522ab5b05f59c512c7",
+      "notes": "창 너비 축소(2줄 배치+창목록 축약+안내문 줄바꿈, 594→534px). 릴레이 모드 포함"
     }
   }
 }
