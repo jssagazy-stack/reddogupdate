@@ -50,11 +50,11 @@
       "notes": "v12: 창고 접촉실패 영구비활성→15분 보류 후 자동 재시도(whhold) + 커서게이트 실패시 커서 기준점 대피(하이라이트·기준캡처 오염 차단) + hover 대기 80→150ms"
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.18.1",
+      "version": "2026.07.18.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.18.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "44a071a728592d8157a3b570a0d734b374559c63a67c2c52f4f51d79bf330214",
-      "notes": "파티요청 키입력 타이밍 보강: ←/Del 홀드40ms·간격50ms, 타이핑 홀드30ms, 귓속말창 열림대기 150ms(리셋 Enter 누락·삭제 미완 수정)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.18.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "47af0e3db3d90fbefa52da58063f40b66da6c98c9c30719a63a7d591a78e38dd",
+      "notes": "윈드워크 자동시전 옵션 추가: 우측 버프열 template 감시(5초 주기)+만료 시 선택키(기본 F9) 재시전, 쿨다운 2초. 런처 체크박스+키 콤보"
     }
   }
 }
