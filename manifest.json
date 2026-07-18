@@ -50,11 +50,11 @@
       "notes": "v12: 창고 접촉실패 영구비활성→15분 보류 후 자동 재시도(whhold) + 커서게이트 실패시 커서 기준점 대피(하이라이트·기준캡처 오염 차단) + hover 대기 80→150ms"
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.18.2",
+      "version": "2026.07.18.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.18.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "47af0e3db3d90fbefa52da58063f40b66da6c98c9c30719a63a7d591a78e38dd",
-      "notes": "윈드워크 자동시전 옵션 추가: 우측 버프열 template 감시(5초 주기)+만료 시 선택키(기본 F9) 재시전, 쿨다운 2초. 런처 체크박스+키 콤보"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.18.3/_delta_REDDOG_chaejip.zip",
+      "sha256": "32e1c5c8aa69e48afe839bb4675d575b17d15c9b0afa907627017f5e0cafb313",
+      "notes": "윈드워크 감지 임계튜닝(실측 기반): score_threshold 0.8→0.72, confirm_off 4→6(30초). 버프 있는데 만료 오판→재시전되던 오탐 수정(있음 p05 0.782 vs 없음 최대 0.587 실측)"
     }
   }
 }
