@@ -50,11 +50,11 @@
       "notes": "윈드워크 감지 임계튜닝(실측 기반): score_threshold 0.8→0.72, confirm_off 4→6(30초). 버프 있는데 만료 오판→재시전되던 오탐 수정(있음 p05 0.782 vs 없음 최대 0.587 실측)"
     },
     "sagopalgo": {
-      "version": "2026.07.18.2",
+      "version": "2026.07.19.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.18.2/_delta_sagopalgo.zip",
-      "sha256": "631888cc48fbd978497c2cba52fbc2dee22b097f4e3e512f14a85646b065f3b0",
-      "notes": "HWID v2: exclude MAC address (network adapter changes no longer break license). New-format first with legacy fallback - existing bound keys keep working; after a dashboard HWID reset, keys rebind MAC-free permanently."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.19.1/_delta_sagopalgo.zip",
+      "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
+      "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
     }
   }
 }
