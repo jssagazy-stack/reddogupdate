@@ -56,19 +56,19 @@
       "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
       "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
     },
-    "CommHealer": {
-      "version": "2026.07.19.6",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.6/_delta_CommHealer.zip",
-      "sha256": "36e016f65b0caee86d443e88cbba885cea8b5df6d645763a41d5349a9cd5b76e",
-      "notes": "TCP 지원(기본) - 송신기로 접속하는 방식이라 원격지 두 PC도 동작, 이쪽 방화벽 설정 불필요. UDP는 옵션 유지"
-    },
     "Sender": {
       "version": "2026.07.19.6",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.6/_delta_Sender.zip",
       "sha256": "5e0954473e913ddbb045258602489427b8885b6525e3b8a6f64fedbcf13043ca",
       "notes": "TCP 서버 모드(기본) - 힐러가 접속, 원격 가능. 접속 시 자동 송신 시작. UDP는 옵션 유지"
+    },
+    "CommHealer": {
+      "version": "2026.07.19.7",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.7/_delta_CommHealer.zip",
+      "sha256": "6db687587b5f48aaad05041a82a45b3dd4191ba63bc10066a451c593d16ecd04",
+      "notes": "릴레이 모드 추가(기본) - 공유기·VPN 뒤 어디서나 IP/포트포워딩/방화벽 설정 없이 토큰만 같으면 연결(중계 경유, 약 0.3초 지연). TCP/UDP도 선택 가능"
     }
   }
 }
