@@ -55,6 +55,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.19.1/_delta_sagopalgo.zip",
       "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
       "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
+    },
+    "CommHealer": {
+      "version": "2026.07.19.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.1/_delta_CommHealer.zip",
+      "sha256": "2e644489cb74ea19b880bd7fb2f114219c92118e582412e9294ccbd81b2d49c1",
+      "notes": "최초 릴리스 - 투클라 통신 힐러(쫄법사 PC2): 자동힐/해독·타이머버프·따라가기·수동 원격시전"
     }
   }
 }
