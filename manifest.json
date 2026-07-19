@@ -28,13 +28,6 @@
       "sha256": "32e1c5c8aa69e48afe839bb4675d575b17d15c9b0afa907627017f5e0cafb313",
       "notes": "윈드워크 감지 임계튜닝(실측 기반): score_threshold 0.8→0.72, confirm_off 4→6(30초). 버프 있는데 만료 오판→재시전되던 오탐 수정(있음 p05 0.782 vs 없음 최대 0.587 실측)"
     },
-    "MyJjol": {
-      "version": "2026.07.19.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.19.1/_delta_MyJjol.zip",
-      "sha256": "437bc66d1f3dc2db06aa4073762e5d8da2f5cbb4a254178a429b2de5f149745b",
-      "notes": "마이쫄 최초 릴리스 - 쫄법사 자동힐/해독/버프/따라가기(UDP·TCP)"
-    },
     "MyJjolSender": {
       "version": "2026.07.19.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.19.3/_delta_HealSupporter.zip",
       "sha256": "01357604586d66465cb3cafb4bf8179edd229e4c26d24771d89e13ee3bb0bf25",
       "notes": "파티 버프 유령소모 버그 수정(버프 시전을 heal_busy로 원자화 - 자주 힐받는 파티원이 버프 못받던 문제) + 버프행에 실시간 남은쿨다운 표시"
+    },
+    "MyJjol": {
+      "version": "2026.07.19.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.19.2/_delta_MyJjol.zip",
+      "sha256": "22da5acc80e6b31497515a1aec88f171984bff5286f75e53521accac83811f71",
+      "notes": "간단 UI(simple_ui): 기본/버프/고급 3탭 재편, 입력모드 고정(secureinput)·타이머 숨김, 재힐간격 기본 500ms, 첫 실행 순서 안내"
     }
   }
 }
