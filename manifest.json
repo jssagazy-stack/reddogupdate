@@ -69,6 +69,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.9/_delta_Sender.zip",
       "sha256": "e5f1cd1427d468f4cbd4025a2dcb8a3d4a665f137d9120c7b0395934859b823e",
       "notes": "릴레이는 세션코드 입력 방식으로 전환. 힐러 종료/신호두절 30초 시 자동 세션해제+코드 폐기"
+    },
+    "MyJjol": {
+      "version": "2026.07.19.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.19.1/_delta_MyJjol.zip",
+      "sha256": "437bc66d1f3dc2db06aa4073762e5d8da2f5cbb4a254178a429b2de5f149745b",
+      "notes": "마이쫄 최초 릴리스 - 쫄법사 자동힐/해독/버프/따라가기(UDP·TCP)"
     }
   }
 }
