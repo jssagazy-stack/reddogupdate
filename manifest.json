@@ -56,19 +56,19 @@
       "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
       "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
     },
-    "Sender": {
-      "version": "2026.07.19.8",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.8/_delta_Sender.zip",
-      "sha256": "a4ed34cc069abdcbea303a0647108fea8fda0f7ce45c1c522ab5b05f59c512c7",
-      "notes": "창 너비 축소(2줄 배치+창목록 축약+안내문 줄바꿈, 594→534px). 릴레이 모드 포함"
-    },
     "CommHealer": {
       "version": "2026.07.19.9",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.9/_delta_CommHealer.zip",
       "sha256": "40962c8aeb7da3e08b0af7dac5b804079e2d7b93a10945d6a353a8d5480682d2",
       "notes": "릴레이 세션 방식(AnyDesk식) - 1회용 세션코드 자동발급(운영자 비번 잠금, 앱 종료시 리셋) + 세션 종료 버튼 + 하트비트 유지"
+    },
+    "Sender": {
+      "version": "2026.07.19.9",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.9/_delta_Sender.zip",
+      "sha256": "e5f1cd1427d468f4cbd4025a2dcb8a3d4a665f137d9120c7b0395934859b823e",
+      "notes": "릴레이는 세션코드 입력 방식으로 전환. 힐러 종료/신호두절 30초 시 자동 세션해제+코드 폐기"
     }
   }
 }
