@@ -1,12 +1,5 @@
 {
   "products": {
-    "REDDOG_vending": {
-      "version": "2026.07.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.12.1/_delta_REDDOG_vending.zip",
-      "sha256": "e40b62cd42f8dc7d6ce77e44ecd5fb397b337b9631d259347d58effa839e60c9",
-      "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(19곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.15.3",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.19.4/_delta_HealSupporter.zip",
       "sha256": "f96778d8b050c4a6cd24b25694c10c59aa00890258e8f68229046e3649172da1",
       "notes": "파티 힐·버프 근접판정 2단 게이트: 클래스 썸네일 템플릿(창 밖 월드/노란 문구 오탐 차단, 요정·법사 2종) AND 금색비율. 인식테스트·readout에 썸네일 점수 표기"
+    },
+    "REDDOG_vending": {
+      "version": "2026.07.19.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.19.1/_delta_REDDOG_vending.zip",
+      "sha256": "79b328a47d7a72ae2a6011a7f826e983ba3e87ff0ecae9de783da8643554751c",
+      "notes": "파티헤이 파티창 v2 전환(partyslot 상시앵커링, 1열 가변·플로팅 개편 대응) + 근접판정 2단 게이트(썸네일 템플릿 AND 금색비율)"
     }
   }
 }
