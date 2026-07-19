@@ -56,13 +56,6 @@
       "sha256": "8a8b278c493ec6628a062613cfbb7b651231391d0b433bd34cd1b0e301d0c855",
       "notes": "별명 입력(릴레이 접속 시 상대에게 표시) + 수락 대기/거절 처리"
     },
-    "HealSupporter": {
-      "version": "2026.07.19.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.19.2/_delta_HealSupporter.zip",
-      "sha256": "309e9468c4a8d4fc5bcf20576b3fdc428d4fb91bf7036ae6c949cc3a56e3d47e",
-      "notes": "파티 동시위험 시 힐이 자힐로 오발되던 문제 수정 - 파티 힐 F5→클릭을 heal_busy로 원자화(끼어들기 차단, 클릭이 다음 F5보다 먼저 보장). 최대횟수·메디 보존"
-    },
     "sagopalgo": {
       "version": "2026.07.19.3",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.19.1/_delta_sellerbot.zip",
       "sha256": "306a704425fc3c3842d476c04c761450a455fb02484835d3c8b3284673de9ca4",
       "notes": "파티헤이 허공시전 근본수정: 클래스 썸네일 템플릿 게이트(파티 인원보다 아래 슬롯이 창 밖 월드/노란 상점문구를 근접 오탐하던 것 차단, 요정·법사 2종) + 인식테스트 썸네일 점수 표기"
+    },
+    "HealSupporter": {
+      "version": "2026.07.19.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.19.3/_delta_HealSupporter.zip",
+      "sha256": "01357604586d66465cb3cafb4bf8179edd229e4c26d24771d89e13ee3bb0bf25",
+      "notes": "파티 버프 유령소모 버그 수정(버프 시전을 heal_busy로 원자화 - 자주 힐받는 파티원이 버프 못받던 문제) + 버프행에 실시간 남은쿨다운 표시"
     }
   }
 }
