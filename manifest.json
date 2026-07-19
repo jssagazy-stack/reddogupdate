@@ -14,13 +14,6 @@
       "sha256": "05809e961b8ad220bade6bb7eaca184997beaa03842edb1103b08277936f5a52",
       "notes": "임시 게임설정 캡처 버튼 제거"
     },
-    "sise": {
-      "version": "2026.07.15.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sise-2026.07.15.2/_delta_sise.zip",
-      "sha256": "a8db5c3dd9f3763a4d67ca4d16b00c019b73ed2ec99f888dfa8c2eee389a4f35",
-      "notes": "Fix: bundled market library seed was missing from delta package; now shipped with updates"
-    },
     "REDDOG_hunt": {
       "version": "2026.07.16.4",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.19.3/_delta_sagopalgo.zip",
       "sha256": "68189bb29999572c930b116cfe567b6f846799976d2de056219667061d0ccd34",
       "notes": "Nearby-shop auto scan (manual button v1): /trade-filter per item, blinking white-arrow accumulation scan within 8-direction range polygon, NPC-cursor gate before click, reuses per-shop collect sequence. Requires fully stopped own shop."
+    },
+    "sise": {
+      "version": "2026.07.19.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sise-2026.07.19.1/_delta_sise.zip",
+      "sha256": "fa409ebbd75bed40aa63950fb589c3914bfa7ee3a5361c9d17e03615ec4f8747",
+      "notes": "Nearby-shop auto scan (manual button v1) added to collector."
     }
   }
 }
