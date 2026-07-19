@@ -56,13 +56,6 @@
       "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
       "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
     },
-    "CommHealer": {
-      "version": "2026.07.19.9",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.9/_delta_CommHealer.zip",
-      "sha256": "40962c8aeb7da3e08b0af7dac5b804079e2d7b93a10945d6a353a8d5480682d2",
-      "notes": "릴레이 세션 방식(AnyDesk식) - 1회용 세션코드 자동발급(운영자 비번 잠금, 앱 종료시 리셋) + 세션 종료 버튼 + 하트비트 유지"
-    },
     "Sender": {
       "version": "2026.07.19.9",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.19.1/_delta_MyJjolSender.zip",
       "sha256": "7390f7bf719233889d6c41388036a8f47b0204b984f1ca64c468d00c30454993",
       "notes": "마이쫄 송신기 최초 릴리스 - 본캐 HP/독 송신 + 수동 원격시전(Alt+1~7)"
+    },
+    "CommHealer": {
+      "version": "2026.07.19.10",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.10/_delta_CommHealer.zip",
+      "sha256": "ad4cb7756da72fc0583d65ccae2a9a9a0187f6a0c8caf6c9de4a32eb8dfa9957",
+      "notes": "제품 분기 구조 + 릴레이 별명·수락 방식(누가 연결하는지 확인 후 승인, 수락 전 HP/명령 차단)"
     }
   }
 }
