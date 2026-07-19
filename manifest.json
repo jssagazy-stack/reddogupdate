@@ -78,11 +78,11 @@
       "notes": "간단 UI(simple_ui): 통합 HP바 캘리브(드래그+회색클릭 1버튼)+[고급 설정] 접기, 첫 실행 순서 안내, import os 누락 수정"
     },
     "REDDOG_vending": {
-      "version": "2026.07.19.1",
+      "version": "2026.07.19.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.19.1/_delta_REDDOG_vending.zip",
-      "sha256": "29a9ed977eebeb35f78b50073570a8e80220b34898fbee755b10f9c3b4a9de37",
-      "notes": "파티창 v2 템플릿 누락 수정(vending.spec에 party_ui 동봉 — 앵커·클래스 썸네일). .1은 템플릿 미동봉으로 파티헤이 미동작"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.19.2/_delta_REDDOG_vending.zip",
+      "sha256": "d51ad00d3e343417419b2729221dc32f2229c0897a63f29ad2904edef2eb9f0a",
+      "notes": "v2 전환 후속수정: init_ph_en(ph_active) v2 강제0 회귀 제거 — 재고소진 시 '판매만 중단·헤이 계속' 분기 복원(startup_phif 있는 제품만 v2 강제0)"
     }
   }
 }
