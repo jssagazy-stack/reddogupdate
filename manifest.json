@@ -56,13 +56,6 @@
       "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
       "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
     },
-    "Sender": {
-      "version": "2026.07.19.9",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.9/_delta_Sender.zip",
-      "sha256": "e5f1cd1427d468f4cbd4025a2dcb8a3d4a665f137d9120c7b0395934859b823e",
-      "notes": "릴레이는 세션코드 입력 방식으로 전환. 힐러 종료/신호두절 30초 시 자동 세션해제+코드 폐기"
-    },
     "MyJjol": {
       "version": "2026.07.19.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.19.10/_delta_CommHealer.zip",
       "sha256": "ad4cb7756da72fc0583d65ccae2a9a9a0187f6a0c8caf6c9de4a32eb8dfa9957",
       "notes": "제품 분기 구조 + 릴레이 별명·수락 방식(누가 연결하는지 확인 후 승인, 수락 전 HP/명령 차단)"
+    },
+    "Sender": {
+      "version": "2026.07.19.10",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.10/_delta_Sender.zip",
+      "sha256": "8a8b278c493ec6628a062613cfbb7b651231391d0b433bd34cd1b0e301d0c855",
+      "notes": "별명 입력(릴레이 접속 시 상대에게 표시) + 수락 대기/거절 처리"
     }
   }
 }
