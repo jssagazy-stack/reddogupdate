@@ -21,13 +21,6 @@
       "sha256": "6aead624b8cd0fe730ea27be17c55386bd35f2818a4a7ea9b1b0194e803c8592",
       "notes": "배제영역 캐릭터 따라다님 근본수정: 캡처 기준 앵커를 '실행중일 때만 읽는' 방식에서 '1회 앵커 매칭'(정지 중에도 동작, 런타임과 동일 좌표·머리제외 적용)으로 변경. 정지 중 그리면 화면고정(rel=0)으로 저장돼 화면중앙 캐릭터를 따라다니던 버그 제거. 그릴 때 ⚓ 마커로 기준 앵커 위치 즉시 표시, 앵커 미매칭 시 경고. ※기존에 그린 영역은 전체삭제 후 다시 그리세요."
     },
-    "sellerbot": {
-      "version": "2026.07.17.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.17.3/_delta_sellerbot.zip",
-      "sha256": "3dfd32f497f3640f645de160262446ef7881037b0ed01b9f303ab25d65ecb4f6",
-      "notes": "v12: 창고 접촉실패 영구비활성→15분 보류 후 자동 재시도(whhold) + 커서게이트 실패시 커서 기준점 대피(하이라이트·기준캡처 오염 차단) + hover 대기 80→150ms"
-    },
     "REDDOG_chaejip": {
       "version": "2026.07.18.3",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sise-2026.07.19.1/_delta_sise.zip",
       "sha256": "fa409ebbd75bed40aa63950fb589c3914bfa7ee3a5361c9d17e03615ec4f8747",
       "notes": "Nearby-shop auto scan (manual button v1) added to collector."
+    },
+    "sellerbot": {
+      "version": "2026.07.19.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.19.1/_delta_sellerbot.zip",
+      "sha256": "306a704425fc3c3842d476c04c761450a455fb02484835d3c8b3284673de9ca4",
+      "notes": "파티헤이 허공시전 근본수정: 클래스 썸네일 템플릿 게이트(파티 인원보다 아래 슬롯이 창 밖 월드/노란 상점문구를 근접 오탐하던 것 차단, 요정·법사 2종) + 인식테스트 썸네일 점수 표기"
     }
   }
 }
