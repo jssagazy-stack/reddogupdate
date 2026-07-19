@@ -1,12 +1,5 @@
 {
   "products": {
-    "REDDOG_vending": {
-      "version": "2026.07.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.12.1/_delta_REDDOG_vending.zip",
-      "sha256": "e40b62cd42f8dc7d6ce77e44ecd5fb397b337b9631d259347d58effa839e60c9",
-      "notes": "키 홀드 랜덤 지터 적용 — 키를 누르고 있는 시간(19곳)이 고정값이던 것을 랜덤화(상향 전용, 짧아지지 않음)."
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.15.3",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.19.2/_delta_MyJjolSender.zip",
       "sha256": "584bac4454e11b3fd3d678d837ee5489593001c0e671e7d0838e02df1d6c0afa",
       "notes": "간단 UI(simple_ui): 통합 HP바 캘리브(드래그+회색클릭 1버튼)+[고급 설정] 접기, 첫 실행 순서 안내, import os 누락 수정"
+    },
+    "REDDOG_vending": {
+      "version": "2026.07.19.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.19.1/_delta_REDDOG_vending.zip",
+      "sha256": "29a9ed977eebeb35f78b50073570a8e80220b34898fbee755b10f9c3b4a9de37",
+      "notes": "파티창 v2 템플릿 누락 수정(vending.spec에 party_ui 동봉 — 앵커·클래스 썸네일). .1은 템플릿 미동봉으로 파티헤이 미동작"
     }
   }
 }
