@@ -70,19 +70,19 @@
       "sha256": "8a8b278c493ec6628a062613cfbb7b651231391d0b433bd34cd1b0e301d0c855",
       "notes": "별명 입력(릴레이 접속 시 상대에게 표시) + 수락 대기/거절 처리"
     },
-    "sagopalgo": {
-      "version": "2026.07.19.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.19.2/_delta_sagopalgo.zip",
-      "sha256": "e94b0185cdc23b72f69a9f93a952cd3f6d7cbfdd1b431d45ea549a9291a6850b",
-      "notes": "Market-price auto adjustment (start briefing, band clamp, sample-min option), session continuity (slot adoption popup, ledger persistence, auto-updated stock sheet), pre-registration guard, sellerbot-identical drag timing with jitter."
-    },
     "HealSupporter": {
       "version": "2026.07.19.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.19.2/_delta_HealSupporter.zip",
       "sha256": "309e9468c4a8d4fc5bcf20576b3fdc428d4fb91bf7036ae6c949cc3a56e3d47e",
       "notes": "파티 동시위험 시 힐이 자힐로 오발되던 문제 수정 - 파티 힐 F5→클릭을 heal_busy로 원자화(끼어들기 차단, 클릭이 다음 F5보다 먼저 보장). 최대횟수·메디 보존"
+    },
+    "sagopalgo": {
+      "version": "2026.07.19.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.19.3/_delta_sagopalgo.zip",
+      "sha256": "68189bb29999572c930b116cfe567b6f846799976d2de056219667061d0ccd34",
+      "notes": "Nearby-shop auto scan (manual button v1): /trade-filter per item, blinking white-arrow accumulation scan within 8-direction range polygon, NPC-cursor gate before click, reuses per-shop collect sequence. Requires fully stopped own shop."
     }
   }
 }
