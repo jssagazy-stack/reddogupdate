@@ -49,13 +49,6 @@
       "sha256": "32e1c5c8aa69e48afe839bb4675d575b17d15c9b0afa907627017f5e0cafb313",
       "notes": "윈드워크 감지 임계튜닝(실측 기반): score_threshold 0.8→0.72, confirm_off 4→6(30초). 버프 있는데 만료 오판→재시전되던 오탐 수정(있음 p05 0.782 vs 없음 최대 0.587 실측)"
     },
-    "sagopalgo": {
-      "version": "2026.07.19.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.19.1/_delta_sagopalgo.zip",
-      "sha256": "a60472c199d762facfd00aa6046d1848c46a145549bc06c186228893392ab7e0",
-      "notes": "Sell last item for buy-disabled products (auto-registered single kept instead of cancelled); usage guide added to Game tab; mouse-corner failsafe removed (stop = End key or stop button)."
-    },
     "MyJjol": {
       "version": "2026.07.19.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.10/_delta_Sender.zip",
       "sha256": "8a8b278c493ec6628a062613cfbb7b651231391d0b433bd34cd1b0e301d0c855",
       "notes": "별명 입력(릴레이 접속 시 상대에게 표시) + 수락 대기/거절 처리"
+    },
+    "sagopalgo": {
+      "version": "2026.07.19.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.19.2/_delta_sagopalgo.zip",
+      "sha256": "e94b0185cdc23b72f69a9f93a952cd3f6d7cbfdd1b431d45ea549a9291a6850b",
+      "notes": "Market-price auto adjustment (start briefing, band clamp, sample-min option), session continuity (slot adoption popup, ledger persistence, auto-updated stock sheet), pre-registration guard, sellerbot-identical drag timing with jitter."
     }
   }
 }
