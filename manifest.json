@@ -76,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.19.1/_delta_MyJjol.zip",
       "sha256": "437bc66d1f3dc2db06aa4073762e5d8da2f5cbb4a254178a429b2de5f149745b",
       "notes": "마이쫄 최초 릴리스 - 쫄법사 자동힐/해독/버프/따라가기(UDP·TCP)"
+    },
+    "MyJjolSender": {
+      "version": "2026.07.19.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.19.1/_delta_MyJjolSender.zip",
+      "sha256": "7390f7bf719233889d6c41388036a8f47b0204b984f1ca64c468d00c30454993",
+      "notes": "마이쫄 송신기 최초 릴리스 - 본캐 HP/독 송신 + 수동 원격시전(Alt+1~7)"
     }
   }
 }
