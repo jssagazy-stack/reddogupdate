@@ -42,13 +42,6 @@
       "sha256": "fa409ebbd75bed40aa63950fb589c3914bfa7ee3a5361c9d17e03615ec4f8747",
       "notes": "Nearby-shop auto scan (manual button v1) added to collector."
     },
-    "MyJjolSender": {
-      "version": "2026.07.19.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.19.2/_delta_MyJjolSender.zip",
-      "sha256": "584bac4454e11b3fd3d678d837ee5489593001c0e671e7d0838e02df1d6c0afa",
-      "notes": "간단 UI(simple_ui): 통합 HP바 캘리브(드래그+회색클릭 1버튼)+[고급 설정] 접기, 첫 실행 순서 안내, import os 누락 수정"
-    },
     "sellerbot": {
       "version": "2026.07.20.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.20.3/_delta_REDDOG_hunt.zip",
       "sha256": "82bf51ce3b3fa0d88a2bef1863ad5bbff49af87897f101b05db52e9b9b59debb",
       "notes": "소울 체력 우선 게이트: HP가 힐 임계 이하(위험)면 소울을 건너뛴다. 종전엔 소울이 본 흐름 인라인이라 인터럽트 체계 밖에서 무조건 시전됐고 쿨다운 2초가 힐 재발동 2.6초보다 짧아, 체력이 임계 밑인데도 힐보다 소울이 먼저·더 자주 나갔다(소울이 마나를 쓰면 트리거가 계속 참이 되는 자기강화 루프 포함). 체력센서 미사용/미캘리브면 종전대로 통과"
+    },
+    "MyJjolSender": {
+      "version": "2026.07.20.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.20.1/_delta_MyJjolSender.zip",
+      "sha256": "d20ba038a723c7488d059c32198404c100d7306ba6ab73e81adce0594de48d68",
+      "notes": "간단 UI 개선: 본문=본캐 HP 실시간 표시(시작 전 측정 확인), 캘리브(통합+개별)는 [고급 설정] 안으로 이동"
     }
   }
 }
