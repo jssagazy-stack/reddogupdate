@@ -78,11 +78,11 @@
       "notes": "갇힘 조기판정(장면 재방문 NCC, ~10초 내 F12)+공격막힘 수직우회(시계/반시계 200px)+파티창 배제박스 실시간 갱신(파티 생성/창이동/재확대 커버)+창고 중 클램프 해제 (.1은 버전스탬프 미내장 재발행)"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.20.1",
+      "version": "2026.07.20.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.20.1/_delta_REDDOG_hunt.zip",
-      "sha256": "51c662058f6c5581870671b6748b33ea1d906df9d5acc0625b3d0209d2141e62",
-      "notes": "랜덤 배회 조건 수정: 위치복귀(앵커) ON + 순회좌표 0개 일 때만 배회. 위치복귀 OFF 면 제자리 대기(종전엔 위치복귀를 꺼도 배회가 돌았고, 이때 가두리 반경이 시드되지 않아 캐릭터 위치 기준으로 계속 표류했습니다)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.20.2/_delta_REDDOG_hunt.zip",
+      "sha256": "bfcf78bdf53bad1bdf644a79a173d2517ba2d1d5a509e17f3fbc8da8714e8d65",
+      "notes": "근/원거리 전환 시 커서 핸들 자동 초기화(무기별 공격커서 모양이 달라 다음 [시작] 때 자동 재캡처) + 원거리 전용 센서(화살소진·소울) 자동 ON/OFF"
     }
   }
 }
