@@ -78,11 +78,11 @@
       "notes": "클래스 썸네일 템플릿 4종 완비(군주·기사 추가, 라이브 검증 — 전 클래스 파티원 헤이 근접 인식)"
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.20.1",
+      "version": "2026.07.20.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.20.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "e284dcc312f7dcd5448dd6b019908ab39c99daa50e169731028c1b99e9c76b5b",
-      "notes": "갇힘 조기판정(장면 재방문 NCC, ~10초 내 F12)+공격막힘 수직우회(시계/반시계 200px)+파티창 배제박스 실시간 갱신(파티 생성/창이동/재확대 커버)+창고 중 클램프 해제"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.20.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "930b36aae365afc2f16cb56c922bb080721900cba414e62a297a7a1365d91fcf",
+      "notes": "갇힘 조기판정(장면 재방문 NCC, ~10초 내 F12)+공격막힘 수직우회(시계/반시계 200px)+파티창 배제박스 실시간 갱신(파티 생성/창이동/재확대 커버)+창고 중 클램프 해제 (.1은 버전스탬프 미내장 재발행)"
     }
   }
 }
