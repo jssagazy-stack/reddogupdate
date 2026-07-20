@@ -7,13 +7,6 @@
       "sha256": "05809e961b8ad220bade6bb7eaca184997beaa03842edb1103b08277936f5a52",
       "notes": "임시 게임설정 캡처 버튼 제거"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.16.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.16.4/_delta_REDDOG_hunt.zip",
-      "sha256": "6aead624b8cd0fe730ea27be17c55386bd35f2818a4a7ea9b1b0194e803c8592",
-      "notes": "배제영역 캐릭터 따라다님 근본수정: 캡처 기준 앵커를 '실행중일 때만 읽는' 방식에서 '1회 앵커 매칭'(정지 중에도 동작, 런타임과 동일 좌표·머리제외 적용)으로 변경. 정지 중 그리면 화면고정(rel=0)으로 저장돼 화면중앙 캐릭터를 따라다니던 버그 제거. 그릴 때 ⚓ 마커로 기준 앵커 위치 즉시 표시, 앵커 미매칭 시 경고. ※기존에 그린 영역은 전체삭제 후 다시 그리세요."
-    },
     "MyJjol": {
       "version": "2026.07.19.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.20.2/_delta_REDDOG_chaejip.zip",
       "sha256": "930b36aae365afc2f16cb56c922bb080721900cba414e62a297a7a1365d91fcf",
       "notes": "갇힘 조기판정(장면 재방문 NCC, ~10초 내 F12)+공격막힘 수직우회(시계/반시계 200px)+파티창 배제박스 실시간 갱신(파티 생성/창이동/재확대 커버)+창고 중 클램프 해제 (.1은 버전스탬프 미내장 재발행)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.20.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.20.1/_delta_REDDOG_hunt.zip",
+      "sha256": "51c662058f6c5581870671b6748b33ea1d906df9d5acc0625b3d0209d2141e62",
+      "notes": "랜덤 배회 조건 수정: 위치복귀(앵커) ON + 순회좌표 0개 일 때만 배회. 위치복귀 OFF 면 제자리 대기(종전엔 위치복귀를 꺼도 배회가 돌았고, 이때 가두리 반경이 시드되지 않아 캐릭터 위치 기준으로 계속 표류했습니다)"
     }
   }
 }
