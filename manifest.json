@@ -56,13 +56,6 @@
       "sha256": "fa409ebbd75bed40aa63950fb589c3914bfa7ee3a5361c9d17e03615ec4f8747",
       "notes": "Nearby-shop auto scan (manual button v1) added to collector."
     },
-    "sellerbot": {
-      "version": "2026.07.19.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.19.1/_delta_sellerbot.zip",
-      "sha256": "306a704425fc3c3842d476c04c761450a455fb02484835d3c8b3284673de9ca4",
-      "notes": "파티헤이 허공시전 근본수정: 클래스 썸네일 템플릿 게이트(파티 인원보다 아래 슬롯이 창 밖 월드/노란 상점문구를 근접 오탐하던 것 차단, 요정·법사 2종) + 인식테스트 썸네일 점수 표기"
-    },
     "HealSupporter": {
       "version": "2026.07.19.4",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.19.2/_delta_REDDOG_vending.zip",
       "sha256": "d51ad00d3e343417419b2729221dc32f2229c0897a63f29ad2904edef2eb9f0a",
       "notes": "v2 전환 후속수정: init_ph_en(ph_active) v2 강제0 회귀 제거 — 재고소진 시 '판매만 중단·헤이 계속' 분기 복원(startup_phif 있는 제품만 v2 강제0)"
+    },
+    "sellerbot": {
+      "version": "2026.07.20.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.20.1/_delta_sellerbot.zip",
+      "sha256": "8d7fa6e0163f21530a967ca3862bc2dc8404ee2255e53ed8cdedaac1356839db",
+      "notes": "클래스 썸네일 템플릿 4종 완비(군주·기사 추가, 라이브 4클래스 발광 검증 — 전 클래스 파티원 근접 인식)"
     }
   }
 }
