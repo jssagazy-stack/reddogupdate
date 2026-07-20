@@ -14,13 +14,6 @@
       "sha256": "6aead624b8cd0fe730ea27be17c55386bd35f2818a4a7ea9b1b0194e803c8592",
       "notes": "배제영역 캐릭터 따라다님 근본수정: 캡처 기준 앵커를 '실행중일 때만 읽는' 방식에서 '1회 앵커 매칭'(정지 중에도 동작, 런타임과 동일 좌표·머리제외 적용)으로 변경. 정지 중 그리면 화면고정(rel=0)으로 저장돼 화면중앙 캐릭터를 따라다니던 버그 제거. 그릴 때 ⚓ 마커로 기준 앵커 위치 즉시 표시, 앵커 미매칭 시 경고. ※기존에 그린 영역은 전체삭제 후 다시 그리세요."
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.18.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.18.3/_delta_REDDOG_chaejip.zip",
-      "sha256": "32e1c5c8aa69e48afe839bb4675d575b17d15c9b0afa907627017f5e0cafb313",
-      "notes": "윈드워크 감지 임계튜닝(실측 기반): score_threshold 0.8→0.72, confirm_off 4→6(30초). 버프 있는데 만료 오판→재시전되던 오탐 수정(있음 p05 0.782 vs 없음 최대 0.587 실측)"
-    },
     "MyJjol": {
       "version": "2026.07.19.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.20.1/_delta_REDDOG_vending.zip",
       "sha256": "c63acbdcd8309d3996a11552f37858b81ff8a942d9522bee6fca8b752ffae8fb",
       "notes": "클래스 썸네일 템플릿 4종 완비(군주·기사 추가, 라이브 검증 — 전 클래스 파티원 헤이 근접 인식)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.20.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.20.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "e284dcc312f7dcd5448dd6b019908ab39c99daa50e169731028c1b99e9c76b5b",
+      "notes": "갇힘 조기판정(장면 재방문 NCC, ~10초 내 F12)+공격막힘 수직우회(시계/반시계 200px)+파티창 배제박스 실시간 갱신(파티 생성/창이동/재확대 커버)+창고 중 클램프 해제"
     }
   }
 }
