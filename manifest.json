@@ -1,12 +1,5 @@
 {
   "products": {
-    "REDDOG_npc_search": {
-      "version": "2026.07.15.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.15.3/_delta_REDDOG_npc_search.zip",
-      "sha256": "05809e961b8ad220bade6bb7eaca184997beaa03842edb1103b08277936f5a52",
-      "notes": "임시 게임설정 캡처 버튼 제거"
-    },
     "MyJjol": {
       "version": "2026.07.19.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.21.2/_delta_REDDOG_chaejip.zip",
       "sha256": "4df69573d224804947595a7fefca4f6e3462f56f45ab8fb62be3f74dd1cb5d9e",
       "notes": "★.1 배선수정: 우회 1단 이동클릭 누락(도달불가) 복구 — 우회 ㄱ자 2단 정상화. 그 외 .1과 동일"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.07.21.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.21.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "7a35bd7c2782b30bd0969b03e13723b396c30f273f211ffd491ab19b5a443f77",
+      "notes": "클라 해상도 Win32 자동 리사이즈(인게임 창모드 클릭 c4 제거) / 커서 핸들 세션검증(PID+채팅창 기준점 ui_ref) — HWND 재활용으로 죽은 핸들 재사용하던 것 차단"
     }
   }
 }
