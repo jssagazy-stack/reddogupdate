@@ -70,19 +70,19 @@
       "sha256": "d20ba038a723c7488d059c32198404c100d7306ba6ab73e81adce0594de48d68",
       "notes": "간단 UI 개선: 본문=본캐 HP 실시간 표시(시작 전 측정 확인), 캘리브(통합+개별)는 [고급 설정] 안으로 이동"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.21.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.21.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "4df69573d224804947595a7fefca4f6e3462f56f45ab8fb62be3f74dd1cb5d9e",
-      "notes": "★.1 배선수정: 우회 1단 이동클릭 누락(도달불가) 복구 — 우회 ㄱ자 2단 정상화. 그 외 .1과 동일"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.21.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.21.1/_delta_REDDOG_npc_search.zip",
       "sha256": "7a35bd7c2782b30bd0969b03e13723b396c30f273f211ffd491ab19b5a443f77",
       "notes": "클라 해상도 Win32 자동 리사이즈(인게임 창모드 클릭 c4 제거) / 커서 핸들 세션검증(PID+채팅창 기준점 ui_ref) — HWND 재활용으로 죽은 핸들 재사용하던 것 차단"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.21.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.21.3/_delta_REDDOG_chaejip.zip",
+      "sha256": "d7748df92ea3453f087735febddc6a0942293aef73aa727fc5ec73dfd45ecf4d",
+      "notes": "순환좌표 12시·6시 이동클릭 스킵 근본수정: 이동센서 ROI 세로 맹점 해소(높이 32→80) + 클릭 4면 안전클램프(화면 밖 클릭 방지) + 정돌 줍기 우회를 공격 ㄱ자 2단 우회로 통일(순회 방향 증발 제거, 재클릭 카운터 리셋)"
     }
   }
 }
