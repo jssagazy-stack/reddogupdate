@@ -56,13 +56,6 @@
       "sha256": "7a35bd7c2782b30bd0969b03e13723b396c30f273f211ffd491ab19b5a443f77",
       "notes": "클라 해상도 Win32 자동 리사이즈(인게임 창모드 클릭 c4 제거) / 커서 핸들 세션검증(PID+채팅창 기준점 ui_ref) — HWND 재활용으로 죽은 핸들 재사용하던 것 차단"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.21.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.21.3/_delta_REDDOG_chaejip.zip",
-      "sha256": "d7748df92ea3453f087735febddc6a0942293aef73aa727fc5ec73dfd45ecf4d",
-      "notes": "순환좌표 12시·6시 이동클릭 스킵 근본수정: 이동센서 ROI 세로 맹점 해소(높이 32→80) + 클릭 4면 안전클램프(화면 밖 클릭 방지) + 정돌 줍기 우회를 공격 ㄱ자 2단 우회로 통일(순회 방향 증발 제거, 재클릭 카운터 리셋)"
-    },
     "HealSupporter": {
       "version": "2026.07.21.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.21.3/_delta_REDDOG_hunt.zip",
       "sha256": "1340c9d7e47d4bbdee7a03e31ebf18e6a3cd0367468a1756bef97428c49b4bc2",
       "notes": "강등(노랑) 기록 상한 16→5 (화면이 노랑으로 덮이는 것 억제. 강등은 소프트 우선순위라 사냥엔 무영향—전부 강등이어도 최근접 후보를 잡고 커서확인이 재필터). 오버레이 상한도 동기화"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.21.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.21.4/_delta_REDDOG_chaejip.zip",
+      "sha256": "9b4dba06623164d2a58dc1bb5c48fd6812e711ff761a39911f43599294e01207",
+      "notes": "커서 게이트 근본 재설계: 시작 무조건 캡처(스킵 제거)+캡처 2회 컨펌+채팅창 normal / 런타임 게이트 폴링 / 자가치유(cur_fail>=4 → 창고지기 재캡처, 2회 실패 시 정지+알림) — '엔트 보면 텔포' 근본수정"
     }
   }
 }
