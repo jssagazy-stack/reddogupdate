@@ -49,13 +49,6 @@
       "sha256": "d20ba038a723c7488d059c32198404c100d7306ba6ab73e81adce0594de48d68",
       "notes": "간단 UI 개선: 본문=본캐 HP 실시간 표시(시작 전 측정 확인), 캘리브(통합+개별)는 [고급 설정] 안으로 이동"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.07.21.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.21.1/_delta_REDDOG_npc_search.zip",
-      "sha256": "7a35bd7c2782b30bd0969b03e13723b396c30f273f211ffd491ab19b5a443f77",
-      "notes": "클라 해상도 Win32 자동 리사이즈(인게임 창모드 클릭 c4 제거) / 커서 핸들 세션검증(PID+채팅창 기준점 ui_ref) — HWND 재활용으로 죽은 핸들 재사용하던 것 차단"
-    },
     "HealSupporter": {
       "version": "2026.07.21.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.21.4/_delta_REDDOG_chaejip.zip",
       "sha256": "9b4dba06623164d2a58dc1bb5c48fd6812e711ff761a39911f43599294e01207",
       "notes": "커서 게이트 근본 재설계: 시작 무조건 캡처(스킵 제거)+캡처 2회 컨펌+채팅창 normal / 런타임 게이트 폴링 / 자가치유(cur_fail>=4 → 창고지기 재캡처, 2회 실패 시 정지+알림) — '엔트 보면 텔포' 근본수정"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.07.21.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.21.2/_delta_REDDOG_npc_search.zip",
+      "sha256": "a2e13a79907a11bd01d221aba06aa7b63bbe3cc57374d7aeb85bfa6b0aba7657",
+      "notes": "커서 캡처 개선: 시작 무조건 캡처(스킵 제거)+캡처 2회 컨펌+채팅창 normal(±십자 폐지) / 런타임 게이트 폴링 — 오염된 talk_npc 저장 원천차단"
     }
   }
 }
