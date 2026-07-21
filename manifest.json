@@ -42,13 +42,6 @@
       "sha256": "c63acbdcd8309d3996a11552f37858b81ff8a942d9522bee6fca8b752ffae8fb",
       "notes": "클래스 썸네일 템플릿 4종 완비(군주·기사 추가, 라이브 검증 — 전 클래스 파티원 헤이 근접 인식)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.20.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.20.3/_delta_REDDOG_hunt.zip",
-      "sha256": "82bf51ce3b3fa0d88a2bef1863ad5bbff49af87897f101b05db52e9b9b59debb",
-      "notes": "소울 체력 우선 게이트: HP가 힐 임계 이하(위험)면 소울을 건너뛴다. 종전엔 소울이 본 흐름 인라인이라 인터럽트 체계 밖에서 무조건 시전됐고 쿨다운 2초가 힐 재발동 2.6초보다 짧아, 체력이 임계 밑인데도 힐보다 소울이 먼저·더 자주 나갔다(소울이 마나를 쓰면 트리거가 계속 참이 되는 자기강화 루프 포함). 체력센서 미사용/미캘리브면 종전대로 통과"
-    },
     "MyJjolSender": {
       "version": "2026.07.20.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.07.21.1/_delta_sellerbot.zip",
       "sha256": "e89e75e0bd74c9f3fd510fb7f6406acde9e7465d79aa64466084e533176f9dbd",
       "notes": "자동초대 매크로 키 씹힘 방지 보강: 따옴표 입력 후 귓속말창 열림 대기 150ms 신설(대기 없이 후속 방향키가 도착하면 창이 열리기 전 소모됨) + 타이핑 간격 50ms·글자 홀드 30ms(백엔드 기본 12ms는 저프레임에서 씹힘). 방향키/Del/Enter 홀드 50ms는 종전대로. 채집 자동파티요청·힐서포터와 동일 대책."
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.21.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.21.1/_delta_REDDOG_hunt.zip",
+      "sha256": "95efa06be7d5661c569ae1d7a2545b987a565a71359e902154ea3c46d07e9647",
+      "notes": "줍기 HP 게이트(HP 위험이면 줍기 스킵 — 줍기 좌클릭은 제자리고정이 안 걸려 드랍까지 걸어가 위험지역 노출을 늘림) + 배회 억제(빈 서치 3회 연속 후에만 배회, 그 전엔 제자리 재서치 + 방문됨 배제 2초→1초 단축 — 몹이 있는데 필터탈락으로 즉시 배회하던 것 완화)"
     }
   }
 }
