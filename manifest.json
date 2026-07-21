@@ -78,11 +78,11 @@
       "notes": "자동초대 매크로 키 씹힘 방지 보강: 따옴표 입력 후 귓속말창 열림 대기 150ms 신설(대기 없이 후속 방향키가 도착하면 창이 열리기 전 소모됨) + 타이핑 간격 50ms·글자 홀드 30ms(백엔드 기본 12ms는 저프레임에서 씹힘). 방향키/Del/Enter 홀드 50ms는 종전대로. 채집 자동파티요청·힐서포터와 동일 대책."
     },
     "REDDOG_hunt": {
-      "version": "2026.07.21.2",
+      "version": "2026.07.21.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.21.2/_delta_REDDOG_hunt.zip",
-      "sha256": "1efcf2dcb223513ac5f9b63b10949c4029d14d26e5894d391875e01c05aa8d64",
-      "notes": "가두리 밖 복귀 개선: ①아이템 줍기 허용거리 300→200px ②가두리 밖(복귀 막힘)에선 원거리 레이더 스킵·근접만 처치+우회 복귀 우선(밖 몹을 물어 더 끌려나가던 것 차단) ③복귀 클릭 착지점에 몹(칼커서)이면 각도 재추첨해 빈 땅으로 이동(몹 클릭=공격만 하고 못 움직여 어그로 가속하던 것 방지) ④배회 착지점에 몹이면 단순클릭 대신 드래그 공격으로 이어감(공격유지)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.21.3/_delta_REDDOG_hunt.zip",
+      "sha256": "1340c9d7e47d4bbdee7a03e31ebf18e6a3cd0367468a1756bef97428c49b4bc2",
+      "notes": "강등(노랑) 기록 상한 16→5 (화면이 노랑으로 덮이는 것 억제. 강등은 소프트 우선순위라 사냥엔 무영향—전부 강등이어도 최근접 후보를 잡고 커서확인이 재필터). 오버레이 상한도 동기화"
     }
   }
 }
