@@ -42,13 +42,6 @@
       "sha256": "8d7fa6e0163f21530a967ca3862bc2dc8404ee2255e53ed8cdedaac1356839db",
       "notes": "클래스 썸네일 템플릿 4종 완비(군주·기사 추가, 라이브 4클래스 발광 검증 — 전 클래스 파티원 근접 인식)"
     },
-    "HealSupporter": {
-      "version": "2026.07.20.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.20.1/_delta_HealSupporter.zip",
-      "sha256": "168ed378e15ca5a864788e8b964ba4d41b9d80a17279520130283009216a44ff",
-      "notes": "클래스 썸네일 템플릿 4종 완비(군주·기사 추가, 라이브 검증 — 전 클래스 파티원 힐/버프 근접 인식)"
-    },
     "REDDOG_vending": {
       "version": "2026.07.20.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.21.3/_delta_REDDOG_chaejip.zip",
       "sha256": "d7748df92ea3453f087735febddc6a0942293aef73aa727fc5ec73dfd45ecf4d",
       "notes": "순환좌표 12시·6시 이동클릭 스킵 근본수정: 이동센서 ROI 세로 맹점 해소(높이 32→80) + 클릭 4면 안전클램프(화면 밖 클릭 방지) + 정돌 줍기 우회를 공격 ㄱ자 2단 우회로 통일(순회 방향 증발 제거, 재클릭 카운터 리셋)"
+    },
+    "HealSupporter": {
+      "version": "2026.07.21.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.21.1/_delta_HealSupporter.zip",
+      "sha256": "f7ab8493136285b5aeefddd99cb088d88f88a6ea54f93e3525f297000d39772d",
+      "notes": "자동초대 매크로 키 씹힘 근본수정: ←/Del/Enter 홀드가 0ms(체류 없음)라 저사양·원격 PC에서 키가 프레임에 삼켜졌다. ←가 씹히면 커서가 닉 앞까지 못 가 Del이 따옴표 대신 닉 글자를 지워 엉뚱한 대상/초대 실패로 이어짐. ←/Del 홀드 40ms·Enter 50ms·따옴표 후 귓속말창 열림 대기 150ms·타이핑 간격 50ms/홀드 30ms 적용(채집 자동파티요청과 동일 대책)."
     }
   }
 }
