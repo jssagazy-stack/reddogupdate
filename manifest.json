@@ -35,13 +35,6 @@
       "sha256": "c63acbdcd8309d3996a11552f37858b81ff8a942d9522bee6fca8b752ffae8fb",
       "notes": "클래스 썸네일 템플릿 4종 완비(군주·기사 추가, 라이브 검증 — 전 클래스 파티원 헤이 근접 인식)"
     },
-    "MyJjolSender": {
-      "version": "2026.07.20.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.20.1/_delta_MyJjolSender.zip",
-      "sha256": "d20ba038a723c7488d059c32198404c100d7306ba6ab73e81adce0594de48d68",
-      "notes": "간단 UI 개선: 본문=본캐 HP 실시간 표시(시작 전 측정 확인), 캘리브(통합+개별)는 [고급 설정] 안으로 이동"
-    },
     "HealSupporter": {
       "version": "2026.07.21.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.1/_delta_MyJjol.zip",
       "sha256": "0ad9d4199a43a66eeda3eb422816de9928254fd61650afd421c1bf76cf2cb7a7",
       "notes": "따라오기 원격 토글: 송신기 HOME/버튼/오버레이로 쫄 정지(제자리)↔따라오기 전환(힐·해독·버프는 계속, 시작 시 기본=따라오기)"
+    },
+    "MyJjolSender": {
+      "version": "2026.07.22.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.22.1/_delta_MyJjolSender.zip",
+      "sha256": "d0de86c68497d310b647bd3835162a7e7f976c62887927bd8b04ef31cad8c607",
+      "notes": "따라오기 토글 HOME 단독키(한손) + 게임창 버튼 오버레이(항상 위·포커스 안 뺏음·드래그 위치기억·ACK 점멸)"
     }
   }
 }
