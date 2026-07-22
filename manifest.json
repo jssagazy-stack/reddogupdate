@@ -70,19 +70,19 @@
       "sha256": "a2e13a79907a11bd01d221aba06aa7b63bbe3cc57374d7aeb85bfa6b0aba7657",
       "notes": "커서 캡처 개선: 시작 무조건 캡처(스킵 제거)+캡처 2회 컨펌+채팅창 normal(±십자 폐지) / 런타임 게이트 폴링 — 오염된 talk_npc 저장 원천차단"
     },
-    "MyJjol": {
-      "version": "2026.07.22.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.4/_delta_MyJjol.zip",
-      "sha256": "c331fd5391fe6df69f800dd63fa4eaf1e2079882dce4a1761080e534bc1c7f7f",
-      "notes": "대상 시전에 스킬A(범용 슬롯) 추가"
-    },
     "MyJjolSender": {
       "version": "2026.07.22.4",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.22.4/_delta_MyJjolSender.zip",
       "sha256": "aa7c1426de6965376b783946b9c770a80f71edc67add5108509bd3cb4f9349ce",
       "notes": "스킬A 버튼 추가 + 우클릭 이름변경 제거(라벨=수신기와 고정 동기화)"
+    },
+    "MyJjol": {
+      "version": "2026.07.22.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.5/_delta_MyJjol.zip",
+      "sha256": "3b47d43fb37ac125b793bc7150e1b1cd5984233b66a3c02caaa1ebaff5106fa6",
+      "notes": "시전 타이밍 hunt 동일화(페이지→100ms→슬롯→100ms→F1복귀→100ms)+멈춤 연속시전에 버프연결딜레이 적용(고착/미시전 수정), 힐·해독 체크박스 제거(항상 사용)"
     }
   }
 }
