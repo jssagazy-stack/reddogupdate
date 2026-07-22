@@ -78,11 +78,11 @@
       "notes": "오버레이 캡처제외 해제(원격제어 화면에서 검정으로 보이던 원인)"
     },
     "MyJjol": {
-      "version": "2026.07.22.6",
+      "version": "2026.07.22.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.6/_delta_MyJjol.zip",
-      "sha256": "0845ca83084b1651a41fe168a7ae1d702b09276210a1bd45cc7bd22f33c66afe",
-      "notes": "시전 로그 표시(로그창에 '시전: 라벨' — 전체사용 미시전 진단용)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.7/_delta_MyJjol.zip",
+      "sha256": "70f97e609c788245e77c40f81fc45cb9d9a8744987d292bea3c03f39a6832570",
+      "notes": "버프 섹션 통합: 행마다 본캐(단타+클릭)/쫄법사(롱프레스 700ms) 이중 체크, 스킬1 삭제·스킬A 마지막 이동"
     }
   }
 }
