@@ -70,19 +70,19 @@
       "sha256": "a2e13a79907a11bd01d221aba06aa7b63bbe3cc57374d7aeb85bfa6b0aba7657",
       "notes": "커서 캡처 개선: 시작 무조건 캡처(스킵 제거)+캡처 2회 컨펌+채팅창 normal(±십자 폐지) / 런타임 게이트 폴링 — 오염된 talk_npc 저장 원천차단"
     },
-    "MyJjol": {
-      "version": "2026.07.22.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.2/_delta_MyJjol.zip",
-      "sha256": "51ed9a0e2eed72c5acb63d37b53297020bd7f08224f527fa2b40195ccaecddbb",
-      "notes": "시전 대개편: 단축창 페이지(F1~3)x슬롯(F5~12) 고정라벨 16종(대상/자기/아이템), 시전 원자화(힐·버프 씹힘 방지), 멈춤=연속시전, 전체사용(PgUp)·정지 상호연동, 따라오기 Pause"
-    },
     "MyJjolSender": {
       "version": "2026.07.22.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.22.2/_delta_MyJjolSender.zip",
       "sha256": "0299a3135b8f1a24f4b76f2a50e7ddcf58dd2f460cd54c9ef43453ccfcf70812",
       "notes": "시전 대개편: 고정라벨 18버튼(체크된 항목만 오버레이 표시, 수신기 자동동기화), 전체사용 PgUp, 따라오기 Pause, END 정지 상호연동"
+    },
+    "MyJjol": {
+      "version": "2026.07.22.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.3/_delta_MyJjol.zip",
+      "sha256": "9943c7fc635aa91667f8187e21d82a7d88778c41258da77e2f278454ac881cef",
+      "notes": "아이템 수동사용은 체크 무관 항상 동작(체크=오버레이 노출용)"
     }
   }
 }
