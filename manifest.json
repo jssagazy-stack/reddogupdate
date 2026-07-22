@@ -1,12 +1,5 @@
 {
   "products": {
-    "MyJjol": {
-      "version": "2026.07.19.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.19.1/_delta_MyJjol.zip",
-      "sha256": "437bc66d1f3dc2db06aa4073762e5d8da2f5cbb4a254178a429b2de5f149745b",
-      "notes": "마이쫄 최초 릴리스 - 쫄법사 자동힐/해독/버프/따라가기(UDP·TCP)"
-    },
     "CommHealer": {
       "version": "2026.07.19.10",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.21.2/_delta_REDDOG_npc_search.zip",
       "sha256": "a2e13a79907a11bd01d221aba06aa7b63bbe3cc57374d7aeb85bfa6b0aba7657",
       "notes": "커서 캡처 개선: 시작 무조건 캡처(스킵 제거)+캡처 2회 컨펌+채팅창 normal(±십자 폐지) / 런타임 게이트 폴링 — 오염된 talk_npc 저장 원천차단"
+    },
+    "MyJjol": {
+      "version": "2026.07.22.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.1/_delta_MyJjol.zip",
+      "sha256": "0ad9d4199a43a66eeda3eb422816de9928254fd61650afd421c1bf76cf2cb7a7",
+      "notes": "따라오기 원격 토글: 송신기 HOME/버튼/오버레이로 쫄 정지(제자리)↔따라오기 전환(힐·해독·버프는 계속, 시작 시 기본=따라오기)"
     }
   }
 }
