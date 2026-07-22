@@ -78,11 +78,11 @@
       "notes": "버튼 구성 동기화: 스킬1 삭제, 스킬A 버프 마지막으로 이동"
     },
     "MyJjol": {
-      "version": "2026.07.22.8",
+      "version": "2026.07.22.9",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.8/_delta_MyJjol.zip",
-      "sha256": "9a0786327c990d064b0afc5ec6373891d744defc8253922eeb34e8198fc7a3bb",
-      "notes": "버프 전역 시전 간격 게이트: 직전 시전 후 버프연결딜레이 경과해야 다음 버프(따라가기/전체사용 연타로 게임이 입력 흘리던 것 근본 수정 — 미경과분은 다음 사이클 자동 재시도)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.9/_delta_MyJjol.zip",
+      "sha256": "0ca4f945efd3a042257974e12b56a151889c93da3d4c4a86a62372cbb88bfe93",
+      "notes": "버프 기아 수정: 시전 간격 시계를 버프·아이템만 기록(힐이 잦으면 버프가 영원히 안 나가던 버그 — 거리유지 중 덱 미시전 원인)"
     }
   }
 }
