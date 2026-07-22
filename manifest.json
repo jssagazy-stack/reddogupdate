@@ -70,19 +70,19 @@
       "sha256": "a2e13a79907a11bd01d221aba06aa7b63bbe3cc57374d7aeb85bfa6b0aba7657",
       "notes": "커서 캡처 개선: 시작 무조건 캡처(스킵 제거)+캡처 2회 컨펌+채팅창 normal(±십자 폐지) / 런타임 게이트 폴링 — 오염된 talk_npc 저장 원천차단"
     },
-    "MyJjol": {
-      "version": "2026.07.22.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.3/_delta_MyJjol.zip",
-      "sha256": "9943c7fc635aa91667f8187e21d82a7d88778c41258da77e2f278454ac881cef",
-      "notes": "아이템 수동사용은 체크 무관 항상 동작(체크=오버레이 노출용)"
-    },
     "MyJjolSender": {
       "version": "2026.07.22.3",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.22.3/_delta_MyJjolSender.zip",
       "sha256": "fa8cf250174b258e3706a4ff69106352a5d6adba4188a7fa092027a0cc7c5512",
       "notes": "오버레이 수정: 배경/글자 렌더링(WA_StyledBackground)+가독성 개선, 정지 중 '송신 시작 후 사용' 안내(클릭 비활성 사유 표시)"
+    },
+    "MyJjol": {
+      "version": "2026.07.22.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.4/_delta_MyJjol.zip",
+      "sha256": "c331fd5391fe6df69f800dd63fa4eaf1e2079882dce4a1761080e534bc1c7f7f",
+      "notes": "대상 시전에 스킬A(범용 슬롯) 추가"
     }
   }
 }
