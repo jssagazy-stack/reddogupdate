@@ -70,19 +70,19 @@
       "sha256": "a2e13a79907a11bd01d221aba06aa7b63bbe3cc57374d7aeb85bfa6b0aba7657",
       "notes": "커서 캡처 개선: 시작 무조건 캡처(스킵 제거)+캡처 2회 컨펌+채팅창 normal(±십자 폐지) / 런타임 게이트 폴링 — 오염된 talk_npc 저장 원천차단"
     },
-    "MyJjol": {
-      "version": "2026.07.22.7",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.7/_delta_MyJjol.zip",
-      "sha256": "70f97e609c788245e77c40f81fc45cb9d9a8744987d292bea3c03f39a6832570",
-      "notes": "버프 섹션 통합: 행마다 본캐(단타+클릭)/쫄법사(롱프레스 700ms) 이중 체크, 스킬1 삭제·스킬A 마지막 이동"
-    },
     "MyJjolSender": {
       "version": "2026.07.22.7",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.22.7/_delta_MyJjolSender.zip",
       "sha256": "bd25662aa1c62ec3487f44b8201f950e0d6eebc04b5874cae348dc768396f883",
       "notes": "버튼 구성 동기화: 스킬1 삭제, 스킬A 버프 마지막으로 이동"
+    },
+    "MyJjol": {
+      "version": "2026.07.22.8",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.22.8/_delta_MyJjol.zip",
+      "sha256": "9a0786327c990d064b0afc5ec6373891d744defc8253922eeb34e8198fc7a3bb",
+      "notes": "버프 전역 시전 간격 게이트: 직전 시전 후 버프연결딜레이 경과해야 다음 버프(따라가기/전체사용 연타로 게임이 입력 흘리던 것 근본 수정 — 미경과분은 다음 사이클 자동 재시도)"
     }
   }
 }
