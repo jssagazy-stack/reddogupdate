@@ -78,11 +78,11 @@
       "notes": "아이템 두루마리·축순 버튼 삭제"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.24.1",
+      "version": "2026.07.24.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.24.1/_delta_REDDOG_hunt.zip",
-      "sha256": "196d4d006184dbe15efcd408286af51e0f4eff111937e0a10ead6c70f6e57719",
-      "notes": "앵커 복귀 odometry 재설계 — 이동 중 템플릿 가려짐 fail-open 근본수정(배경 슬라이드 누적으로 위치추정 연속화, 템플릿은 재잠금만). 안전망(위치이탈 8회) 보존."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.24.2/_delta_REDDOG_hunt.zip",
+      "sha256": "949d32c3c43b8d667c2bab016a93925f3018d66e108721dcf67de1a856fa8a7c",
+      "notes": "파티 모드 무한 파티원 추적 수정 — 몹서치 연속 헛다리(칼표시 아님) 5회면 이 자리 포기→배회/패트롤(움직이는 파티원 무한추적 차단, 안전밸브 부재였음). 일반 사냥 무영향."
     }
   }
 }
