@@ -78,11 +78,11 @@
       "notes": "버튼 구성 동기화: 스킬1 삭제, 스킬A 버프 마지막으로 이동"
     },
     "MyJjol": {
-      "version": "2026.07.23.1",
+      "version": "2026.07.23.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.23.1/_delta_MyJjol.zip",
-      "sha256": "b742eaefc5443c176577c84804b9ec881f33ee1f77454edc6228cf317309740f",
-      "notes": "보안 강화: KeyAuth 응답 Ed25519 서명 검증(hosts 스푸핑 차단, 순수파이썬 자체구현) + 자격증명 XOR 인코딩(strings 추출 차단)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.23.2/_delta_MyJjol.zip",
+      "sha256": "e23e971bbd579aa49201c0e03fd426b5ed9ede208c45d9c1735bfcdfe6f56a26",
+      "notes": "아이템 두루마리·축순 삭제(귀환·아이템1만 남김)"
     }
   }
 }
