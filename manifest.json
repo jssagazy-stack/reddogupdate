@@ -63,6 +63,13 @@
       "sha256": "a2e13a79907a11bd01d221aba06aa7b63bbe3cc57374d7aeb85bfa6b0aba7657",
       "notes": "커서 캡처 개선: 시작 무조건 캡처(스킵 제거)+캡처 2회 컨펌+채팅창 normal(±십자 폐지) / 런타임 게이트 폴링 — 오염된 talk_npc 저장 원천차단"
     },
+    "MyJjol": {
+      "version": "2026.07.23.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.23.2/_delta_MyJjol.zip",
+      "sha256": "e23e971bbd579aa49201c0e03fd426b5ed9ede208c45d9c1735bfcdfe6f56a26",
+      "notes": "아이템 두루마리·축순 삭제(귀환·아이템1만 남김)"
+    },
     "MyJjolSender": {
       "version": "2026.07.23.1",
       "type": "delta",
@@ -71,18 +78,11 @@
       "notes": "아이템 두루마리·축순 버튼 삭제"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.24.4",
+      "version": "2026.07.24.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.24.4/_delta_REDDOG_hunt.zip",
-      "sha256": "4186022fadee06917362aee7228fe963c065172c2142520bb8e24ef7010faffa",
-      "notes": "런어웨이 근본수정: (A)아이템 센서 위치컨펌(정지중 3프레임 같은자리여야 확정 → 흐르는 공지텍스트 오탐 차단, 이동중 raw로 걷기추적 무손상) (B)클릭 릴리즈 보장(down↔up 최소25ms+try/finally → 버튼 고착=무한이동 근본차단) (C)처치후 렌더딜레이 300→150(위치컨펌이 안정화 겸함)."
-    },
-    "MyJjol": {
-      "version": "2026.07.24.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.24.1/_delta_MyJjol.zip",
-      "sha256": "6962742f9b28731538dfc2c064e0a3be3db6a0122ec24c8e02812b93d8ce697a",
-      "notes": "버프 쿨 음수지터(조기발동): 정확한 주기 대신 항상 쿨보다 일찍 랜덤 발동(1단계 -0~30%+버스트 15%확률 -10~20%, 600초→302~600초). 안티패턴"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.24.5/_delta_REDDOG_hunt.zip",
+      "sha256": "eb03ad002b849fffcb3b9c7ea359474705207f38ae755a59bc618666aef6302e",
+      "notes": "입력 전수조사 후속: leash 복귀 클릭 무한루프 차단. odometry 신뢰경로(est_ok)가 anchor_try 우회 → 복귀가 ARRIVED로 읽히는데 leash는 계속 exceed면 830ms마다 무한 복귀클릭하던 구멍. 연속 복귀 8회 미도착=위치이탈 카운터(leash_ret_cnt) 추가, within서 리셋. 전 입력 반복루프 상한 확보."
     }
   }
 }
