@@ -78,11 +78,11 @@
       "notes": "아이템 두루마리·축순 버튼 삭제"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.24.3",
+      "version": "2026.07.24.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.24.3/_delta_REDDOG_hunt.zip",
-      "sha256": "ae3c1d56f42aef25ad8b622a31c96b9c3a4335da0e84d8d7dc06832e348f794d",
-      "notes": "위치이탈 재발 대응: odometry를 s_moving 게이트(캐릭터 실제 이동 시에만 배경 슬라이드 누적) — 원거리 정지 사격 중 씬 움직임을 배경이동으로 오인해 헛드리프트→leash 오발→위치이탈하던 것 차단. + leash 발동 진단로그(앵커pos/중심/템플릿보임/est/odo)."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.24.4/_delta_REDDOG_hunt.zip",
+      "sha256": "4186022fadee06917362aee7228fe963c065172c2142520bb8e24ef7010faffa",
+      "notes": "런어웨이 근본수정: (A)아이템 센서 위치컨펌(정지중 3프레임 같은자리여야 확정 → 흐르는 공지텍스트 오탐 차단, 이동중 raw로 걷기추적 무손상) (B)클릭 릴리즈 보장(down↔up 최소25ms+try/finally → 버튼 고착=무한이동 근본차단) (C)처치후 렌더딜레이 300→150(위치컨펌이 안정화 겸함)."
     }
   }
 }
