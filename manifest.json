@@ -28,13 +28,6 @@
       "sha256": "c63acbdcd8309d3996a11552f37858b81ff8a942d9522bee6fca8b752ffae8fb",
       "notes": "클래스 썸네일 템플릿 4종 완비(군주·기사 추가, 라이브 검증 — 전 클래스 파티원 헤이 근접 인식)"
     },
-    "HealSupporter": {
-      "version": "2026.07.21.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.21.1/_delta_HealSupporter.zip",
-      "sha256": "f7ab8493136285b5aeefddd99cb088d88f88a6ea54f93e3525f297000d39772d",
-      "notes": "자동초대 매크로 키 씹힘 근본수정: ←/Del/Enter 홀드가 0ms(체류 없음)라 저사양·원격 PC에서 키가 프레임에 삼켜졌다. ←가 씹히면 커서가 닉 앞까지 못 가 Del이 따옴표 대신 닉 글자를 지워 엉뚱한 대상/초대 실패로 이어짐. ←/Del 홀드 40ms·Enter 50ms·따옴표 후 귓속말창 열림 대기 150ms·타이핑 간격 50ms/홀드 30ms 적용(채집 자동파티요청과 동일 대책)."
-    },
     "sellerbot": {
       "version": "2026.07.21.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.24.1/_delta_CommHealer.zip",
       "sha256": "c5f99051b0928ef9c728cf14264ec5915c71be5f544aa1662a5df1e593c10f25",
       "notes": "버프 쿨 음수지터(조기발동) 적용"
+    },
+    "HealSupporter": {
+      "version": "2026.07.24.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.24.1/_delta_HealSupporter.zip",
+      "sha256": "a364e5cb6e779c1348cc000a14ac92870553c902ab96d1aee2d060b5a6c3caa1",
+      "notes": "버프 쿨 음수지터(조기발동): 단일·파티 버프 모두 정확 주기 대신 항상 쿨보다 일찍 랜덤 발동(1단계 -0~30%+버스트 15%확률 -10~20%, 600초→302~600초). 안티패턴"
     }
   }
 }
