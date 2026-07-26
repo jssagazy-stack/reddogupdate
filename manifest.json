@@ -49,13 +49,6 @@
       "sha256": "343d8013d0c38451ef698c9bd945256fbb74ad083d5a0b2b50944872877433b1",
       "notes": "아이템 두루마리·축순 버튼 삭제"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.24.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.24.4/_delta_REDDOG_hunt.zip",
-      "sha256": "4186022fadee06917362aee7228fe963c065172c2142520bb8e24ef7010faffa",
-      "notes": "런어웨이 근본수정: (A)아이템 센서 위치컨펌(정지중 3프레임 같은자리여야 확정 → 흐르는 공지텍스트 오탐 차단, 이동중 raw로 걷기추적 무손상) (B)클릭 릴리즈 보장(down↔up 최소25ms+try/finally → 버튼 고착=무한이동 근본차단) (C)처치후 렌더딜레이 300→150(위치컨펌이 안정화 겸함)."
-    },
     "MyJjol": {
       "version": "2026.07.24.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.27.2/_delta_REDDOG_chaejip.zip",
       "sha256": "e7ce6223d647a17bf45138e78ab644ef53e12869610c98327a1438cee2bc1034",
       "notes": "편지확인 기능: 창고 맡기기 후 귀환 전 인벤 편지 더블클릭→편지창 버튼 클릭→ESC3 정리(미발견/타임아웃 fail-open, 템플릿 폴더에 PNG 추가 시 즉시 반영)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.27.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.27.1/_delta_REDDOG_hunt.zip",
+      "sha256": "a0707fab6f52c71a4cf9d3d9eb29fd28b220d5bf49c5fd572f04cba7796c64fa",
+      "notes": "디버그: 실게임 위치확인용 전체화면 스샷 3지점 자동저장(세션시작/이탈직후/귀환직전). Screenshot 노드 신설(mss, data/hunt/shots/<라벨>_<시각>.png). 원인규명용(실제 가두리 이탈인지 앵커 가려짐인지)."
     }
   }
 }
