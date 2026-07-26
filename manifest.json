@@ -78,11 +78,11 @@
       "notes": "버프 쿨 음수지터(조기발동): 단일·파티 버프 모두 정확 주기 대신 항상 쿨보다 일찍 랜덤 발동(1단계 -0~30%+버스트 15%확률 -10~20%, 600초→302~600초). 안티패턴"
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.27.1",
+      "version": "2026.07.27.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.27.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "bdaa49dfc520f821185ce3036dc3b9a392002cacdb499c5adef877352fd3008c",
-      "notes": "우회 ㄱ자 2단 좌표계 근본수정(2단 기준점=현재 프레임, 45도/283px 표류 왕복 해결) + 1단 막힘 시 반대측(반시계) 1회 재시도"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.27.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "e7ce6223d647a17bf45138e78ab644ef53e12869610c98327a1438cee2bc1034",
+      "notes": "편지확인 기능: 창고 맡기기 후 귀환 전 인벤 편지 더블클릭→편지창 버튼 클릭→ESC3 정리(미발견/타임아웃 fail-open, 템플릿 폴더에 PNG 추가 시 즉시 반영)"
     }
   }
 }
