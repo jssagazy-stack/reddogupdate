@@ -78,11 +78,11 @@
       "notes": "편지확인 기능: 창고 맡기기 후 귀환 전 인벤 편지 더블클릭→편지창 버튼 클릭→ESC3 정리(미발견/타임아웃 fail-open, 템플릿 폴더에 PNG 추가 시 즉시 반영)"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.27.2",
+      "version": "2026.07.27.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.27.2/_delta_REDDOG_hunt.zip",
-      "sha256": "5a976a4afaf28580555f02d1df7b2500507c509ab7fc8e8cea4b038eb0a31586",
-      "notes": "odometry 화면밖 가드: 추정 앵커좌표가 화면 밖(±80px 초과)으로 드리프트하면 명백한 쓰레기 → 방향상실(est=0)+좌표 미게시로 처리해 가짜 위치이탈·정지 차단. 실게임 로그 1641,930/1491,855 확인. 근본 앵커개선(보조법사 마크)은 별개."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.27.3/_delta_REDDOG_hunt.zip",
+      "sha256": "5fe5ecb798c9fd3b2c1eed598692f2db6ce57798722461696db12286ee33ceae",
+      "notes": "진단 강화: 매 이탈 로그에 직전 이동액션(배회/복귀/우회/줍기) 기록(last_move) — 무슨 동작이 캐릭터를 밀어냈는지 추적. 방향/픽셀은 앵커pos-중심에 이미 있음."
     }
   }
 }
