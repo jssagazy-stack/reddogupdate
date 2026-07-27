@@ -56,13 +56,6 @@
       "sha256": "e7ce6223d647a17bf45138e78ab644ef53e12869610c98327a1438cee2bc1034",
       "notes": "편지확인 기능: 창고 맡기기 후 귀환 전 인벤 편지 더블클릭→편지창 버튼 클릭→ESC3 정리(미발견/타임아웃 fail-open, 템플릿 폴더에 PNG 추가 시 즉시 반영)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.27.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.27.5/_delta_REDDOG_hunt.zip",
-      "sha256": "96699153b2bcfa9ad964f71db0a7af5546eca1cfba8083f87d0eb223dcd80f66",
-      "notes": "자버프 타이머 음수지터(조기발동)+2차버스트 적용 — 마이쫄 buff_cool_jit 패턴 이식. 재스케줄에 @njoff(1단계 -0~30% + 버스트확률15% -10~30%). 엔진 @njoff가 @변수 base 지원(hunt 주기는 런타임 변수). 정확주기 봇티 제거. 예: 쿨600초→실주기 251~600초."
-    },
     "HealSupporter": {
       "version": "2026.07.28.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.28.1/_delta_MyJjol.zip",
       "sha256": "ae35c288a9e3b265171f960f851c08b384303fd90a2efec41c954eb8aa4fdd7e",
       "notes": "타겟 이탈 10분 자동종료 추가: 타겟 이름표를 놓친 상태가 10분 지속되면 귀환 후 정지. 고급 탭 '타겟 이탈 10분 → 귀환·정지' 체크. 이름표(따라가기 검색영역) 미설정이면 동작 안 함(안전)."
+    },
+    "REDDOG_hunt": {
+      "version": "2026.07.28.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.28.1/_delta_REDDOG_hunt.zip",
+      "sha256": "150f5d3721ecaa09fb4cd2b7165531945868aa8a7cd4c9e8d084a4d7440a993f",
+      "notes": "화살소진 밤 오판 근본수정: 화살센서 capture=mss (printwindow 간헐 검은프레임이 '어두움=소진'으로 오변환되던 것 소거. move센서 mss 재사용). 페이지대기 로직 무변경(기존 견고)"
     }
   }
 }
