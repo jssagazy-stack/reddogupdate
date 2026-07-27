@@ -49,13 +49,6 @@
       "sha256": "343d8013d0c38451ef698c9bd945256fbb74ad083d5a0b2b50944872877433b1",
       "notes": "아이템 두루마리·축순 버튼 삭제"
     },
-    "MyJjol": {
-      "version": "2026.07.24.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.24.1/_delta_MyJjol.zip",
-      "sha256": "6962742f9b28731538dfc2c064e0a3be3db6a0122ec24c8e02812b93d8ce697a",
-      "notes": "버프 쿨 음수지터(조기발동): 정확한 주기 대신 항상 쿨보다 일찍 랜덤 발동(1단계 -0~30%+버스트 15%확률 -10~20%, 600초→302~600초). 안티패턴"
-    },
     "REDDOG_chaejip": {
       "version": "2026.07.27.2",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.28.1/_delta_CommHealer.zip",
       "sha256": "39d866382e2cbeb574ef487e5b53895b3dc79380120c1cd1d12c97f3eafa5e89",
       "notes": "타겟 이탈 10분 자동종료 추가: 타겟 이름표를 놓친 상태가 10분 지속되면 귀환 후 정지. '쫄 자신' 탭 '타겟 이탈 10분 → 귀환·정지' 체크. 이름표(따라가기 탭 검색영역) 미설정이면 동작 안 함(안전). 따라오기 멈춤 중에도 이탈 카운트."
+    },
+    "MyJjol": {
+      "version": "2026.07.28.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.07.28.1/_delta_MyJjol.zip",
+      "sha256": "ae35c288a9e3b265171f960f851c08b384303fd90a2efec41c954eb8aa4fdd7e",
+      "notes": "타겟 이탈 10분 자동종료 추가: 타겟 이름표를 놓친 상태가 10분 지속되면 귀환 후 정지. 고급 탭 '타겟 이탈 10분 → 귀환·정지' 체크. 이름표(따라가기 검색영역) 미설정이면 동작 안 함(안전)."
     }
   }
 }
