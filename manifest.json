@@ -78,11 +78,11 @@
       "notes": "편지확인 기능: 창고 맡기기 후 귀환 전 인벤 편지 더블클릭→편지창 버튼 클릭→ESC3 정리(미발견/타임아웃 fail-open, 템플릿 폴더에 PNG 추가 시 즉시 반영)"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.27.1",
+      "version": "2026.07.27.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.27.1/_delta_REDDOG_hunt.zip",
-      "sha256": "a0707fab6f52c71a4cf9d3d9eb29fd28b220d5bf49c5fd572f04cba7796c64fa",
-      "notes": "디버그: 실게임 위치확인용 전체화면 스샷 3지점 자동저장(세션시작/이탈직후/귀환직전). Screenshot 노드 신설(mss, data/hunt/shots/<라벨>_<시각>.png). 원인규명용(실제 가두리 이탈인지 앵커 가려짐인지)."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.27.2/_delta_REDDOG_hunt.zip",
+      "sha256": "5a976a4afaf28580555f02d1df7b2500507c509ab7fc8e8cea4b038eb0a31586",
+      "notes": "odometry 화면밖 가드: 추정 앵커좌표가 화면 밖(±80px 초과)으로 드리프트하면 명백한 쓰레기 → 방향상실(est=0)+좌표 미게시로 처리해 가짜 위치이탈·정지 차단. 실게임 로그 1641,930/1491,855 확인. 근본 앵커개선(보조법사 마크)은 별개."
     }
   }
 }
