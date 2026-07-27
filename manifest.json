@@ -78,11 +78,11 @@
       "notes": "편지확인 기능: 창고 맡기기 후 귀환 전 인벤 편지 더블클릭→편지창 버튼 클릭→ESC3 정리(미발견/타임아웃 fail-open, 템플릿 폴더에 PNG 추가 시 즉시 반영)"
     },
     "REDDOG_hunt": {
-      "version": "2026.07.27.4",
+      "version": "2026.07.27.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.27.4/_delta_REDDOG_hunt.zip",
-      "sha256": "418920ca07677fdf97c95d33ae814ccba94ef09f295147eccbf319424be95533",
-      "notes": "화면밖 가드 되돌림(오판): off-screen 앵커좌표는 쓰레기가 아니라 '그 방향으로 이탈' 정상 추정 → 버리면 이탈로그·복귀방향 상실. 그대로 두고 leash 정상발동+복귀는 클램프본으로. last_move 진단은 유지."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.27.5/_delta_REDDOG_hunt.zip",
+      "sha256": "96699153b2bcfa9ad964f71db0a7af5546eca1cfba8083f87d0eb223dcd80f66",
+      "notes": "자버프 타이머 음수지터(조기발동)+2차버스트 적용 — 마이쫄 buff_cool_jit 패턴 이식. 재스케줄에 @njoff(1단계 -0~30% + 버스트확률15% -10~30%). 엔진 @njoff가 @변수 base 지원(hunt 주기는 런타임 변수). 정확주기 봇티 제거. 예: 쿨600초→실주기 251~600초."
     }
   }
 }
