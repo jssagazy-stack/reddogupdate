@@ -85,11 +85,11 @@
       "notes": "타겟 이탈 자동종료 재설계: 파티모드=파티창 대상 슬롯 금색 근접 이탈 / 노파티=이름표 미발견 기준. 시작 시 이탈종료 활성/비활성+이유 로그 표시(영역 미설정·대상=본인 등), 이탈 감지/목격/10분 정지 전환 로그 추가. 대상=본인(1행)은 항상 금색이라 발동 안 함 경고. follow_party는 대상힐 행을 실제 파티원 행으로 설정해야 동작."
     },
     "REDDOG_zoneheal": {
-      "version": "2026.07.28.1",
+      "version": "2026.07.28.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.07.28.1/_delta_REDDOG_zoneheal.zip",
-      "sha256": "eef6812183b1c9c20a194e0b9bc95e10b62862c707a5310722019fbc292864b9",
-      "notes": "파티힐존 최초 릴리스 — 피바 스캔 휠클릭 힐, 뮨 옵션, F4 상시홀드, 백그라운드(PostMessage) 입력"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.07.28.2/_delta_REDDOG_zoneheal.zip",
+      "sha256": "7ca407a66b3aef66886e0b2ae7299425ff193e5e6c85ebb1b3a3cae4580b59fb",
+      "notes": "재발행(버전만 상향) — 구버전 .1 빌드 자동업데이트 유도용, 기능 동일"
     }
   }
 }
