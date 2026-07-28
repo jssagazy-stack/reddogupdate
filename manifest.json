@@ -78,11 +78,11 @@
       "notes": "복귀 소울락 근본수정: 소울(F11) 시전 후 게임이 이동입력을 ~1.3초 씹는 것 실측 확인 → 복귀 이동클릭 직전 소울 잔여락 게이트(1350ms) + 복귀소울 대기 800→1350ms. 소울 직후 첫 복귀클릭이 씹혀 STUCK→우회 스파이럴→위치이탈 정지의 방아쇠였음. + 우회 클릭 시 디버그 스샷"
     },
     "REDDOG_chaejip": {
-      "version": "2026.07.28.1",
+      "version": "2026.07.28.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.28.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "936d5676559c3262702301ca40130022f71a4e9cbfe359f0b4196518b04470d7",
-      "notes": "랜덤 자리비움(AFK): 귀환 후 사냥터 복귀를 24h당 1~3회 랜덤 지연(10분~3시간 초단위 균등, UI로 범위 설정) + @자리비움 채팅(멘트 13종 랜덤, 10% 자판키 오타). 독 해독 후에만 발동, 마나충전 스킵. 런처 체크박스/대기범위 UI 추가"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.28.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "432861b4da860cb4ed76e1dd63fbe9d58abbffc6a0e9bc0731193593762e3fac",
+      "notes": "UI: 랜덤 자리비움 옵션을 별도 행으로 줄바꿈(옵션 행 과밀 해소)"
     }
   }
 }
