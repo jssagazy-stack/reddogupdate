@@ -49,13 +49,6 @@
       "sha256": "343d8013d0c38451ef698c9bd945256fbb74ad083d5a0b2b50944872877433b1",
       "notes": "아이템 두루마리·축순 버튼 삭제"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.27.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.27.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "e7ce6223d647a17bf45138e78ab644ef53e12869610c98327a1438cee2bc1034",
-      "notes": "편지확인 기능: 창고 맡기기 후 귀환 전 인벤 편지 더블클릭→편지창 버튼 클릭→ESC3 정리(미발견/타임아웃 fail-open, 템플릿 폴더에 PNG 추가 시 즉시 반영)"
-    },
     "HealSupporter": {
       "version": "2026.07.28.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.28.2/_delta_REDDOG_hunt.zip",
       "sha256": "cea5ab0296633a81b049e4c67c6778ae24e09f09a4afa6aa97df8f44e76554ec",
       "notes": "복귀 소울락 근본수정: 소울(F11) 시전 후 게임이 이동입력을 ~1.3초 씹는 것 실측 확인 → 복귀 이동클릭 직전 소울 잔여락 게이트(1350ms) + 복귀소울 대기 800→1350ms. 소울 직후 첫 복귀클릭이 씹혀 STUCK→우회 스파이럴→위치이탈 정지의 방아쇠였음. + 우회 클릭 시 디버그 스샷"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.28.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.28.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "936d5676559c3262702301ca40130022f71a4e9cbfe359f0b4196518b04470d7",
+      "notes": "랜덤 자리비움(AFK): 귀환 후 사냥터 복귀를 24h당 1~3회 랜덤 지연(10분~3시간 초단위 균등, UI로 범위 설정) + @자리비움 채팅(멘트 13종 랜덤, 10% 자판키 오타). 독 해독 후에만 발동, 마나충전 스킵. 런처 체크박스/대기범위 UI 추가"
     }
   }
 }
