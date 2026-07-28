@@ -49,13 +49,6 @@
       "sha256": "343d8013d0c38451ef698c9bd945256fbb74ad083d5a0b2b50944872877433b1",
       "notes": "아이템 두루마리·축순 버튼 삭제"
     },
-    "HealSupporter": {
-      "version": "2026.07.28.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.28.1/_delta_HealSupporter.zip",
-      "sha256": "35bfd3298ddbd098b56084c24a333c6dbc13f7cccb58e2259b2e2c468a9acf90",
-      "notes": "타겟 이탈 10분 자동종료 추가: 파티모드=파티원 전원이 근접에서 이탈한 상태가 10분 지속되면 귀환 후 정지 / 단일·따라가기=타겟 이름표를 놓친 상태가 10분 지속되면 귀환 후 정지. 안전·종료 탭 '타겟 이탈 10분 → 귀환·정지' 체크. 이름표(단일)·근접(파티) 미설정이면 동작 안 함(안전)."
-    },
     "CommHealer": {
       "version": "2026.07.28.1",
       "type": "delta",
@@ -83,6 +76,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.28.2/_delta_REDDOG_chaejip.zip",
       "sha256": "432861b4da860cb4ed76e1dd63fbe9d58abbffc6a0e9bc0731193593762e3fac",
       "notes": "UI: 랜덤 자리비움 옵션을 별도 행으로 줄바꿈(옵션 행 과밀 해소)"
+    },
+    "HealSupporter": {
+      "version": "2026.07.28.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.07.28.2/_delta_HealSupporter.zip",
+      "sha256": "7b3dc0b57e1d4d534a3eb135ae1ce62486e20e3fa1415ddb81969586b5e6960e",
+      "notes": "타겟 이탈 자동종료 재설계: 파티모드=파티창 대상 슬롯 금색 근접 이탈 / 노파티=이름표 미발견 기준. 시작 시 이탈종료 활성/비활성+이유 로그 표시(영역 미설정·대상=본인 등), 이탈 감지/목격/10분 정지 전환 로그 추가. 대상=본인(1행)은 항상 금색이라 발동 안 함 경고. follow_party는 대상힐 행을 실제 파티원 행으로 설정해야 동작."
     }
   }
 }
