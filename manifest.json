@@ -85,11 +85,11 @@
       "notes": "타겟 이탈 자동종료 재설계: 파티모드=파티창 대상 슬롯 금색 근접 이탈 / 노파티=이름표 미발견 기준. 시작 시 이탈종료 활성/비활성+이유 로그 표시(영역 미설정·대상=본인 등), 이탈 감지/목격/10분 정지 전환 로그 추가. 대상=본인(1행)은 항상 금색이라 발동 안 함 경고. follow_party는 대상힐 행을 실제 파티원 행으로 설정해야 동작."
     },
     "REDDOG_zoneheal": {
-      "version": "2026.07.29.1",
+      "version": "2026.07.29.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.07.29.1/_delta_REDDOG_zoneheal.zip",
-      "sha256": "c3adc35bb9cb8f8ef14a4356f6880982a0449e53af1a74078060c2cb7810c859",
-      "notes": "버프 타이머(N분마다 F12, 기본 15분) + 뮨 구역 자동시전(2초마다 구역 피바스캔→F2·휠클릭·F1) + F2/F1/F12 키홀드 40ms(키씹힘 수정)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.07.29.2/_delta_REDDOG_zoneheal.zip",
+      "sha256": "234a297670221dfb599d17ebb93a80992b05f90dde54846b708ba1b063f945ab",
+      "notes": "클릭 타이밍(이동→휠다운 10ms·홀드 30ms) + F4 상시홀드 근본수정(스캔코드 lParam+50ms 자동반복) + 창 선택 시 해당 클라 활성화 + 힐/뮨 구역 오버레이 영역표시"
     }
   }
 }
