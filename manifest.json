@@ -70,13 +70,6 @@
       "sha256": "cea5ab0296633a81b049e4c67c6778ae24e09f09a4afa6aa97df8f44e76554ec",
       "notes": "복귀 소울락 근본수정: 소울(F11) 시전 후 게임이 이동입력을 ~1.3초 씹는 것 실측 확인 → 복귀 이동클릭 직전 소울 잔여락 게이트(1350ms) + 복귀소울 대기 800→1350ms. 소울 직후 첫 복귀클릭이 씹혀 STUCK→우회 스파이럴→위치이탈 정지의 방아쇠였음. + 우회 클릭 시 디버그 스샷"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.28.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.28.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "432861b4da860cb4ed76e1dd63fbe9d58abbffc6a0e9bc0731193593762e3fac",
-      "notes": "UI: 랜덤 자리비움 옵션을 별도 행으로 줄바꿈(옵션 행 과밀 해소)"
-    },
     "HealSupporter": {
       "version": "2026.07.28.2",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.07.29.3/_delta_REDDOG_zoneheal.zip",
       "sha256": "b371d88c1ddcd0f0586b127cae0139d706251962cbb65076b10f670b3f5ed9f8",
       "notes": "F4 홀드 KEYDOWN 반복주기 50→500ms (키홀드 전용 스레드 — 타 로직 무영향)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.07.31.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.31.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "b043a42d63f7290b415443f222f9786c4d603b94c1c3b1907dbb18ee6fe48079",
+      "notes": "창고지기 서치 실패 근본수정: 비슷한 색 캐릭이 이름표 뒤 겹침 시 이진화 오염 0.75~0.77 고착 → 임계 0.85→0.73 + 클릭 직전 커서게이트(셀러봇 v11/v12 이식 — 오탐이면 커서 대피 후 재시도)"
     }
   }
 }
