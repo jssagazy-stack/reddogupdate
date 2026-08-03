@@ -56,13 +56,6 @@
       "sha256": "b371d88c1ddcd0f0586b127cae0139d706251962cbb65076b10f670b3f5ed9f8",
       "notes": "F4 홀드 KEYDOWN 반복주기 50→500ms (키홀드 전용 스레드 — 타 로직 무영향)"
     },
-    "REDDOG_vending": {
-      "version": "2026.08.03.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.03.1/_delta_REDDOG_vending.zip",
-      "sha256": "6de16c61f9c54e69ee3e0a664b75bdb7f739384c0e5dde4787d5b270675b6921",
-      "notes": "클라 1280x960 강제(client_resize) + 다시검색 버튼 창 정렬·리사이즈"
-    },
     "sagopalgo": {
       "version": "2026.08.03.1",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.03.4/_delta_sellerbot.zip",
       "sha256": "30aefae714245b42972f9670ad3547a683c7584217264a7d8fa07195c01e8c11",
+      "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
+    },
+    "REDDOG_vending": {
+      "version": "2026.08.03.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.03.2/_delta_REDDOG_vending.zip",
+      "sha256": "d3e9860a60b684efd2cf765ce72dccde18dfe7d089efbff13b9a7c76ab899e24",
       "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
     }
   }
