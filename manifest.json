@@ -49,13 +49,6 @@
       "sha256": "b371d88c1ddcd0f0586b127cae0139d706251962cbb65076b10f670b3f5ed9f8",
       "notes": "F4 홀드 KEYDOWN 반복주기 50→500ms (키홀드 전용 스레드 — 타 로직 무영향)"
     },
-    "sagopalgo": {
-      "version": "2026.08.03.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.08.03.1/_delta_sagopalgo.zip",
-      "sha256": "d8e15ca4e54d2af43c2b4a32405293a591bc1dfeea6b8e3a99d8683972f268db",
-      "notes": "게임 연결/정렬 시 클라 1280x960 강제 + 좌상단 정렬(자동연결·찾기·정렬 버튼)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.03.2",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.03.3/_delta_REDDOG_vending.zip",
       "sha256": "1d79edc8d21f6300bb924cb0a9ad49727cc93244eb6eb2afe00460d1968b5797",
       "notes": "판매단가 7000원 추가 (아덴 금액 템플릿 10장 실캡처: 7000/14000/21000/28000/49000/56000/63000/70000/77000/84000)"
+    },
+    "sagopalgo": {
+      "version": "2026.08.04.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.08.04.1/_delta_sagopalgo.zip",
+      "sha256": "1c45ec405fd716b755816ded0c52a37b6e01d3aed16f91cb4e44b1dd107576a2",
+      "notes": "Piece (non-stack) item support: multi-match count ledger, per-direction refill, price-window safety gate; catalog UI piece column; narrower window"
     }
   }
 }
