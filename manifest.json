@@ -77,19 +77,19 @@
       "sha256": "b371d88c1ddcd0f0586b127cae0139d706251962cbb65076b10f670b3f5ed9f8",
       "notes": "F4 홀드 KEYDOWN 반복주기 50→500ms (키홀드 전용 스레드 — 타 로직 무영향)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.07.31.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.07.31.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "b043a42d63f7290b415443f222f9786c4d603b94c1c3b1907dbb18ee6fe48079",
-      "notes": "창고지기 서치 실패 근본수정: 비슷한 색 캐릭이 이름표 뒤 겹침 시 이진화 오염 0.75~0.77 고착 → 임계 0.85→0.73 + 클릭 직전 커서게이트(셀러봇 v11/v12 이식 — 오탐이면 커서 대피 후 재시도)"
-    },
     "sellerbot": {
       "version": "2026.08.03.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.03.2/_delta_sellerbot.zip",
       "sha256": "7416be9c65e8bbeeb0eab44710cf71261b54d0c2bfd0c98b7e2b91a55364980d",
       "notes": "미스릴화살 선택필터(붉은 반투명) 오인식 수정 — 인벤/상점 템플릿에 필터상태 추가(중복인출·품절오탐 차단)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.03.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.03.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "a9a4118a91311864cf6313464ffff3ceccb7f28259327b6a2f1f980de0949c4b",
+      "notes": "다시검색 버튼 = 창 정렬(좌상단+리사이즈) 동시 수행"
     }
   }
 }
