@@ -70,13 +70,6 @@
       "sha256": "b371d88c1ddcd0f0586b127cae0139d706251962cbb65076b10f670b3f5ed9f8",
       "notes": "F4 홀드 KEYDOWN 반복주기 50→500ms (키홀드 전용 스레드 — 타 로직 무영향)"
     },
-    "sellerbot": {
-      "version": "2026.08.03.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.03.2/_delta_sellerbot.zip",
-      "sha256": "7416be9c65e8bbeeb0eab44710cf71261b54d0c2bfd0c98b7e2b91a55364980d",
-      "notes": "미스릴화살 선택필터(붉은 반투명) 오인식 수정 — 인벤/상점 템플릿에 필터상태 추가(중복인출·품절오탐 차단)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.03.1",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.03.1/_delta_REDDOG_hunt.zip",
       "sha256": "e154bca0672039a70e80a3c55b396c28e4392bdc38964b3f5011550b60dbdb13",
+      "notes": "클라 1280x960 강제(client_resize) + 다시검색 버튼 창 정렬·리사이즈"
+    },
+    "sellerbot": {
+      "version": "2026.08.03.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.03.3/_delta_sellerbot.zip",
+      "sha256": "c20c8465670e9f628c32fe035e2426c75d2301cb993439dad92c2c6f0e72ac56",
       "notes": "클라 1280x960 강제(client_resize) + 다시검색 버튼 창 정렬·리사이즈"
     }
   }
