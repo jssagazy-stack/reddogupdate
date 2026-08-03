@@ -77,19 +77,19 @@
       "sha256": "30aefae714245b42972f9670ad3547a683c7584217264a7d8fa07195c01e8c11",
       "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
     },
-    "REDDOG_vending": {
-      "version": "2026.08.03.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.03.2/_delta_REDDOG_vending.zip",
-      "sha256": "d3e9860a60b684efd2cf765ce72dccde18dfe7d089efbff13b9a7c76ab899e24",
-      "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
-    },
     "REDDOG_npc_search": {
       "version": "2026.08.03.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.03.1/_delta_REDDOG_npc_search.zip",
       "sha256": "d98bd320f33ca143fa01af999f6a3d4aea059c6e7a2d456527461b456416e0d1",
       "notes": "실행 시에도 클라 리사이즈+창정렬, 다시검색 버튼도 동일(실행/다시검색/시작 3곳 통일)"
+    },
+    "REDDOG_vending": {
+      "version": "2026.08.03.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.03.3/_delta_REDDOG_vending.zip",
+      "sha256": "1d79edc8d21f6300bb924cb0a9ad49727cc93244eb6eb2afe00460d1968b5797",
+      "notes": "판매단가 7000원 추가 (아덴 금액 템플릿 10장 실캡처: 7000/14000/21000/28000/49000/56000/63000/70000/77000/84000)"
     }
   }
 }
