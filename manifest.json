@@ -85,11 +85,11 @@
       "notes": "파티헤이: 인식점표시 구 파티창 잔재 수정(앵커 확인 후 표시+자동 서치) + 시전 직전 근접 재확인(precast) 이식"
     },
     "sagopalgo": {
-      "version": "2026.08.04.2",
+      "version": "2026.08.04.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.08.04.2/_delta_sagopalgo.zip",
-      "sha256": "60f69f1940c40f8761d786f659e914a54ac8678c6c2b4e8d97f1922deea15934",
-      "notes": "Hotfix: seed price_open_roi fixed coord on merge (remote PCs had png but no ROI - all piece drags falsely judged dead); piece registration now refuses clearly when reference or ROI missing"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.08.04.3/_delta_sagopalgo.zip",
+      "sha256": "414fd654fefad93d0b041b966af9c8872104cb91fbe09758f9f0e762f592526e",
+      "notes": "Piece buy fix: piece buy slots planned before stackable buys (greedy per-slot within weight/aden budget instead of ratio-floor which silently zeroed 1-slot wants); stackable buy loop respects 8-slot cap; skip reasons now logged"
     }
   }
 }
