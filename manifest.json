@@ -21,13 +21,6 @@
       "sha256": "fa409ebbd75bed40aa63950fb589c3914bfa7ee3a5361c9d17e03615ec4f8747",
       "notes": "Nearby-shop auto scan (manual button v1) added to collector."
     },
-    "REDDOG_vending": {
-      "version": "2026.07.20.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.07.20.1/_delta_REDDOG_vending.zip",
-      "sha256": "c63acbdcd8309d3996a11552f37858b81ff8a942d9522bee6fca8b752ffae8fb",
-      "notes": "클래스 썸네일 템플릿 4종 완비(군주·기사 추가, 라이브 검증 — 전 클래스 파티원 헤이 근접 인식)"
-    },
     "REDDOG_npc_search": {
       "version": "2026.07.21.2",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.03.3/_delta_sellerbot.zip",
       "sha256": "c20c8465670e9f628c32fe035e2426c75d2301cb993439dad92c2c6f0e72ac56",
+      "notes": "클라 1280x960 강제(client_resize) + 다시검색 버튼 창 정렬·리사이즈"
+    },
+    "REDDOG_vending": {
+      "version": "2026.08.03.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.03.1/_delta_REDDOG_vending.zip",
+      "sha256": "6de16c61f9c54e69ee3e0a664b75bdb7f739384c0e5dde4787d5b270675b6921",
       "notes": "클라 1280x960 강제(client_resize) + 다시검색 버튼 창 정렬·리사이즈"
     }
   }
