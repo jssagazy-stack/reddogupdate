@@ -56,13 +56,6 @@
       "sha256": "ae35c288a9e3b265171f960f851c08b384303fd90a2efec41c954eb8aa4fdd7e",
       "notes": "타겟 이탈 10분 자동종료 추가: 타겟 이름표를 놓친 상태가 10분 지속되면 귀환 후 정지. 고급 탭 '타겟 이탈 10분 → 귀환·정지' 체크. 이름표(따라가기 검색영역) 미설정이면 동작 안 함(안전)."
     },
-    "REDDOG_hunt": {
-      "version": "2026.07.28.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.07.28.2/_delta_REDDOG_hunt.zip",
-      "sha256": "cea5ab0296633a81b049e4c67c6778ae24e09f09a4afa6aa97df8f44e76554ec",
-      "notes": "복귀 소울락 근본수정: 소울(F11) 시전 후 게임이 이동입력을 ~1.3초 씹는 것 실측 확인 → 복귀 이동클릭 직전 소울 잔여락 게이트(1350ms) + 복귀소울 대기 800→1350ms. 소울 직후 첫 복귀클릭이 씹혀 STUCK→우회 스파이럴→위치이탈 정지의 방아쇠였음. + 우회 클릭 시 디버그 스샷"
-    },
     "HealSupporter": {
       "version": "2026.07.28.2",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.03.1/_delta_REDDOG_chaejip.zip",
       "sha256": "a9a4118a91311864cf6313464ffff3ceccb7f28259327b6a2f1f980de0949c4b",
       "notes": "다시검색 버튼 = 창 정렬(좌상단+리사이즈) 동시 수행"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.03.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.03.1/_delta_REDDOG_hunt.zip",
+      "sha256": "e154bca0672039a70e80a3c55b396c28e4392bdc38964b3f5011550b60dbdb13",
+      "notes": "클라 1280x960 강제(client_resize) + 다시검색 버튼 창 정렬·리사이즈"
     }
   }
 }
