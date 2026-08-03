@@ -85,11 +85,11 @@
       "notes": "파티헤이: 인식점표시 구 파티창 잔재 수정(앵커 확인 후 표시+자동 서치) + 시전 직전 근접 재확인(precast) 이식"
     },
     "sagopalgo": {
-      "version": "2026.08.04.3",
+      "version": "2026.08.04.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.08.04.3/_delta_sagopalgo.zip",
-      "sha256": "414fd654fefad93d0b041b966af9c8872104cb91fbe09758f9f0e762f592526e",
-      "notes": "Piece buy fix: piece buy slots planned before stackable buys (greedy per-slot within weight/aden budget instead of ratio-floor which silently zeroed 1-slot wants); stackable buy loop respects 8-slot cap; skip reasons now logged"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.08.04.4/_delta_sagopalgo.zip",
+      "sha256": "a490e2264795e3b8c1ead17ab7bb436649dad74a74415c327e4c6e056fb7d000",
+      "notes": "Piece partial top-up: refill to target slot count while direction is still alive (want = target minus live slots, both sides); top-up pass scans inventory in reverse so new arrivals are picked first (fewer dead drags); price-window safety net filters registered copies"
     }
   }
 }
