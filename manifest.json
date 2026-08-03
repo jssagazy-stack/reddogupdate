@@ -7,13 +7,6 @@
       "sha256": "8a8b278c493ec6628a062613cfbb7b651231391d0b433bd34cd1b0e301d0c855",
       "notes": "별명 입력(릴레이 접속 시 상대에게 표시) + 수락 대기/거절 처리"
     },
-    "sagopalgo": {
-      "version": "2026.07.19.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.07.19.3/_delta_sagopalgo.zip",
-      "sha256": "68189bb29999572c930b116cfe567b6f846799976d2de056219667061d0ccd34",
-      "notes": "Nearby-shop auto scan (manual button v1): /trade-filter per item, blinking white-arrow accumulation scan within 8-direction range polygon, NPC-cursor gate before click, reuses per-shop collect sequence. Requires fully stopped own shop."
-    },
     "sise": {
       "version": "2026.07.19.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.03.1/_delta_REDDOG_vending.zip",
       "sha256": "6de16c61f9c54e69ee3e0a664b75bdb7f739384c0e5dde4787d5b270675b6921",
       "notes": "클라 1280x960 강제(client_resize) + 다시검색 버튼 창 정렬·리사이즈"
+    },
+    "sagopalgo": {
+      "version": "2026.08.03.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.08.03.1/_delta_sagopalgo.zip",
+      "sha256": "d8e15ca4e54d2af43c2b4a32405293a591bc1dfeea6b8e3a99d8683972f268db",
+      "notes": "게임 연결/정렬 시 클라 1280x960 강제 + 좌상단 정렬(자동연결·찾기·정렬 버튼)"
     }
   }
 }
