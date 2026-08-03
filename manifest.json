@@ -14,13 +14,6 @@
       "sha256": "fa409ebbd75bed40aa63950fb589c3914bfa7ee3a5361c9d17e03615ec4f8747",
       "notes": "Nearby-shop auto scan (manual button v1) added to collector."
     },
-    "REDDOG_npc_search": {
-      "version": "2026.07.21.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.07.21.2/_delta_REDDOG_npc_search.zip",
-      "sha256": "a2e13a79907a11bd01d221aba06aa7b63bbe3cc57374d7aeb85bfa6b0aba7657",
-      "notes": "커서 캡처 개선: 시작 무조건 캡처(스킵 제거)+캡처 2회 컨펌+채팅창 normal(±십자 폐지) / 런타임 게이트 폴링 — 오염된 talk_npc 저장 원천차단"
-    },
     "MyJjolSender": {
       "version": "2026.07.23.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.03.2/_delta_REDDOG_vending.zip",
       "sha256": "d3e9860a60b684efd2cf765ce72dccde18dfe7d089efbff13b9a7c76ab899e24",
       "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.08.03.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.03.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "d98bd320f33ca143fa01af999f6a3d4aea059c6e7a2d456527461b456416e0d1",
+      "notes": "실행 시에도 클라 리사이즈+창정렬, 다시검색 버튼도 동일(실행/다시검색/시작 3곳 통일)"
     }
   }
 }
