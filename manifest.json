@@ -56,13 +56,6 @@
       "sha256": "b371d88c1ddcd0f0586b127cae0139d706251962cbb65076b10f670b3f5ed9f8",
       "notes": "F4 홀드 KEYDOWN 반복주기 50→500ms (키홀드 전용 스레드 — 타 로직 무영향)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.03.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.03.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "a9a4118a91311864cf6313464ffff3ceccb7f28259327b6a2f1f980de0949c4b",
-      "notes": "다시검색 버튼 = 창 정렬(좌상단+리사이즈) 동시 수행"
-    },
     "REDDOG_hunt": {
       "version": "2026.08.03.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.08.03.1/_delta_sagopalgo.zip",
       "sha256": "d8e15ca4e54d2af43c2b4a32405293a591bc1dfeea6b8e3a99d8683972f268db",
       "notes": "게임 연결/정렬 시 클라 1280x960 강제 + 좌상단 정렬(자동연결·찾기·정렬 버튼)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.03.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.03.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "85e18aa297abbcf43cb3800a6446460caebb050416f5beee3ed70291ffcf4945",
+      "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
     }
   }
 }
