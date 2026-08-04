@@ -70,13 +70,6 @@
       "sha256": "30aefae714245b42972f9670ad3547a683c7584217264a7d8fa07195c01e8c11",
       "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.08.03.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.03.1/_delta_REDDOG_npc_search.zip",
-      "sha256": "d98bd320f33ca143fa01af999f6a3d4aea059c6e7a2d456527461b456416e0d1",
-      "notes": "실행 시에도 클라 리사이즈+창정렬, 다시검색 버튼도 동일(실행/다시검색/시작 3곳 통일)"
-    },
     "REDDOG_vending": {
       "version": "2026.08.04.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sagopalgo-2026.08.04.4/_delta_sagopalgo.zip",
       "sha256": "a490e2264795e3b8c1ead17ab7bb436649dad74a74415c327e4c6e056fb7d000",
       "notes": "Piece partial top-up: refill to target slot count while direction is still alive (want = target minus live slots, both sides); top-up pass scans inventory in reverse so new arrivals are picked first (fewer dead drags); price-window safety net filters registered copies"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.08.04.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.04.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "653bf60a86c0810f8fe257726db02fc89a822780e415d6cb8ccb50425f1b6ea3",
+      "notes": "완성 카운트 GUI 표시 — 이름짓기+창고 맡기기 완료 시 '완성 N마리 (누적 M)' 경과시간 옆 표시. 누적은 영구 저장+누적리셋 버튼, 실행분은 시작마다 0부터"
     }
   }
 }
