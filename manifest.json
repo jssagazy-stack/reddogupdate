@@ -49,13 +49,6 @@
       "sha256": "b371d88c1ddcd0f0586b127cae0139d706251962cbb65076b10f670b3f5ed9f8",
       "notes": "F4 홀드 KEYDOWN 반복주기 50→500ms (키홀드 전용 스레드 — 타 로직 무영향)"
     },
-    "REDDOG_vending": {
-      "version": "2026.08.04.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.04.1/_delta_REDDOG_vending.zip",
-      "sha256": "6ad10de3c40d1af4a7535de78d2b621ff2a97793f2c209b291938368e7bfe2b1",
-      "notes": "파티헤이: 인식점표시 구 파티창 잔재 수정(앵커 확인 후 표시+자동 서치) + 시전 직전 근접 재확인(precast) 이식"
-    },
     "sagopalgo": {
       "version": "2026.08.04.4",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.06.1/_delta_sellerbot.zip",
       "sha256": "f444c6a325b8c5050689713c85b044717a653489bfb30f176827b6333d88b279",
+      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
+    },
+    "REDDOG_vending": {
+      "version": "2026.08.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.06.1/_delta_REDDOG_vending.zip",
+      "sha256": "6e55ee22aac3bc8f73f997621763626d1e6847e2de9a6db2e4945c526f7f2903",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     }
   }
