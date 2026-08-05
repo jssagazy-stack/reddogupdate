@@ -70,13 +70,6 @@
       "sha256": "a490e2264795e3b8c1ead17ab7bb436649dad74a74415c327e4c6e056fb7d000",
       "notes": "Piece partial top-up: refill to target slot count while direction is still alive (want = target minus live slots, both sides); top-up pass scans inventory in reverse so new arrivals are picked first (fewer dead drags); price-window safety net filters registered copies"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.08.04.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.04.1/_delta_REDDOG_npc_search.zip",
-      "sha256": "653bf60a86c0810f8fe257726db02fc89a822780e415d6cb8ccb50425f1b6ea3",
-      "notes": "완성 카운트 GUI 표시 — 이름짓기+창고 맡기기 완료 시 '완성 N마리 (누적 M)' 경과시간 옆 표시. 누적은 영구 저장+누적리셋 버튼, 실행분은 시작마다 0부터"
-    },
     "REDDOG_hunt": {
       "version": "2026.08.06.2",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.06.1/_delta_REDDOG_chaejip.zip",
       "sha256": "556e82f2bdf9079af39ef0d98d02294f533858ac1ab0da3149ea8a7401d0842f",
+      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.08.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.06.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "79b124b228a3b3f477faa4fb24fcd8833be28310294d55348b5768a2649d84bc",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     }
   }
