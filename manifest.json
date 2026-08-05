@@ -7,13 +7,6 @@
       "sha256": "fa409ebbd75bed40aa63950fb589c3914bfa7ee3a5361c9d17e03615ec4f8747",
       "notes": "Nearby-shop auto scan (manual button v1) added to collector."
     },
-    "MyJjolSender": {
-      "version": "2026.07.23.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.07.23.1/_delta_MyJjolSender.zip",
-      "sha256": "343d8013d0c38451ef698c9bd945256fbb74ad083d5a0b2b50944872877433b1",
-      "notes": "아이템 두루마리·축순 버튼 삭제"
-    },
     "sagopalgo": {
       "version": "2026.08.04.4",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.06.1/_delta_MyJjol.zip",
       "sha256": "9fd1483e8223f69b70f21c508fcb67f04c1b0b3f2712294254bbfe6995407378",
+      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
+    },
+    "MyJjolSender": {
+      "version": "2026.08.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.08.06.1/_delta_MyJjolSender.zip",
+      "sha256": "672b749f8d53252900f6ed6006cddd0fd9adf50c550626872531151a419c010f",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     }
   }
