@@ -85,11 +85,11 @@
       "notes": "파티버프 근접 에지 트리거(파티원이 올 때마다 즉시 버프) + 헤이/힐 분리(헤이키·행별 재시전간격·최대헤이수) + 용도 일괄 콤보(헤이/힐 프리셋)"
     },
     "REDDOG_chaejip": {
-      "version": "2026.08.06.2",
+      "version": "2026.08.06.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.06.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "0d0227828032f69aec084ee837c3de3432bc911d2cb01a161f172ad9717dbd93",
-      "notes": "편지 더블클릭 즉시수령(매칭·클릭 삭제) + 알림단추 변화감지→Get All 일괄수령 + 사망스샷 체크박스 옵션(기본 꺼짐) + 리스타트무응답 스냅 제거"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.06.3/_delta_REDDOG_chaejip.zip",
+      "sha256": "df2abbee87c5fd9d06c68fc0db7a0d1a8016fa8bd03ceaec7cda359f0c48a7c1",
+      "notes": "사망 스샷 체크박스 미표시 수정(프로필 마커 검사가 FlowProfile 객체에서 항상 실패하던 결함)"
     }
   }
 }
