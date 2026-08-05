@@ -49,13 +49,6 @@
       "sha256": "b371d88c1ddcd0f0586b127cae0139d706251962cbb65076b10f670b3f5ed9f8",
       "notes": "F4 홀드 KEYDOWN 반복주기 50→500ms (키홀드 전용 스레드 — 타 로직 무영향)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.03.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.03.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "85e18aa297abbcf43cb3800a6446460caebb050416f5beee3ed70291ffcf4945",
-      "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
-    },
     "sellerbot": {
       "version": "2026.08.03.4",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.06.2/_delta_REDDOG_hunt.zip",
       "sha256": "bbfa7e585831aed55216c37b08e7746cb99374198a39935003583fe177bc9642",
+      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.06.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "556e82f2bdf9079af39ef0d98d02294f533858ac1ab0da3149ea8a7401d0842f",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     }
   }
