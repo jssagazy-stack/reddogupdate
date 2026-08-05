@@ -14,13 +14,6 @@
       "sha256": "a490e2264795e3b8c1ead17ab7bb436649dad74a74415c327e4c6e056fb7d000",
       "notes": "Piece partial top-up: refill to target slot count while direction is still alive (want = target minus live slots, both sides); top-up pass scans inventory in reverse so new arrivals are picked first (fewer dead drags); price-window safety net filters registered copies"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.06.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "556e82f2bdf9079af39ef0d98d02294f533858ac1ab0da3149ea8a7401d0842f",
-      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
-    },
     "REDDOG_npc_search": {
       "version": "2026.08.06.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.06.2/_delta_HealSupporter.zip",
       "sha256": "977602ae6eab829cc68f0990eada523c863aec73b0e90d1efc4fdb89d214d452",
       "notes": "파티버프 근접 에지 트리거(파티원이 올 때마다 즉시 버프) + 헤이/힐 분리(헤이키·행별 재시전간격·최대헤이수) + 용도 일괄 콤보(헤이/힐 프리셋)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.06.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.06.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "0d0227828032f69aec084ee837c3de3432bc911d2cb01a161f172ad9717dbd93",
+      "notes": "편지 더블클릭 즉시수령(매칭·클릭 삭제) + 알림단추 변화감지→Get All 일괄수령 + 사망스샷 체크박스 옵션(기본 꺼짐) + 리스타트무응답 스냅 제거"
     }
   }
 }
