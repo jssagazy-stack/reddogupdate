@@ -42,13 +42,6 @@
       "sha256": "7b3dc0b57e1d4d534a3eb135ae1ce62486e20e3fa1415ddb81969586b5e6960e",
       "notes": "타겟 이탈 자동종료 재설계: 파티모드=파티창 대상 슬롯 금색 근접 이탈 / 노파티=이름표 미발견 기준. 시작 시 이탈종료 활성/비활성+이유 로그 표시(영역 미설정·대상=본인 등), 이탈 감지/목격/10분 정지 전환 로그 추가. 대상=본인(1행)은 항상 금색이라 발동 안 함 경고. follow_party는 대상힐 행을 실제 파티원 행으로 설정해야 동작."
     },
-    "REDDOG_zoneheal": {
-      "version": "2026.07.29.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.07.29.3/_delta_REDDOG_zoneheal.zip",
-      "sha256": "b371d88c1ddcd0f0586b127cae0139d706251962cbb65076b10f670b3f5ed9f8",
-      "notes": "F4 홀드 KEYDOWN 반복주기 50→500ms (키홀드 전용 스레드 — 타 로직 무영향)"
-    },
     "sagopalgo": {
       "version": "2026.08.04.4",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.06.1/_delta_REDDOG_vending.zip",
       "sha256": "6e55ee22aac3bc8f73f997621763626d1e6847e2de9a6db2e4945c526f7f2903",
+      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
+    },
+    "REDDOG_zoneheal": {
+      "version": "2026.08.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.06.1/_delta_REDDOG_zoneheal.zip",
+      "sha256": "3524ce73ec9ef72e76e1330c62384355b07fe9876721221c83a33a726a504b4d",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     }
   }
