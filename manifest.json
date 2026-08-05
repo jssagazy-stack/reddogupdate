@@ -49,13 +49,6 @@
       "sha256": "b371d88c1ddcd0f0586b127cae0139d706251962cbb65076b10f670b3f5ed9f8",
       "notes": "F4 홀드 KEYDOWN 반복주기 50→500ms (키홀드 전용 스레드 — 타 로직 무영향)"
     },
-    "sellerbot": {
-      "version": "2026.08.03.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.03.4/_delta_sellerbot.zip",
-      "sha256": "30aefae714245b42972f9670ad3547a683c7584217264a7d8fa07195c01e8c11",
-      "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
-    },
     "REDDOG_vending": {
       "version": "2026.08.04.1",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.06.1/_delta_REDDOG_npc_search.zip",
       "sha256": "79b124b228a3b3f477faa4fb24fcd8833be28310294d55348b5768a2649d84bc",
+      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
+    },
+    "sellerbot": {
+      "version": "2026.08.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.06.1/_delta_sellerbot.zip",
+      "sha256": "f444c6a325b8c5050689713c85b044717a653489bfb30f176827b6333d88b279",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     }
   }
