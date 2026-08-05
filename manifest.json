@@ -85,11 +85,11 @@
       "notes": "완성 카운트 GUI 표시 — 이름짓기+창고 맡기기 완료 시 '완성 N마리 (누적 M)' 경과시간 옆 표시. 누적은 영구 저장+누적리셋 버튼, 실행분은 시작마다 0부터"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.06.1",
+      "version": "2026.08.06.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.06.1/_delta_REDDOG_hunt.zip",
-      "sha256": "d1a234d2ff7e674b611aaeb0ec9a6787be5c20e889afac37ab3e67956d7fdb81",
-      "notes": "근거리 추격공격 도입(다운홀드+1초 재클릭, 몹 이동 추격) + 빈땅 드래그 하단 무빙 근본수정(다운 직전 칼표시 재확인, 원거리 포함). 공격판정은 정지 후 기존 방식 유지"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.06.2/_delta_REDDOG_hunt.zip",
+      "sha256": "bbfa7e585831aed55216c37b08e7746cb99374198a39935003583fe177bc9642",
+      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     }
   }
 }
