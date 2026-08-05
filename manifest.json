@@ -14,13 +14,6 @@
       "sha256": "a490e2264795e3b8c1ead17ab7bb436649dad74a74415c327e4c6e056fb7d000",
       "notes": "Piece partial top-up: refill to target slot count while direction is still alive (want = target minus live slots, both sides); top-up pass scans inventory in reverse so new arrivals are picked first (fewer dead drags); price-window safety net filters registered copies"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.06.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.06.2/_delta_REDDOG_hunt.zip",
-      "sha256": "bbfa7e585831aed55216c37b08e7746cb99374198a39935003583fe177bc9642",
-      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.06.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.08.06.1/_delta_MyJjolSender.zip",
       "sha256": "672b749f8d53252900f6ed6006cddd0fd9adf50c550626872531151a419c010f",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.06.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.06.3/_delta_REDDOG_hunt.zip",
+      "sha256": "4b36b85a71f7bc8f0f1d4aecfd42ca810f9a2e11712efea30bc15ce2f892067d",
+      "notes": "시퀀스 공유: 내보내기/가져오기(zip, 어느 PC서든) + 공유팩 자동 수신(관리PC 발행분, '공유:' 표시·로컬과 분리). 힐-힐 최소간격 설정화(기본 2.0초, 센서탭 힐간격)"
     }
   }
 }
