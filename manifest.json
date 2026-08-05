@@ -56,13 +56,6 @@
       "sha256": "85e18aa297abbcf43cb3800a6446460caebb050416f5beee3ed70291ffcf4945",
       "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.03.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.03.2/_delta_REDDOG_hunt.zip",
-      "sha256": "e3cea69e1aed51db21750e6bfcdc9edb554a933243dc0899fd372a2373d2b539",
-      "notes": "프로그램 실행 시에도 클라 리사이즈 수행(실행/다시검색/시작 3곳 통일)"
-    },
     "sellerbot": {
       "version": "2026.08.03.4",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.04.1/_delta_REDDOG_npc_search.zip",
       "sha256": "653bf60a86c0810f8fe257726db02fc89a822780e415d6cb8ccb50425f1b6ea3",
       "notes": "완성 카운트 GUI 표시 — 이름짓기+창고 맡기기 완료 시 '완성 N마리 (누적 M)' 경과시간 옆 표시. 누적은 영구 저장+누적리셋 버튼, 실행분은 시작마다 0부터"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.05.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.05.1/_delta_REDDOG_hunt.zip",
+      "sha256": "476f8742357e670287eb81281d6eaa59a42d435c5c74c25d743509fff7a897a1",
+      "notes": "가드/버프 F1 페이지체크: 단축창 F1탭 이미지매칭으로 이미 F1 페이지면 F1 입력 생략(자힐 반응 ~100ms 단축). 미캡처/매칭실패 시 종전 동작 유지(fail-open). 런처 좌표탭에 F1탭 기준캡처 버튼 추가"
     }
   }
 }
