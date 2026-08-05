@@ -1,12 +1,5 @@
 {
   "products": {
-    "Sender": {
-      "version": "2026.07.19.10",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.07.19.10/_delta_Sender.zip",
-      "sha256": "8a8b278c493ec6628a062613cfbb7b651231391d0b433bd34cd1b0e301d0c855",
-      "notes": "별명 입력(릴레이 접속 시 상대에게 표시) + 수락 대기/거절 처리"
-    },
     "sise": {
       "version": "2026.07.19.1",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.06.1/_delta_CommHealer.zip",
       "sha256": "5e6acc02c3e24179da70554fa969202d68b77a063e3300b293008893c0c6cf6a",
+      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
+    },
+    "Sender": {
+      "version": "2026.08.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.08.06.1/_delta_Sender.zip",
+      "sha256": "2e2b13a7890a1acd2f29ecc10509af6e01c6a6c8724e746c568babaf25b0b536",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     }
   }
