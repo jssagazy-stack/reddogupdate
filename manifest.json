@@ -21,13 +21,6 @@
       "sha256": "343d8013d0c38451ef698c9bd945256fbb74ad083d5a0b2b50944872877433b1",
       "notes": "아이템 두루마리·축순 버튼 삭제"
     },
-    "CommHealer": {
-      "version": "2026.07.28.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.07.28.1/_delta_CommHealer.zip",
-      "sha256": "39d866382e2cbeb574ef487e5b53895b3dc79380120c1cd1d12c97f3eafa5e89",
-      "notes": "타겟 이탈 10분 자동종료 추가: 타겟 이름표를 놓친 상태가 10분 지속되면 귀환 후 정지. '쫄 자신' 탭 '타겟 이탈 10분 → 귀환·정지' 체크. 이름표(따라가기 탭 검색영역) 미설정이면 동작 안 함(안전). 따라오기 멈춤 중에도 이탈 카운트."
-    },
     "MyJjol": {
       "version": "2026.07.28.1",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.06.1/_delta_HealSupporter.zip",
       "sha256": "2095a4fa81f87dcf9a331320a6f6053404f243bc36e4e61179e100a19cf3a7aa",
+      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
+    },
+    "CommHealer": {
+      "version": "2026.08.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.06.1/_delta_CommHealer.zip",
+      "sha256": "5e6acc02c3e24179da70554fa969202d68b77a063e3300b293008893c0c6cf6a",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     }
   }
