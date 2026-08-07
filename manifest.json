@@ -85,11 +85,11 @@
       "notes": "사망 스샷 체크박스 미표시 수정(프로필 마커 검사가 FlowProfile 객체에서 항상 실패하던 결함)"
     },
     "HealSupporter": {
-      "version": "2026.08.06.4",
+      "version": "2026.08.07.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.06.4/_delta_HealSupporter.zip",
-      "sha256": "60825071e74cc07bea65124778e1cbab6b8f504b2f5f7c0375f1ce355e783eb3",
-      "notes": "순서 결정화: 헤이 버스트(최대헤이수) 전량 후 버프(버프 게이트 max(연결딜레이,헤이 재시전)+600ms + 근접 진입 1초 버프 보류) — 헤이/버프 경합·헤이 발동권 낭비 근본수정. 파티설정 행별 '버프' 체크박스(버프는 체크 행만, 헤이/힐은 전원)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.07.1/_delta_HealSupporter.zip",
+      "sha256": "5b2293d4ac5e696065a85d4f685e00a420468e6c006fc448ba2f5173955a8b3a",
+      "notes": "자동초대 무한반복 근본수정: 초대 센서 래치 보존(edge_latch_keep) + 매크로 heal_busy 원자화(타이핑 오염 차단)"
     }
   }
 }
