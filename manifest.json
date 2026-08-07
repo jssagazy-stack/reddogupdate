@@ -70,13 +70,6 @@
       "sha256": "4b36b85a71f7bc8f0f1d4aecfd42ca810f9a2e11712efea30bc15ce2f892067d",
       "notes": "시퀀스 공유: 내보내기/가져오기(zip, 어느 PC서든) + 공유팩 자동 수신(관리PC 발행분, '공유:' 표시·로컬과 분리). 힐-힐 최소간격 설정화(기본 2.0초, 센서탭 힐간격)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.07.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.07.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "95e2877b40402a5c86375f73099f18517c801f080842e6d2b9b77cc8ceb704d6",
-      "notes": "자동파티요청: 성립까지 30초 간격 최대 5회 재요청 + 채집 중 해산 감시(재요청, 성공 시 헤이스트 감지 복귀·실패 시 무파티 진행)"
-    },
     "sellerbot": {
       "version": "2026.08.07.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.07.2/_delta_HealSupporter.zip",
       "sha256": "f4ab9c00711873e47c03c167d02cc21cc1ccdc5362ce4c4e6621b0deb049e6dd",
       "notes": "탭4 버프 행별 '아이템' 체크 신설 — 자버프를 롱프레스(700ms) 대신 단타 1회(50ms)로 시전. 물약 등 아이템 슬롯이 자동반복으로 한 번에 3개씩 소모되던 것 수정(스킬 버프는 기존 롱프레스 유지)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.07.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.07.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "25e1b23b8629eb5e2e92db9a7f491f376ac7d8ff6026545113dc68e00f138e0a",
+      "notes": "파티중 중복 파티요청 수정(잔상프레임 settle+재시도, 상태게이트 분리) + 창고 스크롤 최하단 앵커 조기종료 + 귀환 전 헤이 수급 게이트(감지 후 4초 체류) + AFK 멘트 35개"
     }
   }
 }
