@@ -21,13 +21,6 @@
       "sha256": "79b124b228a3b3f477faa4fb24fcd8833be28310294d55348b5768a2649d84bc",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     },
-    "sellerbot": {
-      "version": "2026.08.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.06.1/_delta_sellerbot.zip",
-      "sha256": "f444c6a325b8c5050689713c85b044717a653489bfb30f176827b6333d88b279",
-      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
-    },
     "REDDOG_vending": {
       "version": "2026.08.06.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.07.1/_delta_REDDOG_chaejip.zip",
       "sha256": "95e2877b40402a5c86375f73099f18517c801f080842e6d2b9b77cc8ceb704d6",
       "notes": "자동파티요청: 성립까지 30초 간격 최대 5회 재요청 + 채집 중 해산 감시(재요청, 성공 시 헤이스트 감지 복귀·실패 시 무파티 진행)"
+    },
+    "sellerbot": {
+      "version": "2026.08.07.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.07.1/_delta_sellerbot.zip",
+      "sha256": "951b7d8b049ab6fa3098f43be98e84a4b33b95d32c836df26be4159645c5345b",
+      "notes": "자동초대 래치보존+매크로 rec_busy 원자화(타이핑 오염·무한반복 차단) + 상점 지연시작 5분 옵션(파티 만원 시 조기 개설)"
     }
   }
 }
