@@ -77,19 +77,19 @@
       "sha256": "f4ab9c00711873e47c03c167d02cc21cc1ccdc5362ce4c4e6621b0deb049e6dd",
       "notes": "탭4 버프 행별 '아이템' 체크 신설 — 자버프를 롱프레스(700ms) 대신 단타 1회(50ms)로 시전. 물약 등 아이템 슬롯이 자동반복으로 한 번에 3개씩 소모되던 것 수정(스킬 버프는 기존 롱프레스 유지)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.07.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.07.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "25e1b23b8629eb5e2e92db9a7f491f376ac7d8ff6026545113dc68e00f138e0a",
-      "notes": "파티중 중복 파티요청 수정(잔상프레임 settle+재시도, 상태게이트 분리) + 창고 스크롤 최하단 앵커 조기종료 + 귀환 전 헤이 수급 게이트(감지 후 4초 체류) + AFK 멘트 35개"
-    },
     "sellerbot": {
       "version": "2026.08.07.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.07.2/_delta_sellerbot.zip",
       "sha256": "18d1d3f9304b66a09286a4fa7938d9f26d9a7f55fe66e3fdf75e1c8dd91d032c",
       "notes": "창고 찾기 스크롤 상한 10→30 (최하단 앵커 즉시멈춤은 기존대로 — 타 품목 많은 창고에서 최하단까지 유동 스크롤)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.08.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.08.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "622eee6e71a489f2bfe2c890c2239a07c9a29bcbe9e8401a17ee62b9937932c5",
+      "notes": "AFK 멘트 2단 랜덤 — 윈도우(하루)별 발화확률 0.3~0.9 추첨 + 발동마다 확률 발화(꽝=조용히 자리비움), 멘트 생략 분기 추가"
     }
   }
 }
