@@ -85,11 +85,11 @@
       "notes": "AFK 멘트 2단 랜덤 — 윈도우(하루)별 발화확률 0.3~0.9 추첨 + 발동마다 확률 발화(꽝=조용히 자리비움), 멘트 생략 분기 추가"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.10.3",
+      "version": "2026.08.10.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.10.3/_delta_REDDOG_hunt.zip",
-      "sha256": "1e8f1f51a2b328b92a78c65fa3de1b3c00ea6de0ca027b12d14a44f36700c3bd",
-      "notes": "도달불가(벽 너머) 공격 타임아웃 시 ESC 1회로 공격 해제 — 화살 무한 소비 고착 방지"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.10.4/_delta_REDDOG_hunt.zip",
+      "sha256": "dec4fdcb480dd4f01329fcfd1e31f30aef6af0c75559a6b2605593dd7450243a",
+      "notes": "도달불가 공격해제 방식 교체: ESC(드래그 자동공격 못 끊음)→캐릭터 중심 좌클릭 1회(제자리 이동명령=공격 해제, 캘리브값 주입·기본 638,364)"
     }
   }
 }
