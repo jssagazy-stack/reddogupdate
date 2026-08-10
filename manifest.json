@@ -63,13 +63,6 @@
       "sha256": "672b749f8d53252900f6ed6006cddd0fd9adf50c550626872531151a419c010f",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.06.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.06.3/_delta_REDDOG_hunt.zip",
-      "sha256": "4b36b85a71f7bc8f0f1d4aecfd42ca810f9a2e11712efea30bc15ce2f892067d",
-      "notes": "시퀀스 공유: 내보내기/가져오기(zip, 어느 PC서든) + 공유팩 자동 수신(관리PC 발행분, '공유:' 표시·로컬과 분리). 힐-힐 최소간격 설정화(기본 2.0초, 센서탭 힐간격)"
-    },
     "HealSupporter": {
       "version": "2026.08.07.2",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.08.1/_delta_REDDOG_chaejip.zip",
       "sha256": "622eee6e71a489f2bfe2c890c2239a07c9a29bcbe9e8401a17ee62b9937932c5",
       "notes": "AFK 멘트 2단 랜덤 — 윈도우(하루)별 발화확률 0.3~0.9 추첨 + 발동마다 확률 발화(꽝=조용히 자리비움), 멘트 생략 분기 추가"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.10.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.10.1/_delta_REDDOG_hunt.zip",
+      "sha256": "a5ae2172e467f33e7699972d27e23a9a1dcf0d61b0690d23c9769af19d497b3f",
+      "notes": "몹없을때 줍기 개선: 확인한 오브젝트 기억 확장(겹침판정·범위성장·16칸)+신규 움직임 소진 시 몹없음 확정→연속 줍기(몹 있으면 절대 안 줍음, 새 몹 등장 즉시 공격 복귀)"
     }
   }
 }
