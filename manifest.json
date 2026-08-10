@@ -85,11 +85,11 @@
       "notes": "AFK 멘트 2단 랜덤 — 윈도우(하루)별 발화확률 0.3~0.9 추첨 + 발동마다 확률 발화(꽝=조용히 자리비움), 멘트 생략 분기 추가"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.10.4",
+      "version": "2026.08.10.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.10.4/_delta_REDDOG_hunt.zip",
-      "sha256": "dec4fdcb480dd4f01329fcfd1e31f30aef6af0c75559a6b2605593dd7450243a",
-      "notes": "도달불가 공격해제 방식 교체: ESC(드래그 자동공격 못 끊음)→캐릭터 중심 좌클릭 1회(제자리 이동명령=공격 해제, 캘리브값 주입·기본 638,364)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.10.5/_delta_REDDOG_hunt.zip",
+      "sha256": "609b5639cfdd40a46c6c891be77449a8ce86b6fb44449a1d71e943f1853406b1",
+      "notes": "탐지 튜닝 '감지할 타겟 크기' 슬라이더 상한 600→3000 (단위=변화 픽셀 면적, 슬라임 1150급 잡몹 거르기 가능)"
     }
   }
 }
