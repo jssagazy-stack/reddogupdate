@@ -85,11 +85,11 @@
       "notes": "AFK 멘트 2단 랜덤 — 윈도우(하루)별 발화확률 0.3~0.9 추첨 + 발동마다 확률 발화(꽝=조용히 자리비움), 멘트 생략 분기 추가"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.10.2",
+      "version": "2026.08.10.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.10.2/_delta_REDDOG_hunt.zip",
-      "sha256": "8ada153e35a4e493fe68b0ec3169fca4a6a339757ee8d97f0a3887109f23c314",
-      "notes": "줍기 막힘 근본수정: 포기 위치 배제(이동 시 해제+20초 백스톱, 다음 아이템으로 전환)+아이템 하나뿐이면 ㄱ자 우회 150px 1회(착지점에 몹이면 공격 전환). 도달불가 아이템 무한 재시도 제거"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.10.3/_delta_REDDOG_hunt.zip",
+      "sha256": "1e8f1f51a2b328b92a78c65fa3de1b3c00ea6de0ca027b12d14a44f36700c3bd",
+      "notes": "도달불가(벽 너머) 공격 타임아웃 시 ESC 1회로 공격 해제 — 화살 무한 소비 고착 방지"
     }
   }
 }
