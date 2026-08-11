@@ -63,13 +63,6 @@
       "sha256": "672b749f8d53252900f6ed6006cddd0fd9adf50c550626872531151a419c010f",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     },
-    "HealSupporter": {
-      "version": "2026.08.07.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.07.2/_delta_HealSupporter.zip",
-      "sha256": "f4ab9c00711873e47c03c167d02cc21cc1ccdc5362ce4c4e6621b0deb049e6dd",
-      "notes": "탭4 버프 행별 '아이템' 체크 신설 — 자버프를 롱프레스(700ms) 대신 단타 1회(50ms)로 시전. 물약 등 아이템 슬롯이 자동반복으로 한 번에 3개씩 소모되던 것 수정(스킬 버프는 기존 롱프레스 유지)"
-    },
     "sellerbot": {
       "version": "2026.08.07.2",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.10.5/_delta_REDDOG_hunt.zip",
       "sha256": "609b5639cfdd40a46c6c891be77449a8ce86b6fb44449a1d71e943f1853406b1",
       "notes": "탐지 튜닝 '감지할 타겟 크기' 슬라이더 상한 600→3000 (단위=변화 픽셀 면적, 슬라임 1150급 잡몹 거르기 가능)"
+    },
+    "HealSupporter": {
+      "version": "2026.08.11.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.11.1/_delta_HealSupporter.zip",
+      "sha256": "0008367c23329d0794cf83b36c4d054a7610aaa79501abaa92a16cea91ac0054",
+      "notes": "간헐 클릭 씹힘 수정: 시전 키(힐/헤이/버프/해독/메디) 홀드 40ms 명시 + 시전키→클릭 딜레이 설정화(파티설정 탭 스핀, 기본 150ms — 랙 시 스펠커서 전환 전 클릭 도착하던 것 보정)"
     }
   }
 }
