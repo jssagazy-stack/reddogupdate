@@ -56,13 +56,6 @@
       "sha256": "18d1d3f9304b66a09286a4fa7938d9f26d9a7f55fe66e3fdf75e1c8dd91d032c",
       "notes": "창고 찾기 스크롤 상한 10→30 (최하단 앵커 즉시멈춤은 기존대로 — 타 품목 많은 창고에서 최하단까지 유동 스크롤)"
     },
-    "HealSupporter": {
-      "version": "2026.08.11.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.11.2/_delta_HealSupporter.zip",
-      "sha256": "885290d32e189c32914752afc10f089d13649d9731e34b077bb2be0f306c0010",
-      "notes": "키홀드 0 전수 보강: 귀환키(안전망)·해독제 단타·거리유지 ESC 홀드 40ms + 시전키→클릭 딜레이 상수(단일 모드)도 통신힐러와 공유"
-    },
     "CommHealer": {
       "version": "2026.08.11.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.11.1/_delta_REDDOG_chaejip.zip",
       "sha256": "194b4cc1463b0609a6027e4cd758ca2c730cc6072c69fba172af220044d99e3b",
       "notes": "윈드워크 시전키 홀드 40ms(씹힘 방지)"
+    },
+    "HealSupporter": {
+      "version": "2026.08.11.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.11.3/_delta_HealSupporter.zip",
+      "sha256": "c9fe47e1fe03575e0c4518a199228417b3d0a89353d7667bf8d7028cfdc416f3",
+      "notes": "버프 근접 에지 리셋을 근접(헤이) 트리거 행에만 적용 — 저체력(힐) 행은 순수 쿨타임 기반(파티원 재근접 시 쿨 초기화·재시전 스팸 수정)"
     }
   }
 }
