@@ -85,11 +85,11 @@
       "notes": "탐지 튜닝 '감지할 타겟 크기' 슬라이더 상한 600→3000 (단위=변화 픽셀 면적, 슬라임 1150급 잡몹 거르기 가능)"
     },
     "HealSupporter": {
-      "version": "2026.08.11.1",
+      "version": "2026.08.11.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.11.1/_delta_HealSupporter.zip",
-      "sha256": "0008367c23329d0794cf83b36c4d054a7610aaa79501abaa92a16cea91ac0054",
-      "notes": "간헐 클릭 씹힘 수정: 시전 키(힐/헤이/버프/해독/메디) 홀드 40ms 명시 + 시전키→클릭 딜레이 설정화(파티설정 탭 스핀, 기본 150ms — 랙 시 스펠커서 전환 전 클릭 도착하던 것 보정)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.11.2/_delta_HealSupporter.zip",
+      "sha256": "885290d32e189c32914752afc10f089d13649d9731e34b077bb2be0f306c0010",
+      "notes": "키홀드 0 전수 보강: 귀환키(안전망)·해독제 단타·거리유지 ESC 홀드 40ms + 시전키→클릭 딜레이 상수(단일 모드)도 통신힐러와 공유"
     }
   }
 }
