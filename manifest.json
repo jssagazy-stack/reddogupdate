@@ -85,11 +85,11 @@
       "notes": "버프 근접 에지 리셋을 근접(헤이) 트리거 행에만 적용 — 저체력(힐) 행은 순수 쿨타임 기반(파티원 재근접 시 쿨 초기화·재시전 스팸 수정)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.11.2",
+      "version": "2026.08.11.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.11.2/_delta_REDDOG_hunt.zip",
-      "sha256": "f11921c764c6043db118d5ae4829bda886a6c06aa515be3c8180b36c894fb49f",
-      "notes": "앵커 복귀/우회/배회/아이템우회 이동 클릭점이 하단 UI(y>730)로 내려가 무효클릭 STUCK 되던 것 수정 — 클릭 하단 클램프 y839→y729로 조정"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.11.3/_delta_REDDOG_hunt.zip",
+      "sha256": "408a8f6018822166d078affa59a2caa3e0d373f661253b774d445ebd3cf27d07",
+      "notes": "몹 없을때 랜덤 배회 → 가두리 둘레 시계방향 순찰(내접 타원 8방향, 반경 90%)로 교체 — 새 몹을 넓고 균등하게 탐색"
     }
   }
 }
