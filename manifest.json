@@ -42,13 +42,6 @@
       "sha256": "2e2b13a7890a1acd2f29ecc10509af6e01c6a6c8724e746c568babaf25b0b536",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     },
-    "MyJjol": {
-      "version": "2026.08.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.06.1/_delta_MyJjol.zip",
-      "sha256": "9fd1483e8223f69b70f21c508fcb67f04c1b0b3f2712294254bbfe6995407378",
-      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
-    },
     "MyJjolSender": {
       "version": "2026.08.06.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.11.1/_delta_CommHealer.zip",
       "sha256": "404f530c181405ad20a7c0b9ab393b317e21dca3fb681b965cb9d88c6b7acdc8",
       "notes": "시전 키 씹힘 보강: 페이지키(F1~F3)·F1 복귀·아이템 슬롯키 홀드 40ms(오슬롯 시전 방지) + 힐/버프/해독 시전키 홀드 40ms 상속"
+    },
+    "MyJjol": {
+      "version": "2026.08.11.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.11.1/_delta_MyJjol.zip",
+      "sha256": "5bc4f0ee3951511e08474c58041271b3faf89827e8d3b0da0fc7cfaa0b47a6f8",
+      "notes": "시전 키 씹힘 보강: 페이지키·F1 복귀·아이템 슬롯키·힐/버프/해독 시전키 홀드 40ms(오슬롯 시전 방지)"
     }
   }
 }
