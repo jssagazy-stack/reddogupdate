@@ -35,13 +35,6 @@
       "sha256": "3524ce73ec9ef72e76e1330c62384355b07fe9876721221c83a33a726a504b4d",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     },
-    "CommHealer": {
-      "version": "2026.08.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.06.1/_delta_CommHealer.zip",
-      "sha256": "5e6acc02c3e24179da70554fa969202d68b77a063e3300b293008893c0c6cf6a",
-      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
-    },
     "Sender": {
       "version": "2026.08.06.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.11.2/_delta_HealSupporter.zip",
       "sha256": "885290d32e189c32914752afc10f089d13649d9731e34b077bb2be0f306c0010",
       "notes": "키홀드 0 전수 보강: 귀환키(안전망)·해독제 단타·거리유지 ESC 홀드 40ms + 시전키→클릭 딜레이 상수(단일 모드)도 통신힐러와 공유"
+    },
+    "CommHealer": {
+      "version": "2026.08.11.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.11.1/_delta_CommHealer.zip",
+      "sha256": "404f530c181405ad20a7c0b9ab393b317e21dca3fb681b965cb9d88c6b7acdc8",
+      "notes": "시전 키 씹힘 보강: 페이지키(F1~F3)·F1 복귀·아이템 슬롯키 홀드 40ms(오슬롯 시전 방지) + 힐/버프/해독 시전키 홀드 40ms 상속"
     }
   }
 }
