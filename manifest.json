@@ -28,13 +28,6 @@
       "sha256": "672b749f8d53252900f6ed6006cddd0fd9adf50c550626872531151a419c010f",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     },
-    "CommHealer": {
-      "version": "2026.08.11.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.11.1/_delta_CommHealer.zip",
-      "sha256": "404f530c181405ad20a7c0b9ab393b317e21dca3fb681b965cb9d88c6b7acdc8",
-      "notes": "시전 키 씹힘 보강: 페이지키(F1~F3)·F1 복귀·아이템 슬롯키 홀드 40ms(오슬롯 시전 방지) + 힐/버프/해독 시전키 홀드 40ms 상속"
-    },
     "MyJjol": {
       "version": "2026.08.11.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.12.1/_delta_HealSupporter.zip",
       "sha256": "1819b6a736671449e6220dec54ba3a78049ab7ab06a9fcdb9ca45ba3e17ff527",
       "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
+    },
+    "CommHealer": {
+      "version": "2026.08.12.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.12.1/_delta_CommHealer.zip",
+      "sha256": "b86cb35d6900c71da22ce7a2ae6c0295861357937facee00928056464666f16d",
+      "notes": "타겟이탈 10분 오발 수정: 자동템플릿을 거리유지 외 이탈종료/버프게이트에도 수행 + 캡처 후 ESC 채팅 정리"
     }
   }
 }
