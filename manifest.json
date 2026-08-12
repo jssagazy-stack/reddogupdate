@@ -85,11 +85,11 @@
       "notes": "타겟이탈 10분 오발 수정: 자동템플릿을 거리유지 외 이탈종료/버프게이트에도 수행 + 캡처 후 ESC 채팅 정리"
     },
     "REDDOG_chaejip": {
-      "version": "2026.08.12.6",
+      "version": "2026.08.12.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.6/_delta_REDDOG_chaejip.zip",
-      "sha256": "4abc834afd0c94580019c27a7600945170fe6a285a35abc3ee1323938b8a8932",
-      "notes": "게임자동실행 — 게임 창 대기시간 30초→60초(실측 부족)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.7/_delta_REDDOG_chaejip.zip",
+      "sha256": "78659a078b778c1909e0a2707f29040c992df320912aa35fd0203d9aba15f685",
+      "notes": "게임자동실행 — 게임 창 대기시간 60초→5분"
     }
   }
 }
