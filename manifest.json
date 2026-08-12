@@ -14,13 +14,6 @@
       "sha256": "a490e2264795e3b8c1ead17ab7bb436649dad74a74415c327e4c6e056fb7d000",
       "notes": "Piece partial top-up: refill to target slot count while direction is still alive (want = target minus live slots, both sides); top-up pass scans inventory in reverse so new arrivals are picked first (fewer dead drags); price-window safety net filters registered copies"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.08.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.06.1/_delta_REDDOG_npc_search.zip",
-      "sha256": "79b124b228a3b3f477faa4fb24fcd8833be28310294d55348b5768a2649d84bc",
-      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
-    },
     "REDDOG_zoneheal": {
       "version": "2026.08.06.1",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.12.1/_delta_REDDOG_vending.zip",
       "sha256": "fcf208c0c8e22110edc57b6b9afb0bda7887c162e758e6f46c4a300510f845d0",
+      "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.08.12.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.12.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "13ab3853cbde4927a6d529ec0a22f2094537e83d98e5f428aa9e7b27e13e41d2",
       "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
     }
   }
