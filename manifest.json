@@ -63,13 +63,6 @@
       "sha256": "c047a0d780b92aab8a14e7d1448c78af0840b65732431a82081258e37e702bc2",
       "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
     },
-    "HealSupporter": {
-      "version": "2026.08.12.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.12.2/_delta_HealSupporter.zip",
-      "sha256": "c1d63ce9186e06bb55fc19d09767bae8337995f983ffd1456b9fb80f22f92b91",
-      "notes": "타겟이탈 10분 오발 수정: 자동템플릿을 거리유지 외 이탈종료/버프게이트에도 수행 + 캡처 후 ESC 채팅 정리"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.12.7",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.1/_delta_CommHealer.zip",
       "sha256": "b72134a621c1f7bb528cf7b40e1d54fc78c344c6660065ededadbd2e9546bd85",
       "notes": "파티모드 추가(마이쫄과 동일): 파티 1:1/1:N — 파티창 직접 읽기, 중독 해독, 뮨·아이템2, 본캐 원 지정 수동명령"
+    },
+    "HealSupporter": {
+      "version": "2026.08.13.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.13.1/_delta_HealSupporter.zip",
+      "sha256": "21b61b6f7c1849629833ca89843f237ff8fd0a53fe391ea0fb89ff4c84e13a10",
+      "notes": "파티원 해독 신설(탭8 체크): 파티창 체력바 초록(중독) 감지 → 해당 파티원에게 해독키 시전(재시전 3초, 힐 우선)"
     }
   }
 }
