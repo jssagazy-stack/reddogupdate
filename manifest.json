@@ -35,13 +35,6 @@
       "sha256": "408a8f6018822166d078affa59a2caa3e0d373f661253b774d445ebd3cf27d07",
       "notes": "몹 없을때 랜덤 배회 → 가두리 둘레 시계방향 순찰(내접 타원 8방향, 반경 90%)로 교체 — 새 몹을 넓고 균등하게 탐색"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.12.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.3/_delta_REDDOG_chaejip.zip",
-      "sha256": "b9318b018428476419ad89ffbd273dafd3a32da9523ef1ce91353fc265f9df12",
-      "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
-    },
     "sellerbot": {
       "version": "2026.08.12.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.12.2/_delta_HealSupporter.zip",
       "sha256": "c1d63ce9186e06bb55fc19d09767bae8337995f983ffd1456b9fb80f22f92b91",
       "notes": "타겟이탈 10분 오발 수정: 자동템플릿을 거리유지 외 이탈종료/버프게이트에도 수행 + 캡처 후 ESC 채팅 정리"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.12.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.4/_delta_REDDOG_chaejip.zip",
+      "sha256": "374d160535af4cf9b06368a05c8b9927e14b026fbd5818e25836b1069735898a",
+      "notes": "게임자동실행(오토런처) 추가 — 게임 미실행 시 바탕화면 리니지클래식 실행→동의→서버선택(31서버, 발라카스·오렌·안타라스·글루디오 포함)→캐릭선택 자동 로그인 후 시작 체인 진행. 서버/캐릭은 메인 콤보 선택(로컬 유지)"
     }
   }
 }
