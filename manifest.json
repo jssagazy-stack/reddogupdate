@@ -14,13 +14,6 @@
       "sha256": "3524ce73ec9ef72e76e1330c62384355b07fe9876721221c83a33a726a504b4d",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     },
-    "Sender": {
-      "version": "2026.08.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.08.06.1/_delta_Sender.zip",
-      "sha256": "2e2b13a7890a1acd2f29ecc10509af6e01c6a6c8724e746c568babaf25b0b536",
-      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
-    },
     "REDDOG_hunt": {
       "version": "2026.08.11.3",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.08.13.1/_delta_MyJjolSender.zip",
       "sha256": "70bd2c8b1105d0dc8a3fc40602c8b08f3f9e6395663d88987a18ddb578019822",
+      "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
+    },
+    "Sender": {
+      "version": "2026.08.13.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.08.13.1/_delta_Sender.zip",
+      "sha256": "5c7364c6ce044e16190cdd3e004a29ac2fa5f8074427461198067e4bc7ba203a",
       "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
     }
   }
