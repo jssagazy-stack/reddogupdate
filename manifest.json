@@ -21,13 +21,6 @@
       "sha256": "2e2b13a7890a1acd2f29ecc10509af6e01c6a6c8724e746c568babaf25b0b536",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     },
-    "MyJjolSender": {
-      "version": "2026.08.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.08.06.1/_delta_MyJjolSender.zip",
-      "sha256": "672b749f8d53252900f6ed6006cddd0fd9adf50c550626872531151a419c010f",
-      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
-    },
     "REDDOG_hunt": {
       "version": "2026.08.11.3",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.13.1/_delta_HealSupporter.zip",
       "sha256": "21b61b6f7c1849629833ca89843f237ff8fd0a53fe391ea0fb89ff4c84e13a10",
       "notes": "파티원 해독 신설(탭8 체크): 파티창 체력바 초록(중독) 감지 → 해당 파티원에게 해독키 시전(재시전 3초, 힐 우선)"
+    },
+    "MyJjolSender": {
+      "version": "2026.08.13.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.08.13.1/_delta_MyJjolSender.zip",
+      "sha256": "70bd2c8b1105d0dc8a3fc40602c8b08f3f9e6395663d88987a18ddb578019822",
+      "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
     }
   }
 }
