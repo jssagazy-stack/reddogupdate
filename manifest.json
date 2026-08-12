@@ -85,11 +85,11 @@
       "notes": "타겟이탈 10분 오발 수정: 자동템플릿을 거리유지 외 이탈종료/버프게이트에도 수행 + 캡처 후 ESC 채팅 정리"
     },
     "REDDOG_chaejip": {
-      "version": "2026.08.12.4",
+      "version": "2026.08.12.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.4/_delta_REDDOG_chaejip.zip",
-      "sha256": "374d160535af4cf9b06368a05c8b9927e14b026fbd5818e25836b1069735898a",
-      "notes": "게임자동실행(오토런처) 추가 — 게임 미실행 시 바탕화면 리니지클래식 실행→동의→서버선택(31서버, 발라카스·오렌·안타라스·글루디오 포함)→캐릭선택 자동 로그인 후 시작 체인 진행. 서버/캐릭은 메인 콤보 선택(로컬 유지)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.5/_delta_REDDOG_chaejip.zip",
+      "sha256": "3317538e138c765d8b29537f1ea78b01d8380a3f943ba64a28bd34e4de74f529",
+      "notes": "게임자동실행 동작 개선 — 프로그램 실행 직후 체크돼 있으면 시작버튼 없이 바로 게임 접속, 접속 완료 후 자동시작 체크 여부로 엔진 시작 분기"
     }
   }
 }
