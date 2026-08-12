@@ -70,13 +70,6 @@
       "sha256": "b86cb35d6900c71da22ce7a2ae6c0295861357937facee00928056464666f16d",
       "notes": "타겟이탈 10분 오발 수정: 자동템플릿을 거리유지 외 이탈종료/버프게이트에도 수행 + 캡처 후 ESC 채팅 정리"
     },
-    "MyJjol": {
-      "version": "2026.08.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.12.1/_delta_MyJjol.zip",
-      "sha256": "534c6456cd37903c5202921b6f28cd83f70825fa94c228612dc1b4e67e5d5d3a",
-      "notes": "타겟이탈 10분 오발 수정: 자동템플릿을 거리유지 외 이탈종료/버프게이트에도 수행 + 캡처 후 ESC 채팅 정리"
-    },
     "HealSupporter": {
       "version": "2026.08.12.2",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.7/_delta_REDDOG_chaejip.zip",
       "sha256": "78659a078b778c1909e0a2707f29040c992df320912aa35fd0203d9aba15f685",
       "notes": "게임자동실행 — 게임 창 대기시간 60초→5분"
+    },
+    "MyJjol": {
+      "version": "2026.08.13.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.1/_delta_MyJjol.zip",
+      "sha256": "57e62b41cd456bc2208514d01864259b52ee719b887ee59ac913b2bde14505f2",
+      "notes": "파티모드 추가: 노파티(통신)/파티 1:1(따라가기)/파티 1:N(제자리) — 파티창 직접 읽기(통신 선택), 파티원 저체력 힐·쿨타임 버프·중독(초록) 해독·자동파티초대, 본캐 원 지정 수동명령, 뮨·아이템2 행 신설"
     }
   }
 }
