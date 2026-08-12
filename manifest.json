@@ -70,13 +70,6 @@
       "sha256": "5bc4f0ee3951511e08474c58041271b3faf89827e8d3b0da0fc7cfaa0b47a6f8",
       "notes": "시전 키 씹힘 보강: 페이지키·F1 복귀·아이템 슬롯키·힐/버프/해독 시전키 홀드 40ms(오슬롯 시전 방지)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.11.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.11.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "194b4cc1463b0609a6027e4cd758ca2c730cc6072c69fba172af220044d99e3b",
-      "notes": "윈드워크 시전키 홀드 40ms(씹힘 방지)"
-    },
     "HealSupporter": {
       "version": "2026.08.11.3",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.11.3/_delta_REDDOG_hunt.zip",
       "sha256": "408a8f6018822166d078affa59a2caa3e0d373f661253b774d445ebd3cf27d07",
       "notes": "몹 없을때 랜덤 배회 → 가두리 둘레 시계방향 순찰(내접 타원 8방향, 반경 90%)로 교체 — 새 몹을 넓고 균등하게 탐색"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.12.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "a159d5853d68ca150ff127ebaf9c29480f3c04e0f71dab86c3934c5ccb38f57f",
+      "notes": "파티수락 매칭 여유 ±10px — 수락 Yes/No 라인 1px 이동으로 매칭 실패하던 문제 수정"
     }
   }
 }
