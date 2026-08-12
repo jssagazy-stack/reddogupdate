@@ -85,11 +85,11 @@
       "notes": "몹 없을때 랜덤 배회 → 가두리 둘레 시계방향 순찰(내접 타원 8방향, 반경 90%)로 교체 — 새 몹을 넓고 균등하게 탐색"
     },
     "REDDOG_chaejip": {
-      "version": "2026.08.12.2",
+      "version": "2026.08.12.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "f3cbae093028ef7eaca4c56a526fa7c85348c6fd6b5d918242628a7bf6ef7ae8",
-      "notes": "파티수락 매칭 여유 ±10px — 수락 Yes/No 라인 1px 이동으로 매칭 실패하던 문제 수정 (12.1 재발행: zip 내 product.json 버전 정정)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.3/_delta_REDDOG_chaejip.zip",
+      "sha256": "b9318b018428476419ad89ffbd273dafd3a32da9523ef1ce91353fc265f9df12",
+      "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
     }
   }
 }
