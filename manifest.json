@@ -49,13 +49,6 @@
       "sha256": "672b749f8d53252900f6ed6006cddd0fd9adf50c550626872531151a419c010f",
       "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
     },
-    "sellerbot": {
-      "version": "2026.08.07.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.07.2/_delta_sellerbot.zip",
-      "sha256": "18d1d3f9304b66a09286a4fa7938d9f26d9a7f55fe66e3fdf75e1c8dd91d032c",
-      "notes": "창고 찾기 스크롤 상한 10→30 (최하단 앵커 즉시멈춤은 기존대로 — 타 품목 많은 창고에서 최하단까지 유동 스크롤)"
-    },
     "CommHealer": {
       "version": "2026.08.11.1",
       "type": "delta",
@@ -89,6 +82,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.3/_delta_REDDOG_chaejip.zip",
       "sha256": "b9318b018428476419ad89ffbd273dafd3a32da9523ef1ce91353fc265f9df12",
+      "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
+    },
+    "sellerbot": {
+      "version": "2026.08.12.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.12.1/_delta_sellerbot.zip",
+      "sha256": "e287f509817de0d0220819f86f82a5269cae475d15296eed134940384ae6e361",
       "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
     }
   }
