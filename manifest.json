@@ -56,13 +56,6 @@
       "sha256": "78659a078b778c1909e0a2707f29040c992df320912aa35fd0203d9aba15f685",
       "notes": "게임자동실행 — 게임 창 대기시간 60초→5분"
     },
-    "MyJjolSender": {
-      "version": "2026.08.13.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.08.13.1/_delta_MyJjolSender.zip",
-      "sha256": "70bd2c8b1105d0dc8a3fc40602c8b08f3f9e6395663d88987a18ddb578019822",
-      "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
-    },
     "Sender": {
       "version": "2026.08.13.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.13.4/_delta_HealSupporter.zip",
       "sha256": "5f3a4174f9c97c6a51e5886d58cef72fdc1272387582bab0745027b0eac6d465",
       "notes": "타겟 이탈 자동종료 10분→3분(단일 이름표·파티 전원 근접이탈 공통)"
+    },
+    "MyJjolSender": {
+      "version": "2026.08.13.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.08.13.2/_delta_MyJjolSender.zip",
+      "sha256": "5d36ab9a93168ddf4a6e3eac4bf5b2da240313c4f9a3e7da418337c984233c81",
+      "notes": "실행 시 창정렬 추가 — 본캐 클라 좌상단 이동+활성화, 송신기 우상단(다른 런처와 동일 규약)"
     }
   }
 }
