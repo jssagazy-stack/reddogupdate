@@ -7,13 +7,6 @@
       "sha256": "fa409ebbd75bed40aa63950fb589c3914bfa7ee3a5361c9d17e03615ec4f8747",
       "notes": "Nearby-shop auto scan (manual button v1) added to collector."
     },
-    "REDDOG_zoneheal": {
-      "version": "2026.08.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.06.1/_delta_REDDOG_zoneheal.zip",
-      "sha256": "3524ce73ec9ef72e76e1330c62384355b07fe9876721221c83a33a726a504b4d",
-      "notes": "런처 창 최소크기 시작 + 실행중 넓어짐 방지(업데이트배너 줄바꿈·게임창콤보 폭고정)"
-    },
     "REDDOG_hunt": {
       "version": "2026.08.11.3",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.08.13.2/_delta_Sender.zip",
       "sha256": "28b24549cf3d3be0d117aa131de5211ce53ff8e3417eeed036afafcbac8b1833",
       "notes": "실행 시 창정렬 추가(마이쫄센더와 동일)"
+    },
+    "REDDOG_zoneheal": {
+      "version": "2026.08.14.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.14.1/_delta_REDDOG_zoneheal.zip",
+      "sha256": "002c3ef1e2694a24b3f68fbfba013673eea96dbd293132092033c32260d8466f",
+      "notes": "X 종료 시 프로세스가 남는 문제 수정(영역표시 오버레이 정리) + 버프타이머 시간 입력칸 폭 확대"
     }
   }
 }
