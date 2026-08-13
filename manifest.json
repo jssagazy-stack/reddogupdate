@@ -77,19 +77,19 @@
       "sha256": "fbbc87e22e902b0a41d729d6fbd9c0a771d67e649608da0f8a09c965ab3aa862",
       "notes": "대상 힐=휠클릭 시전 전환(연타 시 힐키 씹힘→좌클릭 무빙 사고 원천 제거, 헤이 행·자힐 롱프레스는 기존 유지) + 쫄케릭설정 탭 📌힐 슬롯 캡처(시작 시 F1+좌클릭으로 포커스 고정, 필수 설정)"
     },
-    "MyJjol": {
-      "version": "2026.08.13.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.4/_delta_MyJjol.zip",
-      "sha256": "c6894d96725fe5f6bcb540d6f84d4312c542cda5528bb8abbb668694842c8f44",
-      "notes": "힐=휠클릭 시전 전환(전 모드, 힐 슬롯 포커스 캡처 필수 — 시전 탭 📌) + 실행 시 창정렬(쫄 클라 좌상단·런처 우상단)"
-    },
     "CommHealer": {
       "version": "2026.08.13.4",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.4/_delta_CommHealer.zip",
       "sha256": "929551ebd2eff58abac42d365171e2bb29793f00c182f2c2698ad57c5560b5f0",
       "notes": "힐=휠클릭 시전 전환 + 실행 시 창정렬(마이쫄과 동일)"
+    },
+    "MyJjol": {
+      "version": "2026.08.13.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.5/_delta_MyJjol.zip",
+      "sha256": "f7511904b9e9298d6e0690552f1b75ddb9e16314611c4f36821543ef88079f0a",
+      "notes": "따라가기 시작 순서 수정: 힐 슬롯 포커스 클릭을 타겟고정(자동템플릿)보다 먼저 + 커서 저장/복귀(포커스 좌클릭이 타겟을 풀던 것 수정)"
     }
   }
 }
