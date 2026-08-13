@@ -56,13 +56,6 @@
       "sha256": "78659a078b778c1909e0a2707f29040c992df320912aa35fd0203d9aba15f685",
       "notes": "게임자동실행 — 게임 창 대기시간 60초→5분"
     },
-    "CommHealer": {
-      "version": "2026.08.13.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.1/_delta_CommHealer.zip",
-      "sha256": "b72134a621c1f7bb528cf7b40e1d54fc78c344c6660065ededadbd2e9546bd85",
-      "notes": "파티모드 추가(마이쫄과 동일): 파티 1:1/1:N — 파티창 직접 읽기, 중독 해독, 뮨·아이템2, 본캐 원 지정 수동명령"
-    },
     "HealSupporter": {
       "version": "2026.08.13.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.2/_delta_MyJjol.zip",
       "sha256": "720929a7347e87874bcec7855ce237f603ee7b11ff7ce727b6bc454442a0a285",
       "notes": "설정 리셋 수정: 모드 라디오 로드 중 저장 오염으로 시전 탭 버프/타겟이탈 등이 재실행마다 기본값으로 덮이던 것 근본수정 (업데이트 후 설정 1회 재지정 필요)"
+    },
+    "CommHealer": {
+      "version": "2026.08.13.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.2/_delta_CommHealer.zip",
+      "sha256": "241ddbc591327b4052525a9104a758e7b46179b000e90e45bf1f111d2b3c64c8",
+      "notes": "설정 리셋 수정(마이쫄과 동일) — 재실행 시 시전 탭/타겟이탈 설정 보존"
     }
   }
 }
