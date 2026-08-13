@@ -70,13 +70,6 @@
       "sha256": "5c7364c6ce044e16190cdd3e004a29ac2fa5f8074427461198067e4bc7ba203a",
       "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
     },
-    "CommHealer": {
-      "version": "2026.08.13.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.5/_delta_CommHealer.zip",
-      "sha256": "ca3e5bc26911127633efb02b3cb5b5dd8b57a18df03bba811e9b1edac224933c",
-      "notes": "따라가기 시작 순서 수정(마이쫄과 동일): 포커스 클릭 선행 + 커서 복귀"
-    },
     "HealSupporter": {
       "version": "2026.08.13.3",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.6/_delta_MyJjol.zip",
       "sha256": "cb1a85c1e4f956242bcc91f2eadf51f856a246752e345d0e98b016a93c86e932",
       "notes": "타겟 이탈 자동종료 10분→3분 + 로그 타임스탬프([HH:MM:SS]) 추가"
+    },
+    "CommHealer": {
+      "version": "2026.08.13.6",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.6/_delta_CommHealer.zip",
+      "sha256": "238e03233cd10c381c162be8b94601e6b323401f72b3334040c9b1c04f5b32a6",
+      "notes": "타겟 이탈 자동종료 10분→3분 + 로그 타임스탬프 추가"
     }
   }
 }
