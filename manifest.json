@@ -70,13 +70,6 @@
       "sha256": "5c7364c6ce044e16190cdd3e004a29ac2fa5f8074427461198067e4bc7ba203a",
       "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
     },
-    "HealSupporter": {
-      "version": "2026.08.13.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.13.2/_delta_HealSupporter.zip",
-      "sha256": "fbbc87e22e902b0a41d729d6fbd9c0a771d67e649608da0f8a09c965ab3aa862",
-      "notes": "대상 힐=휠클릭 시전 전환(연타 시 힐키 씹힘→좌클릭 무빙 사고 원천 제거, 헤이 행·자힐 롱프레스는 기존 유지) + 쫄케릭설정 탭 📌힐 슬롯 캡처(시작 시 F1+좌클릭으로 포커스 고정, 필수 설정)"
-    },
     "MyJjol": {
       "version": "2026.08.13.5",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.5/_delta_CommHealer.zip",
       "sha256": "ca3e5bc26911127633efb02b3cb5b5dd8b57a18df03bba811e9b1edac224933c",
       "notes": "따라가기 시작 순서 수정(마이쫄과 동일): 포커스 클릭 선행 + 커서 복귀"
+    },
+    "HealSupporter": {
+      "version": "2026.08.13.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.13.3/_delta_HealSupporter.zip",
+      "sha256": "6c5f2d1b53bf6afd1a2e96ce34624862c67ecbd67b68081dfb0f3cc785cc98c3",
+      "notes": "힐 슬롯 포커스 클릭에 커서 저장/복귀 추가 — 따라가기 타겟고정(시작 체인)이 본캐 위 커서를 유지하도록"
     }
   }
 }
