@@ -70,13 +70,6 @@
       "sha256": "5c7364c6ce044e16190cdd3e004a29ac2fa5f8074427461198067e4bc7ba203a",
       "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
     },
-    "MyJjol": {
-      "version": "2026.08.13.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.3/_delta_MyJjol.zip",
-      "sha256": "1f3083d6b8900b120535a89ac456ee4635220b8e6765e03d594c5c67c87e3447",
-      "notes": "라벨 정리: 고급 탭 '쫄 자신 위험체력(자기 체력바)'로 개명 — 기본 탭 '본캐 위험체력'(수신 HP)과 별개 안전망임을 명확화"
-    },
     "CommHealer": {
       "version": "2026.08.13.3",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.13.2/_delta_HealSupporter.zip",
       "sha256": "fbbc87e22e902b0a41d729d6fbd9c0a771d67e649608da0f8a09c965ab3aa862",
       "notes": "대상 힐=휠클릭 시전 전환(연타 시 힐키 씹힘→좌클릭 무빙 사고 원천 제거, 헤이 행·자힐 롱프레스는 기존 유지) + 쫄케릭설정 탭 📌힐 슬롯 캡처(시작 시 F1+좌클릭으로 포커스 고정, 필수 설정)"
+    },
+    "MyJjol": {
+      "version": "2026.08.13.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.4/_delta_MyJjol.zip",
+      "sha256": "c6894d96725fe5f6bcb540d6f84d4312c542cda5528bb8abbb668694842c8f44",
+      "notes": "힐=휠클릭 시전 전환(전 모드, 힐 슬롯 포커스 캡처 필수 — 시전 탭 📌) + 실행 시 창정렬(쫄 클라 좌상단·런처 우상단)"
     }
   }
 }
