@@ -85,11 +85,11 @@
       "notes": "실행 시 창정렬 추가(마이쫄센더와 동일)"
     },
     "REDDOG_zoneheal": {
-      "version": "2026.08.14.1",
+      "version": "2026.08.14.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.14.1/_delta_REDDOG_zoneheal.zip",
-      "sha256": "002c3ef1e2694a24b3f68fbfba013673eea96dbd293132092033c32260d8466f",
-      "notes": "X 종료 시 프로세스가 남는 문제 수정(영역표시 오버레이 정리) + 버프타이머 시간 입력칸 폭 확대"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.14.2/_delta_REDDOG_zoneheal.zip",
+      "sha256": "5dd73bdba41938602e2efc55d2a62bc9198b0414ff050056f4065d3315ba2939",
+      "notes": "단축창 세팅 안내 문구 추가(힐 F1-F5 · 뮨 F2-F5 · 버프 F12 · F5 선택)"
     }
   }
 }
