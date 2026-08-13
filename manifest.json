@@ -70,13 +70,6 @@
       "sha256": "5c7364c6ce044e16190cdd3e004a29ac2fa5f8074427461198067e4bc7ba203a",
       "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
     },
-    "CommHealer": {
-      "version": "2026.08.13.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.3/_delta_CommHealer.zip",
-      "sha256": "b0fe6977cdd0737cd13ca123b2020062aaf75eddd0c104e4120024b042f2044b",
-      "notes": "라벨 정리(마이쫄과 동일): 쫄 자신/본캐 위험체력 구분 명확화"
-    },
     "HealSupporter": {
       "version": "2026.08.13.2",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.4/_delta_MyJjol.zip",
       "sha256": "c6894d96725fe5f6bcb540d6f84d4312c542cda5528bb8abbb668694842c8f44",
       "notes": "힐=휠클릭 시전 전환(전 모드, 힐 슬롯 포커스 캡처 필수 — 시전 탭 📌) + 실행 시 창정렬(쫄 클라 좌상단·런처 우상단)"
+    },
+    "CommHealer": {
+      "version": "2026.08.13.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.4/_delta_CommHealer.zip",
+      "sha256": "929551ebd2eff58abac42d365171e2bb29793f00c182f2c2698ad57c5560b5f0",
+      "notes": "힐=휠클릭 시전 전환 + 실행 시 창정렬(마이쫄과 동일)"
     }
   }
 }
