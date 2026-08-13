@@ -77,19 +77,19 @@
       "sha256": "5c7364c6ce044e16190cdd3e004a29ac2fa5f8074427461198067e4bc7ba203a",
       "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
     },
-    "CommHealer": {
-      "version": "2026.08.13.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.2/_delta_CommHealer.zip",
-      "sha256": "241ddbc591327b4052525a9104a758e7b46179b000e90e45bf1f111d2b3c64c8",
-      "notes": "설정 리셋 수정(마이쫄과 동일) — 재실행 시 시전 탭/타겟이탈 설정 보존"
-    },
     "MyJjol": {
       "version": "2026.08.13.3",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.3/_delta_MyJjol.zip",
       "sha256": "1f3083d6b8900b120535a89ac456ee4635220b8e6765e03d594c5c67c87e3447",
       "notes": "라벨 정리: 고급 탭 '쫄 자신 위험체력(자기 체력바)'로 개명 — 기본 탭 '본캐 위험체력'(수신 HP)과 별개 안전망임을 명확화"
+    },
+    "CommHealer": {
+      "version": "2026.08.13.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.3/_delta_CommHealer.zip",
+      "sha256": "b0fe6977cdd0737cd13ca123b2020062aaf75eddd0c104e4120024b042f2044b",
+      "notes": "라벨 정리(마이쫄과 동일): 쫄 자신/본캐 위험체력 구분 명확화"
     }
   }
 }
