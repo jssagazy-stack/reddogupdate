@@ -70,13 +70,6 @@
       "sha256": "5c7364c6ce044e16190cdd3e004a29ac2fa5f8074427461198067e4bc7ba203a",
       "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
     },
-    "MyJjol": {
-      "version": "2026.08.13.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.5/_delta_MyJjol.zip",
-      "sha256": "f7511904b9e9298d6e0690552f1b75ddb9e16314611c4f36821543ef88079f0a",
-      "notes": "따라가기 시작 순서 수정: 힐 슬롯 포커스 클릭을 타겟고정(자동템플릿)보다 먼저 + 커서 저장/복귀(포커스 좌클릭이 타겟을 풀던 것 수정)"
-    },
     "CommHealer": {
       "version": "2026.08.13.5",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.13.3/_delta_HealSupporter.zip",
       "sha256": "6c5f2d1b53bf6afd1a2e96ce34624862c67ecbd67b68081dfb0f3cc785cc98c3",
       "notes": "힐 슬롯 포커스 클릭에 커서 저장/복귀 추가 — 따라가기 타겟고정(시작 체인)이 본캐 위 커서를 유지하도록"
+    },
+    "MyJjol": {
+      "version": "2026.08.13.6",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.6/_delta_MyJjol.zip",
+      "sha256": "cb1a85c1e4f956242bcc91f2eadf51f856a246752e345d0e98b016a93c86e932",
+      "notes": "타겟 이탈 자동종료 10분→3분 + 로그 타임스탬프([HH:MM:SS]) 추가"
     }
   }
 }
