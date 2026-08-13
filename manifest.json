@@ -70,13 +70,6 @@
       "sha256": "5c7364c6ce044e16190cdd3e004a29ac2fa5f8074427461198067e4bc7ba203a",
       "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
     },
-    "HealSupporter": {
-      "version": "2026.08.13.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.13.3/_delta_HealSupporter.zip",
-      "sha256": "6c5f2d1b53bf6afd1a2e96ce34624862c67ecbd67b68081dfb0f3cc785cc98c3",
-      "notes": "힐 슬롯 포커스 클릭에 커서 저장/복귀 추가 — 따라가기 타겟고정(시작 체인)이 본캐 위 커서를 유지하도록"
-    },
     "MyJjol": {
       "version": "2026.08.13.6",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.13.6/_delta_CommHealer.zip",
       "sha256": "238e03233cd10c381c162be8b94601e6b323401f72b3334040c9b1c04f5b32a6",
       "notes": "타겟 이탈 자동종료 10분→3분 + 로그 타임스탬프 추가"
+    },
+    "HealSupporter": {
+      "version": "2026.08.13.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.13.4/_delta_HealSupporter.zip",
+      "sha256": "5f3a4174f9c97c6a51e5886d58cef72fdc1272387582bab0745027b0eac6d465",
+      "notes": "타겟 이탈 자동종료 10분→3분(단일 이름표·파티 전원 근접이탈 공통)"
     }
   }
 }
