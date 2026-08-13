@@ -56,13 +56,6 @@
       "sha256": "78659a078b778c1909e0a2707f29040c992df320912aa35fd0203d9aba15f685",
       "notes": "게임자동실행 — 게임 창 대기시간 60초→5분"
     },
-    "MyJjol": {
-      "version": "2026.08.13.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.1/_delta_MyJjol.zip",
-      "sha256": "57e62b41cd456bc2208514d01864259b52ee719b887ee59ac913b2bde14505f2",
-      "notes": "파티모드 추가: 노파티(통신)/파티 1:1(따라가기)/파티 1:N(제자리) — 파티창 직접 읽기(통신 선택), 파티원 저체력 힐·쿨타임 버프·중독(초록) 해독·자동파티초대, 본캐 원 지정 수동명령, 뮨·아이템2 행 신설"
-    },
     "CommHealer": {
       "version": "2026.08.13.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/Sender-2026.08.13.1/_delta_Sender.zip",
       "sha256": "5c7364c6ce044e16190cdd3e004a29ac2fa5f8074427461198067e4bc7ba203a",
       "notes": "수동 버튼 라벨 갱신(뮨·아이템2)"
+    },
+    "MyJjol": {
+      "version": "2026.08.13.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.13.2/_delta_MyJjol.zip",
+      "sha256": "720929a7347e87874bcec7855ce237f603ee7b11ff7ce727b6bc454442a0a285",
+      "notes": "설정 리셋 수정: 모드 라디오 로드 중 저장 오염으로 시전 탭 버프/타겟이탈 등이 재실행마다 기본값으로 덮이던 것 근본수정 (업데이트 후 설정 1회 재지정 필요)"
     }
   }
 }
