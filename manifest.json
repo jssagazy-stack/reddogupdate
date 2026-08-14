@@ -7,13 +7,6 @@
       "sha256": "fa409ebbd75bed40aa63950fb589c3914bfa7ee3a5361c9d17e03615ec4f8747",
       "notes": "Nearby-shop auto scan (manual button v1) added to collector."
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.11.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.11.3/_delta_REDDOG_hunt.zip",
-      "sha256": "408a8f6018822166d078affa59a2caa3e0d373f661253b774d445ebd3cf27d07",
-      "notes": "몹 없을때 랜덤 배회 → 가두리 둘레 시계방향 순찰(내접 타원 8방향, 반경 90%)로 교체 — 새 몹을 넓고 균등하게 탐색"
-    },
     "sellerbot": {
       "version": "2026.08.12.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.14.2/_delta_REDDOG_zoneheal.zip",
       "sha256": "5dd73bdba41938602e2efc55d2a62bc9198b0414ff050056f4065d3315ba2939",
       "notes": "단축창 세팅 안내 문구 추가(힐 F1-F5 · 뮨 F2-F5 · 버프 F12 · F5 선택)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.14.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.14.1/_delta_REDDOG_hunt.zip",
+      "sha256": "1babcd5013138f5f57a000a4df42191fdf39105a4486995eac37a275cd62a8d9",
+      "notes": "인식점표시 실행중 자동숨김 - 화살소진 오판(귀환) 수정"
     }
   }
 }
