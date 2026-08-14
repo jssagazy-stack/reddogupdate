@@ -85,11 +85,11 @@
       "notes": "단축창 세팅 안내 문구 추가(힐 F1-F5 · 뮨 F2-F5 · 버프 F12 · F5 선택)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.14.1",
+      "version": "2026.08.14.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.14.1/_delta_REDDOG_hunt.zip",
-      "sha256": "1babcd5013138f5f57a000a4df42191fdf39105a4486995eac37a275cd62a8d9",
-      "notes": "인식점표시 실행중 자동숨김 - 화살소진 오판(귀환) 수정"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.14.2/_delta_REDDOG_hunt.zip",
+      "sha256": "e022287766e58318f46d67ed24f72deccef6056fe328bd37e199d9e771d56a11",
+      "notes": "델타 경량화 - 머신별 hunt 데이터(앵커/아이템/스샷) 델타 제외 (기능변화 없음, .1과 동일 코드)"
     }
   }
 }
