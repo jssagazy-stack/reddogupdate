@@ -77,19 +77,19 @@
       "sha256": "28b24549cf3d3be0d117aa131de5211ce53ff8e3417eeed036afafcbac8b1833",
       "notes": "실행 시 창정렬 추가(마이쫄센더와 동일)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.14.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.14.2/_delta_REDDOG_hunt.zip",
-      "sha256": "e022287766e58318f46d67ed24f72deccef6056fe328bd37e199d9e771d56a11",
-      "notes": "델타 경량화 - 머신별 hunt 데이터(앵커/아이템/스샷) 델타 제외 (기능변화 없음, .1과 동일 코드)"
-    },
     "REDDOG_zoneheal": {
       "version": "2026.08.18.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.18.1/_delta_REDDOG_zoneheal.zip",
       "sha256": "c73a516e1994e4b89dfc0f28d570f88a2fce752fb179f484cf4a07ebb154c109",
       "notes": "라이선스 남은기간 실시간 표시(라이선스 줄, 1초 갱신)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.21.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.21.1/_delta_REDDOG_hunt.zip",
+      "sha256": "d72d70fc0a45ff5cb7cdc0b93fd5e23e95fdc24ef26d6669defb74f4c76c72c0",
+      "notes": "자힐전용: 소울 시전 추가(사냥과 동일 조건, 이동중·공격중 보류) / 시작 스샷 제거 / 디버그 스샷 체크박스(시작 시 이전 스샷 삭제)"
     }
   }
 }
