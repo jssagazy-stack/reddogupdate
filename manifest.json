@@ -85,11 +85,11 @@
       "notes": "위치복귀 오판 수정: 이동센서 ROI 세로맹점(높이32→80, 채집 7/21 동일) — 우회 이동이 STUCK 으로 오판돼 8회 실패→귀환하던 문제"
     },
     "REDDOG_chaejip": {
-      "version": "2026.08.22.3",
+      "version": "2026.08.22.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.22.3/_delta_REDDOG_chaejip.zip",
-      "sha256": "6903a9eec785beaa1acead4d3d4dcbc849b5fa4a336ea3f9c984f378a5eb0438",
-      "notes": "파티 해산 감시: 해산 확정 전 ESC×2(500ms) 가림창 정리 후 파티창 재확인 — 주민 대화창 가림으로 인한 가짜 해산→파티요청 반복 방지"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.22.4/_delta_REDDOG_chaejip.zip",
+      "sha256": "4b3422c1f0d51f39ad4db8577c7b2457e1b6cf213ed0f5bc27df888ba0fa22ae",
+      "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     }
   }
 }
