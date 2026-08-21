@@ -35,13 +35,6 @@
       "sha256": "c047a0d780b92aab8a14e7d1448c78af0840b65732431a82081258e37e702bc2",
       "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.12.7",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.12.7/_delta_REDDOG_chaejip.zip",
-      "sha256": "78659a078b778c1909e0a2707f29040c992df320912aa35fd0203d9aba15f685",
-      "notes": "게임자동실행 — 게임 창 대기시간 60초→5분"
-    },
     "MyJjol": {
       "version": "2026.08.13.6",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.21.1/_delta_REDDOG_hunt.zip",
       "sha256": "d72d70fc0a45ff5cb7cdc0b93fd5e23e95fdc24ef26d6669defb74f4c76c72c0",
       "notes": "자힐전용: 소울 시전 추가(사냥과 동일 조건, 이동중·공격중 보류) / 시작 스샷 제거 / 디버그 스샷 체크박스(시작 시 이전 스샷 삭제)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.21.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.21.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "9c95b8a1bdd8ecf528a65ee66ad958670202db9cb27159c91066f9224ee3245e",
+      "notes": "AFK 자리비움 대기 중 사망 감지(g_afk_resur_chk) — 5초 틱마다 리스타트 버튼 매칭, 발견 시 기존 부활 체인 재사용"
     }
   }
 }
