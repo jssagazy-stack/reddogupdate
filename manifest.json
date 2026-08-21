@@ -85,11 +85,11 @@
       "notes": "위치복귀 오판 수정: 이동센서 ROI 세로맹점(높이32→80, 채집 7/21 동일) — 우회 이동이 STUCK 으로 오판돼 8회 실패→귀환하던 문제"
     },
     "REDDOG_chaejip": {
-      "version": "2026.08.22.2",
+      "version": "2026.08.22.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.22.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "af982d4b029d255a8eb5fb84fa49be38e84973b3152437035b5de9477149c8af",
-      "notes": "창고 마을 교대: 화말 폴백 NPC 좌표(638,294) 추가 + 북마크/폴백/재시도 좌표 마을별 분기(wh_vil) + 맡기기창 10회 실패 시 다른 창고 마을로 1회 교대 후 복귀. 런처는 좌표 패치 대신 wh_vil_sel 시드"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.22.3/_delta_REDDOG_chaejip.zip",
+      "sha256": "6903a9eec785beaa1acead4d3d4dcbc849b5fa4a336ea3f9c984f378a5eb0438",
+      "notes": "파티 해산 감시: 해산 확정 전 ESC×2(500ms) 가림창 정리 후 파티창 재확인 — 주민 대화창 가림으로 인한 가짜 해산→파티요청 반복 방지"
     }
   }
 }
