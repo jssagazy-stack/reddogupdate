@@ -70,13 +70,6 @@
       "sha256": "c73a516e1994e4b89dfc0f28d570f88a2fce752fb179f484cf4a07ebb154c109",
       "notes": "라이선스 남은기간 실시간 표시(라이선스 줄, 1초 갱신)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.21.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.21.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "9c95b8a1bdd8ecf528a65ee66ad958670202db9cb27159c91066f9224ee3245e",
-      "notes": "AFK 자리비움 대기 중 사망 감지(g_afk_resur_chk) — 5초 틱마다 리스타트 버튼 매칭, 발견 시 기존 부활 체인 재사용"
-    },
     "HealSupporter": {
       "version": "2026.08.21.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.21.2/_delta_REDDOG_hunt.zip",
       "sha256": "201f388eef51f7afd448a3dc97bc1b0aa2dca8946ca9558d0a35cfef84879343",
       "notes": "자힐전용 소울: 경험치 변화(처치) 시 2초 대기 없이 즉시 1회 시도(마나·체력·쿨다운 조건 동일)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.21.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.21.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "2eb84872191f3f7bed1f135f02ec79f5758a1661a9b3df402e80b89ef09af8c7",
+      "notes": "창고지기 커서게이트 우클릭 순환(g_wh_kcyc_*) — 일반커서면 keeper_pos+50 우클릭으로 겹친 대상 순환 후 재판독, 최대 5회(소환수 겹침·원격 커서 미갱신 대응)"
     }
   }
 }
