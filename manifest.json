@@ -85,11 +85,11 @@
       "notes": "자힐전용 소울: 경험치 변화(처치) 시 2초 대기 없이 즉시 1회 시도(마나·체력·쿨다운 조건 동일)"
     },
     "REDDOG_chaejip": {
-      "version": "2026.08.21.2",
+      "version": "2026.08.22.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.21.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "2eb84872191f3f7bed1f135f02ec79f5758a1661a9b3df402e80b89ef09af8c7",
-      "notes": "창고지기 커서게이트 우클릭 순환(g_wh_kcyc_*) — 일반커서면 keeper_pos+50 우클릭으로 겹친 대상 순환 후 재판독, 최대 5회(소환수 겹침·원격 커서 미갱신 대응)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.22.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "abcad6d87762a96689bbd0ee586588651fbbf9a1614a160615c98ffe1a6cf944",
+      "notes": "창고: kp_ok 플래그 — 커서게이트 5회 소진 시 게이트 없이 keeper_pos+50 우클릭→좌클릭, 재시도 루프도 이름 발견 좌표 우선(고정좌표 651,495=웰던 기준은 미발견 폴백만)"
     }
   }
 }
