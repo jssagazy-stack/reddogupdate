@@ -77,19 +77,19 @@
       "sha256": "bd95cdb83cbe5a253683224d496f5d7ec33c1cdc8f2375249caa655efb23881d",
       "notes": "대상설정 탭 '대상 힐' 행 UI 겹침 수정 — 힐 슬롯 버튼/좌표와 시전 안내라벨이 같은 칸에 겹쳐 그려지던 것을 안내라벨 별도 행으로 분리"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.21.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.21.2/_delta_REDDOG_hunt.zip",
-      "sha256": "201f388eef51f7afd448a3dc97bc1b0aa2dca8946ca9558d0a35cfef84879343",
-      "notes": "자힐전용 소울: 경험치 변화(처치) 시 2초 대기 없이 즉시 1회 시도(마나·체력·쿨다운 조건 동일)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.22.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.22.1/_delta_REDDOG_chaejip.zip",
       "sha256": "abcad6d87762a96689bbd0ee586588651fbbf9a1614a160615c98ffe1a6cf944",
       "notes": "창고: kp_ok 플래그 — 커서게이트 5회 소진 시 게이트 없이 keeper_pos+50 우클릭→좌클릭, 재시도 루프도 이름 발견 좌표 우선(고정좌표 651,495=웰던 기준은 미발견 폴백만)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.22.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.1/_delta_REDDOG_hunt.zip",
+      "sha256": "dd7df4442a7e41b37f19fc51504017777b422205c973a932ae28e44898b273b5",
+      "notes": "위치복귀 오판 수정: 이동센서 ROI 세로맹점(높이32→80, 채집 7/21 동일) — 우회 이동이 STUCK 으로 오판돼 8회 실패→귀환하던 문제"
     }
   }
 }
