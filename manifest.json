@@ -70,13 +70,6 @@
       "sha256": "c73a516e1994e4b89dfc0f28d570f88a2fce752fb179f484cf4a07ebb154c109",
       "notes": "라이선스 남은기간 실시간 표시(라이선스 줄, 1초 갱신)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.21.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.21.1/_delta_REDDOG_hunt.zip",
-      "sha256": "d72d70fc0a45ff5cb7cdc0b93fd5e23e95fdc24ef26d6669defb74f4c76c72c0",
-      "notes": "자힐전용: 소울 시전 추가(사냥과 동일 조건, 이동중·공격중 보류) / 시작 스샷 제거 / 디버그 스샷 체크박스(시작 시 이전 스샷 삭제)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.21.1",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.21.1/_delta_HealSupporter.zip",
       "sha256": "bd95cdb83cbe5a253683224d496f5d7ec33c1cdc8f2375249caa655efb23881d",
       "notes": "대상설정 탭 '대상 힐' 행 UI 겹침 수정 — 힐 슬롯 버튼/좌표와 시전 안내라벨이 같은 칸에 겹쳐 그려지던 것을 안내라벨 별도 행으로 분리"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.21.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.21.2/_delta_REDDOG_hunt.zip",
+      "sha256": "201f388eef51f7afd448a3dc97bc1b0aa2dca8946ca9558d0a35cfef84879343",
+      "notes": "자힐전용 소울: 경험치 변화(처치) 시 2초 대기 없이 즉시 1회 시도(마나·체력·쿨다운 조건 동일)"
     }
   }
 }
