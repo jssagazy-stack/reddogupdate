@@ -49,13 +49,6 @@
       "sha256": "238e03233cd10c381c162be8b94601e6b323401f72b3334040c9b1c04f5b32a6",
       "notes": "타겟 이탈 자동종료 10분→3분 + 로그 타임스탬프 추가"
     },
-    "HealSupporter": {
-      "version": "2026.08.13.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.13.4/_delta_HealSupporter.zip",
-      "sha256": "5f3a4174f9c97c6a51e5886d58cef72fdc1272387582bab0745027b0eac6d465",
-      "notes": "타겟 이탈 자동종료 10분→3분(단일 이름표·파티 전원 근접이탈 공통)"
-    },
     "MyJjolSender": {
       "version": "2026.08.13.2",
       "type": "delta",
@@ -90,6 +83,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.21.1/_delta_REDDOG_chaejip.zip",
       "sha256": "9c95b8a1bdd8ecf528a65ee66ad958670202db9cb27159c91066f9224ee3245e",
       "notes": "AFK 자리비움 대기 중 사망 감지(g_afk_resur_chk) — 5초 틱마다 리스타트 버튼 매칭, 발견 시 기존 부활 체인 재사용"
+    },
+    "HealSupporter": {
+      "version": "2026.08.21.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.21.1/_delta_HealSupporter.zip",
+      "sha256": "bd95cdb83cbe5a253683224d496f5d7ec33c1cdc8f2375249caa655efb23881d",
+      "notes": "대상설정 탭 '대상 힐' 행 UI 겹침 수정 — 힐 슬롯 버튼/좌표와 시전 안내라벨이 같은 칸에 겹쳐 그려지던 것을 안내라벨 별도 행으로 분리"
     }
   }
 }
