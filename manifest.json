@@ -77,19 +77,19 @@
       "sha256": "bd95cdb83cbe5a253683224d496f5d7ec33c1cdc8f2375249caa655efb23881d",
       "notes": "대상설정 탭 '대상 힐' 행 UI 겹침 수정 — 힐 슬롯 버튼/좌표와 시전 안내라벨이 같은 칸에 겹쳐 그려지던 것을 안내라벨 별도 행으로 분리"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.22.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.1/_delta_REDDOG_hunt.zip",
-      "sha256": "dd7df4442a7e41b37f19fc51504017777b422205c973a932ae28e44898b273b5",
-      "notes": "위치복귀 오판 수정: 이동센서 ROI 세로맹점(높이32→80, 채집 7/21 동일) — 우회 이동이 STUCK 으로 오판돼 8회 실패→귀환하던 문제"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.22.4",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.22.4/_delta_REDDOG_chaejip.zip",
       "sha256": "4b3422c1f0d51f39ad4db8577c7b2457e1b6cf213ed0f5bc27df888ba0fa22ae",
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.22.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.2/_delta_REDDOG_hunt.zip",
+      "sha256": "ba2116826d4381cd72f8032cf1e373effca30d1e10326d02e1ca4c5c692d4a2d",
+      "notes": "위치복귀: ①8회 실패라도 한계x1.3 이내(경미 초과)면 귀환 대신 계속 사냥·복귀 재시도 ②F4 줍기 후 1.2초 이동불가 구간엔 복귀클릭 대기"
     }
   }
 }
