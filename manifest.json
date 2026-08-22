@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.22.3",
+      "version": "2026.08.22.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.3/_delta_REDDOG_hunt.zip",
-      "sha256": "a14c85c0dee90e5d88e2a7fa95f69a999a5f7806cca6501ebd98213d68e2ab95",
-      "notes": "아이템 줍기 범위를 몹서치 범위(서치영역 박스)와 동일하게 제한(앵커 ON/OFF 무관) — 우상단 버프아이콘 오매칭으로 화면 끝까지 걸어가던 표류 수정"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.4/_delta_REDDOG_hunt.zip",
+      "sha256": "5ecdf90f53358940478ca8b3aaac04e859739bcaaed11c1433392e69859a0f10",
+      "notes": "위치이탈 시퀀스: 종료 후 이동멈춤+최대 5초 앵커 재확인, 연속 2회 미해소여도 정지 대신 복귀 카운터 리셋 후 재개(재실패 시 시퀀스 재실행), 앵커 재발견 시 실패카운터 리셋 / 우회 8회 경로도 귀환 히스테리시스 적용"
     }
   }
 }
