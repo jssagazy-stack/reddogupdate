@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.22.7",
+      "version": "2026.08.22.8",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.7/_delta_REDDOG_hunt.zip",
-      "sha256": "6202e08960b92d787199125b8533c8b2b4d366bd66c94e30bf65f652f86d5c7a",
-      "notes": "자힐전용 모드에서 화살소진 감지(+지정 시퀀스) 동작 / 설명문 추가"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.8/_delta_REDDOG_hunt.zip",
+      "sha256": "4e6aeed5823c3c96fb8310de7fe4bd4e655cfb3d7a00dddf488fc10fcdf4e59d",
+      "notes": "아이템 줍기: 이동 완료(멈춤) 시 F4 2회 입력(간격 500~1000ms 랜덤). Wait 노드 rand_ms 필드 추가(기본 0=종전)"
     }
   }
 }
