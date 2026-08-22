@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.22.5",
+      "version": "2026.08.22.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.5/_delta_REDDOG_hunt.zip",
-      "sha256": "fba75f8dca7fc20bd8767835f2d42d62c2a75e76d72a67dc464af98dd31ec017",
-      "notes": "위치이탈 시퀀스 재설계: 종료 후 바로 사냥 재개→30초 내 앵커 잡히면 성공/못 잡으면 복귀실패→재실행, 5분 내 3회면 귀환후정지 / 센서탭 헤이스트 감지 추가(아이콘 사라지면 지정 시퀀스 실행, 채집 템플릿 이식)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.6/_delta_REDDOG_hunt.zip",
+      "sha256": "c62718f508470f74c0a468e4d836d027899a414d2534d6c4d40e38f1a302554e",
+      "notes": "자힐전용 모드에서도 헤이스트 감지(+지정 시퀀스) 동작 / 설명문 추가"
     }
   }
 }
