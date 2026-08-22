@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.22.4",
+      "version": "2026.08.22.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.4/_delta_REDDOG_hunt.zip",
-      "sha256": "5ecdf90f53358940478ca8b3aaac04e859739bcaaed11c1433392e69859a0f10",
-      "notes": "위치이탈 시퀀스: 종료 후 이동멈춤+최대 5초 앵커 재확인, 연속 2회 미해소여도 정지 대신 복귀 카운터 리셋 후 재개(재실패 시 시퀀스 재실행), 앵커 재발견 시 실패카운터 리셋 / 우회 8회 경로도 귀환 히스테리시스 적용"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.5/_delta_REDDOG_hunt.zip",
+      "sha256": "fba75f8dca7fc20bd8767835f2d42d62c2a75e76d72a67dc464af98dd31ec017",
+      "notes": "위치이탈 시퀀스 재설계: 종료 후 바로 사냥 재개→30초 내 앵커 잡히면 성공/못 잡으면 복귀실패→재실행, 5분 내 3회면 귀환후정지 / 센서탭 헤이스트 감지 추가(아이콘 사라지면 지정 시퀀스 실행, 채집 템플릿 이식)"
     }
   }
 }
