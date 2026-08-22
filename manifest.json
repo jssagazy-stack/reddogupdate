@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.22.9",
+      "version": "2026.08.23.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.9/_delta_REDDOG_hunt.zip",
-      "sha256": "672667edf34100a81c90eeb937417ae0352627b250d7f4e1c3c33a34b1492b1e",
-      "notes": "시작 커서 자동캡처 재시도 간격 350ms→1초 고정(Ctrl 더블탭=강제공격 토글 오인 방지, 쫄 공격 사고)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.23.1/_delta_REDDOG_hunt.zip",
+      "sha256": "3d2ebf78146661d74397b9a3585fbf3b54e13be7e4a0fbeb2a03b3112ba43a74",
+      "notes": "하단 UI 오클릭 차단: 모든 클릭/드래그 시작점 y≤729 강제(랜덤·드리프트 가산 후 적용) + 서치박스/아이템 박스 하단 729 컷 — 강제공격 토글 버튼(595~660,770~825) 클릭 원천 차단"
     }
   }
 }
