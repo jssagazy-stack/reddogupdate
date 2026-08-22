@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.22.6",
+      "version": "2026.08.22.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.6/_delta_REDDOG_hunt.zip",
-      "sha256": "c62718f508470f74c0a468e4d836d027899a414d2534d6c4d40e38f1a302554e",
-      "notes": "자힐전용 모드에서도 헤이스트 감지(+지정 시퀀스) 동작 / 설명문 추가"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.7/_delta_REDDOG_hunt.zip",
+      "sha256": "6202e08960b92d787199125b8533c8b2b4d366bd66c94e30bf65f652f86d5c7a",
+      "notes": "자힐전용 모드에서 화살소진 감지(+지정 시퀀스) 동작 / 설명문 추가"
     }
   }
 }
