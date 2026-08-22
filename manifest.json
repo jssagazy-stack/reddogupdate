@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.23.1",
+      "version": "2026.08.23.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.23.1/_delta_REDDOG_hunt.zip",
-      "sha256": "3d2ebf78146661d74397b9a3585fbf3b54e13be7e4a0fbeb2a03b3112ba43a74",
-      "notes": "하단 UI 오클릭 차단: 모든 클릭/드래그 시작점 y≤729 강제(랜덤·드리프트 가산 후 적용) + 서치박스/아이템 박스 하단 729 컷 — 강제공격 토글 버튼(595~660,770~825) 클릭 원천 차단"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.23.2/_delta_REDDOG_hunt.zip",
+      "sha256": "4f1491e7d0c4858d06cce2cac0f8e10f8c5987eafd6d6e51364eaf67a7dd2cac",
+      "notes": "입력 인터록: 백엔드 관문에서 클라 y>729 버튼 DOWN 클램프 + Ctrl 키 차단(커서 캡처만 허용), 위반 시 호출 스택을 로그에 표시(강제공격 토글 출처 추적)"
     }
   }
 }
