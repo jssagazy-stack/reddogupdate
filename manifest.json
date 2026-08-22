@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.22.8",
+      "version": "2026.08.22.9",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.8/_delta_REDDOG_hunt.zip",
-      "sha256": "4e6aeed5823c3c96fb8310de7fe4bd4e655cfb3d7a00dddf488fc10fcdf4e59d",
-      "notes": "아이템 줍기: 이동 완료(멈춤) 시 F4 2회 입력(간격 500~1000ms 랜덤). Wait 노드 rand_ms 필드 추가(기본 0=종전)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.9/_delta_REDDOG_hunt.zip",
+      "sha256": "672667edf34100a81c90eeb937417ae0352627b250d7f4e1c3c33a34b1492b1e",
+      "notes": "시작 커서 자동캡처 재시도 간격 350ms→1초 고정(Ctrl 더블탭=강제공격 토글 오인 방지, 쫄 공격 사고)"
     }
   }
 }
