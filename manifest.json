@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.22.2",
+      "version": "2026.08.22.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.2/_delta_REDDOG_hunt.zip",
-      "sha256": "ba2116826d4381cd72f8032cf1e373effca30d1e10326d02e1ca4c5c692d4a2d",
-      "notes": "위치복귀: ①8회 실패라도 한계x1.3 이내(경미 초과)면 귀환 대신 계속 사냥·복귀 재시도 ②F4 줍기 후 1.2초 이동불가 구간엔 복귀클릭 대기"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.22.3/_delta_REDDOG_hunt.zip",
+      "sha256": "a14c85c0dee90e5d88e2a7fa95f69a999a5f7806cca6501ebd98213d68e2ab95",
+      "notes": "아이템 줍기 범위를 몹서치 범위(서치영역 박스)와 동일하게 제한(앵커 ON/OFF 무관) — 우상단 버프아이콘 오매칭으로 화면 끝까지 걸어가던 표류 수정"
     }
   }
 }
