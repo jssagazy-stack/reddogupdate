@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.1",
+      "version": "2026.08.24.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.1/_delta_REDDOG_hunt.zip",
-      "sha256": "8d1027908d43e245246e3b51af74604dbc745477035ce17304502e56b1736afc",
-      "notes": "도달불가 포기 대상 배제 강화(여백120·상한480·박스겹침 판정 — 기둥 뒤 큰 몹 재선택 반복 차단) / 타겟 크기 슬라이더 조절 시 게임화면에 크기 미리보기 2.5초 표시"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.2/_delta_REDDOG_hunt.zip",
+      "sha256": "33fee0dd1106be3fccc68e233adf772e9dc68ddf9eea29ca5834bd91ed7e576f",
+      "notes": "도달불가 재선택 방지 재설계: 배제는 그 몹 박스만(겹침 판정), 실패 좌표 반경 200px 후보는 순서만 뒤로(옆 몹 미배제) / 객체 최대크기·병합 간격 슬라이더도 화면 미리보기"
     }
   }
 }
