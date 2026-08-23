@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.4",
+      "version": "2026.08.24.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.4/_delta_REDDOG_hunt.zip",
-      "sha256": "2781be0cffba6f8ba3d2fd9b7219fff027968873d294e40647061d9207934a41",
-      "notes": "객체 최대크기% 슬라이더를 기본 0.5 고정으로 바꾸고 그 자리에 '객체 최대 가로세로비'(기본 3.0, 방향 무관) 추가 — 이름표·띠 등 길쭉한 오탐 드롭 + 미리보기"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.5/_delta_REDDOG_hunt.zip",
+      "sha256": "9520aef24a9118a97453999c72e656b009b13ff89614d966acbc7a9134ff3a2a",
+      "notes": "타겟크기 슬라이더 상한 3000→12000, 미리보기를 몹 박스 환산(채움 50%)으로 표시"
     }
   }
 }
