@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.2",
+      "version": "2026.08.24.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.2/_delta_REDDOG_hunt.zip",
-      "sha256": "33fee0dd1106be3fccc68e233adf772e9dc68ddf9eea29ca5834bd91ed7e576f",
-      "notes": "도달불가 재선택 방지 재설계: 배제는 그 몹 박스만(겹침 판정), 실패 좌표 반경 200px 후보는 순서만 뒤로(옆 몹 미배제) / 객체 최대크기·병합 간격 슬라이더도 화면 미리보기"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.3/_delta_REDDOG_hunt.zip",
+      "sha256": "d842eb9b4714712d849a63c67cfeffdc0c85387ad33f0121bb1ea4214cdfef48",
+      "notes": "슬라이더 미리보기 오버레이가 즉시 사라지던 문제 수정(런처 전면 중 유지, 마지막 값 기준 2.5초) / 타겟크기 라벨에 동일 면적의 2:1 예시 병기"
     }
   }
 }
