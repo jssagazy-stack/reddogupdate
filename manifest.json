@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.7",
+      "version": "2026.08.24.8",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.7/_delta_REDDOG_hunt.zip",
-      "sha256": "ddbd8c178ef8efe44edd3c4907df2179f0709cc3e787e4747a3a3a21663d3e79",
-      "notes": "힐 마나부족 고착 수정: 마나 숫자 OCR 이식(buffshop ManaOCR, ROI/색상/글리프 그대로) — 힐 전 마나<4면 소울 먼저 / 폴백=연속 2회 헛힐(체력% 미증가)+마나 안가득이면 소울 1회 후 2초 대기, 가드가 힐 재시도"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.8/_delta_REDDOG_hunt.zip",
+      "sha256": "8e96629283840fab38d1581fa5914f63f65a8bda6607602c64bed5ce45d3e3f4",
+      "notes": "마나 OCR 글리프(bmp) 번들 누락 수정 — hunt.spec datas + 델타 bmp 규칙 추가(.7 재발행)"
     }
   }
 }
