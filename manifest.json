@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.5",
+      "version": "2026.08.24.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.5/_delta_REDDOG_hunt.zip",
-      "sha256": "9520aef24a9118a97453999c72e656b009b13ff89614d966acbc7a9134ff3a2a",
-      "notes": "타겟크기 슬라이더 상한 3000→12000, 미리보기를 몹 박스 환산(채움 50%)으로 표시"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.6/_delta_REDDOG_hunt.zip",
+      "sha256": "b971a800fd0f4724ad56e66e98245dd5c8c368c6ff5b8bdfa7403bebe10c6f20",
+      "notes": "감지할 타겟 크기 기준을 '변화 픽셀 수'에서 '바운딩박스 면적 w×h(빨간 타겟 박스와 동일 단위)'로 변경, 로그 후보도 박스WxH 표기, 미리보기=박스 크기 그대로. 변화픽셀은 노이즈 바닥 20 고정"
     }
   }
 }
