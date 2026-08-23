@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.23.2",
+      "version": "2026.08.24.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.23.2/_delta_REDDOG_hunt.zip",
-      "sha256": "4f1491e7d0c4858d06cce2cac0f8e10f8c5987eafd6d6e51364eaf67a7dd2cac",
-      "notes": "입력 인터록: 백엔드 관문에서 클라 y>729 버튼 DOWN 클램프 + Ctrl 키 차단(커서 캡처만 허용), 위반 시 호출 스택을 로그에 표시(강제공격 토글 출처 추적)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.1/_delta_REDDOG_hunt.zip",
+      "sha256": "8d1027908d43e245246e3b51af74604dbc745477035ce17304502e56b1736afc",
+      "notes": "도달불가 포기 대상 배제 강화(여백120·상한480·박스겹침 판정 — 기둥 뒤 큰 몹 재선택 반복 차단) / 타겟 크기 슬라이더 조절 시 게임화면에 크기 미리보기 2.5초 표시"
     }
   }
 }
