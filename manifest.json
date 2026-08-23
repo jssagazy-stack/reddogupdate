@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.3",
+      "version": "2026.08.24.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.3/_delta_REDDOG_hunt.zip",
-      "sha256": "d842eb9b4714712d849a63c67cfeffdc0c85387ad33f0121bb1ea4214cdfef48",
-      "notes": "슬라이더 미리보기 오버레이가 즉시 사라지던 문제 수정(런처 전면 중 유지, 마지막 값 기준 2.5초) / 타겟크기 라벨에 동일 면적의 2:1 예시 병기"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.4/_delta_REDDOG_hunt.zip",
+      "sha256": "2781be0cffba6f8ba3d2fd9b7219fff027968873d294e40647061d9207934a41",
+      "notes": "객체 최대크기% 슬라이더를 기본 0.5 고정으로 바꾸고 그 자리에 '객체 최대 가로세로비'(기본 3.0, 방향 무관) 추가 — 이름표·띠 등 길쭉한 오탐 드롭 + 미리보기"
     }
   }
 }
