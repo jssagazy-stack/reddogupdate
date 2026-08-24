@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.19",
+      "version": "2026.08.24.20",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.19/_delta_REDDOG_hunt.zip",
-      "sha256": "b1abd577a6f2e2ad14a94a5a110cc68d3fc9afc743c97e681f66537314531cb8",
-      "notes": "헤이 감지 오탐 수정 — 임계 0.8→0.72·OFF확정 4→6회(버프열 반투명 딥 실측값, 채집 windwalk 튜닝 이식)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.20/_delta_REDDOG_hunt.zip",
+      "sha256": "57b40fa700ec1e8221ae4d51b8a9195283833afcecfec246d5f9123bf78a7714",
+      "notes": "ATS ON 5연속 실패 시 정지(마을 방치 F6 스팸 차단), 시퀀스 편집창 좌표 캡처(수정창 내장), 이어녹화·복사·이름변경(가드 배정 자동 이관)"
     }
   }
 }
