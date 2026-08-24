@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.9",
+      "version": "2026.08.24.10",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.9/_delta_REDDOG_hunt.zip",
-      "sha256": "a612d6ea0712105aa2bb61368c2abeca28e0b8812508bb0cc26b81fabfa81817",
-      "notes": "인게임 ATS 분배 신설: ON표시 템플릿 센서(실측 검증·사용량 누적·06시 리셋), h_loop 안전지점 토글(F6), 간격=남은시간/남은시각 재계산+지터, 추천 버튼, 지능 트리거(몹없음·정체·줍기포기), 정지 시 OFF 안전망. ON 동안 사냥 정지(가드·소울만)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.10/_delta_REDDOG_hunt.zip",
+      "sha256": "6fbd85f6e9775e04fefa210a238c6fca57a7d7e3ab9468e6d023967020c2ae48",
+      "notes": "ATS ON 템플릿(ats_on.png) 누락 수정 재발행 — cv2 한글경로 무예외 실패로 미저장됐던 것을 image_io 로 재저장"
     }
   }
 }
