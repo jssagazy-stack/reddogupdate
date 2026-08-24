@@ -92,11 +92,11 @@
       "notes": "사냥터 복귀 좌표/대화창 앵커 내장(개발PC 실캡처 → 전 PC 공통 기본값, 캡처 불필요. 로컬 재캡처 시 오버라이드)"
     },
     "REDDOG_hunt_seq": {
-      "version": "2026.08.25.1",
+      "version": "2026.08.25.2",
       "type": "seqpack",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt_seq-2026.08.25.1/_seqpack_hunt.zip",
-      "sha256": "da969bc5cf7d0e5877373f86b89e04b27958b108e936f07dc3688dc9f1f76311",
-      "notes": "사냥터복귀용 가드 전반부 3종(화살 구매·헤이화말·피엠 귀환)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt_seq-2026.08.25.2/_seqpack_hunt.zip",
+      "sha256": "1eda4f5606384fe112784a51b1416b92cd0a18b4074ee45433d952a16e3f88a4",
+      "notes": "피엠 끝에 이동NPC 앞 텔레포트(F10+북마크 클릭, 화살 패턴 동일) 추가"
     }
   }
 }
