@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.16",
+      "version": "2026.08.24.17",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.16/_delta_REDDOG_hunt.zip",
-      "sha256": "16e32871fb2e874defd40bab12f099e94df905a4e6bc696776d542d5727a35ab",
-      "notes": "ATS UI/회계 개편: 남은시간 실시간 차감·저장(재시작 이어짐·06시 180분 리셋), 지능 체크 시 주기·켜둠·추천 비활성(지능=몹없음 ON·처치2회 OFF·무처치 90초 상한), 2줄 배치, 지능 작동원리 툴팁"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.17/_delta_REDDOG_hunt.zip",
+      "sha256": "805f0c3e17cec5fe190454db2fcb13a1183ac9937b10e9f108e9d54aed687b54",
+      "notes": "ATS 지능 트리거: 전투 진행 중(in_combat)·회복/시퀀스 중(rec_busy)엔 발동 금지 — 한 몹과 5초+ 교전 중 '활동 없음' 오판 수정"
     }
   }
 }
