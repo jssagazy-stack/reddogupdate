@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.25.3",
+      "version": "2026.08.25.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.3/_delta_REDDOG_hunt.zip",
-      "sha256": "36f6e3f8440ffff9a1811c7f67f9d9a4a8dcc4fdc770e85d0d70e57f1e60b682",
-      "notes": "헤이 감지 실측(857샘플) 반영 — 딥 min 0.39=임계 구분 불가 확정, OFF 확정 4.2초→10.5초(실측 최장 딥 4.2초의 2.5배, 시간축 분리)+즉석 재확인 유지"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.4/_delta_REDDOG_hunt.zip",
+      "sha256": "2b0747a1212498f4dc9e67e6eda90bb7c96d7a8dba626ff935d8cb9beb00b4e5",
+      "notes": "사냥터 복귀 좌표/대화창 앵커 내장(개발PC 실캡처 → 전 PC 공통 기본값, 캡처 불필요. 로컬 재캡처 시 오버라이드)"
     }
   }
 }
