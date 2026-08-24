@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.13",
+      "version": "2026.08.24.14",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.13/_delta_REDDOG_hunt.zip",
-      "sha256": "d4928e0d0ea4ea6eac4c91d10cf2d50b601b4d9c4193c1dd781b8ee4314f920a",
-      "notes": "ATS: ①상시 안전장치 — 예정 외 ON 표시 감지 시(토글 꼬임/수동) 즉시 사이클 편입=사냥과 동시 가동 차단 ②지능 트리거 기준을 '마지막 전투 활동(발견·공격·처치) 후 N초'로 수정 — 긴 전투 중 몹없음 오판 제거"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.14/_delta_REDDOG_hunt.zip",
+      "sha256": "f11124bf532ad38e4daa104ad80400265e8de4cd12a9a17279777419757647de",
+      "notes": "ATS: 지능 사이클=처치(경험치 펄스) 2회 확인 후 OFF / OFF 미반영 시 4초 간격 최대 4회 재시도 / 사이클 종료 시 idle 기준 리셋+예정시각 보관·복원(몹 재등장 시 당김 자동 취소) — 즉시 재ON·멍때림 수정"
     }
   }
 }
