@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.10",
+      "version": "2026.08.24.11",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.10/_delta_REDDOG_hunt.zip",
-      "sha256": "6fbd85f6e9775e04fefa210a238c6fca57a7d7e3ab9468e6d023967020c2ae48",
-      "notes": "ATS ON 템플릿(ats_on.png) 누락 수정 재발행 — cv2 한글경로 무예외 실패로 미저장됐던 것을 image_io 로 재저장"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.11/_delta_REDDOG_hunt.zip",
+      "sha256": "5a67b0c86ae3796a463f588813a5fdd232f00eff0c10a2db7ccaeb749ab9b60d",
+      "notes": "ATS 토글 타이밍 수정: OFF 재입력이 센서 지연과 경합해 도로 켜지던 버그(대기 5초+재확인 2초 후에만 재입력), ON 키 F4 잠금 게이트, ON 재입력 3.5초/포기 7초, 배지 유지 3.6초(깜빡임 내성)"
     }
   }
 }
