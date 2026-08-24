@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.21",
+      "version": "2026.08.25.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.21/_delta_REDDOG_hunt.zip",
-      "sha256": "93f10db7dca228c3cbfcf31d5c2cab0c382eac3410fe949934f65cbd7a59dad5",
-      "notes": "시퀀스 이어녹화를 편집창 내장으로 이동(표 끝에 행 추가·저장 시 반영, 탭 버튼 제거)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.1/_delta_REDDOG_hunt.zip",
+      "sha256": "b59e7fafc3c0af7e79a62140d88152389e87f5f764c78b7fcbcb0468bec66988",
+      "notes": "사냥터 복귀(v3): 가드 행 복귀 콤보 16목적지, 복귀 좌표 세팅(13좌표+대화창 앵커)+대화창 테스트, 검증 복귀 체인(대화창 매칭·재시도·전체 재실행·정지), 위험체력 회복 대기(부활·해독·마나OCR·F11)"
     }
   }
 }
