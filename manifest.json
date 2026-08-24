@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.18",
+      "version": "2026.08.24.19",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.18/_delta_REDDOG_hunt.zip",
-      "sha256": "33644ecf39508323ff3450fd5da6a6dd4df2e82772b41f9bd82d97960b6b366e",
-      "notes": "ATS 지능 ON 지점 추가(처치실패 타임아웃), 마나/소울 OCR % 임계 전환(실시간 % 표시), 위험체력 행 재배치, 배속 삭제, 실패방향 부채꼴 강등(줍기>이동1회>공격 먼순)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.19/_delta_REDDOG_hunt.zip",
+      "sha256": "b1abd577a6f2e2ad14a94a5a110cc68d3fc9afc743c97e681f66537314531cb8",
+      "notes": "헤이 감지 오탐 수정 — 임계 0.8→0.72·OFF확정 4→6회(버프열 반투명 딥 실측값, 채집 windwalk 튜닝 이식)"
     }
   }
 }
