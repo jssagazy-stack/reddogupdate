@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.17",
+      "version": "2026.08.24.18",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.17/_delta_REDDOG_hunt.zip",
-      "sha256": "805f0c3e17cec5fe190454db2fcb13a1183ac9937b10e9f108e9d54aed687b54",
-      "notes": "ATS 지능 트리거: 전투 진행 중(in_combat)·회복/시퀀스 중(rec_busy)엔 발동 금지 — 한 몹과 5초+ 교전 중 '활동 없음' 오판 수정"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.18/_delta_REDDOG_hunt.zip",
+      "sha256": "33644ecf39508323ff3450fd5da6a6dd4df2e82772b41f9bd82d97960b6b366e",
+      "notes": "ATS 지능 ON 지점 추가(처치실패 타임아웃), 마나/소울 OCR % 임계 전환(실시간 % 표시), 위험체력 행 재배치, 배속 삭제, 실패방향 부채꼴 강등(줍기>이동1회>공격 먼순)"
     }
   }
 }
