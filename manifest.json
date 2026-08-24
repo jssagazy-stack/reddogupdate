@@ -85,11 +85,11 @@
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.24.15",
+      "version": "2026.08.24.16",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.15/_delta_REDDOG_hunt.zip",
-      "sha256": "73dedefa30aa75fa5ef0410f1fe877bd940ff5c395b70e894e010fa17daafa73",
-      "notes": "ATS 토글 검증을 디바운스 센서 → 즉석 단발 매칭(배지 정확좌표 스냅샷 비교)으로 교체 — 센서 지연으로 실제 OFF 를 못 보고 재입력=재ON 하던 사고 근절. 토글 쿨다운 2초 반영(판정 2.5초 대기·지능 OFF 는 ON 후 최소 3초)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.24.16/_delta_REDDOG_hunt.zip",
+      "sha256": "16e32871fb2e874defd40bab12f099e94df905a4e6bc696776d542d5727a35ab",
+      "notes": "ATS UI/회계 개편: 남은시간 실시간 차감·저장(재시작 이어짐·06시 180분 리셋), 지능 체크 시 주기·켜둠·추천 비활성(지능=몹없음 ON·처치2회 OFF·무처치 90초 상한), 2줄 배치, 지능 작동원리 툴팁"
     }
   }
 }
