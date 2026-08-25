@@ -92,11 +92,11 @@
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.25.6",
+      "version": "2026.08.25.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.6/_delta_REDDOG_hunt.zip",
-      "sha256": "92549cb0ffe535554ed747d59befe66cf70722c4ec095e08f66a301104279b6f",
-      "notes": "센서허브 래치 결함 수정 — every>1 가드 센서가 건너뛴 틱마다 래치 해제→재발동(헤이 게이트 무한 반복 사고). 실제 판정된 센서만 래치 정리"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.7/_delta_REDDOG_hunt.zip",
+      "sha256": "cf3e861668c838acff9d6e8b367797899e84cde0e894a391517cb09597dceccb",
+      "notes": "위치이탈 가드에도 사냥터 복귀 콤보(회복대기 마커 지원) + 가드 시퀀스 진입 시 앵커 신뢰/odometry 리셋(텔레포트 후 유령 앵커 추적으로 복귀 STUCK·줍기 연쇄 이탈·위치이탈 오판 근본수정)"
     }
   }
 }
