@@ -84,19 +84,19 @@
       "sha256": "4b3422c1f0d51f39ad4db8577c7b2457e1b6cf213ed0f5bc27df888ba0fa22ae",
       "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.25.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.5/_delta_REDDOG_hunt.zip",
-      "sha256": "6e1bad3df2928ac2cf9045bb3fbe66de1e34fe35435a079ee5ecaf1fbd30d12a",
-      "notes": "회복대기 마커(RecoverWait) — 시퀀스 편집창 [➕ 회복대기]로 원하는 위치(엄마나무 등)에 삽입, 위험체력+복귀 시 그 자리에서 회복 루프 실행(타 가드/테스트=통과)"
-    },
     "REDDOG_hunt_seq": {
       "version": "2026.08.25.3",
       "type": "seqpack",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt_seq-2026.08.25.3/_seqpack_hunt.zip",
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.25.6",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.6/_delta_REDDOG_hunt.zip",
+      "sha256": "92549cb0ffe535554ed747d59befe66cf70722c4ec095e08f66a301104279b6f",
+      "notes": "센서허브 래치 결함 수정 — every>1 가드 센서가 건너뛴 틱마다 래치 해제→재발동(헤이 게이트 무한 반복 사고). 실제 판정된 센서만 래치 정리"
     }
   }
 }
