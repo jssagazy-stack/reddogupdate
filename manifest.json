@@ -84,19 +84,19 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.25.7",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.7/_delta_REDDOG_hunt.zip",
-      "sha256": "cf3e861668c838acff9d6e8b367797899e84cde0e894a391517cb09597dceccb",
-      "notes": "위치이탈 가드에도 사냥터 복귀 콤보(회복대기 마커 지원) + 가드 시퀀스 진입 시 앵커 신뢰/odometry 리셋(텔레포트 후 유령 앵커 추적으로 복귀 STUCK·줍기 연쇄 이탈·위치이탈 오판 근본수정)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.25.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.25.1/_delta_REDDOG_chaejip.zip",
       "sha256": "8d1e74840be4d1dc29e16a02d043f3b13d95b98f045ac6c719f733493d3e7a8f",
       "notes": ""
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.25.8",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.8/_delta_REDDOG_hunt.zip",
+      "sha256": "4d22ef7c6c6d4640e49f1937ed7ace11ff2f9122d7bc10ba52a7c36b74621441",
+      "notes": "가두리 이탈 근본수정 — ATS ON 직전 가두리 판정(밖이면 보류·복귀 우선) + 줍기 직후 즉시 가두리 판정(한 개 줍고 바로 복귀)"
     }
   }
 }
