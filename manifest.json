@@ -77,13 +77,6 @@
       "sha256": "bd95cdb83cbe5a253683224d496f5d7ec33c1cdc8f2375249caa655efb23881d",
       "notes": "대상설정 탭 '대상 힐' 행 UI 겹침 수정 — 힐 슬롯 버튼/좌표와 시전 안내라벨이 같은 칸에 겹쳐 그려지던 것을 안내라벨 별도 행으로 분리"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.22.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.22.4/_delta_REDDOG_chaejip.zip",
-      "sha256": "4b3422c1f0d51f39ad4db8577c7b2457e1b6cf213ed0f5bc27df888ba0fa22ae",
-      "notes": "★긴급: 시작 시 강제종료 수정 — _apply_chj_village(wh_vil 시드)가 엔진 생성 전에 호출되던 순서 오류(22.2~22.3 회귀)"
-    },
     "REDDOG_hunt_seq": {
       "version": "2026.08.25.3",
       "type": "seqpack",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.7/_delta_REDDOG_hunt.zip",
       "sha256": "cf3e861668c838acff9d6e8b367797899e84cde0e894a391517cb09597dceccb",
       "notes": "위치이탈 가드에도 사냥터 복귀 콤보(회복대기 마커 지원) + 가드 시퀀스 진입 시 앵커 신뢰/odometry 리셋(텔레포트 후 유령 앵커 추적으로 복귀 STUCK·줍기 연쇄 이탈·위치이탈 오판 근본수정)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.25.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.25.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "8d1e74840be4d1dc29e16a02d043f3b13d95b98f045ac6c719f733493d3e7a8f",
+      "notes": ""
     }
   }
 }
