@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "REDDOG_zoneheal": {
-      "version": "2026.08.26.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.26.1/_delta_REDDOG_zoneheal.zip",
-      "sha256": "c5adac98391944fa49886dbd9a4b33a4d51e111d7c19f1fea83d125f57d54d34",
-      "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.26.4",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.26.2/_delta_MyJjol.zip",
       "sha256": "bacfa84c97e84ffe97507dac3cf303483d124cc7876d965d6fe65ac3f7e8b07d",
+      "notes": "업데이터 v2: 원자적 적용(앱 강제종료 대기·스테이징 해제·파일별 백업/재시도·실패 시 전체 롤백) — 잠긴 python DLL로 인한 encodings 부팅실패 재발 방지"
+    },
+    "REDDOG_zoneheal": {
+      "version": "2026.08.26.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.26.2/_delta_REDDOG_zoneheal.zip",
+      "sha256": "38299c2737531508aa2b8ea2929ead4e9c968a2400f80618c7e76ceea8212aad",
       "notes": "업데이터 v2: 원자적 적용(앱 강제종료 대기·스테이징 해제·파일별 백업/재시도·실패 시 전체 롤백) — 잠긴 python DLL로 인한 encodings 부팅실패 재발 방지"
     }
   }
