@@ -92,11 +92,11 @@
       "notes": "가두리 이탈 근본수정 — ATS ON 직전 가두리 판정(밖이면 보류·복귀 우선) + 줍기 직후 즉시 가두리 판정(한 개 줍고 바로 복귀)"
     },
     "REDDOG_chaejip": {
-      "version": "2026.08.26.2",
+      "version": "2026.08.26.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "43693af13661b7ff16cfd46397693c6dc724fed2fcc46dd33c1eb3b3dae3681d",
-      "notes": "자동 업데이트 테스트(코드 변경 없음)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.3/_delta_REDDOG_chaejip.zip",
+      "sha256": "4e94a2671f03379407bc1d7154249c160679932c2ba8038482c5aae771285f68",
+      "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
     }
   }
 }
