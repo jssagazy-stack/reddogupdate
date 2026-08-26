@@ -84,18 +84,18 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.25.8",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.25.8/_delta_REDDOG_hunt.zip",
-      "sha256": "4d22ef7c6c6d4640e49f1937ed7ace11ff2f9122d7bc10ba52a7c36b74621441",
-      "notes": "가두리 이탈 근본수정 — ATS ON 직전 가두리 판정(밖이면 보류·복귀 우선) + 줍기 직후 즉시 가두리 판정(한 개 줍고 바로 복귀)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.26.3",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.3/_delta_REDDOG_chaejip.zip",
       "sha256": "4e94a2671f03379407bc1d7154249c160679932c2ba8038482c5aae771285f68",
+      "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.08.26.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.26.1/_delta_REDDOG_hunt.zip",
+      "sha256": "1d8f231040b02861d82a19c0402116e340dd7338e3eeeffabd2cffc4f77e0622",
       "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
     }
   }
