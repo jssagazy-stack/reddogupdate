@@ -28,13 +28,6 @@
       "sha256": "28b24549cf3d3be0d117aa131de5211ce53ff8e3417eeed036afafcbac8b1833",
       "notes": "실행 시 창정렬 추가(마이쫄센더와 동일)"
     },
-    "REDDOG_zoneheal": {
-      "version": "2026.08.18.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.18.1/_delta_REDDOG_zoneheal.zip",
-      "sha256": "c73a516e1994e4b89dfc0f28d570f88a2fce752fb179f484cf4a07ebb154c109",
-      "notes": "라이선스 남은기간 실시간 표시(라이선스 줄, 1초 갱신)"
-    },
     "REDDOG_hunt_seq": {
       "version": "2026.08.25.3",
       "type": "seqpack",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.26.1/_delta_MyJjol.zip",
       "sha256": "0738adba946fa40c3bcdffe9e3fd678b0903a7d0b92208132b7d21148878b8ff",
+      "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
+    },
+    "REDDOG_zoneheal": {
+      "version": "2026.08.26.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.26.1/_delta_REDDOG_zoneheal.zip",
+      "sha256": "c5adac98391944fa49886dbd9a4b33a4d51e111d7c19f1fea83d125f57d54d34",
       "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
     }
   }
