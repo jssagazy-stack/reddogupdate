@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "CommHealer": {
-      "version": "2026.08.26.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.26.4/_delta_CommHealer.zip",
-      "sha256": "69e340518caaac089b94ff7e9932fb362cc4053b956874fa1898dc0dd53e00a8",
-      "notes": "업데이트-자동실행 순서 보장(업데이트 착수 시 게임자동실행 보류, 폴백 8→25초) + 단일 인스턴스 가드/타이틀 .N(직전 발행 포함)"
-    },
     "MyJjol": {
       "version": "2026.08.26.4",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.26.5/_delta_HealSupporter.zip",
       "sha256": "305638ede316e484b1c0c9191f093f41f59346206a8c01ce5f5415792af85bdd",
+      "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
+    },
+    "CommHealer": {
+      "version": "2026.08.26.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.26.5/_delta_CommHealer.zip",
+      "sha256": "9aa0457345648f140a597a801217242e8fcfc83f571a18d06a1d2f537cc30f7a",
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
     }
   }
