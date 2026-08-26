@@ -92,11 +92,11 @@
       "notes": "가두리 이탈 근본수정 — ATS ON 직전 가두리 판정(밖이면 보류·복귀 우선) + 줍기 직후 즉시 가두리 판정(한 개 줍고 바로 복귀)"
     },
     "REDDOG_chaejip": {
-      "version": "2026.08.26.1",
+      "version": "2026.08.26.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "77c74db1a128ad5730882cbba7ffca3e922843bbc9454a364e2738d9d5b20748",
-      "notes": "실행 시 자동 업데이트 적용(체크 후 자동시작, 루프가드)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "43693af13661b7ff16cfd46397693c6dc724fed2fcc46dd33c1eb3b3dae3681d",
+      "notes": "자동 업데이트 테스트(코드 변경 없음)"
     }
   }
 }
