@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.26.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.4/_delta_REDDOG_chaejip.zip",
-      "sha256": "9feab2110424645c2160308888e6eea9f53461607b26378f677e3f690406712b",
-      "notes": "업데이터 v2: 원자적 적용(앱 강제종료 대기·스테이징 해제·파일별 백업/재시도·실패 시 전체 롤백) — 잠긴 python DLL로 인한 encodings 부팅실패 재발 방지"
-    },
     "REDDOG_hunt": {
       "version": "2026.08.26.2",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.26.2/_delta_REDDOG_zoneheal.zip",
       "sha256": "38299c2737531508aa2b8ea2929ead4e9c968a2400f80618c7e76ceea8212aad",
       "notes": "업데이터 v2: 원자적 적용(앱 강제종료 대기·스테이징 해제·파일별 백업/재시도·실패 시 전체 롤백) — 잠긴 python DLL로 인한 encodings 부팅실패 재발 방지"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.26.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.5/_delta_REDDOG_chaejip.zip",
+      "sha256": "7de752e64a73a9e5d234c5db98259c90c978730bb9a154dabc97ae90b8b7ae87",
+      "notes": "업데이터 v2 적용 테스트(코드 변경 없음)"
     }
   }
 }
