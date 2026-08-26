@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "HealSupporter": {
-      "version": "2026.08.26.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.26.3/_delta_HealSupporter.zip",
-      "sha256": "7b3a39290ad0eeb2170929969d1c8d23007397b8b05842ecfe09c5050e6cc2d4",
-      "notes": "단일 인스턴스 가드(중복 실행 차단·유령 프로세스 회수·기존 창 앞으로) + 타이틀에 발행번호(.N) 표시"
-    },
     "CommHealer": {
       "version": "2026.08.26.3",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.26.4/_delta_sellerbot.zip",
       "sha256": "a3a76f00714d5be23a5d9f5664b76bf145764409c41c3e4fa19181b20eebe1f9",
+      "notes": "업데이트-자동실행 순서 보장(업데이트 착수 시 게임자동실행 보류, 폴백 8→25초) + 단일 인스턴스 가드/타이틀 .N(직전 발행 포함)"
+    },
+    "HealSupporter": {
+      "version": "2026.08.26.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.26.4/_delta_HealSupporter.zip",
+      "sha256": "89fb2acc367a6601de6b4470c5a7ba4bf1c5384829a074879661aac79b0252d6",
       "notes": "업데이트-자동실행 순서 보장(업데이트 착수 시 게임자동실행 보류, 폴백 8→25초) + 단일 인스턴스 가드/타이틀 .N(직전 발행 포함)"
     }
   }
