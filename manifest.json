@@ -7,13 +7,6 @@
       "sha256": "fa409ebbd75bed40aa63950fb589c3914bfa7ee3a5361c9d17e03615ec4f8747",
       "notes": "Nearby-shop auto scan (manual button v1) added to collector."
     },
-    "sellerbot": {
-      "version": "2026.08.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.12.1/_delta_sellerbot.zip",
-      "sha256": "e287f509817de0d0220819f86f82a5269cae475d15296eed134940384ae6e361",
-      "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
-    },
     "sagopalgo": {
       "version": "2026.08.12.1",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.26.1/_delta_REDDOG_vending.zip",
       "sha256": "fa948d837f8bfe5fe2137ee2917758e832140a91ac3ca55ee648586ea28e1e69",
+      "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
+    },
+    "sellerbot": {
+      "version": "2026.08.26.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.26.1/_delta_sellerbot.zip",
+      "sha256": "8c97ffce6f8047235a1a74ac97673f7f0b193ff2d905f2f42d86af94b961249b",
       "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
     }
   }
