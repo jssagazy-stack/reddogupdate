@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "REDDOG_zoneheal": {
-      "version": "2026.08.26.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.26.3/_delta_REDDOG_zoneheal.zip",
-      "sha256": "412ae335ff8fa4d85d7325c2f0ac254c9ca882aae52530a36535696da434a744",
-      "notes": "단일 인스턴스 가드(중복 실행 차단·유령 프로세스 회수·기존 창 앞으로) + 타이틀에 발행번호(.N) 표시"
-    },
     "REDDOG_chaejip": {
       "version": "2026.08.26.7",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.26.4/_delta_MyJjol.zip",
       "sha256": "303d8613b4bea1bf95196a6cf235ed8dd938517685789dc6b07abe372d402ae1",
+      "notes": "업데이트-자동실행 순서 보장(업데이트 착수 시 게임자동실행 보류, 폴백 8→25초) + 단일 인스턴스 가드/타이틀 .N(직전 발행 포함)"
+    },
+    "REDDOG_zoneheal": {
+      "version": "2026.08.26.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.08.26.4/_delta_REDDOG_zoneheal.zip",
+      "sha256": "6b7192bb919c875151261598abb2271596b5affd7cb0aa7c87227a7053b68c06",
       "notes": "업데이트-자동실행 순서 보장(업데이트 착수 시 게임자동실행 보류, 폴백 8→25초) + 단일 인스턴스 가드/타이틀 .N(직전 발행 포함)"
     }
   }
