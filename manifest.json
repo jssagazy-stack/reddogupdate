@@ -92,11 +92,11 @@
       "notes": "업데이터 v2: 원자적 적용(앱 강제종료 대기·스테이징 해제·파일별 백업/재시도·실패 시 전체 롤백) — 잠긴 python DLL로 인한 encodings 부팅실패 재발 방지"
     },
     "REDDOG_chaejip": {
-      "version": "2026.08.26.5",
+      "version": "2026.08.26.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.5/_delta_REDDOG_chaejip.zip",
-      "sha256": "7de752e64a73a9e5d234c5db98259c90c978730bb9a154dabc97ae90b8b7ae87",
-      "notes": "업데이터 v2 적용 테스트(코드 변경 없음)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.6/_delta_REDDOG_chaejip.zip",
+      "sha256": "871a35c7ccbb0996c5e7582c0f0839d6fcb73f7d6955f208fe16b24a649ec382",
+      "notes": "단일 인스턴스 가드(중복 실행 차단·유령 프로세스 회수·기존 창 앞으로) + 타이틀에 발행번호(.N) 표시"
     }
   }
 }
