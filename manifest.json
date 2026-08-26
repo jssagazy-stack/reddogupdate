@@ -21,13 +21,6 @@
       "sha256": "fcf208c0c8e22110edc57b6b9afb0bda7887c162e758e6f46c4a300510f845d0",
       "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.08.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.12.1/_delta_REDDOG_npc_search.zip",
-      "sha256": "13ab3853cbde4927a6d529ec0a22f2094537e83d98e5f428aa9e7b27e13e41d2",
-      "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
-    },
     "sagopalgo": {
       "version": "2026.08.12.1",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.26.1/_delta_REDDOG_hunt.zip",
       "sha256": "1d8f231040b02861d82a19c0402116e340dd7338e3eeeffabd2cffc4f77e0622",
+      "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.08.26.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.26.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "7318700816a500d498dc2be8a04e5554d339126a35870f82254f758ea357734c",
       "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
     }
   }
