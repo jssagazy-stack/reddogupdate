@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "sellerbot": {
-      "version": "2026.08.26.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.26.4/_delta_sellerbot.zip",
-      "sha256": "a3a76f00714d5be23a5d9f5664b76bf145764409c41c3e4fa19181b20eebe1f9",
-      "notes": "업데이트-자동실행 순서 보장(업데이트 착수 시 게임자동실행 보류, 폴백 8→25초) + 단일 인스턴스 가드/타이틀 .N(직전 발행 포함)"
-    },
     "HealSupporter": {
       "version": "2026.08.26.4",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.26.5/_delta_REDDOG_vending.zip",
       "sha256": "1843bcee371647c8a3ee6f9c0e755df7d69e8eb36f719ac2c456a182ff4ff775",
+      "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
+    },
+    "sellerbot": {
+      "version": "2026.08.26.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.26.5/_delta_sellerbot.zip",
+      "sha256": "4b51c3c40643f16e101e84cdb675c7bd58db3df0b7e4c0180c5fea8adadc7d3a",
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
     }
   }
