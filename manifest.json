@@ -84,19 +84,19 @@
       "sha256": "6b7192bb919c875151261598abb2271596b5affd7cb0aa7c87227a7053b68c06",
       "notes": "업데이트-자동실행 순서 보장(업데이트 착수 시 게임자동실행 보류, 폴백 8→25초) + 단일 인스턴스 가드/타이틀 .N(직전 발행 포함)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.26.9",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.9/_delta_REDDOG_chaejip.zip",
-      "sha256": "53e142c5c6ddd54cb7bfe70df0a584c5467b4063710c9f89e9dce96b1465a321",
-      "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - 파일이 ct 하위폴더로 잘못 풀려 업데이트 실패하던 근본원인 해결(원자적 적용 유지)"
-    },
     "REDDOG_hunt": {
       "version": "2026.08.26.6",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.26.6/_delta_REDDOG_hunt.zip",
       "sha256": "60ef8048142cc9e9a6ecce98dbda6ca66a8296ee563588dfbbab88b851bd11bd",
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - 파일이 ct 하위폴더로 잘못 풀려 업데이트 실패하던 근본원인 해결(원자적 적용 유지)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.08.26.10",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.10/_delta_REDDOG_chaejip.zip",
+      "sha256": "487be5b947b3638f9c644cf409ce96af9b8607cdb28f7fd748ba385421abc978",
+      "notes": "테스트: .9(fixed-v2) → 자동 업데이트 확인용(코드 변경 없음)"
     }
   }
 }
