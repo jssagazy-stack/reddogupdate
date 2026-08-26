@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "REDDOG_vending": {
-      "version": "2026.08.26.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.26.3/_delta_REDDOG_vending.zip",
-      "sha256": "c879958965f75099eadd8bd5338aae102990ad8c20d8197e1d6173843089b33c",
-      "notes": "단일 인스턴스 가드(중복 실행 차단·유령 프로세스 회수·기존 창 앞으로) + 타이틀에 발행번호(.N) 표시"
-    },
     "sellerbot": {
       "version": "2026.08.26.3",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.26.4/_delta_REDDOG_npc_search.zip",
       "sha256": "f3c3e269731608f627fef68ec95444ccd1fa112e5859e062a2950daae8b895b2",
+      "notes": "업데이트-자동실행 순서 보장(업데이트 착수 시 게임자동실행 보류, 폴백 8→25초) + 단일 인스턴스 가드/타이틀 .N(직전 발행 포함)"
+    },
+    "REDDOG_vending": {
+      "version": "2026.08.26.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.26.4/_delta_REDDOG_vending.zip",
+      "sha256": "0ec4e332bde882f36ab9ac45c64a9714da45662a6dd36608445944bc77ff7be0",
       "notes": "업데이트-자동실행 순서 보장(업데이트 착수 시 게임자동실행 보류, 폴백 8→25초) + 단일 인스턴스 가드/타이틀 .N(직전 발행 포함)"
     }
   }
