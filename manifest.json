@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.08.26.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.26.2/_delta_REDDOG_npc_search.zip",
-      "sha256": "c9f0f1c2f2ff32301e0a4af62bd3b8475529bfed11cc347647b2e7d8215ae288",
-      "notes": "업데이터 v2: 원자적 적용(앱 강제종료 대기·스테이징 해제·파일별 백업/재시도·실패 시 전체 롤백) — 잠긴 python DLL로 인한 encodings 부팅실패 재발 방지"
-    },
     "REDDOG_vending": {
       "version": "2026.08.26.2",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.26.3/_delta_REDDOG_hunt.zip",
       "sha256": "b49b7f7cbff9504e110f522122fcb3408a22f9f8d8d8dbf2ed646bf08197b290",
+      "notes": "단일 인스턴스 가드(중복 실행 차단·유령 프로세스 회수·기존 창 앞으로) + 타이틀에 발행번호(.N) 표시"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.08.26.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.26.3/_delta_REDDOG_npc_search.zip",
+      "sha256": "ccb2e976d7a9def93246382004bdc8b0f3bcd1bc4762c34b02112d577bca1518",
       "notes": "단일 인스턴스 가드(중복 실행 차단·유령 프로세스 회수·기존 창 앞으로) + 타이틀에 발행번호(.N) 표시"
     }
   }
