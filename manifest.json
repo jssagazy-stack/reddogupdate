@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "HealSupporter": {
-      "version": "2026.08.26.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.26.1/_delta_HealSupporter.zip",
-      "sha256": "81f23f7309428bb9931e3777b8c3c7115f9f22e1e585f518b35b10cbea1a0898",
-      "notes": "시계 보정(로그인 전 HTTPS Date로 PC 시계 맞춤, 관리자 실행 시) + KeyAuth 서명 타임스탬프 허용 25→300초 (NTP 불가 PC 드리프트 차단 방지)"
-    },
     "CommHealer": {
       "version": "2026.08.26.1",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.26.2/_delta_sellerbot.zip",
       "sha256": "ed1e093a114102953b3bf3c68bd1102ee00abc2b32f7b2e1f3c14841adde8773",
+      "notes": "업데이터 v2: 원자적 적용(앱 강제종료 대기·스테이징 해제·파일별 백업/재시도·실패 시 전체 롤백) — 잠긴 python DLL로 인한 encodings 부팅실패 재발 방지"
+    },
+    "HealSupporter": {
+      "version": "2026.08.26.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/HealSupporter-2026.08.26.2/_delta_HealSupporter.zip",
+      "sha256": "414117e62e9899e593fc73ec37d207b21231b898ce9f84be7fcf9c55af7d9951",
       "notes": "업데이터 v2: 원자적 적용(앱 강제종료 대기·스테이징 해제·파일별 백업/재시도·실패 시 전체 롤백) — 잠긴 python DLL로 인한 encodings 부팅실패 재발 방지"
     }
   }
