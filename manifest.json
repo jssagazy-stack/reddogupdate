@@ -92,11 +92,11 @@
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.27.1",
+      "version": "2026.08.27.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.27.1/_delta_REDDOG_hunt.zip",
-      "sha256": "19c64425cc9463379865394817141cb5ac18f192352fe7cc381831c98b6e8219",
-      "notes": "ATS OFF 후 오래 정지 수정 — 정상 OFF 직후 5초간 ext0(예정외 ON) 억제. 디바운스 s_ats 잔상(off 3.6초)이 OFF 확정 후에도 1로 남아 ext0이 재편입→켜둠시간 재정지 반복하던 것 차단"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.27.2/_delta_REDDOG_hunt.zip",
+      "sha256": "f1a2a7b962b6ab30ff54697e1dd93f4732a0a822e4d18c2a4b82686fcb7e2e5e",
+      "notes": "ATS OFF 논블로킹 재설계 — OFF 직후 2.5초 정지 제거(키 전송 즉시 사냥 재개), 배지 검증은 유예 3초 후 즉석 스냅샷으로 곁눈질(전환 딜레이 무시). 죽은 OFF-검증 노드 12개 정리"
     }
   }
 }
