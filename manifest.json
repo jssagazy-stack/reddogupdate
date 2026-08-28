@@ -92,11 +92,11 @@
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.28.2",
+      "version": "2026.08.28.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.28.2/_delta_REDDOG_hunt.zip",
-      "sha256": "38066919ca0d49f93431c665dac81542dfeb78fb122c51e6e13a6d7270aa3073",
-      "notes": "ATS 배지 센서 region 정확좌표 축소 [1053,756,62,54]→[1073,776,22,14] — ±20 padding 제거로 넓은영역 헛매칭(66분 과차감·외부OFF 오판 위험) 근본차단"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.28.3/_delta_REDDOG_hunt.zip",
+      "sha256": "37e2e5fc834463a04ff5b925089ae757f3423012bb1eb450c88d4667eeb3d834",
+      "notes": "ATS ON 실패 대응 개선 — 5회 실패 시 제자리 정지 폐기하고 귀환후정지(F8)로 편승(사냥터 방치 사망 방지) + 지능 모드 예산 페이싱(A안: 주기 계산식으로 다음 ON 최소간격 = 남은시간 적을수록 확대, 24시간 고른 분배)"
     }
   }
 }
