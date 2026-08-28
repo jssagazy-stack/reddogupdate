@@ -92,11 +92,11 @@
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
     },
     "REDDOG_hunt": {
-      "version": "2026.08.27.3",
+      "version": "2026.08.28.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.27.3/_delta_REDDOG_hunt.zip",
-      "sha256": "ca797fc7e59ba5bfe7277232d2b28abf88328dd107c49b705918b9a24fe1b64f",
-      "notes": "남은시간 과차감 진단 로그 — s_ats 차감 1초마다 정당(봇ON)/오탐(봇OFF+배지없음)/수동(봇OFF+배지있음) 3분류 집계, 30초마다 요약+점수. 한 번 실행으로 60분 오차 원인 확정용"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.28.1/_delta_REDDOG_hunt.zip",
+      "sha256": "3612ab3dd481b96d629126d716354fdcc27607e17421bc26426f3ded6a4f2597",
+      "notes": "남은시간 과차감 근본수정 — 차감 기준을 넓은영역 s_ats 센서(±20px 헛매칭·잔상, 진단서 66분 오차감 확정)에서 정확한 자리 즉석 스냅샷 배지 판정으로 교체. 수동 ON도 정확히 잡음"
     }
   }
 }
