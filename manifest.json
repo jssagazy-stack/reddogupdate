@@ -92,11 +92,11 @@
       "notes": "홀리워크 타이머(F11) 추가 · F4 홀드 반복 1초 + 입력 중 정지 · 시작/버프/홀리 시전 전 F1 페이지 정규화"
     },
     "REDDOG_hunt": {
-      "version": "2026.09.10.2",
+      "version": "2026.09.10.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.10.2/_delta_REDDOG_hunt.zip",
-      "sha256": "fd4a5bbf5e040de18b9ca4c132c119ed6fc5479235bd8e5964a16fe44b2a338b",
-      "notes": "ATS 지능: 도달불가 예약은 처치 확인 시 취소 / 처치 소요시간 타임아웃에서 가드(힐·소울·해독) 시간 제외(가짜 도달불가 수정)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.10.3/_delta_REDDOG_hunt.zip",
+      "sha256": "cad089a4800e522ec361353c1b4fed8be019d38521be284bfb56697f47fede4f",
+      "notes": "힐: 헛힐 판별 삭제(마나 OCR 단일 기준, 전투 중 정상 힐을 헛힐로 오판→힐 생략→위험체력 귀환 수정) / 가드 발동·힐 생략 로그에 HP%·마나 수치 표시"
     }
   }
 }
