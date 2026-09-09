@@ -84,19 +84,19 @@
       "sha256": "868f2dc89e81af35edbe7fa5cb0a4d993aaca83e8d7ff5f9a5f648f1eb3d6808",
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.08.28.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.08.28.3/_delta_REDDOG_hunt.zip",
-      "sha256": "37e2e5fc834463a04ff5b925089ae757f3423012bb1eb450c88d4667eeb3d834",
-      "notes": "ATS ON 실패 대응 개선 — 5회 실패 시 제자리 정지 폐기하고 귀환후정지(F8)로 편승(사냥터 방치 사망 방지) + 지능 모드 예산 페이싱(A안: 주기 계산식으로 다음 ON 최소간격 = 남은시간 적을수록 확대, 24시간 고른 분배)"
-    },
     "REDDOG_zoneheal": {
       "version": "2026.09.07.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.09.07.1/_delta_REDDOG_zoneheal.zip",
       "sha256": "5fa01c2289c5e97bb2ece2a61103cac66da94960dec91b8e27557ecc2f1d92a3",
       "notes": "홀리워크 타이머(F11) 추가 · F4 홀드 반복 1초 + 입력 중 정지 · 시작/버프/홀리 시전 전 F1 페이지 정규화"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.09.10.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.10.1/_delta_REDDOG_hunt.zip",
+      "sha256": "91e944313d4613f2965b6a7f637206ba217bde29e4694f62d8a9b3b5a9416e10",
+      "notes": "ATS 지능 모드 개편: 예산 페이싱 삭제·최소휴지 5초·빈서치 즉시 ON 예약(빈서치 후(초) 스핀, 기본 0)·도달불가 예약 보관 / 패트롤 settle 미이동 포기 0.8→1.6초(STUCK 오판 수정)"
     }
   }
 }
