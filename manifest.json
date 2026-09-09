@@ -92,11 +92,11 @@
       "notes": "홀리워크 타이머(F11) 추가 · F4 홀드 반복 1초 + 입력 중 정지 · 시작/버프/홀리 시전 전 F1 페이지 정규화"
     },
     "REDDOG_hunt": {
-      "version": "2026.09.10.3",
+      "version": "2026.09.10.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.10.3/_delta_REDDOG_hunt.zip",
-      "sha256": "cad089a4800e522ec361353c1b4fed8be019d38521be284bfb56697f47fede4f",
-      "notes": "힐: 헛힐 판별 삭제(마나 OCR 단일 기준, 전투 중 정상 힐을 헛힐로 오판→힐 생략→위험체력 귀환 수정) / 가드 발동·힐 생략 로그에 HP%·마나 수치 표시"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.10.4/_delta_REDDOG_hunt.zip",
+      "sha256": "8f74ee0f8388eb4de2a87f0a9458e44e7d8edef1fc9f03b683a1e70cdfbe8dee",
+      "notes": "ATS: 켜기 전 이동 후 서치 1회 강제(이동 직후 새 자리 안 보고 ON 수정) / 서치 타겟없음 로그에 후보·필터 판정 내역 표시"
     }
   }
 }
