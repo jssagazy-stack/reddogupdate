@@ -84,19 +84,19 @@
       "sha256": "8f74ee0f8388eb4de2a87f0a9458e44e7d8edef1fc9f03b683a1e70cdfbe8dee",
       "notes": "ATS: 켜기 전 이동 후 서치 1회 강제(이동 직후 새 자리 안 보고 ON 수정) / 서치 타겟없음 로그에 후보·필터 판정 내역 표시"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.09.11.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.09.11.2/_delta_REDDOG_npc_search.zip",
-      "sha256": "31b9f434669c8b555d6b1c7815ac730c1b98fa970bd01d33856fc8e2ccae9927",
-      "notes": "런처 공통 코드 동기화(match_region_scores)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.09.11.3",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.11.3/_delta_REDDOG_chaejip.zip",
       "sha256": "2858708d3f5f581d4cdc36805c2b0eae85900cf71fa82cf253557d3f0837deef",
       "notes": "긴급: 9.11.2 회귀 수정 - 템플릿 매칭 ±여유 슬라이딩 복원(한/영 판정·파티수락 실패→영문 타이핑)"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.09.11.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.09.11.3/_delta_REDDOG_npc_search.zip",
+      "sha256": "22cbcbb21ea84c627c50454612dde515a56d8d0bce57b76ad16797641c2da5bf",
+      "notes": "긴급: 9.11.2 회귀 수정 - 템플릿 매칭 ±여유 슬라이딩 복원(한/영 판정 실패→영문 타이핑)"
     }
   }
 }
