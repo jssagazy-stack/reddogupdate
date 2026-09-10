@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.08.26.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.08.26.5/_delta_REDDOG_npc_search.zip",
-      "sha256": "269369d4de586691a499278df9110613270196320913f99838e3880a318193a4",
-      "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
-    },
     "REDDOG_vending": {
       "version": "2026.08.26.5",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.10.1/_delta_REDDOG_chaejip.zip",
       "sha256": "b99123825b5946ec69008aff207572f8aa260963bd28fa8be6e35e66ef709f56",
       "notes": "즐겨찾기 북마크5(은말창고)+은말 창고마을/창고지기 폴백, HP바 3상태 공용템플릿 match_until, 장사필터 123"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.09.10.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.09.10.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "ddb101f7f7b06c191475e246a4283f13f02d84763694e2f54bca03dfadbe54aa",
+      "notes": "즐겨찾기 북마크5(은말창고) 통일, HP바 3상태 공용템플릿(모두끔) match_until"
     }
   }
 }
