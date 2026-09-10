@@ -84,19 +84,19 @@
       "sha256": "8f74ee0f8388eb4de2a87f0a9458e44e7d8edef1fc9f03b683a1e70cdfbe8dee",
       "notes": "ATS: 켜기 전 이동 후 서치 1회 강제(이동 직후 새 자리 안 보고 ON 수정) / 서치 타겟없음 로그에 후보·필터 판정 내역 표시"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.09.10.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.10.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "3bc199b64ec2cbe2bb411d2ceffc77cfdb9ad3484127d1944fc49abf7fd990ba",
-      "notes": "은말 창고지기 캡처 버튼 배포본 숨김(개발 전용)"
-    },
     "REDDOG_npc_search": {
       "version": "2026.09.10.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.09.10.2/_delta_REDDOG_npc_search.zip",
       "sha256": "041d11b84375e52d8cfdc52265a3ee44c5a4f4496ff7ee8944d77a7a68a02963",
       "notes": "런처 공통 코드 동기화(은말 창고지기 캡처 버튼 개발 전용)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.09.11.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.11.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "ea1f50770b10b0bc914de594aa32304a20f813d471523977290baa87b9448765",
+      "notes": "시작 시 즐겨찾기 목록 템플릿 검증→불일치면 자동 재세팅, 창고 마을 기본 은말창고(1회 전환)"
     }
   }
 }
