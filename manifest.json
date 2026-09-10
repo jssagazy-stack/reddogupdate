@@ -35,13 +35,6 @@
       "sha256": "c03e418fd65939f924647cb2ea0fb162eea830002c15964664fd0994257c60a5",
       "notes": "피엠 45노드 — 회복대기 마커 삽입(엄마나무 회복→F10 이동NPC앞 순서)"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.08.26.10",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.08.26.10/_delta_REDDOG_chaejip.zip",
-      "sha256": "487be5b947b3638f9c644cf409ce96af9b8607cdb28f7fd748ba385421abc978",
-      "notes": "테스트: .9(fixed-v2) → 자동 업데이트 확인용(코드 변경 없음)"
-    },
     "REDDOG_npc_search": {
       "version": "2026.08.26.5",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.10.4/_delta_REDDOG_hunt.zip",
       "sha256": "8f74ee0f8388eb4de2a87f0a9458e44e7d8edef1fc9f03b683a1e70cdfbe8dee",
       "notes": "ATS: 켜기 전 이동 후 서치 1회 강제(이동 직후 새 자리 안 보고 ON 수정) / 서치 타겟없음 로그에 후보·필터 판정 내역 표시"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.09.10.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.10.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "b99123825b5946ec69008aff207572f8aa260963bd28fa8be6e35e66ef709f56",
+      "notes": "즐겨찾기 북마크5(은말창고)+은말 창고마을/창고지기 폴백, HP바 3상태 공용템플릿 match_until, 장사필터 123"
     }
   }
 }
