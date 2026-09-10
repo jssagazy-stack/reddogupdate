@@ -84,19 +84,19 @@
       "sha256": "8f74ee0f8388eb4de2a87f0a9458e44e7d8edef1fc9f03b683a1e70cdfbe8dee",
       "notes": "ATS: 켜기 전 이동 후 서치 1회 강제(이동 직후 새 자리 안 보고 ON 수정) / 서치 타겟없음 로그에 후보·필터 판정 내역 표시"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.09.10.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.10.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "b99123825b5946ec69008aff207572f8aa260963bd28fa8be6e35e66ef709f56",
-      "notes": "즐겨찾기 북마크5(은말창고)+은말 창고마을/창고지기 폴백, HP바 3상태 공용템플릿 match_until, 장사필터 123"
-    },
     "REDDOG_npc_search": {
       "version": "2026.09.10.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.09.10.1/_delta_REDDOG_npc_search.zip",
       "sha256": "ddb101f7f7b06c191475e246a4283f13f02d84763694e2f54bca03dfadbe54aa",
       "notes": "즐겨찾기 북마크5(은말창고) 통일, HP바 3상태 공용템플릿(모두끔) match_until"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.09.10.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.10.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "3bc199b64ec2cbe2bb411d2ceffc77cfdb9ad3484127d1944fc49abf7fd990ba",
+      "notes": "은말 창고지기 캡처 버튼 배포본 숨김(개발 전용)"
     }
   }
 }
