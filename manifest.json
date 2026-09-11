@@ -42,13 +42,6 @@
       "sha256": "1843bcee371647c8a3ee6f9c0e755df7d69e8eb36f719ac2c456a182ff4ff775",
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
     },
-    "sellerbot": {
-      "version": "2026.08.26.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.08.26.5/_delta_sellerbot.zip",
-      "sha256": "4b51c3c40643f16e101e84cdb675c7bd58db3df0b7e4c0180c5fea8adadc7d3a",
-      "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
-    },
     "HealSupporter": {
       "version": "2026.08.26.5",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.09.11.4/_delta_REDDOG_npc_search.zip",
       "sha256": "31ddfa28a250f2fa2c56f279f52d3221e0049e6f6da0300c50fbfebcc5cb9092",
       "notes": "런처 공통 코드 동기화(네트워크 표시는 채집 전용, 카오개 미표시)"
+    },
+    "sellerbot": {
+      "version": "2026.09.11.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.11.1/_delta_sellerbot.zip",
+      "sha256": "f3414e91d832dffb623f3eecd9e67e6985963200d6e9400e1d06b669c1ee4dd7",
+      "notes": "게임자동실행(오토런처: 바탕화면 lnk→동의→서버/캐릭 선택) 옵션 추가 — 채집과 동일 기능"
     }
   }
 }
