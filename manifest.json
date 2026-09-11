@@ -84,19 +84,19 @@
       "sha256": "8f74ee0f8388eb4de2a87f0a9458e44e7d8edef1fc9f03b683a1e70cdfbe8dee",
       "notes": "ATS: 켜기 전 이동 후 서치 1회 강제(이동 직후 새 자리 안 보고 ON 수정) / 서치 타겟없음 로그에 후보·필터 판정 내역 표시"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.09.11.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.09.11.3/_delta_REDDOG_npc_search.zip",
-      "sha256": "22cbcbb21ea84c627c50454612dde515a56d8d0bce57b76ad16797641c2da5bf",
-      "notes": "긴급: 9.11.2 회귀 수정 - 템플릿 매칭 ±여유 슬라이딩 복원(한/영 판정 실패→영문 타이핑)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.09.11.4",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.11.4/_delta_REDDOG_chaejip.zip",
       "sha256": "bb2b84ce4faded5feb8447b312fdb2d117fa3b13e36856706602f56c55393062",
       "notes": "PC 네트워크 표시(전체 ↓↑ Mbps·최대 프로세스·허용 1.25Mbps 대비 %·주황/빨강 5Mbps) + 관리자 권한 기본 실행"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.09.11.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.09.11.4/_delta_REDDOG_npc_search.zip",
+      "sha256": "31ddfa28a250f2fa2c56f279f52d3221e0049e6f6da0300c50fbfebcc5cb9092",
+      "notes": "런처 공통 코드 동기화(네트워크 표시는 채집 전용, 카오개 미표시)"
     }
   }
 }
