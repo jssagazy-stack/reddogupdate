@@ -77,13 +77,6 @@
       "sha256": "8f74ee0f8388eb4de2a87f0a9458e44e7d8edef1fc9f03b683a1e70cdfbe8dee",
       "notes": "ATS: 켜기 전 이동 후 서치 1회 강제(이동 직후 새 자리 안 보고 ON 수정) / 서치 타겟없음 로그에 후보·필터 판정 내역 표시"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.09.11.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.11.4/_delta_REDDOG_chaejip.zip",
-      "sha256": "bb2b84ce4faded5feb8447b312fdb2d117fa3b13e36856706602f56c55393062",
-      "notes": "PC 네트워크 표시(전체 ↓↑ Mbps·최대 프로세스·허용 1.25Mbps 대비 %·주황/빨강 5Mbps) + 관리자 권한 기본 실행"
-    },
     "REDDOG_npc_search": {
       "version": "2026.09.11.4",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.11.1/_delta_sellerbot.zip",
       "sha256": "f3414e91d832dffb623f3eecd9e67e6985963200d6e9400e1d06b669c1ee4dd7",
       "notes": "게임자동실행(오토런처: 바탕화면 lnk→동의→서버/캐릭 선택) 옵션 추가 — 채집과 동일 기능"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.09.11.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.11.5/_delta_REDDOG_chaejip.zip",
+      "sha256": "5b88d99e35e610b666721b07a09e2b80273d556093d8443c13fc06f8443b2933",
+      "notes": "긴급 핫픽스: PC 네트워크 모니터 use-after-free(해제된 TCP 표 버퍼 매초 읽기) 수정 - 조용한 강종 원인 추정 + 네이티브 크래시 로그(crash_faulthandler.log) 추가"
     }
   }
 }
