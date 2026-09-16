@@ -77,13 +77,6 @@
       "sha256": "8f74ee0f8388eb4de2a87f0a9458e44e7d8edef1fc9f03b683a1e70cdfbe8dee",
       "notes": "ATS: 켜기 전 이동 후 서치 1회 강제(이동 직후 새 자리 안 보고 ON 수정) / 서치 타겟없음 로그에 후보·필터 판정 내역 표시"
     },
-    "REDDOG_npc_search": {
-      "version": "2026.09.11.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.09.11.4/_delta_REDDOG_npc_search.zip",
-      "sha256": "31ddfa28a250f2fa2c56f279f52d3221e0049e6f6da0300c50fbfebcc5cb9092",
-      "notes": "런처 공통 코드 동기화(네트워크 표시는 채집 전용, 카오개 미표시)"
-    },
     "sellerbot": {
       "version": "2026.09.11.1",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.16.1/_delta_REDDOG_chaejip.zip",
       "sha256": "caf710ad35b7c2a1930d30c22cde31976280a7def925f97d85ffb0649a35d121",
+      "notes": "즐겨찾기 세팅: 게임 메뉴 개편 대응 - 화말창고 전용 스크롤 좌표(c10) 추가, c6 -22 보정 제거, 좌표 재캡처 동봉"
+    },
+    "REDDOG_npc_search": {
+      "version": "2026.09.16.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.09.16.1/_delta_REDDOG_npc_search.zip",
+      "sha256": "c511a5234a4b5d20ceed79079767718b3d4f1bca5726acace446cba89291fff5",
       "notes": "즐겨찾기 세팅: 게임 메뉴 개편 대응 - 화말창고 전용 스크롤 좌표(c10) 추가, c6 -22 보정 제거, 좌표 재캡처 동봉"
     }
   }
