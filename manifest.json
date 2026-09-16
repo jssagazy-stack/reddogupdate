@@ -92,11 +92,11 @@
       "notes": "게임자동실행(오토런처: 바탕화면 lnk→동의→서버/캐릭 선택) 옵션 추가 — 채집과 동일 기능"
     },
     "REDDOG_chaejip": {
-      "version": "2026.09.12.1",
+      "version": "2026.09.16.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.12.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "07ee20699f80b319a27688a1725e209ecbb45499ed2aa32a3f49173d276a7f17",
-      "notes": "헤이 캐릭 부재 모드: 파티에 군주/법사 없으면 헤이감지 일시정지+파티탈퇴, 마을에서 10/30/60분→매시간 재요청, 복귀 시 자동 재개. 시작 파티요청도 F8 귀환 후 마을에서"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.16.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "caf710ad35b7c2a1930d30c22cde31976280a7def925f97d85ffb0649a35d121",
+      "notes": "즐겨찾기 세팅: 게임 메뉴 개편 대응 - 화말창고 전용 스크롤 좌표(c10) 추가, c6 -22 보정 제거, 좌표 재캡처 동봉"
     }
   }
 }
