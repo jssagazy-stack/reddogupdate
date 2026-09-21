@@ -84,19 +84,19 @@
       "sha256": "c511a5234a4b5d20ceed79079767718b3d4f1bca5726acace446cba89291fff5",
       "notes": "즐겨찾기 세팅: 게임 메뉴 개편 대응 - 화말창고 전용 스크롤 좌표(c10) 추가, c6 -22 보정 제거, 좌표 재캡처 동봉"
     },
-    "REDDOG_hunt_seq": {
-      "version": "2026.09.16.1",
-      "type": "seqpack",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt_seq-2026.09.16.1/_seqpack_hunt.zip",
-      "sha256": "c6cd254f60e1f40a22b742be167c0f79211b7a56fe777e23d396447065952bdb",
-      "notes": "게임 메뉴 개편 대응: 화살 시퀀스 수정(두루마리 이동장소 위치 변경)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.09.20.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.20.1/_delta_REDDOG_chaejip.zip",
       "sha256": "cb10877b3f1b53948154b94030ba550626fff116dfee795b395e9891e1485f64",
       "notes": "F10 두루마리(기간제) 만료 대응: 시작 즐겨찾기 검증 실패 시 F8 귀환·마을 확인 후 시작 중단, 시작 커서캡처에 F10 목록 확인 추가(목록 실패=귀환 중단/창고 도착 후 캡처 실패=제자리 정지, 사냥터로 보내지 않음), 가동 중 창고행 F10 후 목록 4초 폴링(1회 재입력) 실패 시 F8 귀환 후 정지, 커서 자가치유 상한 정지도 귀환 후 정지"
+    },
+    "REDDOG_hunt_seq": {
+      "version": "2026.09.21.1",
+      "type": "seqpack",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt_seq-2026.09.21.1/_seqpack_hunt.zip",
+      "sha256": "5491f6c4cf734ac9a5b1c924a485ea6f053020e62229f2c8c7229358a8fbc40f",
+      "notes": "축순_사냥터1~5 추가 (기존 화살·헤이화말·피엠 유지)"
     }
   }
 }
