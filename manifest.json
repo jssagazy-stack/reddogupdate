@@ -84,19 +84,19 @@
       "sha256": "cb10877b3f1b53948154b94030ba550626fff116dfee795b395e9891e1485f64",
       "notes": "F10 두루마리(기간제) 만료 대응: 시작 즐겨찾기 검증 실패 시 F8 귀환·마을 확인 후 시작 중단, 시작 커서캡처에 F10 목록 확인 추가(목록 실패=귀환 중단/창고 도착 후 캡처 실패=제자리 정지, 사냥터로 보내지 않음), 가동 중 창고행 F10 후 목록 4초 폴링(1회 재입력) 실패 시 F8 귀환 후 정지, 커서 자가치유 상한 정지도 귀환 후 정지"
     },
-    "REDDOG_hunt": {
-      "version": "2026.09.22.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.2/_delta_REDDOG_hunt.zip",
-      "sha256": "99cc8f6c55b8cc842c7e3ac6ac4bfa824a0c300239b0adb21f113f75cfa71008",
-      "notes": "판매 아이템 이미지를 공유 시퀀스팩으로 함께 수신(로컬 등록본과 합쳐 사용, 같은 이름은 로컬 우선) / 화면 폭 축소: 시퀀스 탭 기능별 줄바꿈, 센서 탭 '실행후 정지' 옵션 삭제(항상 종료 후 사냥 재개), '상세'·'스샷' 표기 정리"
-    },
     "REDDOG_hunt_seq": {
       "version": "2026.09.22.1",
       "type": "seqpack",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt_seq-2026.09.22.1/_seqpack_hunt.zip",
       "sha256": "b830f28f9a3b6dc9f31b8ced6ae91431760175484dec492857185698bb47ed8f",
       "notes": "잡템판매(상점 2곳+아이템판매 마커) 추가 + 판매 아이템 이미지 동봉 — 앱 2026.09.22.2 이상 필요"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.09.22.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.3/_delta_REDDOG_hunt.zip",
+      "sha256": "de224c3a699f71be1f430cb40e39cd602b5846bac2c24f07bd74971b3b4b0ac7",
+      "notes": "창고맡기기 마커 추가: 녹화 없이 웰던창고(F10 즐겨찾기 1번)로 이동→창고지기→맡기기 창→등록한 창고템(물약류 등 수량성 잡템)을 999로 전부 맡기기. [시퀀스] 탭 '창고템 등록'(판매아이템과 폴더 분리, 혈맹/개인 선택). 창고템 이미지도 공유 시퀀스팩으로 수신"
     }
   }
 }
