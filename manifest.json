@@ -63,13 +63,6 @@
       "sha256": "5fa01c2289c5e97bb2ece2a61103cac66da94960dec91b8e27557ecc2f1d92a3",
       "notes": "홀리워크 타이머(F11) 추가 · F4 홀드 반복 1초 + 입력 중 정지 · 시작/버프/홀리 시전 전 F1 페이지 정규화"
     },
-    "sellerbot": {
-      "version": "2026.09.11.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.11.1/_delta_sellerbot.zip",
-      "sha256": "f3414e91d832dffb623f3eecd9e67e6985963200d6e9400e1d06b669c1ee4dd7",
-      "notes": "게임자동실행(오토런처: 바탕화면 lnk→동의→서버/캐릭 선택) 옵션 추가 — 채집과 동일 기능"
-    },
     "REDDOG_npc_search": {
       "version": "2026.09.16.1",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt_seq-2026.09.22.2/_seqpack_hunt.zip",
       "sha256": "23a53efe7abaa0fada54eba37429fa38969a1011c31866874ab2ca88a7ec1921",
       "notes": "잡템판매에 창고맡기기(웰던 이동 포함) 마커 추가 — 앱 2026.09.22.3 이상 필요"
+    },
+    "sellerbot": {
+      "version": "2026.09.22.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.22.1/_delta_sellerbot.zip",
+      "sha256": "8323777cdaffd4b9e384fd162e13eeaf89fa6f56950cad216f21adad3a31824e",
+      "notes": "판매 집계(품목별 인출/판매/금액, 이번·누적) + 집계 창 추가. 전 품목 소진 시 빈 상점 헛개설 차단 및 사유 로그. 창고 접근실패/보류 품목만 남았을 때 판매중단 고착 대신 대기 후 창고 재시도."
     }
   }
 }
