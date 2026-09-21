@@ -63,13 +63,6 @@
       "sha256": "5fa01c2289c5e97bb2ece2a61103cac66da94960dec91b8e27557ecc2f1d92a3",
       "notes": "홀리워크 타이머(F11) 추가 · F4 홀드 반복 1초 + 입력 중 정지 · 시작/버프/홀리 시전 전 F1 페이지 정규화"
     },
-    "REDDOG_hunt": {
-      "version": "2026.09.10.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.10.4/_delta_REDDOG_hunt.zip",
-      "sha256": "8f74ee0f8388eb4de2a87f0a9458e44e7d8edef1fc9f03b683a1e70cdfbe8dee",
-      "notes": "ATS: 켜기 전 이동 후 서치 1회 강제(이동 직후 새 자리 안 보고 ON 수정) / 서치 타겟없음 로그에 후보·필터 판정 내역 표시"
-    },
     "sellerbot": {
       "version": "2026.09.11.1",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt_seq-2026.09.21.2/_seqpack_hunt.zip",
       "sha256": "c6cd254f60e1f40a22b742be167c0f79211b7a56fe777e23d396447065952bdb",
       "notes": "축순_사냥터1~5 제거(복귀 콤보 내장 목적지로 이전 예정) — 기존 3종 유지"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.09.21.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.21.1/_delta_REDDOG_hunt.zip",
+      "sha256": "b77e6de64bbaee75d85c74d084ed7532d1b97d84ecfea8fc5c377d920a405d13",
+      "notes": "사냥터 복귀에 축순-사냥터1~5 추가(F6 목록 확인 후 더블클릭, 축순 없으면 웰던 혈맹창고에서 10장 보충 후 재시도) / 위치이탈 행 복귀 콤보 미적용 수정"
     }
   }
 }
