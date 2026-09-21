@@ -92,11 +92,11 @@
       "notes": "축순_사냥터1~5 제거(복귀 콤보 내장 목적지로 이전 예정) — 기존 3종 유지"
     },
     "REDDOG_hunt": {
-      "version": "2026.09.21.2",
+      "version": "2026.09.22.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.21.2/_delta_REDDOG_hunt.zip",
-      "sha256": "be9d54ae0480d0fe24426e04d2568af9cc154fc2e5c32ab36eaecab3ded0a0dd",
-      "notes": "마나 감지 행에도 사냥터 복귀 연결(회복 대기 후 복귀) / 처치·줍기 도착 시 소울 먼저→F4, 이동클릭(줍기·배회·우회) 전 소울 1.35초·F4 1.2초 잔여 대기, 도착 F4 1회차 결과 확인(헛 F4·빈자리 재클릭 제거), 키 입력 사이 최소 딜레이"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.1/_delta_REDDOG_hunt.zip",
+      "sha256": "8b009be9dc42c543bc2a26d602377344d2c0b8d5a1ac1fd69171a6bcdc5c8a91",
+      "notes": "무게 감지 → 상점 판매: 시퀀스에 [아이템판매] 마커(등록 이미지 전부 선택→스크롤 반복→판매, 상점 여러 곳 가능, ▶테스트 지원) + [시퀀스] 탭 판매아이템 등록(이름 입력→캡처·폴더 열기·매칭 테스트·판매버튼 좌표) / 무게 감지 행에도 사냥터 복귀 연결 / 선택된 파란 줄은 색 판정으로 자동 제외"
     }
   }
 }
