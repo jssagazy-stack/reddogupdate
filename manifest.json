@@ -92,11 +92,11 @@
       "notes": "축순_사냥터1~5 제거(복귀 콤보 내장 목적지로 이전 예정) — 기존 3종 유지"
     },
     "REDDOG_hunt": {
-      "version": "2026.09.22.1",
+      "version": "2026.09.22.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.1/_delta_REDDOG_hunt.zip",
-      "sha256": "8b009be9dc42c543bc2a26d602377344d2c0b8d5a1ac1fd69171a6bcdc5c8a91",
-      "notes": "무게 감지 → 상점 판매: 시퀀스에 [아이템판매] 마커(등록 이미지 전부 선택→스크롤 반복→판매, 상점 여러 곳 가능, ▶테스트 지원) + [시퀀스] 탭 판매아이템 등록(이름 입력→캡처·폴더 열기·매칭 테스트·판매버튼 좌표) / 무게 감지 행에도 사냥터 복귀 연결 / 선택된 파란 줄은 색 판정으로 자동 제외"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.2/_delta_REDDOG_hunt.zip",
+      "sha256": "99cc8f6c55b8cc842c7e3ac6ac4bfa824a0c300239b0adb21f113f75cfa71008",
+      "notes": "판매 아이템 이미지를 공유 시퀀스팩으로 함께 수신(로컬 등록본과 합쳐 사용, 같은 이름은 로컬 우선) / 화면 폭 축소: 시퀀스 탭 기능별 줄바꿈, 센서 탭 '실행후 정지' 옵션 삭제(항상 종료 후 사냥 재개), '상세'·'스샷' 표기 정리"
     }
   }
 }
