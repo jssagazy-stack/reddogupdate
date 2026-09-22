@@ -92,11 +92,11 @@
       "notes": "두루마리 목록창 검증: F10 뒤 창(Close 버튼) 확인 후에만 즐겨찾기 클릭. 안 뜨면(기간제 만료) F10 1회 재입력→그래도 없으면 클릭 없이 60초 후 주변 초록 재시도(5회 상한)."
     },
     "REDDOG_hunt": {
-      "version": "2026.09.22.4",
+      "version": "2026.09.22.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.4/_delta_REDDOG_hunt.zip",
-      "sha256": "b1aac47c449256c6c4c997f80814c39bf559d71ce65c1022311750a4b0cd8bfb",
-      "notes": "아이템 줍기 개선: 처치 직후 F4 50ms 단발(대기 없음), 클릭 후 커서 대피 전 100ms, 걷는 중 이름표 소실은 완료로 안 봄, 5초 넘게 이동 시 자기 자리 클릭으로 정지 후 포기(이동 후 포기는 배제 등록 안 함), 토글/소울 락 중 클릭 씹힘은 락 뒤 재클릭"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.5/_delta_REDDOG_hunt.zip",
+      "sha256": "97349e894bf34185721ba0326213ca86f02a9367501903d7cdcab944d2ba8f94",
+      "notes": "아이템 클릭을 커서 이동→정착→클릭으로 분리(패트롤·복귀 클릭과 동일), 걷기 상한 ≈5초로 보정"
     }
   }
 }
