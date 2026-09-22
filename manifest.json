@@ -49,13 +49,6 @@
       "sha256": "9aa0457345648f140a597a801217242e8fcfc83f571a18d06a1d2f537cc30f7a",
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
     },
-    "MyJjol": {
-      "version": "2026.08.26.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.08.26.5/_delta_MyJjol.zip",
-      "sha256": "868f2dc89e81af35edbe7fa5cb0a4d993aaca83e8d7ff5f9a5f648f1eb3d6808",
-      "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
-    },
     "REDDOG_zoneheal": {
       "version": "2026.09.07.1",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.10/_delta_REDDOG_hunt.zip",
       "sha256": "45d390ddc43387ffdb46ab6b871beda791a1d12ad3cdf7e30f4a35e3806e9c0e",
       "notes": "처치 직후 드랍 확인 100ms 폴링 3회(pos_confirm 확정 지연 흡수) + 멜리 스윕 완주 후 줍기 게이트 경유"
+    },
+    "MyJjol": {
+      "version": "2026.09.22.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.09.22.1/_delta_MyJjol.zip",
+      "sha256": "5a925dc1aa2fe8e1caeaa5b8897b230a3f03b7cdee90b894679ea69439c01dbb",
+      "notes": "관리자 권한 실행(UIPI 단축키)·원격제어 허용 옵션·만료 전 라이선스 연장+남은기간 표시·시작 버튼 3초 카운트다운"
     }
   }
 }
