@@ -77,13 +77,6 @@
       "sha256": "cb10877b3f1b53948154b94030ba550626fff116dfee795b395e9891e1485f64",
       "notes": "F10 두루마리(기간제) 만료 대응: 시작 즐겨찾기 검증 실패 시 F8 귀환·마을 확인 후 시작 중단, 시작 커서캡처에 F10 목록 확인 추가(목록 실패=귀환 중단/창고 도착 후 캡처 실패=제자리 정지, 사냥터로 보내지 않음), 가동 중 창고행 F10 후 목록 4초 폴링(1회 재입력) 실패 시 F8 귀환 후 정지, 커서 자가치유 상한 정지도 귀환 후 정지"
     },
-    "REDDOG_hunt": {
-      "version": "2026.09.22.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.3/_delta_REDDOG_hunt.zip",
-      "sha256": "de224c3a699f71be1f430cb40e39cd602b5846bac2c24f07bd74971b3b4b0ac7",
-      "notes": "창고맡기기 마커 추가: 녹화 없이 웰던창고(F10 즐겨찾기 1번)로 이동→창고지기→맡기기 창→등록한 창고템(물약류 등 수량성 잡템)을 999로 전부 맡기기. [시퀀스] 탭 '창고템 등록'(판매아이템과 폴더 분리, 혈맹/개인 선택). 창고템 이미지도 공유 시퀀스팩으로 수신"
-    },
     "REDDOG_hunt_seq": {
       "version": "2026.09.22.2",
       "type": "seqpack",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.22.3/_delta_sellerbot.zip",
       "sha256": "dc4d2b86819acbd60b3b70dbce85a6977f768940f4a1ad55079868ef9cd37535",
       "notes": "두루마리 목록창 검증: F10 뒤 창(Close 버튼) 확인 후에만 즐겨찾기 클릭. 안 뜨면(기간제 만료) F10 1회 재입력→그래도 없으면 클릭 없이 60초 후 주변 초록 재시도(5회 상한)."
+    },
+    "REDDOG_hunt": {
+      "version": "2026.09.22.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.4/_delta_REDDOG_hunt.zip",
+      "sha256": "b1aac47c449256c6c4c997f80814c39bf559d71ce65c1022311750a4b0cd8bfb",
+      "notes": "아이템 줍기 개선: 처치 직후 F4 50ms 단발(대기 없음), 클릭 후 커서 대피 전 100ms, 걷는 중 이름표 소실은 완료로 안 봄, 5초 넘게 이동 시 자기 자리 클릭으로 정지 후 포기(이동 후 포기는 배제 등록 안 함), 토글/소울 락 중 클릭 씹힘은 락 뒤 재클릭"
     }
   }
 }
