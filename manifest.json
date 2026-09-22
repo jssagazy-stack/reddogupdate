@@ -92,11 +92,11 @@
       "notes": "잡템판매에 창고맡기기(웰던 이동 포함) 마커 추가 — 앱 2026.09.22.3 이상 필요"
     },
     "sellerbot": {
-      "version": "2026.09.22.2",
+      "version": "2026.09.22.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.22.2/_delta_sellerbot.zip",
-      "sha256": "f3cbd3f6574de7094dabc4b262eafe80ce79ac137eb169928339d240d3e38f53",
-      "notes": "재배치: 제자리 개설 45초 실패 시 주변 초록(개설가능) 이동→재개설, 실패/사망 부활 후엔 두루마리(F10 즐겨찾기 N번, 런처 설정) 텔포→창고지기 근처 초록 이동→재개설(2라운드 후 판매중단). 헤이 경합 시 정지버튼 이중클릭 차단. 일괄찾기 직전 창고목록 재확인."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.22.3/_delta_sellerbot.zip",
+      "sha256": "dc4d2b86819acbd60b3b70dbce85a6977f768940f4a1ad55079868ef9cd37535",
+      "notes": "두루마리 목록창 검증: F10 뒤 창(Close 버튼) 확인 후에만 즐겨찾기 클릭. 안 뜨면(기간제 만료) F10 1회 재입력→그래도 없으면 클릭 없이 60초 후 주변 초록 재시도(5회 상한)."
     }
   }
 }
