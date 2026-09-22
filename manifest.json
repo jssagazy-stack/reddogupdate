@@ -84,19 +84,19 @@
       "sha256": "23a53efe7abaa0fada54eba37429fa38969a1011c31866874ab2ca88a7ec1921",
       "notes": "잡템판매에 창고맡기기(웰던 이동 포함) 마커 추가 — 앱 2026.09.22.3 이상 필요"
     },
-    "REDDOG_hunt": {
-      "version": "2026.09.22.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.5/_delta_REDDOG_hunt.zip",
-      "sha256": "97349e894bf34185721ba0326213ca86f02a9367501903d7cdcab944d2ba8f94",
-      "notes": "아이템 클릭을 커서 이동→정착→클릭으로 분리(패트롤·복귀 클릭과 동일), 걷기 상한 ≈5초로 보정"
-    },
     "sellerbot": {
       "version": "2026.09.22.4",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.22.4/_delta_sellerbot.zip",
       "sha256": "b1e927b712886bdb695f1c6e8ffafe58a4efd22a9d79748ad0abd3f1fc903ea3",
       "notes": "주변 초록 이동도 창고지기 기준으로: 제자리 실패 시 창고지기 보이면 그 기준 가까운 초록으로, 안 보이면 주변 이동 생략하고 텔포. 초록 도착 후 창고지기 안 보이면 그 자리에 개설 안 함."
+    },
+    "REDDOG_hunt": {
+      "version": "2026.09.22.6",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.22.6/_delta_REDDOG_hunt.zip",
+      "sha256": "aae9ecaf036ddbb6406fc66ac2a90722964527cc0b1c8c54774ae2571ef4c49c",
+      "notes": "아이템 클릭 후 커서 이동까지 300ms(커서가 아이템 위인 동안은 매칭 미사용)"
     }
   }
 }
