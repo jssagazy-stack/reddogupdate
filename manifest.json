@@ -14,13 +14,6 @@
       "sha256": "c047a0d780b92aab8a14e7d1448c78af0840b65732431a82081258e37e702bc2",
       "notes": "한/영 전환 매칭 여유 ±10px — 표시 1px 이동(934→935)으로 매 시작 3회 헛토글되던 문제 수정"
     },
-    "MyJjolSender": {
-      "version": "2026.08.13.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.08.13.2/_delta_MyJjolSender.zip",
-      "sha256": "5d36ab9a93168ddf4a6e3eac4bf5b2da240313c4f9a3e7da418337c984233c81",
-      "notes": "실행 시 창정렬 추가 — 본캐 클라 좌상단 이동+활성화, 송신기 우상단(다른 런처와 동일 규약)"
-    },
     "Sender": {
       "version": "2026.08.13.2",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.09.22.1/_delta_MyJjol.zip",
       "sha256": "5a925dc1aa2fe8e1caeaa5b8897b230a3f03b7cdee90b894679ea69439c01dbb",
       "notes": "관리자 권한 실행(UIPI 단축키)·원격제어 허용 옵션·만료 전 라이선스 연장+남은기간 표시·시작 버튼 3초 카운트다운"
+    },
+    "MyJjolSender": {
+      "version": "2026.09.22.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjolSender-2026.09.22.1/_delta_MyJjolSender.zip",
+      "sha256": "a1b6b4a9a4f62d7de78a4d71a3b798d75d943815acdb01373ed64c710c365668",
+      "notes": "관리자 권한 실행(UIPI 단축키)·원격제어 허용 옵션·HP 미리보기 캡처방식 고정(로그 정리)"
     }
   }
 }
