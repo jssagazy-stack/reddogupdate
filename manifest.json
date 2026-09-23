@@ -92,11 +92,11 @@
       "notes": "v15 사망 리스타트 버튼 호버 미감지 수정: 평상+호버 템플릿(센서·부활확인), 리스 클릭 직후 커서 대피"
     },
     "REDDOG_hunt": {
-      "version": "2026.09.23.1",
+      "version": "2026.09.23.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.23.1/_delta_REDDOG_hunt.zip",
-      "sha256": "ed72e4b5ce93c2dbe2e6b24aaba67c82cf7f7343846e35211009458a7c3929c9",
-      "notes": "위험체력 회복 대기 중 리스타트 버튼 호버 미감지 수정: 평상+호버 템플릿, 리스 클릭 직후 커서 대피"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.23.2/_delta_REDDOG_hunt.zip",
+      "sha256": "9f830f09d711943fc472afc875c5045369d1c2e414da2ae9b215d563bab455c8",
+      "notes": "창고보충 퀵슬롯 수량 글리프(slot_digit) 델타 누락 보완 + 9/23.1 내용(리스 호버 대응)"
     }
   }
 }
