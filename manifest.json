@@ -56,13 +56,6 @@
       "sha256": "c511a5234a4b5d20ceed79079767718b3d4f1bca5726acace446cba89291fff5",
       "notes": "즐겨찾기 세팅: 게임 메뉴 개편 대응 - 화말창고 전용 스크롤 좌표(c10) 추가, c6 -22 보정 제거, 좌표 재캡처 동봉"
     },
-    "sellerbot": {
-      "version": "2026.09.22.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.22.4/_delta_sellerbot.zip",
-      "sha256": "b1e927b712886bdb695f1c6e8ffafe58a4efd22a9d79748ad0abd3f1fc903ea3",
-      "notes": "주변 초록 이동도 창고지기 기준으로: 제자리 실패 시 창고지기 보이면 그 기준 가까운 초록으로, 안 보이면 주변 이동 생략하고 텔포. 초록 도착 후 창고지기 안 보이면 그 자리에 개설 안 함."
-    },
     "REDDOG_hunt_seq": {
       "version": "2026.09.22.3",
       "type": "seqpack",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.09.23.1/_delta_REDDOG_chaejip.zip",
       "sha256": "fa5bc867fa49ff91c373bf3878d3265690da99bed75da36747fc03bad47a8efd",
       "notes": "리스타트 버튼 호버 미감지 수정(평상+호버 템플릿·클릭 후 커서 대피), 자리비움: 마을 미확인·체력80% 미만 진입 차단, 발동 전 10초 체력 관찰(피격 시 보류·회차 복원), 대기 중 1초 사망·체력 감시(저하 시 중단)"
+    },
+    "sellerbot": {
+      "version": "2026.09.23.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.23.1/_delta_sellerbot.zip",
+      "sha256": "2caae079f86c05bda5ca75787201eb34964a53cf519f9f0bc507a925607d10a8",
+      "notes": "v15 사망 리스타트 버튼 호버 미감지 수정: 평상+호버 템플릿(센서·부활확인), 리스 클릭 직후 커서 대피"
     }
   }
 }
