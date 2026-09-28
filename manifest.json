@@ -35,13 +35,6 @@
       "sha256": "305638ede316e484b1c0c9191f093f41f59346206a8c01ce5f5415792af85bdd",
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
     },
-    "CommHealer": {
-      "version": "2026.08.26.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.08.26.5/_delta_CommHealer.zip",
-      "sha256": "9aa0457345648f140a597a801217242e8fcfc83f571a18d06a1d2f537cc30f7a",
-      "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
-    },
     "REDDOG_zoneheal": {
       "version": "2026.09.07.1",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.09.28.1/_delta_MyJjol.zip",
       "sha256": "d4ffff224fef504d4da20525399d60e294b89baa1924d033eb7d52a208b12429",
+      "notes": "파티 모드: 송신기 없이(토큰/IP 미입력) 시작 가능 + 파티 모드 상태표시/시작 로그 정리"
+    },
+    "CommHealer": {
+      "version": "2026.09.28.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.09.28.1/_delta_CommHealer.zip",
+      "sha256": "add1ca9c747a68060a425c5b8b8c0302631af0ab3b4f4d2f457fad879ddd9987",
       "notes": "파티 모드: 송신기 없이(토큰/IP 미입력) 시작 가능 + 파티 모드 상태표시/시작 로그 정리"
     }
   }
