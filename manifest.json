@@ -70,13 +70,6 @@
       "sha256": "fa5bc867fa49ff91c373bf3878d3265690da99bed75da36747fc03bad47a8efd",
       "notes": "리스타트 버튼 호버 미감지 수정(평상+호버 템플릿·클릭 후 커서 대피), 자리비움: 마을 미확인·체력80% 미만 진입 차단, 발동 전 10초 체력 관찰(피격 시 보류·회차 복원), 대기 중 1초 사망·체력 감시(저하 시 중단)"
     },
-    "sellerbot": {
-      "version": "2026.09.23.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.23.1/_delta_sellerbot.zip",
-      "sha256": "2caae079f86c05bda5ca75787201eb34964a53cf519f9f0bc507a925607d10a8",
-      "notes": "v15 사망 리스타트 버튼 호버 미감지 수정: 평상+호버 템플릿(센서·부활확인), 리스 클릭 직후 커서 대피"
-    },
     "REDDOG_hunt": {
       "version": "2026.09.24.1",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.09.28.1/_delta_CommHealer.zip",
       "sha256": "add1ca9c747a68060a425c5b8b8c0302631af0ab3b4f4d2f457fad879ddd9987",
       "notes": "파티 모드: 송신기 없이(토큰/IP 미입력) 시작 가능 + 파티 모드 상태표시/시작 로그 정리"
+    },
+    "sellerbot": {
+      "version": "2026.09.30.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.30.1/_delta_sellerbot.zip",
+      "sha256": "f6435b1d92cba02ef27a6cc00ff1c39c0c266a0f24ebbb19b9a8bd5af0dd0793",
+      "notes": "재배치 개선: 두루마리 목록 인식 수정(텔포 안 되던 문제), 개설가능(초록) 자리 찾기 방식 교체, 창고지기 대화거리(10칸) 적용, 런처 창 높이 축소"
     }
   }
 }
