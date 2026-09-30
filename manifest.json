@@ -92,11 +92,11 @@
       "notes": "파티 모드: 송신기 없이(토큰/IP 미입력) 시작 가능 + 파티 모드 상태표시/시작 로그 정리"
     },
     "sellerbot": {
-      "version": "2026.09.30.1",
+      "version": "2026.09.30.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.30.1/_delta_sellerbot.zip",
-      "sha256": "f6435b1d92cba02ef27a6cc00ff1c39c0c266a0f24ebbb19b9a8bd5af0dd0793",
-      "notes": "재배치 개선: 두루마리 목록 인식 수정(텔포 안 되던 문제), 개설가능(초록) 자리 찾기 방식 교체, 창고지기 대화거리(10칸) 적용, 런처 창 높이 축소"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.09.30.2/_delta_sellerbot.zip",
+      "sha256": "827777893399b83ea53d5627fd47cd09ff8801d9090cffde735120b4c508e9df",
+      "notes": "사망 대응 개편: 사망 시 즐겨찾기 4번→5번 순으로 피신 텔포(몹 유인)·5분 대기 후 판매자리 복귀, 3차는 바로 복귀. 창고행 창고지기 대화거리 제한(거리 밖=재배치 후 창고행)"
     }
   }
 }
