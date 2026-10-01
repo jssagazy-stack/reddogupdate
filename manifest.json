@@ -63,13 +63,6 @@
       "sha256": "a1b6b4a9a4f62d7de78a4d71a3b798d75d943815acdb01373ed64c710c365668",
       "notes": "관리자 권한 실행(UIPI 단축키)·원격제어 허용 옵션·HP 미리보기 캡처방식 고정(로그 정리)"
     },
-    "REDDOG_hunt": {
-      "version": "2026.09.24.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.09.24.1/_delta_REDDOG_hunt.zip",
-      "sha256": "18ec6a6bade595e2cb82e33ba74a2db7671003ad78d45829659c73a76ade8187",
-      "notes": "창고보충(퀵슬롯 수량 OCR→부족분만 혈맹창고 인출) + ATS 토글 봇패턴 완화(마릿수 1~4·OFF 반응지연·상한/켜둠 지터)"
-    },
     "MyJjol": {
       "version": "2026.09.28.1",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.01.2/_delta_sellerbot.zip",
       "sha256": "5a263fc2dec74040ae4f4ed5061f247fabb274840f892365688a7a052a8b0479",
+      "notes": "사망 시 리스타트 클릭 무응답 수정 — 클릭 직후 커서가 바로 빠져 클릭이 취소되던 것을 클릭 후 200ms 뒤 커서 대피로 변경"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.10.01.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.10.01.1/_delta_REDDOG_hunt.zip",
+      "sha256": "68c765a936d68cbf716749db3b75c0fe3c81f2705d9e4347f72bec25254688d4",
       "notes": "사망 시 리스타트 클릭 무응답 수정 — 클릭 직후 커서가 바로 빠져 클릭이 취소되던 것을 클릭 후 200ms 뒤 커서 대피로 변경"
     }
   }
