@@ -84,18 +84,18 @@
       "sha256": "add1ca9c747a68060a425c5b8b8c0302631af0ab3b4f4d2f457fad879ddd9987",
       "notes": "파티 모드: 송신기 없이(토큰/IP 미입력) 시작 가능 + 파티 모드 상태표시/시작 로그 정리"
     },
-    "sellerbot": {
-      "version": "2026.10.01.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.01.1/_delta_sellerbot.zip",
-      "sha256": "8daf34b1c28e6a0a4e01a3cd89f48d5c6cd558844f9ec46cc73e919cd4a0dd3e",
-      "notes": "집계 표시 '이번 실행'→'오늘'(하루 기준 아침 6시, 집계창에서 변경) + 메인 창 🧾 정산 버튼(누적 0), 즐겨찾기 4·5번 순차 등록 안내"
-    },
     "REDDOG_chaejip": {
       "version": "2026.10.01.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.01.1/_delta_REDDOG_chaejip.zip",
       "sha256": "b3643c3c7ab690024708467fff043c360ece5703b4530d224b60ad51411cfc3e",
+      "notes": "사망 시 리스타트 클릭 무응답 수정 — 클릭 직후 커서가 바로 빠져 클릭이 취소되던 것을 클릭 후 200ms 뒤 커서 대피로 변경"
+    },
+    "sellerbot": {
+      "version": "2026.10.01.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.01.2/_delta_sellerbot.zip",
+      "sha256": "5a263fc2dec74040ae4f4ed5061f247fabb274840f892365688a7a052a8b0479",
       "notes": "사망 시 리스타트 클릭 무응답 수정 — 클릭 직후 커서가 바로 빠져 클릭이 취소되던 것을 클릭 후 200ms 뒤 커서 대피로 변경"
     }
   }
