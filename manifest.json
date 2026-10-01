@@ -84,19 +84,19 @@
       "sha256": "b3643c3c7ab690024708467fff043c360ece5703b4530d224b60ad51411cfc3e",
       "notes": "사망 시 리스타트 클릭 무응답 수정 — 클릭 직후 커서가 바로 빠져 클릭이 취소되던 것을 클릭 후 200ms 뒤 커서 대피로 변경"
     },
-    "sellerbot": {
-      "version": "2026.10.01.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.01.2/_delta_sellerbot.zip",
-      "sha256": "5a263fc2dec74040ae4f4ed5061f247fabb274840f892365688a7a052a8b0479",
-      "notes": "사망 시 리스타트 클릭 무응답 수정 — 클릭 직후 커서가 바로 빠져 클릭이 취소되던 것을 클릭 후 200ms 뒤 커서 대피로 변경"
-    },
     "REDDOG_hunt": {
       "version": "2026.10.01.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.10.01.1/_delta_REDDOG_hunt.zip",
       "sha256": "68c765a936d68cbf716749db3b75c0fe3c81f2705d9e4347f72bec25254688d4",
       "notes": "사망 시 리스타트 클릭 무응답 수정 — 클릭 직후 커서가 바로 빠져 클릭이 취소되던 것을 클릭 후 200ms 뒤 커서 대피로 변경"
+    },
+    "sellerbot": {
+      "version": "2026.10.01.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.01.3/_delta_sellerbot.zip",
+      "sha256": "2526ddf3efd67c46ee4d9d7922ca3ad44f978bcf2b6971554d31de762a94f81d",
+      "notes": "재배치 텔포: 즐겨찾기 슬롯 클릭 후에도 두루마리 목록창이 남으면(미등록) 목록을 닫고 안내창 표시·판매만 중단(파티헤이 계속). 피신 4·5번 미등록이면 판매 자리로 바로 재시도. 텔포 실패 중단 시 목록창 열린 채 방치되던 문제 수정"
     }
   }
 }
