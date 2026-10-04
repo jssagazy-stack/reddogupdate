@@ -70,13 +70,6 @@
       "sha256": "add1ca9c747a68060a425c5b8b8c0302631af0ab3b4f4d2f457fad879ddd9987",
       "notes": "파티 모드: 송신기 없이(토큰/IP 미입력) 시작 가능 + 파티 모드 상태표시/시작 로그 정리"
     },
-    "REDDOG_hunt": {
-      "version": "2026.10.01.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.10.01.1/_delta_REDDOG_hunt.zip",
-      "sha256": "68c765a936d68cbf716749db3b75c0fe3c81f2705d9e4347f72bec25254688d4",
-      "notes": "사망 시 리스타트 클릭 무응답 수정 — 클릭 직후 커서가 바로 빠져 클릭이 취소되던 것을 클릭 후 200ms 뒤 커서 대피로 변경"
-    },
     "sellerbot": {
       "version": "2026.10.01.3",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.04.1/_delta_REDDOG_chaejip.zip",
       "sha256": "cc5ae087e3bb3e9a313aa40dc34fdee85c01fb5a3a2d71deccbe10c57f973887",
+      "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.10.04.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.10.04.1/_delta_REDDOG_hunt.zip",
+      "sha256": "e70600d50aaa9d57d17a485e508ac8fe5593fd9af653b47edcedacab498347ca",
       "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
     }
   }
