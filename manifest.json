@@ -21,13 +21,6 @@
       "sha256": "28b24549cf3d3be0d117aa131de5211ce53ff8e3417eeed036afafcbac8b1833",
       "notes": "실행 시 창정렬 추가(마이쫄센더와 동일)"
     },
-    "REDDOG_vending": {
-      "version": "2026.08.26.5",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.08.26.5/_delta_REDDOG_vending.zip",
-      "sha256": "1843bcee371647c8a3ee6f9c0e755df7d69e8eb36f719ac2c456a182ff4ff775",
-      "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
-    },
     "HealSupporter": {
       "version": "2026.08.26.5",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_npc_search-2026.10.04.1/_delta_REDDOG_npc_search.zip",
       "sha256": "3a85cb063115b609e68f244fc09b5ae924517dffdf2afad5cd0d21be6f1f0f58",
+      "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
+    },
+    "REDDOG_vending": {
+      "version": "2026.10.04.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.10.04.1/_delta_REDDOG_vending.zip",
+      "sha256": "7486e12f2b63615ebf16a84991068850b71436d41aa1252556625a2461cfd5d3",
       "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
     }
   }
