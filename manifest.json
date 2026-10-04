@@ -35,13 +35,6 @@
       "sha256": "305638ede316e484b1c0c9191f093f41f59346206a8c01ce5f5415792af85bdd",
       "notes": "updater 8.3 단축이름(한글 사용자명) 경로 버그 수정 - ct 하위폴더 오적용 근본해결(원자적 적용 유지)"
     },
-    "REDDOG_zoneheal": {
-      "version": "2026.09.07.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.09.07.1/_delta_REDDOG_zoneheal.zip",
-      "sha256": "5fa01c2289c5e97bb2ece2a61103cac66da94960dec91b8e27557ecc2f1d92a3",
-      "notes": "홀리워크 타이머(F11) 추가 · F4 홀드 반복 1초 + 입력 중 정지 · 시작/버프/홀리 시전 전 F1 페이지 정규화"
-    },
     "REDDOG_npc_search": {
       "version": "2026.09.16.1",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.01.3/_delta_sellerbot.zip",
       "sha256": "2526ddf3efd67c46ee4d9d7922ca3ad44f978bcf2b6971554d31de762a94f81d",
       "notes": "재배치 텔포: 즐겨찾기 슬롯 클릭 후에도 두루마리 목록창이 남으면(미등록) 목록을 닫고 안내창 표시·판매만 중단(파티헤이 계속). 피신 4·5번 미등록이면 판매 자리로 바로 재시도. 텔포 실패 중단 시 목록창 열린 채 방치되던 문제 수정"
+    },
+    "REDDOG_zoneheal": {
+      "version": "2026.10.04.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_zoneheal-2026.10.04.1/_delta_REDDOG_zoneheal.zip",
+      "sha256": "1846fcd4375255e5543da7c0664721b7446bfd72f23d4047b0ed7c5bee856ca8",
+      "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
     }
   }
 }
