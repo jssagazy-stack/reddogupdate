@@ -42,13 +42,6 @@
       "sha256": "a1b6b4a9a4f62d7de78a4d71a3b798d75d943815acdb01373ed64c710c365668",
       "notes": "관리자 권한 실행(UIPI 단축키)·원격제어 허용 옵션·HP 미리보기 캡처방식 고정(로그 정리)"
     },
-    "MyJjol": {
-      "version": "2026.09.28.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.09.28.1/_delta_MyJjol.zip",
-      "sha256": "d4ffff224fef504d4da20525399d60e294b89baa1924d033eb7d52a208b12429",
-      "notes": "파티 모드: 송신기 없이(토큰/IP 미입력) 시작 가능 + 파티 모드 상태표시/시작 로그 정리"
-    },
     "CommHealer": {
       "version": "2026.09.28.1",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_vending-2026.10.04.1/_delta_REDDOG_vending.zip",
       "sha256": "7486e12f2b63615ebf16a84991068850b71436d41aa1252556625a2461cfd5d3",
       "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
+    },
+    "MyJjol": {
+      "version": "2026.10.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.10.06.1/_delta_MyJjol.zip",
+      "sha256": "dde17da072b54a9bb6908f991723c153af1b1264f194080969adb692cd84fa8e",
+      "notes": "파티 1:1 변신 타겟 재고정(잠금해제→목록 클릭→파티창 행 주차→원래자리/체력바 재고정) + 파티창 가림 ESC 안전망 + 이탈 판정=파티창 아이콘 근접"
     }
   }
 }
