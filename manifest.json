@@ -42,13 +42,6 @@
       "sha256": "a1b6b4a9a4f62d7de78a4d71a3b798d75d943815acdb01373ed64c710c365668",
       "notes": "관리자 권한 실행(UIPI 단축키)·원격제어 허용 옵션·HP 미리보기 캡처방식 고정(로그 정리)"
     },
-    "CommHealer": {
-      "version": "2026.09.28.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.09.28.1/_delta_CommHealer.zip",
-      "sha256": "add1ca9c747a68060a425c5b8b8c0302631af0ab3b4f4d2f457fad879ddd9987",
-      "notes": "파티 모드: 송신기 없이(토큰/IP 미입력) 시작 가능 + 파티 모드 상태표시/시작 로그 정리"
-    },
     "REDDOG_zoneheal": {
       "version": "2026.10.04.1",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.10.06.1/_delta_MyJjol.zip",
       "sha256": "dde17da072b54a9bb6908f991723c153af1b1264f194080969adb692cd84fa8e",
+      "notes": "파티 1:1 변신 타겟 재고정(잠금해제→목록 클릭→파티창 행 주차→원래자리/체력바 재고정) + 파티창 가림 ESC 안전망 + 이탈 판정=파티창 아이콘 근접"
+    },
+    "CommHealer": {
+      "version": "2026.10.06.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.10.06.1/_delta_CommHealer.zip",
+      "sha256": "4196568f81cd09bc3093c946d6c18c32013858967f71106069620a5c8d78966b",
       "notes": "파티 1:1 변신 타겟 재고정(잠금해제→목록 클릭→파티창 행 주차→원래자리/체력바 재고정) + 파티창 가림 ESC 안전망 + 이탈 판정=파티창 아이콘 근접"
     }
   }
