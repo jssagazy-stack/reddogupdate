@@ -56,13 +56,6 @@
       "sha256": "e70600d50aaa9d57d17a485e508ac8fe5593fd9af653b47edcedacab498347ca",
       "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
     },
-    "sellerbot": {
-      "version": "2026.10.04.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.04.1/_delta_sellerbot.zip",
-      "sha256": "b6d286ef1066cfdbe39975f6a43f213624f166bf72fed8d2c013633b10869180",
-      "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
-    },
     "REDDOG_npc_search": {
       "version": "2026.10.04.1",
       "type": "delta",
@@ -96,6 +89,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.07.1/_delta_REDDOG_chaejip.zip",
       "sha256": "8af1f02804177a9345d193b131a84ea0b3c2a4b0a5eb159c663b3d541913866f",
+      "notes": "게임자동실행 서버 목록에 32.아덴 추가"
+    },
+    "sellerbot": {
+      "version": "2026.10.07.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.07.1/_delta_sellerbot.zip",
+      "sha256": "0327c4ef1ec5130a1083c99853c8b6448d65c7185d3aa94cdcc2d625116398a0",
       "notes": "게임자동실행 서버 목록에 32.아덴 추가"
     }
   }
