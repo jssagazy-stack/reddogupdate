@@ -92,11 +92,11 @@
       "notes": "게임자동실행 서버 목록에 32.아덴 추가"
     },
     "REDDOG_chaejip": {
-      "version": "2026.10.07.2",
+      "version": "2026.10.07.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.07.2/_delta_REDDOG_chaejip.zip",
-      "sha256": "ad0e52a7c7992a3d68a62bbf6c880aa34cfd15505f890eda1af487adac0f8f7d",
-      "notes": "사망 감지 근본수정: HP바 0 사망가드(창고체인·AFK 중에도 발동)+리스창 없으면 Ctrl+Q 재호출, 창고 도착 독 해독 게이트"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.07.3/_delta_REDDOG_chaejip.zip",
+      "sha256": "3a7cd7614a0c40914741ae00d90571576197ad22091c86c2bc57d2779214dfc1",
+      "notes": "사망가드 보강: 클릭·Ctrl+Q 직전 생존 재확인 게이트(부활 직후 늦은 발동 경합에서 산 캐릭 Restart 방지)"
     }
   }
 }
