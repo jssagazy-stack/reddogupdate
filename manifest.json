@@ -84,19 +84,19 @@
       "sha256": "8275411a180a84ccb54bd6b0433f19bb8e63fa5cfdc06eb395bd07e71c9b56b7",
       "notes": "사망 감지 근본수정(채집 이식): HP바 0 사망가드(busy_bypass)+리스창 없으면 Ctrl+Q 재호출+생존게이트 (hunt: Ctrl+Q 는 ctrl_bypass 로 입력 인터록 잠시 해제, 부활 후 위험체력 회복 경로)"
     },
-    "CommHealer": {
-      "version": "2026.10.08.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.10.08.1/_delta_CommHealer.zip",
-      "sha256": "1ea74c73c155b21c8df1f736d2bef990542e4c4679cef7268748fd03d9ca342c",
-      "notes": "이름표시 영역 버튼 삭제·고정값 사용, 템플릿 크기 건전성 검사 (MyJjol 2026.10.08.1 동일)"
-    },
     "MyJjol": {
       "version": "2026.10.08.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.10.08.2/_delta_MyJjol.zip",
       "sha256": "4cb1cd5826509e36bad934bf6c565eabd66faa5d5983387e6fa989b2b58e56d8",
       "notes": "폴더명 무관 자동업데이트(product.json dist_name), 판매용 설정 정리(이름표캡처·체력바캘리브·중독픽셀·커서잠금/자동템플릿 체크·매칭임계/서치주기·초대캡처 제거=고정값, 힐 슬롯 좌표 자동계산)"
+    },
+    "CommHealer": {
+      "version": "2026.10.08.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.10.08.2/_delta_CommHealer.zip",
+      "sha256": "a87d4db17aa94a7c2868bed39a037536d9abc79cd880eb56d52d2c94194d59e3",
+      "notes": "폴더명 무관 자동업데이트(dist_name 스탬프), 힐 슬롯 좌표 자동계산·초대 내장 템플릿 (MyJjol 2026.10.08.2 동일)"
     }
   }
 }
