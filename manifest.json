@@ -63,13 +63,6 @@
       "sha256": "7486e12f2b63615ebf16a84991068850b71436d41aa1252556625a2461cfd5d3",
       "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
     },
-    "MyJjol": {
-      "version": "2026.10.06.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.10.06.1/_delta_MyJjol.zip",
-      "sha256": "dde17da072b54a9bb6908f991723c153af1b1264f194080969adb692cd84fa8e",
-      "notes": "파티 1:1 변신 타겟 재고정(잠금해제→목록 클릭→파티창 행 주차→원래자리/체력바 재고정) + 파티창 가림 ESC 안전망 + 이탈 판정=파티창 아이콘 근접"
-    },
     "CommHealer": {
       "version": "2026.10.06.1",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.10.07.1/_delta_REDDOG_hunt.zip",
       "sha256": "8275411a180a84ccb54bd6b0433f19bb8e63fa5cfdc06eb395bd07e71c9b56b7",
       "notes": "사망 감지 근본수정(채집 이식): HP바 0 사망가드(busy_bypass)+리스창 없으면 Ctrl+Q 재호출+생존게이트 (hunt: Ctrl+Q 는 ctrl_bypass 로 입력 인터록 잠시 해제, 부활 후 위험체력 회복 경로)"
+    },
+    "MyJjol": {
+      "version": "2026.10.07.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.10.07.1/_delta_MyJjol.zip",
+      "sha256": "8e8b137068601e2a6c5b034f042566750d4d6fe612eade515ce938f4bcf39afc",
+      "notes": "파티1:1 타겟고정 풀림 감지(근접인데 이름표 미표시)+재고정 상시화, 파티창 가림 보류/복귀 고정확인, 이탈 감지 중 클릭 차단, 머리위 체력바 색범위 수정, 이탈 로그 문구"
     }
   }
 }
