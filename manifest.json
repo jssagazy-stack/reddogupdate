@@ -63,13 +63,6 @@
       "sha256": "7486e12f2b63615ebf16a84991068850b71436d41aa1252556625a2461cfd5d3",
       "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.10.07.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.07.3/_delta_REDDOG_chaejip.zip",
-      "sha256": "3a7cd7614a0c40914741ae00d90571576197ad22091c86c2bc57d2779214dfc1",
-      "notes": "사망가드 보강: 클릭·Ctrl+Q 직전 생존 재확인 게이트(부활 직후 늦은 발동 경합에서 산 캐릭 Restart 방지)"
-    },
     "sellerbot": {
       "version": "2026.10.07.2",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.10.08.2/_delta_CommHealer.zip",
       "sha256": "a87d4db17aa94a7c2868bed39a037536d9abc79cd880eb56d52d2c94194d59e3",
       "notes": "폴더명 무관 자동업데이트(dist_name 스탬프), 힐 슬롯 좌표 자동계산·초대 내장 템플릿 (MyJjol 2026.10.08.2 동일)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.10.08.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.08.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "d9f407c5c95903b360519a7bb78f428fac76f887807b67b1de22e1c25325c8ff",
+      "notes": "창고 헤이 30초 미수급 1회 → 헤이 캐릭 부재 모드 편승(헤이 감지 OFF·채집 계속·10/30/60분 마을 재요청·복귀 시 재개). 자동파티 미사용이면 세션 헤이 감지 OFF. 70초 창고 왕복 무한루프 차단"
     }
   }
 }
