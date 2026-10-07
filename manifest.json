@@ -49,13 +49,6 @@
       "sha256": "1846fcd4375255e5543da7c0664721b7446bfd72f23d4047b0ed7c5bee856ca8",
       "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.10.04.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.04.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "cc5ae087e3bb3e9a313aa40dc34fdee85c01fb5a3a2d71deccbe10c57f973887",
-      "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
-    },
     "REDDOG_hunt": {
       "version": "2026.10.04.1",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.10.06.1/_delta_CommHealer.zip",
       "sha256": "4196568f81cd09bc3093c946d6c18c32013858967f71106069620a5c8d78966b",
       "notes": "파티 1:1 변신 타겟 재고정(잠금해제→목록 클릭→파티창 행 주차→원래자리/체력바 재고정) + 파티창 가림 ESC 안전망 + 이탈 판정=파티창 아이콘 근접"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.10.07.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.07.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "8af1f02804177a9345d193b131a84ea0b3c2a4b0a5eb159c663b3d541913866f",
+      "notes": "게임자동실행 서버 목록에 32.아덴 추가"
     }
   }
 }
