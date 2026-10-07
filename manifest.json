@@ -84,19 +84,19 @@
       "sha256": "4196568f81cd09bc3093c946d6c18c32013858967f71106069620a5c8d78966b",
       "notes": "파티 1:1 변신 타겟 재고정(잠금해제→목록 클릭→파티창 행 주차→원래자리/체력바 재고정) + 파티창 가림 ESC 안전망 + 이탈 판정=파티창 아이콘 근접"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.10.07.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.07.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "8af1f02804177a9345d193b131a84ea0b3c2a4b0a5eb159c663b3d541913866f",
-      "notes": "게임자동실행 서버 목록에 32.아덴 추가"
-    },
     "sellerbot": {
       "version": "2026.10.07.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.07.1/_delta_sellerbot.zip",
       "sha256": "0327c4ef1ec5130a1083c99853c8b6448d65c7185d3aa94cdcc2d625116398a0",
       "notes": "게임자동실행 서버 목록에 32.아덴 추가"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.10.07.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.07.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "ad0e52a7c7992a3d68a62bbf6c880aa34cfd15505f890eda1af487adac0f8f7d",
+      "notes": "사망 감지 근본수정: HP바 0 사망가드(창고체인·AFK 중에도 발동)+리스창 없으면 Ctrl+Q 재호출, 창고 도착 독 해독 게이트"
     }
   }
 }
