@@ -49,13 +49,6 @@
       "sha256": "1846fcd4375255e5543da7c0664721b7446bfd72f23d4047b0ed7c5bee856ca8",
       "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
     },
-    "REDDOG_hunt": {
-      "version": "2026.10.04.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.10.04.1/_delta_REDDOG_hunt.zip",
-      "sha256": "e70600d50aaa9d57d17a485e508ac8fe5593fd9af653b47edcedacab498347ca",
-      "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
-    },
     "REDDOG_npc_search": {
       "version": "2026.10.04.1",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.07.2/_delta_sellerbot.zip",
       "sha256": "e2254c22b2156f30afce5d3e3ceef793471a84c9c8717d088f54973f9a7b2948",
       "notes": "사망 감지 근본수정(채집 이식): HP바 0 사망가드(busy_bypass)+리스창 없으면 Ctrl+Q 재호출+생존게이트"
+    },
+    "REDDOG_hunt": {
+      "version": "2026.10.07.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_hunt-2026.10.07.1/_delta_REDDOG_hunt.zip",
+      "sha256": "8275411a180a84ccb54bd6b0433f19bb8e63fa5cfdc06eb395bd07e71c9b56b7",
+      "notes": "사망 감지 근본수정(채집 이식): HP바 0 사망가드(busy_bypass)+리스창 없으면 Ctrl+Q 재호출+생존게이트 (hunt: Ctrl+Q 는 ctrl_bypass 로 입력 인터록 잠시 해제, 부활 후 위험체력 회복 경로)"
     }
   }
 }
