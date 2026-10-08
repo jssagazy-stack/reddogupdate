@@ -92,11 +92,11 @@
       "notes": "폴더명 무관 자동업데이트(dist_name 스탬프), 힐 슬롯 좌표 자동계산·초대 내장 템플릿 (MyJjol 2026.10.08.2 동일)"
     },
     "REDDOG_chaejip": {
-      "version": "2026.10.08.1",
+      "version": "2026.10.08.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.08.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "d9f407c5c95903b360519a7bb78f428fac76f887807b67b1de22e1c25325c8ff",
-      "notes": "창고 헤이 30초 미수급 1회 → 헤이 캐릭 부재 모드 편승(헤이 감지 OFF·채집 계속·10/30/60분 마을 재요청·복귀 시 재개). 자동파티 미사용이면 세션 헤이 감지 OFF. 70초 창고 왕복 무한루프 차단"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.08.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "e812c0977a9cc1bac34bd2bded2fcd145e61d9f480da7b46e3d4a57fe11eef0d",
+      "notes": "즐겨찾기 세팅 5번(은말창고) 행 클릭 좌표 c9_y 163→183 — 기란마을 목록 추가로 한 줄 밀림 대응(favorites_common.ini 동봉)"
     }
   }
 }
