@@ -77,13 +77,6 @@
       "sha256": "8275411a180a84ccb54bd6b0433f19bb8e63fa5cfdc06eb395bd07e71c9b56b7",
       "notes": "사망 감지 근본수정(채집 이식): HP바 0 사망가드(busy_bypass)+리스창 없으면 Ctrl+Q 재호출+생존게이트 (hunt: Ctrl+Q 는 ctrl_bypass 로 입력 인터록 잠시 해제, 부활 후 위험체력 회복 경로)"
     },
-    "MyJjol": {
-      "version": "2026.10.08.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.10.08.2/_delta_MyJjol.zip",
-      "sha256": "4cb1cd5826509e36bad934bf6c565eabd66faa5d5983387e6fa989b2b58e56d8",
-      "notes": "폴더명 무관 자동업데이트(product.json dist_name), 판매용 설정 정리(이름표캡처·체력바캘리브·중독픽셀·커서잠금/자동템플릿 체크·매칭임계/서치주기·초대캡처 제거=고정값, 힐 슬롯 좌표 자동계산)"
-    },
     "CommHealer": {
       "version": "2026.10.08.2",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.08.2/_delta_REDDOG_chaejip.zip",
       "sha256": "e812c0977a9cc1bac34bd2bded2fcd145e61d9f480da7b46e3d4a57fe11eef0d",
       "notes": "즐겨찾기 세팅 5번(은말창고) 행 클릭 좌표 c9_y 163→183 — 기란마을 목록 추가로 한 줄 밀림 대응(favorites_common.ini 동봉)"
+    },
+    "MyJjol": {
+      "version": "2026.10.08.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.10.08.3/_delta_MyJjol.zip",
+      "sha256": "3c60ae4fddf17c90b410141e06e07bbe8d761d2a2bfa98e424345444fbbbdca3",
+      "notes": "시작 시 이름표 매칭 자가검사(점수<임계면 재고정·고정검사 OFF로 안전 시작 — 멀쩡한 고정을 깨는 반복 방지)"
     }
   }
 }
