@@ -77,13 +77,6 @@
       "sha256": "8275411a180a84ccb54bd6b0433f19bb8e63fa5cfdc06eb395bd07e71c9b56b7",
       "notes": "사망 감지 근본수정(채집 이식): HP바 0 사망가드(busy_bypass)+리스창 없으면 Ctrl+Q 재호출+생존게이트 (hunt: Ctrl+Q 는 ctrl_bypass 로 입력 인터록 잠시 해제, 부활 후 위험체력 회복 경로)"
     },
-    "CommHealer": {
-      "version": "2026.10.08.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.10.08.2/_delta_CommHealer.zip",
-      "sha256": "a87d4db17aa94a7c2868bed39a037536d9abc79cd880eb56d52d2c94194d59e3",
-      "notes": "폴더명 무관 자동업데이트(dist_name 스탬프), 힐 슬롯 좌표 자동계산·초대 내장 템플릿 (MyJjol 2026.10.08.2 동일)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.10.08.2",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.10.08.3/_delta_MyJjol.zip",
       "sha256": "3c60ae4fddf17c90b410141e06e07bbe8d761d2a2bfa98e424345444fbbbdca3",
       "notes": "시작 시 이름표 매칭 자가검사(점수<임계면 재고정·고정검사 OFF로 안전 시작 — 멀쩡한 고정을 깨는 반복 방지)"
+    },
+    "CommHealer": {
+      "version": "2026.10.08.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.10.08.3/_delta_CommHealer.zip",
+      "sha256": "3fbb5faadda411ea8a21cc5db0fc0d3dd3ae692e5f4e69931989a67be2e9dbad",
+      "notes": "시작 시 이름표 매칭 자가검사 (MyJjol 2026.10.08.3 동일)"
     }
   }
 }
