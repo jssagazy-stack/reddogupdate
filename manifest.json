@@ -84,19 +84,19 @@
       "sha256": "e812c0977a9cc1bac34bd2bded2fcd145e61d9f480da7b46e3d4a57fe11eef0d",
       "notes": "즐겨찾기 세팅 5번(은말창고) 행 클릭 좌표 c9_y 163→183 — 기란마을 목록 추가로 한 줄 밀림 대응(favorites_common.ini 동봉)"
     },
-    "CommHealer": {
-      "version": "2026.10.08.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.10.08.3/_delta_CommHealer.zip",
-      "sha256": "3fbb5faadda411ea8a21cc5db0fc0d3dd3ae692e5f4e69931989a67be2e9dbad",
-      "notes": "시작 시 이름표 매칭 자가검사 (MyJjol 2026.10.08.3 동일)"
-    },
     "MyJjol": {
       "version": "2026.10.09.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.10.09.1/_delta_MyJjol.zip",
       "sha256": "89fc5c97d14d33f4e8e9383af564de1ab7be62b1d2c51eb279d0a04e57394e62",
       "notes": "재고정·고정검사 이름표 템플릿을 머리 위 이름표(외곽선 포함)에서 자동 캡처 — 색·배경 무관(실측 5배경 ≥0.83, 오탐 ≤0.38, 임계 0.6). 시작 자가검사 점수 로그"
+    },
+    "CommHealer": {
+      "version": "2026.10.09.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/CommHealer-2026.10.09.1/_delta_CommHealer.zip",
+      "sha256": "8bef49fa919293f1bd28eb53273a74a281536f26d23ac204fb5eb4ac1d826a1e",
+      "notes": "월드 이름표 템플릿(색·배경 무관) — MyJjol 2026.10.09.1 동일"
     }
   }
 }
