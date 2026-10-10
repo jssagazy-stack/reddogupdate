@@ -92,11 +92,11 @@
       "notes": "소환석 판매 품목(기본 OFF)+소환석 일일구매(옵션)+판매대금 창고맡김 하루1회(1만 단위, 집계 누적/정산), 종료진단 LC.exe 보완"
     },
     "REDDOG_chaejip": {
-      "version": "2026.10.10.4",
+      "version": "2026.10.10.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.10.4/_delta_REDDOG_chaejip.zip",
-      "sha256": "38c804f41c6ba0c30f7438cee66106d4f9f37bc4e8b2aeb741ca7eab81d84570",
-      "notes": "소환석 구매 예약 15분 타임아웃 안전망, 종료진단 LC.exe 보완(WER 서명·엔진 로그 폴백)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.10.5/_delta_REDDOG_chaejip.zip",
+      "sha256": "f3336ae9317dbcaccd07e5f21d5fdbf073a703edd45df15a058d7f38639768a8",
+      "notes": "소환석 맡기기: 보관창 소환석 행 스크롤 서치(최하단 앵커·7회 안전망)+되감기 — 첫 화면만 보던 미맡김 수정"
     }
   }
 }
