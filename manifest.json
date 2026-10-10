@@ -63,13 +63,6 @@
       "sha256": "7486e12f2b63615ebf16a84991068850b71436d41aa1252556625a2461cfd5d3",
       "notes": "🔑 라이선스 연장 버튼 추가(새 키를 넣으면 남은 기간 뒤에 이어서 연장) · 만료 3일 전 빨간색 안내 · 만료 후에도 새 키 입력만으로 연장"
     },
-    "sellerbot": {
-      "version": "2026.10.07.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.07.2/_delta_sellerbot.zip",
-      "sha256": "e2254c22b2156f30afce5d3e3ceef793471a84c9c8717d088f54973f9a7b2948",
-      "notes": "사망 감지 근본수정(채집 이식): HP바 0 사망가드(busy_bypass)+리스창 없으면 Ctrl+Q 재호출+생존게이트"
-    },
     "REDDOG_hunt": {
       "version": "2026.10.07.1",
       "type": "delta",
@@ -97,6 +90,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.10.1/_delta_REDDOG_chaejip.zip",
       "sha256": "dbf5ddf262cc8fd605c06159fc0a730346159789abcaf162dac5a16a51b98524",
       "notes": "입력 지터 확대(드래그 끝점·창고UI·알림종·홀드/간격), 클라 종료 감시 자가회복+종료진단(바탕화면)"
+    },
+    "sellerbot": {
+      "version": "2026.10.10.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.10.1/_delta_sellerbot.zip",
+      "sha256": "0ce7aa4508475371d3d07a1bad44e5b95e8a83cc259123702999b1ad770858d0",
+      "notes": "입력 지터 확대(자동닫기 ESC·타이핑·휠·홀드/간격), 클라 종료 감시 자가회복+종료진단(바탕화면)"
     }
   }
 }
