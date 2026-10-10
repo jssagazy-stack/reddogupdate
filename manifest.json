@@ -84,18 +84,18 @@
       "sha256": "8bef49fa919293f1bd28eb53273a74a281536f26d23ac204fb5eb4ac1d826a1e",
       "notes": "월드 이름표 템플릿(색·배경 무관) — MyJjol 2026.10.09.1 동일"
     },
-    "sellerbot": {
-      "version": "2026.10.10.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.10.1/_delta_sellerbot.zip",
-      "sha256": "0ce7aa4508475371d3d07a1bad44e5b95e8a83cc259123702999b1ad770858d0",
-      "notes": "입력 지터 확대(자동닫기 ESC·타이핑·휠·홀드/간격), 클라 종료 감시 자가회복+종료진단(바탕화면)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.10.10.2",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.10.2/_delta_REDDOG_chaejip.zip",
       "sha256": "1cb4d3b1bd3d7544e13a0604ed9dfb56ef75536fd11ebd53e0798e9e82b26e6e",
+      "notes": "종료진단 생성 시 체크라벨 빨강 볼드(×N) 표시 — 재실행/체크 클릭 시 초기화"
+    },
+    "sellerbot": {
+      "version": "2026.10.10.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.10.2/_delta_sellerbot.zip",
+      "sha256": "8c2b1567b093840b8669f804c20df555ddfb865b1dcf20bce7676275a5f63eaf",
       "notes": "종료진단 생성 시 체크라벨 빨강 볼드(×N) 표시 — 재실행/체크 클릭 시 초기화"
     }
   }
