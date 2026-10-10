@@ -84,19 +84,19 @@
       "sha256": "8bef49fa919293f1bd28eb53273a74a281536f26d23ac204fb5eb4ac1d826a1e",
       "notes": "월드 이름표 템플릿(색·배경 무관) — MyJjol 2026.10.09.1 동일"
     },
-    "sellerbot": {
-      "version": "2026.10.10.4",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.10.4/_delta_sellerbot.zip",
-      "sha256": "2805a2ee5972e8bfe36144efe7b96a10fca5da5eeeaab0901ef8693e4c1a490c",
-      "notes": "맡기기 체인: 소환석·아데나 행 스크롤 서치(최하단 앵커·7회 안전망)+되감기 — 첫 화면만 보던 결함 수정"
-    },
     "REDDOG_chaejip": {
       "version": "2026.10.10.6",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.10.6/_delta_REDDOG_chaejip.zip",
       "sha256": "c2cc5a960ce00c30bf6b9fbbed3921fc7d99b284cbff5f1c9c2f672c416254d7",
       "notes": "소환석 일일구매 전용 경로: 즐겨찾기1 웰던창고 찾기→구매→웰던 복귀→소환석만 맡기기(페이지 스캔)→F8 귀환. 평소 창고행 분리·되감기 폐지"
+    },
+    "sellerbot": {
+      "version": "2026.10.10.5",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.10.5/_delta_sellerbot.zip",
+      "sha256": "9c35149232734926f7a441c38a8b79a317a6bf60ce6f9267f335de69944aaf49",
+      "notes": "소환석 흐름 재구성: 판매대금 맡기기(구매 예정이면 5만 남김→찾기 생략)→구매→구매한 마을에서 소환석 맡기기→판매자리 복귀. 웰던 왕복·되감기 폐지"
     }
   }
 }
