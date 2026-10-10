@@ -84,19 +84,19 @@
       "sha256": "8bef49fa919293f1bd28eb53273a74a281536f26d23ac204fb5eb4ac1d826a1e",
       "notes": "월드 이름표 템플릿(색·배경 무관) — MyJjol 2026.10.09.1 동일"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.10.10.3",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.10.3/_delta_REDDOG_chaejip.zip",
-      "sha256": "a2695f9ac2e2291c971b3ba66deea0f4fdd1d6f0d0fca64731bab0be374dbf13",
-      "notes": "소환석 일일구매(옵션, 기본 OFF): 혈맹창고 50,030 찾기→두루마리→판매상→50개 구매→창고 복귀 맡기기, 06:10/수요일 10:30 이후 하루 1회"
-    },
     "sellerbot": {
       "version": "2026.10.10.3",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.10.3/_delta_sellerbot.zip",
       "sha256": "0afa7e3609c0178d589236b86aa0a170d2f72a9a062420c0ddb96e4f60f0bf29",
       "notes": "소환석 판매 품목(기본 OFF)+소환석 일일구매(옵션)+판매대금 창고맡김 하루1회(1만 단위, 집계 누적/정산), 종료진단 LC.exe 보완"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.10.10.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.10.4/_delta_REDDOG_chaejip.zip",
+      "sha256": "38c804f41c6ba0c30f7438cee66106d4f9f37bc4e8b2aeb741ca7eab81d84570",
+      "notes": "소환석 구매 예약 15분 타임아웃 안전망, 종료진단 LC.exe 보완(WER 서명·엔진 로그 폴백)"
     }
   }
 }
