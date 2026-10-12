@@ -92,11 +92,11 @@
       "notes": "⏸ 일시정지 버튼 추가(노드 경계 멈춤·자동닫기 ESC 억제, ▶ 재개로 그 자리부터 이어서. 정지는 완전 정지 그대로)"
     },
     "sellerbot": {
-      "version": "2026.10.12.5",
+      "version": "2026.10.12.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.12.5/_delta_sellerbot.zip",
-      "sha256": "f3081ca3ed1e9275bf1e3a54940d031b5aacbd6a40e9371f4892a722f1d8d5bf",
-      "notes": "연동 그룹 2줄로 압축(PC별 상태·맡긴 금액은 툴팁) + 합산은 기존 맡긴 금액 줄 아래 1줄(메인만) + 파티창 readout 간략화(●○✗) — 세로 팽창으로 품목 단가 행이 짜부되던 문제 수정"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.12.6/_delta_sellerbot.zip",
+      "sha256": "ffa75446be1a4a119fa9fad475cf8bcee44457d0f9282390100fc8ef9632c4a5",
+      "notes": "🧾 정산 3분기(이 PC만/연동 PC도/취소 — 메인 방송 중) + 연동 PC 정산 지시(10분 내 신선할 때만 적용) + ★QSettings type=int 64비트 절단으로 동기화 ver 멱등이 깨지던 결함 수정(재방송마다 재개설 폭주 방지)"
     }
   }
 }
