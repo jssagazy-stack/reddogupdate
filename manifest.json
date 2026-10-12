@@ -84,19 +84,19 @@
       "sha256": "8bef49fa919293f1bd28eb53273a74a281536f26d23ac204fb5eb4ac1d826a1e",
       "notes": "월드 이름표 템플릿(색·배경 무관) — MyJjol 2026.10.09.1 동일"
     },
-    "sellerbot": {
-      "version": "2026.10.12.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.12.2/_delta_sellerbot.zip",
-      "sha256": "ec0ecd64d2ca0218ec81b132d7949c913f754c8633f9a04cf8c56ebab9c23905",
-      "notes": "📊 집계 창 복구: 품목별 인출 현황(오늘/누적) 표 + 오늘/누적 맡긴 금액. 판매·금액·미확정 추정 열 제거"
-    },
     "REDDOG_chaejip": {
       "version": "2026.10.12.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.12.1/_delta_REDDOG_chaejip.zip",
       "sha256": "e86dfba73a8e1ed3a604e6b45ba140c0abf73c49f3a84563a7232de133378f97",
       "notes": "⏸ 일시정지 버튼 추가(노드 경계 멈춤·자동닫기 ESC 억제, ▶ 재개로 그 자리부터 이어서. 정지는 완전 정지 그대로)"
+    },
+    "sellerbot": {
+      "version": "2026.10.12.4",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.12.4/_delta_sellerbot.zip",
+      "sha256": "2c97f5ec9f134a87b284b883dd36b0d15534fcceee7611aa8a3a68c128bfb1af",
+      "notes": "메인↔연동 PC 판매단가 일괄 동기화(연동 그룹: 역할 단독/메인/연동·그룹코드·[연동 PC에 적용]·즉시 재개설) + 메인에 연동 PC 맡긴 금액 합산 표시 + 기본 관리자 권한(방화벽 규칙 자동)"
     }
   }
 }
