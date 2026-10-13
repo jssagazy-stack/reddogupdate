@@ -92,11 +92,11 @@
       "notes": "⏸ 일시정지 버튼 추가(노드 경계 멈춤·자동닫기 ESC 억제, ▶ 재개로 그 자리부터 이어서. 정지는 완전 정지 그대로)"
     },
     "sellerbot": {
-      "version": "2026.10.12.7",
+      "version": "2026.10.13.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.12.7/_delta_sellerbot.zip",
-      "sha256": "157a6684795c0619709d404927f39929ad0da652b81785ad27e1ee53c595033a",
-      "notes": "연동 PC 정산 지시·단가 ver 가 32비트로 잘려 정산이 무시되던 결함 수정(연동 PC도 정산이 정상 동작). 업데이트 후 메인에서 정산을 다시 눌러 주세요."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.13.1/_delta_sellerbot.zip",
+      "sha256": "d37c0cd0aaa1bb670e07a7c520d18b428e2266fe3e553679d36be259f9026ad2",
+      "notes": "혈맹창고 맡김 확인: 맡기기 후 창고를 다시 열어 확인하고, 안 맡겨졌으면(다른 혈맹원 사용 중) 최대 3회 재시도. 확인된 금액만 합산. 맡길 금액 1만 미만이면 그날 0원 완료(15분마다 창고행 반복 수정)."
     }
   }
 }
