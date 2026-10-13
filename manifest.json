@@ -84,19 +84,19 @@
       "sha256": "8bef49fa919293f1bd28eb53273a74a281536f26d23ac204fb5eb4ac1d826a1e",
       "notes": "월드 이름표 템플릿(색·배경 무관) — MyJjol 2026.10.09.1 동일"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.10.12.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.12.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "e86dfba73a8e1ed3a604e6b45ba140c0abf73c49f3a84563a7232de133378f97",
-      "notes": "⏸ 일시정지 버튼 추가(노드 경계 멈춤·자동닫기 ESC 억제, ▶ 재개로 그 자리부터 이어서. 정지는 완전 정지 그대로)"
-    },
     "sellerbot": {
       "version": "2026.10.13.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.10.13.1/_delta_sellerbot.zip",
       "sha256": "d37c0cd0aaa1bb670e07a7c520d18b428e2266fe3e553679d36be259f9026ad2",
       "notes": "혈맹창고 맡김 확인: 맡기기 후 창고를 다시 열어 확인하고, 안 맡겨졌으면(다른 혈맹원 사용 중) 최대 3회 재시도. 확인된 금액만 합산. 맡길 금액 1만 미만이면 그날 0원 완료(15분마다 창고행 반복 수정)."
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.10.13.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.13.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "44ad3601b68334cbecfbd1a5dfbf2ffde057b5c64224da7d8de15ed4926df63d",
+      "notes": "소환석 맡김 확인: 맡기기 후 창고를 다시 열어 확인하고, 안 맡겨졌으면(다른 혈맹원 사용 중) 최대 3회 재시도. 그래도 안 되면 다음날 구매 때 함께 맡김."
     }
   }
 }
