@@ -99,11 +99,11 @@
       "notes": "단가 연동: PC 간 시계차로 '메인 응답 없음' 수정(신선도 창 10분) + 시작 시 메인 최신 단가 재확인 + 같은 ver 단가 불일치 재적용 + 시계차 표시"
     },
     "REDDOG_chaejip_rental": {
-      "version": "2026.10.26.1",
+      "version": "2026.10.26.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip_rental-2026.10.26.1/_delta_REDDOG_chaejip_rental.zip",
-      "sha256": "210398cba4ef35bfde30e1a0b667064c5e7f339315df740f212af9657b18d84e",
-      "notes": "임대 트랙 초판 — Nuitka 네이티브 + operator_lock + 자산암호화"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip_rental-2026.10.26.2/_delta_REDDOG_chaejip_rental.zip",
+      "sha256": "5478f1ca8c930d809f43307bee87d20d290c0a0dec3c59eb6acaafac3f7bc89e",
+      "notes": "profile.json(흐름 로직) 암호화 추가"
     }
   }
 }
