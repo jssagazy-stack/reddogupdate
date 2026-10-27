@@ -99,11 +99,11 @@
       "notes": "단가 연동: PC 간 시계차로 '메인 응답 없음' 수정(신선도 창 10분) + 시작 시 메인 최신 단가 재확인 + 같은 ver 단가 불일치 재적용 + 시계차 표시"
     },
     "REDDOG_chaejip_rental": {
-      "version": "2026.10.26.6",
+      "version": "2026.10.27.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip_rental-2026.10.26.6/_delta_REDDOG_chaejip_rental.zip",
-      "sha256": "c2c48649b2956bcdc41ba900d5b06d346c92436e3b3e6c0ba10f01825b1e98b0",
-      "notes": "자산 암호화 키 노출 차단(strings 추출 방지)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip_rental-2026.10.27.1/_delta_REDDOG_chaejip_rental.zip",
+      "sha256": "f73a73c5218566c8a25e76a7e1328b36f5285e3c06015ade9eb65ea9ed4f7a92",
+      "notes": "임대 설정 자동화: 게임설정·즐겨찾기 시드 + 파티수락 seed-fallback"
     }
   }
 }
