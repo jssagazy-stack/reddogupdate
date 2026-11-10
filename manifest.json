@@ -77,13 +77,6 @@
       "sha256": "8bef49fa919293f1bd28eb53273a74a281536f26d23ac204fb5eb4ac1d826a1e",
       "notes": "월드 이름표 템플릿(색·배경 무관) — MyJjol 2026.10.09.1 동일"
     },
-    "sellerbot": {
-      "version": "2026.11.10.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.11.10.1/_delta_sellerbot.zip",
-      "sha256": "772714743882d21cbe781f8f548ae0b6a5bd1753a49fbe7a0326efdad10bc4cc",
-      "notes": "종료진단: 클라 종료 1건당 진단 파일 1장(게임창 복귀 전 재생성 안 함) + 바탕화면 게임종료진단 파일 최근 5장만 보관(시작 시 자동 정리)"
-    },
     "MyJjol": {
       "version": "2026.11.10.1",
       "type": "delta",
@@ -103,6 +96,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip_rental-2026.11.10.2/_delta_REDDOG_chaejip_rental.zip",
       "sha256": "f1aca4768f4e77828cd4e215d1113a5b1dcdbfd500403cd2687b64d50c9c1dff",
+      "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
+    },
+    "sellerbot": {
+      "version": "2026.11.10.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.11.10.2/_delta_sellerbot.zip",
+      "sha256": "058bebf3c13aa3f1163741bfc95f5733fbb23f9a481d42e70beaf7b409997e33",
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     }
   }
