@@ -91,19 +91,19 @@
       "sha256": "f73a73c5218566c8a25e76a7e1328b36f5285e3c06015ade9eb65ea9ed4f7a92",
       "notes": "임대 설정 자동화: 게임설정·즐겨찾기 시드 + 파티수락 seed-fallback"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.10.28.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.10.28.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "428d67a948eeff36beece5733a2771079a6325e3e5fe64d7a7d191a53e6ab1d3",
-      "notes": "창고 F10 목록검증 오탐 정지 구제: 만료 오판 전 clean 재검증(ESC->F10 재오픈->안정대기->단발매칭) 추가, 실패 ROI 저장"
-    },
     "MyJjol": {
       "version": "2026.11.09.1",
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.11.09.1/_delta_MyJjol.zip",
       "sha256": "1a74ef795f77049aff68205749890390b96f05164c71c89b875ef8064f0e940d",
       "notes": "파티 1:1 타겟고정: 본캐 이름표가 쫄 체력바·몹에 일부 가려질 때 풀림 오판으로 커서를 풀었다 잡기 반복하던 문제 수정(조각 템플릿 + 2초 보류)"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.11.10.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.11.10.1/_delta_REDDOG_chaejip.zip",
+      "sha256": "d548f9cfc619bbe0551a9368d3f61eb826026d369bcd30d67e26349215355520",
+      "notes": "종료진단: 클라 종료 1건당 진단 파일 1장(게임창 복귀 전 재생성 안 함) + 바탕화면 게임종료진단 파일 최근 5장만 보관(시작 시 자동 정리)"
     }
   }
 }
