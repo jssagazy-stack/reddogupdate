@@ -77,13 +77,6 @@
       "sha256": "8bef49fa919293f1bd28eb53273a74a281536f26d23ac204fb5eb4ac1d826a1e",
       "notes": "월드 이름표 템플릿(색·배경 무관) — MyJjol 2026.10.09.1 동일"
     },
-    "REDDOG_chaejip": {
-      "version": "2026.11.10.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.11.10.1/_delta_REDDOG_chaejip.zip",
-      "sha256": "d548f9cfc619bbe0551a9368d3f61eb826026d369bcd30d67e26349215355520",
-      "notes": "종료진단: 클라 종료 1건당 진단 파일 1장(게임창 복귀 전 재생성 안 함) + 바탕화면 게임종료진단 파일 최근 5장만 보관(시작 시 자동 정리)"
-    },
     "REDDOG_chaejip_rental": {
       "version": "2026.11.10.1",
       "type": "delta",
@@ -104,6 +97,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/MyJjol-2026.11.10.1/_delta_MyJjol.zip",
       "sha256": "9af99267d2f5b3b41bdf3b71fa95a5f9e654a9daa8582c323567fba384c417b0",
       "notes": "파티 1:1 타겟고정 검사를 본캐 체력바 기준으로 변경: 체력바가 보이면 고정 유지(이름표 가림·배경으로 인한 커서 풀림 반복 제거), 체력바·이름표 모두 안 보일 때만 재고정"
+    },
+    "REDDOG_chaejip": {
+      "version": "2026.11.10.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.11.10.2/_delta_REDDOG_chaejip.zip",
+      "sha256": "e1053b28c824525e4eaee7a26044358f855b6dbb91705ba129bd0c4af2f5cb4b",
+      "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     }
   }
 }
