@@ -104,6 +104,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.11.10.2/_delta_sellerbot.zip",
       "sha256": "058bebf3c13aa3f1163741bfc95f5733fbb23f9a481d42e70beaf7b409997e33",
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
+    },
+    "dokkaebi": {
+      "version": "2026.11.12.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.12.1/_delta_dokkaebi.zip",
+      "sha256": "74401a9d41556cd767ff1510654a0e060bb7d3c6c694b6a5503af467b94fa9a9",
+      "notes": "한글 OCR 복구(winrt 프로젝션 테이블 동봉)"
     }
   }
 }
