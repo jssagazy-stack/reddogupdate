@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.12.6",
+      "version": "2026.11.12.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.12.6/_delta_dokkaebi.zip",
-      "sha256": "dfe3abe6e8685451f26e62802b343acca3b905c66ea374a88d553d4d78a7540a",
-      "notes": "메뉴 한번 열고 모두 확인(잠긴 콘텐츠 반복 열기 제거) · PC 속도 배수 적용·GUI 노출(렉 대비) · 상자 없으면 스크롤 안 함"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.12.7/_delta_dokkaebi.zip",
+      "sha256": "a68b6968ba39b5ceb96b7846a0ac7dabb99b4b3c5946228cbb66b1be510cfca2",
+      "notes": "GUI 가로 폭 고정·축지술/PC속도 아랫줄·실행 시 클라 좌상단/GUI 우상단 정렬"
     }
   }
 }
