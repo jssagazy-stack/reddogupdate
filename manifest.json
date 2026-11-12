@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.12.2",
+      "version": "2026.11.12.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.12.2/_delta_dokkaebi.zip",
-      "sha256": "00dfa40e345aaeddf721e1d18320565e27579f9f9dd6a31d45168b7ddea15693",
-      "notes": "밤샘 정지 수정(상자 없으면 가방 고정칸 안 누름) · 창 닫을 때 깔끔히 종료"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.12.3/_delta_dokkaebi.zip",
+      "sha256": "12ee4a9b14bfb48916768ce41ec7e4efd210fd3841272ce6c902e4c34fe5c644",
+      "notes": "서사 임무 실행 조건(선행 임무 완료 후) 잠김 감지해 건너뜀"
     }
   }
 }
