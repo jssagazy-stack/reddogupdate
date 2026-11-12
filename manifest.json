@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.12.3",
+      "version": "2026.11.12.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.12.3/_delta_dokkaebi.zip",
-      "sha256": "12ee4a9b14bfb48916768ce41ec7e4efd210fd3841272ce6c902e4c34fe5c644",
-      "notes": "서사 임무 실행 조건(선행 임무 완료 후) 잠김 감지해 건너뜀"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.12.4/_delta_dokkaebi.zip",
+      "sha256": "907b1b3838d455ec5dde245c05bfcdde7edaac1c88415bf4ec12a19c4c85ac5d",
+      "notes": "임무 일일·주간·본편·서사 순 · 메뉴성 콘텐츠는 사냥 중에만(레이드·탑 제외) · 빨간점 최초1회 · 돌파 반복 조기종료 · 모두배우기 무조건 먼저"
     }
   }
 }
