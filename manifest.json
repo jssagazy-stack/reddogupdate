@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.13.7",
+      "version": "2026.11.13.8",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.13.7/_delta_dokkaebi.zip",
-      "sha256": "d04bb4aa17c2ce27e65b45f5200651358230f9916f14d5090d1514591aa30e98",
-      "notes": "안전: 무기/재조율/환원/도안/염색 상자 하드금지(비가역 오개봉 방지) · 각성 탭을 글자로 찾아 재조율/환원 오클릭 방지 · 업데이트 다운로드 중 '종료 금지' 표시."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.13.8/_delta_dokkaebi.zip",
+      "sha256": "b7533e34028adb580671e4f82fdfb7c19a2a8d63c3d40e6ac8acd10d259ad9bc",
+      "notes": "감정표현: 외전 '산길의 호환 10' 퀘 → 뽐내기 매핑 추가(안 넘어가던 것 해결)."
     }
   }
 }
