@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.13.5",
+      "version": "2026.11.13.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.13.5/_delta_dokkaebi.zip",
-      "sha256": "03d56c572fcaa4fef63c2e7835a02c37060abc5e26f43da94d817de550c51238",
-      "notes": "GUI 섹션 접기 삼각형(▶/▼) · 물약 OCR 단숫자 오독 매칭 + 침묵 실패 로그 · 상자/주간구매(선녀·요령서)/거래소/도술책/문파를 사냥 중에만 돌던 것 완화(퀘 틈에도 돎)."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.13.6/_delta_dokkaebi.zip",
+      "sha256": "96c5dd2126f4fde2afb0a7283e5a1b09261f06ce87d82b4f2f2ebceaf36f862d",
+      "notes": "자동 업데이트: 다운로드 중 '종료하지 마세요' 크게 표시(다운로드는 원래 종료 전·완료 후에만 종료)."
     }
   }
 }
