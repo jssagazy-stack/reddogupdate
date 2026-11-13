@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.13.6",
+      "version": "2026.11.13.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.13.6/_delta_dokkaebi.zip",
-      "sha256": "96c5dd2126f4fde2afb0a7283e5a1b09261f06ce87d82b4f2f2ebceaf36f862d",
-      "notes": "자동 업데이트: 다운로드 중 '종료하지 마세요' 크게 표시(다운로드는 원래 종료 전·완료 후에만 종료)."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.13.7/_delta_dokkaebi.zip",
+      "sha256": "d04bb4aa17c2ce27e65b45f5200651358230f9916f14d5090d1514591aa30e98",
+      "notes": "안전: 무기/재조율/환원/도안/염색 상자 하드금지(비가역 오개봉 방지) · 각성 탭을 글자로 찾아 재조율/환원 오클릭 방지 · 업데이트 다운로드 중 '종료 금지' 표시."
     }
   }
 }
