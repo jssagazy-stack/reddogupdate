@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.15.7",
+      "version": "2026.11.15.8",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.7/_delta_dokkaebi.zip",
-      "sha256": "9eb1368b07a4ac9889c4209b5b7d44766f9b02eb496edf64ac8030c23d717464",
-      "notes": "도술 상점 강타→절명 수정 + 네 상점 조각 전부 구매"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.8/_delta_dokkaebi.zip",
+      "sha256": "db89854c4cf53c49fba34a234a14b243a3e5a78fc2c768f09cb0d0411dcb6996",
+      "notes": "핫픽스 — 도술 상점 절명→강타 원복(실제 저격·연타·강타·파멸)"
     }
   }
 }
