@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.14.1",
+      "version": "2026.11.14.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.14.1/_delta_dokkaebi.zip",
-      "sha256": "444d74ae8980e63eaaf14dcbe99167e3f39e26790c2506e7bc7cb33731aba2c7",
-      "notes": "쿠폰 자동 등록 추가 — 하루 1회 미등록 쿠폰(도깨비의보답·다짐·약속·마음) 자동 등록"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.14.2/_delta_dokkaebi.zip",
+      "sha256": "11988993f06197a84f1868552a26ee7f90c412d5523a8dafabe1485af9eef735",
+      "notes": "도술 강화 요령서 공급 개선 — 잡화 상점 요령서/천요석 체크박스 분리(요령서 기본 켬), 상자 요령서 선택에 절명·파멸 추가"
     }
   }
 }
