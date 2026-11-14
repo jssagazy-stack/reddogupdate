@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.14.2",
+      "version": "2026.11.14.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.14.2/_delta_dokkaebi.zip",
-      "sha256": "11988993f06197a84f1868552a26ee7f90c412d5523a8dafabe1485af9eef735",
-      "notes": "도술 강화 요령서 공급 개선 — 잡화 상점 요령서/천요석 체크박스 분리(요령서 기본 켬), 상자 요령서 선택에 절명·파멸 추가"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.14.3/_delta_dokkaebi.zip",
+      "sha256": "146d3f49e1eafa2c377a563d1a856892410b2df7d78bd3f18ac68de2bb4c8e4d",
+      "notes": "보스 사망 '입장 위치에서 부활' 미인식으로 멈추던 것 고침 — 사망 제목 선명하면 DEAD 인식 + 가운데 부활 버튼 클릭"
     }
   }
 }
