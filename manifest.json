@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.15.4",
+      "version": "2026.11.15.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.4/_delta_dokkaebi.zip",
-      "sha256": "bbf074c0d5412977eef484333473b852df11d355156a3812adf9d681a7925074",
-      "notes": "보류 간격 분리 — 본편·서사·주간·전래동화 24h(하루 1번 재확인), 일일 5분"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.5/_delta_dokkaebi.zip",
+      "sha256": "c71bb5d9abea9dbbf5ba5359e84250d39a07375eed417fb940442fc2b7460b7f",
+      "notes": "핫픽스 — 모듈 로드 실패로 앱 안 켜지던 것 수정"
     }
   }
 }
