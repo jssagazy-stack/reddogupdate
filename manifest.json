@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.15.14",
+      "version": "2026.11.15.15",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.14/_delta_dokkaebi.zip",
-      "sha256": "e42632505040cbbadd1b4b448f66c59526e0aa5375486993520b28312e9b7497",
-      "notes": "감정창 맨위로: 우측하단 최상단 버튼 클릭(보일때만)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.15/_delta_dokkaebi.zip",
+      "sha256": "f5d5c5d9f46378e3e599cc0f25aede4b1865af182d3598625c3c4fb27ed0b378",
+      "notes": "감정퀘: 제목 깨져도 목표줄에서 감정 직접 추출(으쓱 식별)"
     }
   }
 }
