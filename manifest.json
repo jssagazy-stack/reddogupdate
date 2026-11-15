@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.15.19",
+      "version": "2026.11.16.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.19/_delta_dokkaebi.zip",
-      "sha256": "e15ac11512f823efbc29ea7b0779ac9d3bf858c825aa2a627e908f6b46917027",
-      "notes": "도술 확보: 실패시 6h 막힘 제거(20분 재시도) + 침묵 조기반환 로그"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.1/_delta_dokkaebi.zip",
+      "sha256": "acae37ed6603fd45002dca938850d36daafd06cdcfc78a3bec7da6ce2c38262a",
+      "notes": "몽련 발동을 필드 위젯(얼굴) 감지로 — 알림판 OCR 깨져도 새 계정 메인퀘 진행"
     }
   }
 }
