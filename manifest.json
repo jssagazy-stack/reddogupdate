@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.15.12",
+      "version": "2026.11.15.13",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.12/_delta_dokkaebi.zip",
-      "sha256": "36370a99c185fe5753421466ff9076e69274d71cfe424cb8bd2f79d4d6f00e5b",
-      "notes": "감정 재진행을 간편목록 토글로(임무메뉴 대신) — 지정 위치서 감정창 열기"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.13/_delta_dokkaebi.zip",
+      "sha256": "997d9e926fab6257bba2b09586ece7794763e91bbb80fff5d83c8f71db96e77b",
+      "notes": "감정창: 찾을 감정이 이미 보이면 맨 위 리셋 스크롤 생략"
     }
   }
 }
