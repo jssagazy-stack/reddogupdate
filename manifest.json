@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.15.17",
+      "version": "2026.11.15.18",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.17/_delta_dokkaebi.zip",
-      "sha256": "f098dfd83a003db43f542a17bf6020c82c85cff13a4cdba9060cef03822ffbba",
-      "notes": "메인퀘 몽련 치료(요기정화)를 제품에 연결 — 새 계정 초반 진행"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.15.18/_delta_dokkaebi.zip",
+      "sha256": "aab3748cdd25ff6ac80cb3cbb961984c3c6590bc8bd66e4f3a5002de81f9ae60",
+      "notes": "비경: 주간(5h)·상시 비경을 퀘보다 먼저 + 상시 재진입(하루1회 게이트 제거)"
     }
   }
 }
