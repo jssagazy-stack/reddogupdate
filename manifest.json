@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.16.2",
+      "version": "2026.11.16.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.2/_delta_dokkaebi.zip",
-      "sha256": "49c8857056890d2cc8efc80c5a722f2282dc174146a01213cc547422ed5175d1",
-      "notes": "튜토리얼 드라이버 제품 이식 + 튜토 모드(초반 메인퀘=요기정화/몽련 단독 진행, 딴짓 중단)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.3/_delta_dokkaebi.zip",
+      "sha256": "a8f46f3c5436eb976e31fe3a94b704725d8024dc7c0084eae2f8526521b220ef",
+      "notes": "튜토 도술창 고착 해결(귀속-only 제한 풀어 도술 학습) + 화면판정 로그"
     }
   }
 }
