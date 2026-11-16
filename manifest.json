@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.16.6",
+      "version": "2026.11.16.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.6/_delta_dokkaebi.zip",
-      "sha256": "413a0c81640d1906418f259ececa260b9cbb9ababee0ad99f31d8b6638819fa5",
-      "notes": "튜토 도술 장착 후 도술창 닫기(재장착 대신)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.7/_delta_dokkaebi.zip",
+      "sha256": "3f9e5dcee3e2b4f2fef39a1988627ff0d69c45995a240afa40bbe431dbac06e1",
+      "notes": "도술 확보: 못 산 상점 도술 반복 구매(엽전 모이면 다시)"
     }
   }
 }
