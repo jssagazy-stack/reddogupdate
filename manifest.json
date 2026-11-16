@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.16.12",
+      "version": "2026.11.16.13",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.12/_delta_dokkaebi.zip",
-      "sha256": "06417b4fc226ba4549d34009796c06038fc8eebf16ed9d40e92625a4edada4cc",
-      "notes": "리포트 라벨: 닉네임 파일 자동 생성 보강(config 폴더 mkdir)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.13/_delta_dokkaebi.zip",
+      "sha256": "fa44fbad0ff81c923dbbe0f4521171b98b24e1482c609ce838c3d1c20b0e9016",
+      "notes": "도술 상점 구매 실패 시 그 상점 화면 즉시 업로드(report.snap) — 라이브 디버깅용"
     }
   }
 }
