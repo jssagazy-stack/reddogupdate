@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.17.2",
+      "version": "2026.11.17.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.2/_delta_dokkaebi.zip",
-      "sha256": "f917afc546361be26277cfd254c2d63a61eec692b0fe3858377f1bf4e973e2ac",
-      "notes": "장비상자 개봉0 진단 스냅→로그로(장신구 장착 확인, 소음 감소)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.3/_delta_dokkaebi.zip",
+      "sha256": "06c367ace9e6a0acc72a9f867fd9a2451ddb403c342ea507a2ecfcfd3ae12c29",
+      "notes": "장비상자: 상자 섹션이 하단 페이지면 스크롤로 찾아 개봉(꽉 찬 가방 장신구 미개봉 수정, 태민희)"
     }
   }
 }
