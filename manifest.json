@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.17.4",
+      "version": "2026.11.17.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.4/_delta_dokkaebi.zip",
-      "sha256": "d70c96118114b5e3b7f838fc9b9b259bccabd524e3e1535b6fe84f09a23d0afa",
-      "notes": "가호 미장착 진단: equip_gaho 0일 때 가호 창 스냅(장착할 가호 유무·Auto 빨간점 확인)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.5/_delta_dokkaebi.zip",
+      "sha256": "6a202820dc54ea1a8fbaa5cb5d5735424ab515b7a28c1b1f4b6132fe9bf583e3",
+      "notes": "서사 임무 자동이동 무한 스톨 루프 수정: 거리 안 줄고 6번 연속 막히면 그 퀘 포기하고 사냥 등으로"
     }
   }
 }
