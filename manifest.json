@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.16.17",
+      "version": "2026.11.16.18",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.17/_delta_dokkaebi.zip",
-      "sha256": "7d9f87084231fc5bb0b1830c7d08d92c5a4c32f82eb2186019c2baf7b30c3e8d",
-      "notes": "장비상자 Phase2(장신구·방어구 종류별 자동선택) + 수동 업로드 로그 리셋(델타만)·스샷 성공분 제거"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.18/_delta_dokkaebi.zip",
+      "sha256": "b1a4667d94f4ec17e7f8a68983f218f9637da0a48689a08b4a570b9ce3979f8d",
+      "notes": "장비상자 개봉 버그 2건: 상자 카테고리 접힘 펴기 + 상자종류 판별을 제목 대신 설명글(선택상자 무기/장신구/방어구)로"
     }
   }
 }
