@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.16.9",
+      "version": "2026.11.16.10",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.9/_delta_dokkaebi.zip",
-      "sha256": "dbec26f2c4a85faa149ba04566d7274a644b88e3d4f80619495e49b639f80344",
-      "notes": "리포트 하네스 1단계: 상태 리포트 자동 업로드(비공개 레포, 운영 플릿 토큰 있을 때만)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.10/_delta_dokkaebi.zip",
+      "sha256": "35972e330d164ad9f162a6fd81ddfd3bb0dc58e2b450ddafddefe89d97192d96",
+      "notes": "리포트 하네스 2·3단계: 막힘 자동 트리거 + 플릿 자동시작·실행중 자동업데이트·재시작"
     }
   }
 }
