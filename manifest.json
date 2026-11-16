@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.16.20",
+      "version": "2026.11.16.21",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.20/_delta_dokkaebi.zip",
-      "sha256": "b0c94d91cad3ddcf8faa788d0a6ee629e9acf69f3e0ee9dd64d38f12690461f5",
-      "notes": "장비상자: 칸마다 재오픈 시 상자 섹션 재접힘 방지(장신구 상자 slot1+ 미개봉 수정)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.21/_delta_dokkaebi.zip",
+      "sha256": "bc4c3a3a72e9ed8165b28feb49370db0f1bc2b3b72589ae58fcd4969bdf92a36",
+      "notes": "가짜 stuck 방지: 전투력 OCR 실패(null, 어두운 동굴 등)면 막힘 시계 리셋 — 측정불가를 정체로 오인 금지"
     }
   }
 }
