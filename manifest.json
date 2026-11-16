@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.16.16",
+      "version": "2026.11.16.17",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.16/_delta_dokkaebi.zip",
-      "sha256": "cbc7215cd30fde55efec779d30666793aadb585e6cf29347ee0db525a3e87037",
-      "notes": "디버그 업로드 개편: 스샷 담기 버튼(즉시 로컬 저장) + 업로드 버튼(여러 장+로그+코멘트 한 번에)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.17/_delta_dokkaebi.zip",
+      "sha256": "7d9f87084231fc5bb0b1830c7d08d92c5a4c32f82eb2186019c2baf7b30c3e8d",
+      "notes": "장비상자 Phase2(장신구·방어구 종류별 자동선택) + 수동 업로드 로그 리셋(델타만)·스샷 성공분 제거"
     }
   }
 }
