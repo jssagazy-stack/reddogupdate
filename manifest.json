@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.16.15",
+      "version": "2026.11.16.16",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.15/_delta_dokkaebi.zip",
-      "sha256": "634b77b09640c6dc0396492068355cabe7f16391fe00a3e11d76a651fe986efa",
-      "notes": "장비 선택상자 개봉·장착 1단계: 무기상자 지팡이 자동(20분·켤때·사망틈), 장신구·방어구 선택창은 스냅 수집"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.16.16/_delta_dokkaebi.zip",
+      "sha256": "cbc7215cd30fde55efec779d30666793aadb585e6cf29347ee0db525a3e87037",
+      "notes": "디버그 업로드 개편: 스샷 담기 버튼(즉시 로컬 저장) + 업로드 버튼(여러 장+로그+코멘트 한 번에)"
     }
   }
 }
