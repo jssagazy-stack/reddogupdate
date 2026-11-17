@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.17.6",
+      "version": "2026.11.17.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.6/_delta_dokkaebi.zip",
-      "sha256": "dac3a859424a7f100c53184f4cb3326b4ca7c34810464f528c7cc4c99359df45",
-      "notes": "장비 분해 규칙 개정(사용자): 착용 등급 무관 일반+희귀까지 분해(영웅+ 남김, 강화 포함, 거래소표시 제외)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.7/_delta_dokkaebi.zip",
+      "sha256": "56f945cc052d96fca0c9ac4359d400d7f55398fd0bc842ae718b11da4d94b05d",
+      "notes": "도술 미학습 진단: '모두 배우기'가 거래가능 조각 때문에 막힐 때 확인창 스냅(개별 학습 가능 여부 확인)"
     }
   }
 }
