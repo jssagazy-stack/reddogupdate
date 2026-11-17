@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.17.9",
+      "version": "2026.11.17.10",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.9/_delta_dokkaebi.zip",
-      "sha256": "c0915153c8de7990fcb1bbdea17c9be9e45c3b05234d4c7567c6351f8ef7dbdb",
-      "notes": "dosul_none 업로드 진단 제거(덱 완성 계정서 반복 노이즈) — 웅이우기 정체 자체 해소(101K)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.10/_delta_dokkaebi.zip",
+      "sha256": "84c2e83949624ae8474c6aeb7de49d5cb4497fb38a85a5f2258eaf12f26f91b0",
+      "notes": "낙화의 전장 갇힘 수정: 진행 없이 3분 가만히 있으면 나가기(저투력 계정 빈 구역 90분 정체 방지)"
     }
   }
 }
