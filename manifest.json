@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.17.10",
+      "version": "2026.11.18.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.10/_delta_dokkaebi.zip",
-      "sha256": "84c2e83949624ae8474c6aeb7de49d5cb4497fb38a85a5f2258eaf12f26f91b0",
-      "notes": "낙화의 전장 갇힘 수정: 진행 없이 3분 가만히 있으면 나가기(저투력 계정 빈 구역 90분 정체 방지)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.18.1/_delta_dokkaebi.zip",
+      "sha256": "7802cb2c32c8ffb95042dbbbea837449da471c9f2945995f5232f88fb6de223d",
+      "notes": "추천 사냥터: 전투력 못 읽으면 최저 필드로 추락 안 함(현재 사냥터 유지) — 태민희 보상감소 안개기슭 방지"
     }
   }
 }
