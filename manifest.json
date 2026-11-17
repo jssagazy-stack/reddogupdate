@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.17.8",
+      "version": "2026.11.17.9",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.8/_delta_dokkaebi.zip",
-      "sha256": "3554ce728497681686733e5afcc4658dd5513a9cc0bb11697d460d617db4533a",
-      "notes": "도술 '배울 게 없음' 진단: 도술 창 업로드(조각 부족/버튼 미검출 확인) — 웅이우기 덱 미완성 전투력 정체"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.9/_delta_dokkaebi.zip",
+      "sha256": "c0915153c8de7990fcb1bbdea17c9be9e45c3b05234d4c7567c6351f8ef7dbdb",
+      "notes": "dosul_none 업로드 진단 제거(덱 완성 계정서 반복 노이즈) — 웅이우기 정체 자체 해소(101K)"
     }
   }
 }
