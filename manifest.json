@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.17.5",
+      "version": "2026.11.17.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.5/_delta_dokkaebi.zip",
-      "sha256": "6a202820dc54ea1a8fbaa5cb5d5735424ab515b7a28c1b1f4b6132fe9bf583e3",
-      "notes": "서사 임무 자동이동 무한 스톨 루프 수정: 거리 안 줄고 6번 연속 막히면 그 퀘 포기하고 사냥 등으로"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.17.6/_delta_dokkaebi.zip",
+      "sha256": "dac3a859424a7f100c53184f4cb3326b4ca7c34810464f528c7cc4c99359df45",
+      "notes": "장비 분해 규칙 개정(사용자): 착용 등급 무관 일반+희귀까지 분해(영웅+ 남김, 강화 포함, 거래소표시 제외)"
     }
   }
 }
