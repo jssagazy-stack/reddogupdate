@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.19.1",
+      "version": "2026.11.19.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.1/_delta_dokkaebi.zip",
-      "sha256": "456ce87fea25d136ef0501ca17fe03cd6a835c2cfb9f6c52134aa3cc028780fa",
-      "notes": "웅이우기 서사 고착 수정: '[외전] 동굴에서 들린 소리 4' 감정표현=황당(사용자 확인) QUEST_EMOTE 추가. 추적글이 흘러가 감정 OCR 실패해 2시간 고착하던 것 — 퀘 이름 매핑으로 해결."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.2/_delta_dokkaebi.zip",
+      "sha256": "01d5a1a83a69f0fa6e198fae79a17766d5f1604bba54db36d3e15f64207f7bfb",
+      "notes": "서사 감정 정정: '동굴에서 들린 소리 4' 감정표현=삐짐(게임 '삐짐 이(가) 맞음' 확정, .19.1의 황당은 오류). 봇 시행착오로도 통과하나 올바른 매핑으로 낭비 방지."
     }
   }
 }
