@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.18.14",
+      "version": "2026.11.19.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.18.14/_delta_dokkaebi.zip",
-      "sha256": "87f3505cd4664b73828515a302777a37287e44c3a120c9ec369e50ce1eebb740",
-      "notes": "부활 수정 확인 완료(웅이우기 부활 성공·base·전투력 116724) → 확인된 진단 제거: gear_power_bag(가방읽기 정상 확인)·revive_result/nobtn(부활 성공 확인). 부활 '마을' 인식·보강 로그는 유지. 거래소 market_after_sell 모니터링 스냅은 유지."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.1/_delta_dokkaebi.zip",
+      "sha256": "456ce87fea25d136ef0501ca17fe03cd6a835c2cfb9f6c52134aa3cc028780fa",
+      "notes": "웅이우기 서사 고착 수정: '[외전] 동굴에서 들린 소리 4' 감정표현=황당(사용자 확인) QUEST_EMOTE 추가. 추적글이 흘러가 감정 OCR 실패해 2시간 고착하던 것 — 퀘 이름 매핑으로 해결."
     }
   }
 }
