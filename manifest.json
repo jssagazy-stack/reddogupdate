@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.19.5",
+      "version": "2026.11.19.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.5/_delta_dokkaebi.zip",
-      "sha256": "87f4cdbdc4dee489f771753097b02a8af954ac38eae107f7448d200f01d66944",
-      "notes": "감정표현 false 맞음 근본수정: '맞음'을 목표글 사라짐만으로 보면 글이 스크롤로 안 보일 때 틀린 감정에도 오탐(웅이우기 삐짐·윙크)→황당(12번째)까지 못 가 고착. 게임은 맞는 감정 쓸 때까지 감정창을 열어두므로, '감정창 닫힘'을 맞음 조건에 추가(_emote_open). 이제 틀리면 계속 써 봐 황당까지 도달."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.6/_delta_dokkaebi.zip",
+      "sha256": "9318248e4995d90d970d4b8145a5d643a16923f186247f8ec4a9f8ccf264e70e",
+      "notes": "태민희 재시작 후 안개기슭1(보상감소) 추락 근본수정: 재시작마다 가방 전투력 캐시가 비어(성숙계정은 equip_better 드묾) HUD 저오독으로 최저필드 선택 → 가방값을 계정별 config 파일(bag_power.txt)로 보존해 재시작 직후 바로 사용. 전투력은 계속 올라 하한값이라 안전, 가방 안 열어 프리즈 없음."
     }
   }
 }
