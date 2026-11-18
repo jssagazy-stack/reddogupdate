@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.18.13",
+      "version": "2026.11.18.14",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.18.13/_delta_dokkaebi.zip",
-      "sha256": "56043f8acad0a391c6395f3f23406ead47c63bfa790342bd000038b974361e52",
-      "notes": "부활 진단: 개편 사망화면에서 '마을로 가기' 부활이 되는지 1회 스냅(revive_result: 눌렀는데 기본화면 안돌아올 때 결과화면 / revive_nobtn: 버튼 못찾을 때). 띠 OCR 로그도 보강."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.18.14/_delta_dokkaebi.zip",
+      "sha256": "87f3505cd4664b73828515a302777a37287e44c3a120c9ec369e50ce1eebb740",
+      "notes": "부활 수정 확인 완료(웅이우기 부활 성공·base·전투력 116724) → 확인된 진단 제거: gear_power_bag(가방읽기 정상 확인)·revive_result/nobtn(부활 성공 확인). 부활 '마을' 인식·보강 로그는 유지. 거래소 market_after_sell 모니터링 스냅은 유지."
     }
   }
 }
