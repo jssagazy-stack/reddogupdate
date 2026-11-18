@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.19.4",
+      "version": "2026.11.19.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.4/_delta_dokkaebi.zip",
-      "sha256": "efb61e7bd2ef8fae795f7d90dddd2ada618b91de49b597fbe7cb8718451f3de1",
-      "notes": "웅이우기 황당 감정 고착 근본수정: ①추적창 OCR 공백이라 QUEST_EMOTE 못 집던 것 — 시행착오 순서를 사용자 확정감정(황당·화남·으쓱·뽐내기) 먼저로. ②틀린 감정 써도 목표글 스크롤로 잠깐 안 보이면 '맞음' 오탐하던 것 — GOAL_STILL_READS 4→8로 더 꼼꼼히. 황당 포함."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.5/_delta_dokkaebi.zip",
+      "sha256": "87f4cdbdc4dee489f771753097b02a8af954ac38eae107f7448d200f01d66944",
+      "notes": "감정표현 false 맞음 근본수정: '맞음'을 목표글 사라짐만으로 보면 글이 스크롤로 안 보일 때 틀린 감정에도 오탐(웅이우기 삐짐·윙크)→황당(12번째)까지 못 가 고착. 게임은 맞는 감정 쓸 때까지 감정창을 열어두므로, '감정창 닫힘'을 맞음 조건에 추가(_emote_open). 이제 틀리면 계속 써 봐 황당까지 도달."
     }
   }
 }
