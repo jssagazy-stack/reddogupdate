@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.18.9",
+      "version": "2026.11.18.10",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.18.9/_delta_dokkaebi.zip",
-      "sha256": "95dbcf16e8097927891ef2e00c47265606c2eb6a562cb297308f00339bcda48a",
-      "notes": "거래소 개편 대응 판매 플로우 재작성·재개: 판매등록 탭/활성판정/등록목록/가방/정산 새 좌표, 등록창은 [최대] 전량+총액기반 가치판단(수량 OCR 회피), 등록확인은 글자감지+[등록](638,517). 소수·득템·잡템 skip 유지. 첫 등록 1회 스냅."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.18.10/_delta_dokkaebi.zip",
+      "sha256": "a3491f9903653b733d2d2313f9fcebe9b523b3de009f840a05beaf7286ab3634",
+      "notes": "사냥터 선택 리셋 버그 수정: 전투력 미상+사냥터 미정(초기화 직후)이면 최저필드(안개기슭=보상감소)로 떨어뜨리지 않고 None 반환 — 성장이 가방 win_ocr로 전투력 캐시하면 적정 필드 선택. 146K 태민희 초기화 직후 안개기슭1 93분 고착 수정."
     }
   }
 }
