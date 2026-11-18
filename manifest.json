@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.18.5",
+      "version": "2026.11.18.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.18.5/_delta_dokkaebi.zip",
-      "sha256": "f9421d8cf496003b54619946b51f0855bf94e901611b899dc80217ed764b7837",
-      "notes": "거래소 탭 개편(구매예약 추가) 재측정용 진단 스냅 추가(market_tabs: 열린 거래소 탭바, market_selltab_fail: 판매 탭 전환 실패 화면). 돌파/환원/요령서 통합은 수동 세팅이라 미변경."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.18.6/_delta_dokkaebi.zip",
+      "sha256": "63e650b995efa63c7a85139133893d3728d036b521427e36e7d65cc6f70ccff4",
+      "notes": "거래소 전면 개편 확인(목록·구매확인·판매등록·거래내역 탭+좌측 카테고리·즐겨찾기). 판매등록 탭=(472,80) 측정, 판매등록 화면 스냅 확보. 재작성 전까지 판매 임시 중단(오클릭·오구매 방지)."
     }
   }
 }
