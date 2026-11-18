@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.19.3",
+      "version": "2026.11.19.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.3/_delta_dokkaebi.zip",
-      "sha256": "d74ac0c95e4644bd339ff316b043f813b31603cdc8de0b39e950c19aeb794439",
-      "notes": "서사 감정 황당으로 되돌림: '동굴에서 들린 소리 4'=황당(사용자 2회 확정). 봇 '삐짐 이가 맞음'은 오탐이라 .19.2에서 잘못 삐짐으로 바꿨던 것 복구 — 사용자 확정값이 봇 OCR보다 우선."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.4/_delta_dokkaebi.zip",
+      "sha256": "efb61e7bd2ef8fae795f7d90dddd2ada618b91de49b597fbe7cb8718451f3de1",
+      "notes": "웅이우기 황당 감정 고착 근본수정: ①추적창 OCR 공백이라 QUEST_EMOTE 못 집던 것 — 시행착오 순서를 사용자 확정감정(황당·화남·으쓱·뽐내기) 먼저로. ②틀린 감정 써도 목표글 스크롤로 잠깐 안 보이면 '맞음' 오탐하던 것 — GOAL_STILL_READS 4→8로 더 꼼꼼히. 황당 포함."
     }
   }
 }
