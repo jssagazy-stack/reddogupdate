@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.18.10",
+      "version": "2026.11.18.11",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.18.10/_delta_dokkaebi.zip",
-      "sha256": "a3491f9903653b733d2d2313f9fcebe9b523b3de009f840a05beaf7286ab3634",
-      "notes": "사냥터 선택 리셋 버그 수정: 전투력 미상+사냥터 미정(초기화 직후)이면 최저필드(안개기슭=보상감소)로 떨어뜨리지 않고 None 반환 — 성장이 가방 win_ocr로 전투력 캐시하면 적정 필드 선택. 146K 태민희 초기화 직후 안개기슭1 93분 고착 수정."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.18.11/_delta_dokkaebi.zip",
+      "sha256": "8c2f9486e7bf35b68b4b24fec0238ff8e4e3565a758d7ab0d89a6ddb9249f8e0",
+      "notes": "진단: 가방 win_ocr 전투력 읽기(gear.cached_power 소스)가 11-18 개편으로 깨졌는지 확인 — equip_better 가방 열 때 1회 gear_power_bag 스냅(파싱값·POWER_BOX 포함). 태민희 안개기슭1 유지=캐시 비어 HUD 폴백 추정."
     }
   }
 }
