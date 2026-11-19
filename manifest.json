@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.20.3",
+      "version": "2026.11.20.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.3/_delta_dokkaebi.zip",
-      "sha256": "6b3eee1ecb0eec5082143755d0420c693d43135821c665f508f0e15a3bbf6b7e",
-      "notes": "단각교환/복분 상점 목록 진단 스냅에 아래쪽(shop_list_low) 추가 — 통합된 도술강화요령서 이름 확인용. 추측 수정 없이 화면만 확보"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.4/_delta_dokkaebi.zip",
+      "sha256": "bb6c14eb9513a4e487dc87aa12ff63be248f57bf27636f9f0df07f70aef88c03",
+      "notes": "일일비경 영구봉쇄 근본수정: 사망기록 전투력이 None/저오독/현재초과면 DEATH_RISE 게이트가 영영 안 풀려 비경 봉쇄되던 것(웅이우기 128K인데 일일3곳 1단계고착) — stage_cap가 쓸수없는 사망전투력 캡을 해제, record_death는 멀쩡한 값만 기록. +화첩 첫선택 후 화면(일괄등록) 진단스냅"
     }
   }
 }
