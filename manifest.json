@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.20.6",
+      "version": "2026.11.20.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.6/_delta_dokkaebi.zip",
-      "sha256": "d87a16c2ffee5c2775da3ae41de2e49b55c4f06f13aacfbe495ec9c4d36331c1",
-      "notes": "단각교환 요령서 통합 대응: 게임 업뎃으로 계열별 요령서(파멸·강타·절명·헌신·강인)가 단일 '도술 강화 요령서'(100단각·일일30)로 통합(shop_list_low 스냅 확인) — dan.TRADE 5개→1개 교체, match_item에 통합 요령서 분기 추가. 엽전상점 계열별 매칭은 보존. 도술강화 요령서 재료 수급 복구"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.7/_delta_dokkaebi.zip",
+      "sha256": "fa3a286e8691e88a22ff8c22e9b80e1aa2e87c676afa61b78c78e63b45b3b495",
+      "notes": "비경 진단: 태민희 일일3곳 이미 farming 후 재시도서 '입장 확인 창이 안 뜸'(일일비경은 00:52 정상 수행됨, 사용후 재시도 실패) — 시간표시·입장버튼 상태 확인용 bigyeong_noconfirm 스냅 추가. 추측 수정 없이 화면 확보"
     }
   }
 }
