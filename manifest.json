@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.19.6",
+      "version": "2026.11.19.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.6/_delta_dokkaebi.zip",
-      "sha256": "9318248e4995d90d970d4b8145a5d643a16923f186247f8ec4a9f8ccf264e70e",
-      "notes": "태민희 재시작 후 안개기슭1(보상감소) 추락 근본수정: 재시작마다 가방 전투력 캐시가 비어(성숙계정은 equip_better 드묾) HUD 저오독으로 최저필드 선택 → 가방값을 계정별 config 파일(bag_power.txt)로 보존해 재시작 직후 바로 사용. 전투력은 계속 올라 하한값이라 안전, 가방 안 열어 프리즈 없음."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.7/_delta_dokkaebi.zip",
+      "sha256": "37bfc8a6115e2b06530f268ed2aad23eb07ee4d69ae001eab2b52c168de690f4",
+      "notes": "★태민희 안개기슭1 진짜원인 수정: 가방 OCR이 '전투력 147,263 2,470위'에서 전투력 깨지면 순위숫자(2,567위)를 전투력으로 오독→pick(2567)→최저필드. _parse_power가 순위('숫자+위')를 먼저 지우고 읽음(깨지면 None). +급락방어(이전 절반미만 버림)+보존 1만미만 안불러옴. 실측검증."
     }
   }
 }
