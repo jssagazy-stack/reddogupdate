@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.20.7",
+      "version": "2026.11.20.8",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.7/_delta_dokkaebi.zip",
-      "sha256": "fa3a286e8691e88a22ff8c22e9b80e1aa2e87c676afa61b78c78e63b45b3b495",
-      "notes": "비경 진단: 태민희 일일3곳 이미 farming 후 재시도서 '입장 확인 창이 안 뜸'(일일비경은 00:52 정상 수행됨, 사용후 재시도 실패) — 시간표시·입장버튼 상태 확인용 bigyeong_noconfirm 스냅 추가. 추측 수정 없이 화면 확보"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.8/_delta_dokkaebi.zip",
+      "sha256": "096e5298b6766a50afe101de7879552154697b68bdfedfb76e8e17d38fe2a54e",
+      "notes": "비경 재시작 고착 근본수정: 재시작이 상시비경(원님 고개) 안에서 걸릴 때 '비경 안 판정'이 첫 프레임 한 장이라 전환프레임이면 놓쳐 quest.step이 돌며 제 도술 빛을 장판으로 오인해 91분 끝없이 피함(태민희). bigyeong_stay를 몇 프레임 재시도로 보강(고착 스냅 bg.inside=True로 판정 자체는 정상 확인)"
     }
   }
 }
