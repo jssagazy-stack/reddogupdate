@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.19.9",
+      "version": "2026.11.20.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.9/_delta_dokkaebi.zip",
-      "sha256": "f0b559974555abc322b7515af697e604f2095e97f483d0bce8120b8e48617c9f",
-      "notes": "일일비경 미실행 진단: enter()에서 '오늘 시간 다 씀'(time_left False)·'적합 없음'(best_stage None)일 때 비경 화면 스냅(bigyeong_notime/nofit) — 게임 업뎃으로 비경 UI 바뀌어 오판하는지 확인용. 재시작 시 비경 재확인됨."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.1/_delta_dokkaebi.zip",
+      "sha256": "bb9ae0ad373fc9658df5adc25d02e03608722b49c49c19621b69577363326ea4",
+      "notes": "게임 업뎃 UI 재측정용 진단 스냅: 상점 목록(shop_list — 단각교환·복분, 요령서 통합 확인)·화첩 도감(hwa_dogam — 일괄등록 개편). 비경 진단(.19.9)과 함께 재시작 시 올라옴. 추측 수정 없이 화면 확보만."
     }
   }
 }
