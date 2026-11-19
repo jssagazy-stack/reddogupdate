@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.19.7",
+      "version": "2026.11.19.8",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.7/_delta_dokkaebi.zip",
-      "sha256": "37bfc8a6115e2b06530f268ed2aad23eb07ee4d69ae001eab2b52c168de690f4",
-      "notes": "★태민희 안개기슭1 진짜원인 수정: 가방 OCR이 '전투력 147,263 2,470위'에서 전투력 깨지면 순위숫자(2,567위)를 전투력으로 오독→pick(2567)→최저필드. _parse_power가 순위('숫자+위')를 먼저 지우고 읽음(깨지면 None). +급락방어(이전 절반미만 버림)+보존 1만미만 안불러옴. 실측검증."
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.19.8/_delta_dokkaebi.zip",
+      "sha256": "4fae6f506ff804b76becb064bf9ef1e39c52b8fb1c72218407dcadc3124973fb",
+      "notes": "태민희 안개기슭1 추가수정: .19.7에도 가방 OCR이 148K를 1,481로(순위 아닌 전투력 숫자 자체 깨짐) 읽어 캐시→안개기슭1. cache_power_from에 1만 미만 거부 추가(최저 사냥터 37K라 1만 미만은 무조건 오독) — 오독값이 좋은 캐시를 덮어쓰던 걸 막음. 실측검증."
     }
   }
 }
