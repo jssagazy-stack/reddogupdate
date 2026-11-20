@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.20.13",
+      "version": "2026.11.20.14",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.13/_delta_dokkaebi.zip",
-      "sha256": "b4552b2fa5167918b3344b0a7b8b99b0beb5d6ed03ddf1367f0815525dea8880",
-      "notes": "필드레이드 막힘 진단: 플래너 아이콘이 메뉴에서 안 잡혀('메뉴에 플래너 아이콘이 안 보임' 반복) 보스 출현일정을 못 읽어 필드보스가 아예 안 돌아감(태민희 152K로 입장가능한데 21시 산군대호 스킵). _open_menu_icon 아이콘 미발견 시 열린 메뉴 1회 스냅(menu_miss_*) 추가 — 플래너 아이콘이 업뎃으로 바뀐건지 확인용. 추측 수정 없이 화면 확보"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.14/_delta_dokkaebi.zip",
+      "sha256": "8b5bcce814d8cc4c6567465898ac34ea5bcda400cb23c46e1a10a50753631cb8",
+      "notes": "필드레이드 복구: 게임 업뎃으로 메뉴 '플래너'가 사라져(menu_miss 스냅 확인) 보스 일정을 못 읽어 필드보스가 아예 안 돌던 것 — fieldboss.refresh를 보스토벌 창 '출현 시간' 줄에서 요일·시각 읽는 방식으로 교체(appear_times, 플래너 불요). 실측 스냅으로 월수금일 21시·오늘 일정 생성 검증. 태민희 152K라 다음 산군대호(일 21시)부터 입장"
     }
   }
 }
