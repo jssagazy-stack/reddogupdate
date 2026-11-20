@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.20.10",
+      "version": "2026.11.20.11",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.10/_delta_dokkaebi.zip",
-      "sha256": "49f807521c919f46aa83e11d320762a4c308b2d4158e060cf6487d3d2cde9ee9",
-      "notes": "비경 '입장 확인 창 안 뜸' 근본수정: 게임 업뎃으로 00:00:00 시간표시 글꼴이 바뀌어 BASE_ZERO 템플릿이 안 맞아 time_left가 '시간 남음' 오판→이미 쓴 일일비경에 계속 입장시도(웅이우기 07:21 4곳). 입장시 뜨는 '이용 시간을 모두 이용하셨습니다' 알림을 OCR로 잡아 NoTime 처리(noconfirm 스냅 검증). 일일3곳 시간 공유라 한 번에 그만둠"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.20.11/_delta_dokkaebi.zip",
+      "sha256": "8fd564fbadafa8a83e351c2b671c23e97e46c12c25d8af6cca08f61ea35a7c0c",
+      "notes": "콘텐츠 재점검용 audit 스냅 추가(사용자 지시): 콘텐츠 창이 열리면 세션당 1회 스샷(_open=이벤트/업적/우편/길라잡이, _open_menu_icon=화첩/도술/가호/수행록/전투 등 메뉴 20종). 재시작=점검 후 자동 재촬영. 올라온 스샷을 템플릿과 대조해 업뎃으로 바뀐 UI 확인. 동작 변경 없는 순수 진단"
     }
   }
 }
