@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.21.7",
+      "version": "2026.11.21.8",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.7/_delta_dokkaebi.zip",
-      "sha256": "ed03f3762dbbbed9a7aad786e58e29176827483edde7d6d9e2b53c3176ebec97",
-      "notes": "장비 분해 창 안 뜸 진단: 양 계정 100% 분해 실패(신기가루·강화비법서 수급 끊김) 지점에 gear_nodisassemble 스냅 추가"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.8/_delta_dokkaebi.zip",
+      "sha256": "e07602a77828be243be4dc4729298c82d7a193673464ec73ea5e1864d2b89891",
+      "notes": "장비 분해 복구: 업뎃으로 분해창 재배치(거래가능 포함 칸 추가)·제목 템플릿 깨짐 → 제목 OCR(dis_open)+탭/체크/버튼 좌표 실측 교체. 양 계정 분해 100%실패=재료수급 복구"
     }
   }
 }
