@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.21.5",
+      "version": "2026.11.21.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.5/_delta_dokkaebi.zip",
-      "sha256": "3e038474147788f115c5c03683ca590671a30fecb86c7fe5f193d59ad3cfa2c7",
-      "notes": "gear.py: 가방 소모품 칸 못 찾음 실패 지점에 bag_noconsumable 진단 스냅 추가(태민희 물약 못 올림·물약? 반복=비경 즉시 이탈 원인 화면 확보)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.6/_delta_dokkaebi.zip",
+      "sha256": "e7fa09dc978a55b3e3dc8aa2aa855ae6bc428d546f8e3fcc033f3425416e8486",
+      "notes": "물약 구매 복구: OCR '체력'->'세력'·'물약'->'ㆍ약' 오독으로 복분이 물약 못 삼(태민희 물약 끊겨 비경 파밍 전멸)을 match_item 회복+약 검사로 근본수정"
     }
   }
 }
