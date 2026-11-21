@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.21.3",
+      "version": "2026.11.21.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.3/_delta_dokkaebi.zip",
-      "sha256": "50bb49c5eaaec5817cb3dca212c425d8fc463c73fcc954f193abb9561e091c4d",
-      "notes": "routines.py: 메뉴 아이콘 눌렀는데 창이 안 뜨는 실패 지점에 menu_noopen 진단 스냅 추가(웅이우기 비경 탐험 6회 실패 원인 화면 확보)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.4/_delta_dokkaebi.zip",
+      "sha256": "1cc29b15a6bbb87561fae9b9bbe0725c10c61af308653b1a4e32a9eba4fbcfb9",
+      "notes": "낙화의 전장 갇힘 자동 탈출: 재시작/나가기 실패로 전장에 갇히면(in_instance 고착) 우상단 낙화 HUD로 감지해 나가기 — 웅이우기 16h 정체 근본수정"
     }
   }
 }
