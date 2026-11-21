@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.21.2",
+      "version": "2026.11.21.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.2/_delta_dokkaebi.zip",
-      "sha256": "0154d74e39a510c7ade3d927ee8bc8ecd9e3ae05783421407c21aaa14b22186e",
-      "notes": "shop.py: 잡화상점 타바로 이동 실패 시 shop_notravel 진단 스냅 추가(Home 버튼/이동창 변경 여부 확인)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.3/_delta_dokkaebi.zip",
+      "sha256": "50bb49c5eaaec5817cb3dca212c425d8fc463c73fcc954f193abb9561e091c4d",
+      "notes": "routines.py: 메뉴 아이콘 눌렀는데 창이 안 뜨는 실패 지점에 menu_noopen 진단 스냅 추가(웅이우기 비경 탐험 6회 실패 원인 화면 확보)"
     }
   }
 }
