@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.21.6",
+      "version": "2026.11.21.7",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.6/_delta_dokkaebi.zip",
-      "sha256": "e7fa09dc978a55b3e3dc8aa2aa855ae6bc428d546f8e3fcc033f3425416e8486",
-      "notes": "물약 구매 복구: OCR '체력'->'세력'·'물약'->'ㆍ약' 오독으로 복분이 물약 못 삼(태민희 물약 끊겨 비경 파밍 전멸)을 match_item 회복+약 검사로 근본수정"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.7/_delta_dokkaebi.zip",
+      "sha256": "ed03f3762dbbbed9a7aad786e58e29176827483edde7d6d9e2b53c3176ebec97",
+      "notes": "장비 분해 창 안 뜸 진단: 양 계정 100% 분해 실패(신기가루·강화비법서 수급 끊김) 지점에 gear_nodisassemble 스냅 추가"
     }
   }
 }
