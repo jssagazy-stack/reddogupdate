@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.24.2",
+      "version": "2026.11.24.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.24.2/_delta_dokkaebi.zip",
-      "sha256": "3dd7a8d0b252c3a8edebf36ef54bea6f6893b2349fdd30d6c3709f512969d0b2",
-      "notes": "v2026.11.24.2 필드보스 입장 30분 전부터(LEAD_S=30min)·먼 창 밖은 2분마다 뜸하게 재확인(사냥터 안 비움)·거래소 최저가 동일 명확화"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.24.3/_delta_dokkaebi.zip",
+      "sha256": "f06600ed7f55b794ab0a55caaa2f62a201d4e543244944a78964987ba5d183fb",
+      "notes": "v2026.11.24.3 필드보스 출발 5분 전으로 되돌림(30분 일찍은 상시비경 시간 낭비) — 자동이동은 30분 전부터 되지만 출발은 5분 전"
     }
   }
 }
