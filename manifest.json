@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.24.4",
+      "version": "2026.11.24.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.24.4/_delta_dokkaebi.zip",
-      "sha256": "c18cc660898ecf70ad494eeb363bbf3e422526a69dcdb1fadc442bccade8a987",
-      "notes": "v2026.11.24.4 전투력 가방읽기 저값 오독 진단 — 이전보다 10%+ 낮게 읽히면 가방 스냅(power_low_read) 올려 다음 회차에 미독/실값 확인(웅이우기 130k 캐시로 사냥터 2단계 낮게 잡힘)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.24.5/_delta_dokkaebi.zip",
+      "sha256": "dd7e75000152f58b4816096d1755952dc912620043fe46cb084afcaeed7c3426",
+      "notes": "v2026.11.24.5 전투력 가방읽기 진단 강화 — _parse_power에 win_ocr 원문 로그 추가 + 가방 읽을 때마다 무조건 스냅(power_read,6h). 웅이우기 130k 꾸준오독 원인(오독 vs 엉뚱한 박스) 다음 회차 확인용"
     }
   }
 }
