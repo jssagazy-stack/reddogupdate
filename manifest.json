@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.21.8",
+      "version": "2026.11.23.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.21.8/_delta_dokkaebi.zip",
-      "sha256": "e07602a77828be243be4dc4729298c82d7a193673464ec73ea5e1864d2b89891",
-      "notes": "장비 분해 복구: 업뎃으로 분해창 재배치(거래가능 포함 칸 추가)·제목 템플릿 깨짐 → 제목 OCR(dis_open)+탭/체크/버튼 좌표 실측 교체. 양 계정 분해 100%실패=재료수급 복구"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.23.1/_delta_dokkaebi.zip",
+      "sha256": "6db8cf1087b4552059db410b30d9a95e66488c59bdebf1a1ee31fb02d090a48a",
+      "notes": "일일비경 기본값 엽전만으로(옛 셋다 저장분도 이행) + 거래소 늘 최저가(−1 옵션 제거) + 판매수량 기본값 확인 진단 스냅"
     }
   }
 }
