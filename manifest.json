@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.23.4",
+      "version": "2026.11.24.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.23.4/_delta_dokkaebi.zip",
-      "sha256": "1097527f92805536226cdae5795927bfe93661a5e477485a8a45d395c7d2bb2c",
-      "notes": "★필드보스 진짜 근본수정2 — appear_times 가 첫 요일 '월 21:00'을 '월 기:OO'로 읽어 월요일 등을 통째 놓쳐 미참여. 시각 깨진 요일을 공통시각으로 복구(오늘=월요일 일정 생성 확인)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.24.1/_delta_dokkaebi.zip",
+      "sha256": "77e4c8d16af397e8a8cb42ca11c4e9c1486d4ad55d806989842a589e11aa67ec",
+      "notes": "v2026.11.24.1 필드보스 입장 타이밍 — 5분 전 출발(LEAD_S=5min)·축지술 제거·걸어서 도착 대기"
     }
   }
 }
