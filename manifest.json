@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.24.5",
+      "version": "2026.11.24.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.24.5/_delta_dokkaebi.zip",
-      "sha256": "dd7e75000152f58b4816096d1755952dc912620043fe46cb084afcaeed7c3426",
-      "notes": "v2026.11.24.5 전투력 가방읽기 진단 강화 — _parse_power에 win_ocr 원문 로그 추가 + 가방 읽을 때마다 무조건 스냅(power_read,6h). 웅이우기 130k 꾸준오독 원인(오독 vs 엉뚱한 박스) 다음 회차 확인용"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.24.6/_delta_dokkaebi.zip",
+      "sha256": "d83530aa346f8b143b5c73601ad3191bb9c88d7b65791ab77a6ef1cabe0938bb",
+      "notes": "v2026.11.24.6 일일비경 1시간 꽉 채움(엽전 18분 조기퇴장 수정·절전시 깨워 재교전) + 9시 보스 저녁 재조회 30분→10분(늦게 열린 카드 빨리 잡아 입장 보장)"
     }
   }
 }
