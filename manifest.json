@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.24.10",
+      "version": "2026.11.25.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.24.10/_delta_dokkaebi.zip",
-      "sha256": "5b374bbebe6c405d7e616bef791c0fc7f9e8730168aab38f59eb65e505afbe4e",
-      "notes": "v2026.11.24.10 보스 도착 직후 화면 스냅(boss_arrival) — 입구 초록방패 입장 클릭을 넣기 위해 go() 실제 도착 화면 포착(보스마다 입구 달라 실측 필요)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.25.1/_delta_dokkaebi.zip",
+      "sha256": "f2cc05ce04f54d83ec748901255980c20d412d48b1c815dcfd576f684421c0aa",
+      "notes": "v2026.11.24.11 ★요신토벌령(보스토벌) 시즌 결산 팝업(매주 수 06시) 닫기 추가 — 태민희 1시간+ 모르는화면 정지 수정. 흰 '(v) 닫기' 버튼 새 템플릿(popup_close_check) close_window에 추가"
     }
   }
 }
