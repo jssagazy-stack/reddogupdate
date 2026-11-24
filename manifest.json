@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.24.8",
+      "version": "2026.11.24.9",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.24.8/_delta_dokkaebi.zip",
-      "sha256": "c99b03989b4a5fab1e808edcb411280126df32db5249e27146f689fa2cbe962d",
-      "notes": "v2026.11.24.8 절전 물약깨우기 제거(자동물약)·절전은 사망만 부활 나머지 안건드림 + 컨텐츠 순서 거래소 등록 맨앞으로(비경/사냥 종료후 금전수급 먼저)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.24.9/_delta_dokkaebi.zip",
+      "sha256": "4a5a468ed3b4b9ee4d6a28e81cb5f38b7c67546a5979a7f446d643a37864cb5e",
+      "notes": "v2026.11.24.9 ★비경 안에서도 곧 필드보스면 나온다 — 상시/전래가 보스시간 먹어 9시 보스 미참여하던 것 수정(아침 카드 잠겨 입장때 일정 비어도 저녁에 열리면 나와서 보스로)"
     }
   }
 }
