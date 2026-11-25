@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.25.5",
+      "version": "2026.11.25.6",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.25.5/_delta_dokkaebi.zip",
-      "sha256": "9e078176ee02e4c68fb9e947605395383b24cf8be9936864a2d02570a306c217",
-      "notes": "25.5 거래소 등록 0건 근본수정 — 개편 창이 '개당 금액' 칸 선택된 채 열려 [최대]가 개당을 10억으로 만들어 보증금 부족으로 전품목 실패. [최대] 전에 '판매 수량' 칸(QTY_FIELD) 먼저 포커스하도록 순서 수정"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.25.6/_delta_dokkaebi.zip",
+      "sha256": "e3ea89c91e8fea4e007e785cb44979abcc24206c3c12aca476e2b8a7dee9c229",
+      "notes": "필드보스 바로가기·걸어가기 입장, 세계지도 축지부 오클릭 수정, 거래소 최대버튼 제거, 모드 프리셋"
     }
   }
 }
