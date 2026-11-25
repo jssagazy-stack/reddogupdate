@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.25.3",
+      "version": "2026.11.25.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.25.3/_delta_dokkaebi.zip",
-      "sha256": "8ec434dc37608f9fbd56e6f049a19e0ec73edf6d3d0ba36efb45f8ac26c9c984",
-      "notes": "25.3 레이드 전투력 판정을 monotonic 최고값(note_power)으로 — 웅이우기 159k가 HUD 저오독으로 '15만 미만' 판정돼 2시간 레이드 스킵하던 것 근본수정"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.25.4/_delta_dokkaebi.zip",
+      "sha256": "6b679b3a4401168655df8a3ccad3d2565af527a71de28d7e930bc19f75bebe25",
+      "notes": "25.4 거래소 '총 None' 전품목 등록실패 진단 — 개당 입력·최대 누른 뒤 총 판매 금액이 안 읽히는 실패 순간에 market_total_none 스냅 추가(다음 회차 실제 총액칸 확보)"
     }
   }
 }
