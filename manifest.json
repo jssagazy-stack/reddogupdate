@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.25.8",
+      "version": "2026.11.26.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.25.8/_delta_dokkaebi.zip",
-      "sha256": "52f8fa612a36a636fa72a73399c0a7eadf75c93270238829e8cade0271a6d095",
-      "notes": "거래소 바로등록 인식·한 글자 최저가 보완·초기화 제거·하한 빠른 탐색 - 로컬 실측"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.26.1/_delta_dokkaebi.zip",
+      "sha256": "31c3a92f2f1b9dc668efacd9eca3d6837afd87f997e7529ece58a8450f6196d3",
+      "notes": "거래소 허용목록·아이콘 학습, 협력 수련(산군 석등)·유물 수집 신규 - 로컬 실측"
     }
   }
 }
