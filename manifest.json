@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.25.2",
+      "version": "2026.11.25.3",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.25.2/_delta_dokkaebi.zip",
-      "sha256": "b049e175dadc1060a5f10dce0816cc5e050d2b52e24f1d7b69f9a072b3458ddf",
-      "notes": "v25.2 ★전투력 monotonic(한번 오른 값은 안 내려감 — 낮은 읽기는 오독으로 버리고 최고값 유지, HUD·가방 둘다 반영) + 고오독(1.5배 초과) 버림 + 낮은읽기 스냅 + 막힌화면(to_base_stuck) 자동 스냅"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.25.3/_delta_dokkaebi.zip",
+      "sha256": "8ec434dc37608f9fbd56e6f049a19e0ec73edf6d3d0ba36efb45f8ac26c9c984",
+      "notes": "25.3 레이드 전투력 판정을 monotonic 최고값(note_power)으로 — 웅이우기 159k가 HUD 저오독으로 '15만 미만' 판정돼 2시간 레이드 스킵하던 것 근본수정"
     }
   }
 }
