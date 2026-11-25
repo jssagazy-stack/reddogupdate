@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.25.4",
+      "version": "2026.11.25.5",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.25.4/_delta_dokkaebi.zip",
-      "sha256": "6b679b3a4401168655df8a3ccad3d2565af527a71de28d7e930bc19f75bebe25",
-      "notes": "25.4 거래소 '총 None' 전품목 등록실패 진단 — 개당 입력·최대 누른 뒤 총 판매 금액이 안 읽히는 실패 순간에 market_total_none 스냅 추가(다음 회차 실제 총액칸 확보)"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.25.5/_delta_dokkaebi.zip",
+      "sha256": "9e078176ee02e4c68fb9e947605395383b24cf8be9936864a2d02570a306c217",
+      "notes": "25.5 거래소 등록 0건 근본수정 — 개편 창이 '개당 금액' 칸 선택된 채 열려 [최대]가 개당을 10억으로 만들어 보증금 부족으로 전품목 실패. [최대] 전에 '판매 수량' 칸(QTY_FIELD) 먼저 포커스하도록 순서 수정"
     }
   }
 }
