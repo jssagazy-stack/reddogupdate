@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.26.3",
+      "version": "2026.11.26.4",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.26.3/_delta_dokkaebi.zip",
-      "sha256": "e735df046f5f0f3867cca95424606d1f3b6f988445868f0cfd52b6b793c7bdd1",
-      "notes": "상시 비경 무제한(6h↔필드 6h)·전래동화 첫날 끝내기·사냥터 고정·비경 안 시작 한도·이동고정 제거 - 로컬 실측"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.26.4/_delta_dokkaebi.zip",
+      "sha256": "6104ed8ba7bf79ec26851fb33761e04962624681adc365af3c88aab622339feb",
+      "notes": "빨간점 전환 때만·비경 중 거래소 즉시·사망 시 사냥터 한 단계 낮춤·일일 임무 우선순위(멤버십 즉시완료)·이벤트/길라잡이·거래소 단화/가속권·강화재료 랜덤 상자 - 로컬 실측"
     }
   }
 }
