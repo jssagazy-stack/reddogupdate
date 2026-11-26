@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.27.1",
+      "version": "2026.11.27.2",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.27.1/_delta_dokkaebi.zip",
-      "sha256": "cad5712d3f0bc258ec9eb6e38526ecec65145bd3d0f82fc2da52c6fb4a619793",
-      "notes": "필드보스 입장 재설계 - 매일 21시·상태 판독(로딩/이동/문앞/입장)·청록 문 클릭·20:59 축지술 1회·21:03까지 입장시도·입장 후에만 AUTO·죽으면 20초 부활 후 재입장 안 함"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.27.2/_delta_dokkaebi.zip",
+      "sha256": "f543830aa456e2ed438c2e5c430d76f740e669b1ce9ebe9e83e2dbed0d9d04fd",
+      "notes": "거래소 운검·흑각궁(혹각궁 오독) 허용, 등록 확인 창 '오늘 하루 확인 없이 바로 등록' 체크 후 등록 - 로컬 실측"
     }
   }
 }
