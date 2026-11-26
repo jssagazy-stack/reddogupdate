@@ -84,13 +84,6 @@
       "sha256": "9af99267d2f5b3b41bdf3b71fa95a5f9e654a9daa8582c323567fba384c417b0",
       "notes": "파티 1:1 타겟고정 검사를 본캐 체력바 기준으로 변경: 체력바가 보이면 고정 유지(이름표 가림·배경으로 인한 커서 풀림 반복 제거), 체력바·이름표 모두 안 보일 때만 재고정"
     },
-    "sellerbot": {
-      "version": "2026.11.10.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.11.10.2/_delta_sellerbot.zip",
-      "sha256": "058bebf3c13aa3f1163741bfc95f5733fbb23f9a481d42e70beaf7b409997e33",
-      "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
-    },
     "dokkaebi": {
       "version": "2026.11.27.2",
       "type": "delta",
@@ -111,6 +104,13 @@
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip_rental-2026.11.27.1/_delta_REDDOG_chaejip_rental.zip",
       "sha256": "311127e0f6b57a8912bbc06ef413e0ae14fcb053d6dd578c53a4be07ab93dc56",
       "notes": "게임 서버목록 개편 대응(신서버 탭·트리아·켄트 추가) / 잡템 정리: 창고 갈 때 지정 잡템 삭제, 무거운 갑옷·인벤 가득 시 상점 판매 후 창고, 판매대금 1만 단위 창고 보관, 맡기기 품목 추가"
+    },
+    "sellerbot": {
+      "version": "2026.11.27.1",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.11.27.1/_delta_sellerbot.zip",
+      "sha256": "184c9cbb8061cc9001445b15902eef93bae861612118cf00c6fee59437a2b542",
+      "notes": "게임 서버목록 개편 대응(신서버 탭·트리아·켄트 추가)"
     }
   }
 }
