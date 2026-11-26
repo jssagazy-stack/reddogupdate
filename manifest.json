@@ -106,11 +106,11 @@
       "notes": "종료진단 파일: 프로그램 시작 시 바탕화면 게임종료진단 파일 전부 삭제(보관 없음)"
     },
     "dokkaebi": {
-      "version": "2026.11.26.5",
+      "version": "2026.11.27.1",
       "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.26.5/_delta_dokkaebi.zip",
-      "sha256": "3b9ead431798d8472b66f76275bdd59198eb05ead0959bc122a1da609655c14c",
-      "notes": "협력 수련 빨간점 게이트·하루 20번, 단 봉인해제 비경퇴장/사냥이동 때만(타이머), 단각 교환 같은 창 옆탭 - 로컬 실측"
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/dokkaebi-2026.11.27.1/_delta_dokkaebi.zip",
+      "sha256": "cad5712d3f0bc258ec9eb6e38526ecec65145bd3d0f82fc2da52c6fb4a619793",
+      "notes": "필드보스 입장 재설계 - 매일 21시·상태 판독(로딩/이동/문앞/입장)·청록 문 클릭·20:59 축지술 1회·21:03까지 입장시도·입장 후에만 AUTO·죽으면 20초 부활 후 재입장 안 함"
     }
   }
 }
