@@ -91,13 +91,6 @@
       "sha256": "f543830aa456e2ed438c2e5c430d76f740e669b1ce9ebe9e83e2dbed0d9d04fd",
       "notes": "거래소 운검·흑각궁(혹각궁 오독) 허용, 등록 확인 창 '오늘 하루 확인 없이 바로 등록' 체크 후 등록 - 로컬 실측"
     },
-    "sellerbot": {
-      "version": "2026.11.27.1",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.11.27.1/_delta_sellerbot.zip",
-      "sha256": "184c9cbb8061cc9001445b15902eef93bae861612118cf00c6fee59437a2b542",
-      "notes": "게임 서버목록 개편 대응(신서버 탭·트리아·켄트 추가)"
-    },
     "REDDOG_chaejip": {
       "version": "2026.11.27.2",
       "type": "delta",
@@ -110,6 +103,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip_rental-2026.11.27.2/_delta_REDDOG_chaejip_rental.zip",
       "sha256": "87075706d23e1c2824dcae4112168a37b70b1df4acbfef6e4a8191e09f13314f",
+      "notes": "게임 자동실행: 서버목록 페이지 이동 방식 개선(목록 표시 대기 후 페이지 확인·화살표 이동)"
+    },
+    "sellerbot": {
+      "version": "2026.11.27.2",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/sellerbot-2026.11.27.2/_delta_sellerbot.zip",
+      "sha256": "9752450284f87f7f92d68cb6f7bbd6cd56095c3a3a73a43b104652cf7831afc3",
       "notes": "게임 자동실행: 서버목록 페이지 이동 방식 개선(목록 표시 대기 후 페이지 확인·화살표 이동)"
     }
   }
