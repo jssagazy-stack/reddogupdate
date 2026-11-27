@@ -84,13 +84,6 @@
       "sha256": "9af99267d2f5b3b41bdf3b71fa95a5f9e654a9daa8582c323567fba384c417b0",
       "notes": "파티 1:1 타겟고정 검사를 본캐 체력바 기준으로 변경: 체력바가 보이면 고정 유지(이름표 가림·배경으로 인한 커서 풀림 반복 제거), 체력바·이름표 모두 안 보일 때만 재고정"
     },
-    "REDDOG_chaejip_rental": {
-      "version": "2026.11.27.2",
-      "type": "delta",
-      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip_rental-2026.11.27.2/_delta_REDDOG_chaejip_rental.zip",
-      "sha256": "87075706d23e1c2824dcae4112168a37b70b1df4acbfef6e4a8191e09f13314f",
-      "notes": "게임 자동실행: 서버목록 페이지 이동 방식 개선(목록 표시 대기 후 페이지 확인·화살표 이동)"
-    },
     "sellerbot": {
       "version": "2026.11.27.2",
       "type": "delta",
@@ -110,6 +103,13 @@
       "type": "delta",
       "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip-2026.11.27.3/_delta_REDDOG_chaejip.zip",
       "sha256": "d90563e3589e571595eb79de02b08bedc3eba32ae848038e3e7903432a195a76",
+      "notes": "잡템 정리 개선: 무게로 창고 갈 때만 상점 방문 / 상점 거래 거부(카오틱 등) 시 화전민 잡화상에서 판매 / 맡긴 뒤에도 무거우면 남은 판매품 창고 보관 / 판매·보관·삭제 품목 추가 / NPC 클릭 전 커서 확인 강화"
+    },
+    "REDDOG_chaejip_rental": {
+      "version": "2026.11.27.3",
+      "type": "delta",
+      "url": "https://github.com/jssagazy-stack/reddogupdate/releases/download/REDDOG_chaejip_rental-2026.11.27.3/_delta_REDDOG_chaejip_rental.zip",
+      "sha256": "f561dd906cd302f7ff0ef80943a24613258e55ea1683bc86cba78f24be99fc3b",
       "notes": "잡템 정리 개선: 무게로 창고 갈 때만 상점 방문 / 상점 거래 거부(카오틱 등) 시 화전민 잡화상에서 판매 / 맡긴 뒤에도 무거우면 남은 판매품 창고 보관 / 판매·보관·삭제 품목 추가 / NPC 클릭 전 커서 확인 강화"
     }
   }
